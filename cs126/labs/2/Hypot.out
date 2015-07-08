@@ -1,0 +1,29 @@
+Username:  stevenc
+Date:      Thu Jan 24 14:01:40 EST 2013
+ 
+*** Compiling ***
+--- Running 4 and 5 ---
+ 
+Program to calculate the hypotenuse
+of a right triangle given the
+Lengths of the two sides.
+Written by Carl Stevenson
+
+Enter the length of side 1: 
+Enter the length of side 2: 
+
+For a right triangle with sides
+of length 4.0 and 5.0 is 6.403
+--- Running 10 and 20 ---
+ 
+Program to calculate the hypotenuse
+of a right triangle given the
+Lengths of the two sides.
+Written by Carl Stevenson
+
+Enter the length of side 1: 
+Enter the length of side 2: 
+
+For a right triangle with sides
+of length 10.0 and 20.0 is 22.361
+ 

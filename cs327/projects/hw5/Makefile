@@ -1,0 +1,23 @@
+CFLAGS= -g
+all : pc docs
+
+scanner.o : globals.h parser.h scanner.c
+error.o : globals.h error.c
+parser.o : globals.h parser.h parser.c
+emitter.o : globals.h emitter.c
+symtab.o : globals.h symtab.c
+tree.o : globals.h tree.c
+intcode.o : globals.h intcode.c
+typecheck.o : globals.h typecheck.c
+
+scanner.c : scanner.lex
+	flex -o scanner.c scanner.lex
+
+parser.h parser.c : parser.y
+	bison -d -o parser.c parser.y
+
+pc : pc.c globals.h scanner.o error.o symtab.o parser.o tree.o intcode.o emitter.o typecheck.o
+	gcc $(CFLAGS) -o pc pc.c scanner.o error.o symtab.o parser.o tree.o intcode.o emitter.o typecheck.o
+
+docs : 
+	doxygen

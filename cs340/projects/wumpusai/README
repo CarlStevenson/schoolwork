@@ -1,0 +1,43 @@
+
+to do list
+
+0. should we create a superclass of things with 3 states
+
+   grenades, torches seem to have three states
+
+   state one <-> state two <-> state three
+
+   what can cause a transition between states?
+   
+      - player action (required command added to player)
+         - generic 'use'?
+         - multiple actions per object
+
+      - timer action
+         - automatic state change after time elapses
+
+      - proximity to some other object
+
+      - location in cavern
+
+   => change Player.act to use list of methods
+   => let this class 'register' methods into list
+       (See Class.getDeclaredMethod)
+
+1. let player pull pin on grenade; 
+   change grenade constructor so not pulled when starting
+   make the grenade kill things in the cave, fill pits?
+
+2. fix torch;
+   operationalize "lighting"
+   move functionality to act function?
+   longer lasting
+   when out, name -> "burned out torch"
+
+3. arrows?
+
+4. check wumpus (but not shortestpath)
+   create multiple wumpus in cave
+   wumpus might move multiple times (no SKIPME implemented)
+
+5 AIplayer movement 

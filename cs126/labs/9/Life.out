@@ -1,0 +1,59 @@
+Username:  stevenc
+Date:      Thu Mar 21 14:51:20 EDT 2013
+ 
+*** making life ***
+javac *.java
+--- Running ---
+ 
+
+Enter the name of the initial configuration file:           
+    *     
+    *     
+    *     
+          
+
+
+Generation 0 - press 'Enter' for the next generation or type 'done' to finish
+          
+          
+  * * *   
+          
+          
+
+
+Generation 1 - press 'Enter' for the next generation or type 'done' to finish
+          
+    *     
+    *     
+    *     
+          
+
+
+Generation 2 - press 'Enter' for the next generation or type 'done' to finish
+          
+          
+  * * *   
+          
+          
+
+
+Generation 3 - press 'Enter' for the next generation or type 'done' to finish
+          
+    *     
+    *     
+    *     
+          
+
+
+Generation 4 - press 'Enter' for the next generation or type 'done' to finish
+          
+          
+  * * *   
+          
+          
+
+
+Generation 5 - press 'Enter' for the next generation or type 'done' to finish
+*** Running make clean ***
+rm -f *.class *~ *#
+ 

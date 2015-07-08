@@ -1,0 +1,33 @@
+Username:  stevenc
+Date:      Mon Feb 11 14:47:00 EST 2013
+ 
+*** making Metric ***
+--- Running ---
+ 
+
+Program to convert units.
+Written by Carl Stevenson.
+You will be asked to enter one number.
+
+Enter a number: 
+
+1.0 feet = 0.3048 meters
+1.0 ounces = 28.349523 grams
+1.0 pounds = 0.3732417 kilograms
+1.0 tons = 907.18474 kilograms
+
+--- Running again ---
+ 
+
+Program to convert units.
+Written by Carl Stevenson.
+You will be asked to enter one number.
+
+Enter a number: 
+
+3.3 feet = 1.00584 meters
+3.3 ounces = 93.5534259 grams
+3.3 pounds = 1.2316976099999999 kilograms
+3.3 tons = 2993.709642 kilograms
+
+ 

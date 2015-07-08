@@ -1,0 +1,77 @@
+Username:  stevenc
+Date:      Thu Nov 15 10:29:15 EST 2012
+ 
+*** Running checkerboard.py with 2,4,3,# ***
+
+This program will display a checkerboard.
+You will enter the number of rows, columns,
+block size and the checkerboard character.
+Written by carl Stevenson.
+
+How many rows? 
+How many columns? 
+What is the block size? 
+What is the checkerboard character? 
+###   ###   
+###   ###   
+###   ###   
+   ###   ###
+   ###   ###
+   ###   ###
+*** Running checkerboard.py with 3,4,3,@ ***
+
+This program will display a checkerboard.
+You will enter the number of rows, columns,
+block size and the checkerboard character.
+Written by carl Stevenson.
+
+How many rows? 
+How many columns? 
+What is the block size? 
+What is the checkerboard character? 
+@@@   @@@   
+@@@   @@@   
+@@@   @@@   
+   @@@   @@@
+   @@@   @@@
+   @@@   @@@
+@@@   @@@   
+@@@   @@@   
+@@@   @@@   
+*** Running checkerboard.py with 2,5,3,? ***
+
+This program will display a checkerboard.
+You will enter the number of rows, columns,
+block size and the checkerboard character.
+Written by carl Stevenson.
+
+How many rows? 
+How many columns? 
+What is the block size? 
+What is the checkerboard character? 
+???   ???   ???
+???   ???   ???
+???   ???   ???
+   ???   ???   
+   ???   ???   
+   ???   ???   
+*** Running checkerboard.py with 3,5,3,+ ***
+
+This program will display a checkerboard.
+You will enter the number of rows, columns,
+block size and the checkerboard character.
+Written by carl Stevenson.
+
+How many rows? 
+How many columns? 
+What is the block size? 
+What is the checkerboard character? 
++++   +++   +++
++++   +++   +++
++++   +++   +++
+   +++   +++   
+   +++   +++   
+   +++   +++   
++++   +++   +++
++++   +++   +++
++++   +++   +++

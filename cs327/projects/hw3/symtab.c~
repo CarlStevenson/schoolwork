@@ -1,0 +1,71 @@
+/** @file symtab.c
+ *  Symbol table functions. A symbol table is a chained hash table.
+ */
+
+#include <stdlib.h>
+#include <string.h>
+#include "globals.h"
+
+/**
+ * Create a new symbol table. The implementation is a
+ * chained hash table.
+ * @param size The size of the table.
+ */
+struct symtab *symtab_new(int size) 
+{
+  struct symtab *s = malloc(sizeof(struct symtab));
+  s->size = size;
+  s->chains = calloc(size, sizeof(struct symbol *));
+  return s;
+}
+
+/**
+ * Hash a string.
+ * @param s The string to hash.
+ * @return The hash value of the string.
+ */
+int hash(char *s) 
+{
+  int sum;
+  while (*s) {
+    sum += *s;
+    s++;
+  }
+}
+
+/**
+ * Store a symbol in a symbol table. The symbol should not already be
+ * present.
+ * @param table The symbol table.
+ * @param name The name of the symbol.
+ * @param value A value associated with the symbol.
+ * @return A pointer to the new symbol.
+ */
+struct symbol *symtab_store(struct symtab *table, char *name, int value) 
+{
+  int h = hash(name) % table->size;
+  struct symbol *s = malloc(sizeof(struct symbol));
+  s->name = strdup(name);
+  s->value = value;
+  s->next = table->chains[h];
+  table->chains[h] = s;
+  return table->chains[h];
+}
+
+/**
+ * Find a symbol in a symbol table.
+ * @param table The symbol table.
+ * @param name The name of the symbol.
+ * @return A pointer to the symbol if the name is present in the table,
+ * and NULL otherwise.
+ */
+struct symbol *symtab_find(struct symtab *table, char *name) 
+{
+  int h = hash(name) % table->size;
+  struct symbol *chain = table->chains[h];
+  while (chain) {
+    if (strcmp(chain->name, name) == 0) return chain;
+    else chain = chain->next;
+  }
+  return NULL;
+}

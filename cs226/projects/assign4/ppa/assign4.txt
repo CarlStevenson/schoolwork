@@ -1,0 +1,221 @@
+Carl Stevenson
+Assignment 4 Pre-Programming assignment
+Files to be delivered: assign41.cpp, list.cpp, list.h
+                       assign42.cpp, listc.cpp, listc.h
+                       assign43.cpp, listj.cpp, listj.h
+
+
+Assign41:
+Description:
+
+  The main program drives the list class, which is an integer singly linked list. The list class is derived from assignment 4a's list. It has all the functionality of the previous list, with the following additions: constructor that makes a copy of a passed list, constructor that takes a string filename and build a lnked list based on the data in the file, and a function to add data from a file.
+  The main program loops after prompting for an initial file, prompting the user for action with a menu. It performs the operation that was specified.
+
+Valid input:
+
+  For the main program, an integer x where 1<= x <=7.
+  For the findElement function, an integer x.
+  For the insertElement function, an integer x.
+  For the deleteElement function, an integer x.
+  When adding elements from a file, a valid filename.
+
+Input Run 1 Test Output (abbreviated to conserve space):
+
+  Carl Stevenson
+  Linear and Circular Linked Lists
+  This program takes input from the user to interface with a list object.
+
+  Please enter the file you wish to pre-populate the list with:
+  You chose to open input3.txt
+  Populating list.
+
+  The menu items are as follows:
+
+    1. Display the list.
+    2. Find an item in the list.
+    3. Insert an element into the list.
+    4. Delete an element from the list.
+    5. Add elements from a file.
+    6. Display the number of elements in the list.
+    7. Exit
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  List: [1,3,8,9,20,23,30,33,77,500]
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 2
+  Please enter the item to be found:
+  9 found in position 4
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 2
+  Please enter the item to be found:
+  550 not found in the list.
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 3
+  Please enter the item you wish to add:
+  You chose 20
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  List: [1,3,8,9,20,20,23,30,33,77,500]
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 3
+  Please enter the item you wish to add:
+  You chose 75
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  List: [1,3,8,9,20,20,23,30,33,75,77,500]
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 4
+  Please enter the item you wish to remove:
+  75 removed from the list.
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  List: [1,3,8,9,20,20,23,30,33,77,500]
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 4
+  Please enter the item you wish to remove:
+  9 removed from the list.
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  List: [1,3,8,20,20,23,30,33,77,500]
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 5
+  Please enter the filename of the items you wish to import:
+  You chose to import input3a.txt
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  List: [1,1,3,3,8,8,9,20,20,20,23,23,30,30,33,33,77,77,500,500]
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 6
+  There are 20 items in the list.
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 7
+  Exiting now.
+
+
+Assign42:
+Description:
+  
+  Modification of the list developed for Assign41, to be a circular list. 
+
+Valid input:
+
+  For the main program, an integer x where 1<= x <=7.
+  For the findElement function, an integer x.
+  For the insertElement function, an integer x.
+  For the deleteElement function, an integer x.
+  When adding elements from a file, a valid filename.
+
+Input Run 1 Test Output (abbreviated to conserve space):
+
+  Carl Stevenson
+  Linear and Circular Linked Lists
+  This program takes input from the user to interface with a list object. The linked list is circular.
+
+  Please enter the file you wish to pre-populate the list with:
+  You chose to open input3a.txt
+  Populating list.
+
+  The menu items are as follows:
+
+    1. Display the list.
+    2. Find an item in the list.
+    3. Insert an element into the list.
+    4. Delete an element from the list.
+    5. Add elements from a file.
+    6. Display the number of elements in the list.
+    7. Exit
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  List: [44,78,99,330]
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 6
+  There are 4 items in the list.
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 7
+  Exiting now.
+
+
+  Assign43:
+  Description:
+
+    Modification to the circular list developed in Assign42 to include a function to play the josephus game. The main function prompts the user for N people, then builds a circular list with those member nodes. It then prompts the user for M, the amount of passes needed to eliminate a player. It displays the results of the game.
+
+  Valid input:
+
+    For prompt N, an integer where 0 < N.
+    For prompt M, an integer where 0 <= M.
+
+Input Run 1 Test Output:
+
+  Carl Stevenson
+  Linear and Circular Linked Lists
+  This program takes N and M from a user and displays the result of the Josephus game with N players and M passes.
+
+  Please enter the amount of people in the game:
+  You chose 10 people.
+
+  Please enter the number of passesd required for elimination:
+  You chose 1 passes.
+
+  Player 5 won!
+
+Input Run 2 Test Output:
+
+  Carl Stevenson
+  Linear and Circular Linked Lists
+  This program takes N and M from a user and displays the result of the Josephus game with N players and M passes.
+
+  Please enter the amount of people in the game:
+  You chose 10 people.
+
+  Please enter the number of passesd required for elimination:
+  You chose 3 passes.
+
+  Player 6 won!
+
+Input Run 3 Test Output:
+
+  Carl Stevenson
+  Linear and Circular Linked Lists
+  This program takes N and M from a user and displays the result of the Josephus game with N players and M passes.
+
+  Please enter the amount of people in the game:
+  You chose 5 people.
+
+  Please enter the number of passesd required for elimination:
+  You chose 0 passes.
+
+  Player 5 won!
+
+Input Run 4 Test Output:
+
+  Carl Stevenson
+  Linear and Circular Linked Lists
+  This program takes N and M from a user and displays the result of the Josephus game with N players and M passes.
+
+  Please enter the amount of people in the game:
+  You chose 10 people.
+
+  Please enter the number of passesd required for elimination:
+  You chose 10 passes.
+
+  Player 7 won!
+

@@ -1,0 +1,17 @@
+
+Mispelled words:
+
+didn't
+i'll
+nayland
+ms
+whisky
+Total misspelled words: 5
+
+Mispelled words based on the dictionary given.
+
+False positive chances given per hash function, not combined.
+False positive chance for hash1: 0.8402995401082577
+False positive chance for hash2: 0.831915672947784
+False positive chance for hash3: 0.802857026576045
+False positive chance for hash4: 0.8420088722477718

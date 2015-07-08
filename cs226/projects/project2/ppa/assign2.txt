@@ -1,0 +1,248 @@
+Carl Stevenson
+Assignment 2 Pre-Programming assignment
+Files to be delivered: collection.h collection.cpp assign2.cpp
+
+
+Description:
+  
+  The main program, assign2.cpp, uses a class template defined in collection.cpp. collection.cpp stores Objects in an array. The class  has functions to insert and remove elements to the collection, in addition to accessors that return useful information about the instantiated collection. The main program is a driver to demonstrate the functions of collection. It has two integer collections instantiated. It displays a menu of possible actions and waits for the user to choose a selection. It can add and remove an item from either of the two instantiated collections using the insert and remove funtions. It can display the collections to demonstrate the display function. It can compare the collections to demonstrate overloading the '==' equality operator. It can assign the collections to each other to demonstrate overloading the '=' assignment operator. It can check if the collections are empty using the isEmpty function. It can determine if an item x is in either collection using the contains function. The menu has an option to terminate the program.
+  The main program loops until valid input is chosen on both the menu and when the user is inputting collection data.
+
+Valid input:
+
+  Valid input for the menu is an integer x where 1 <= x <= 16.
+  Valid input for the insert function is an integer x.
+  Valid input for the contains function is an integer x.
+
+Invalid input:
+
+  Adding more than 20 items onto an individual collection.
+  Removing from a collection with no items.
+
+Input run output:
+
+  Carl Stevenson
+  Class Templates
+  This program takes input from the user to interface with two instantiated integer collections.
+
+
+  The menu items are as follows:
+
+    1. Add an item to collection 1.
+    2. Add an item to collection 2.
+    3. Remove an item from collection 1.
+    4. Remove an item from collection 2.
+    5. Display collection 1.
+    6. Display collection 2.
+    7. Compare collection 1 and collection 2.
+    8. Assign collection 1 to collection 2.
+    9. Assign collection 2 to collection 1.
+    10. Display if collection 1 is empty.
+    11. Display if collection 2 is empty.
+    12. Make collection 1 empty.
+    13. Make collection 2 empty.
+    14. Find an item in collection 1.
+    15. Find an item in collection 2.
+    16. Exit
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 5
+  Collection 1: []
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 6
+  Collection 2: []
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  Please enter an item to add to collection 1:
+  You chose 20
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  Please enter an item to add to collection 1:
+  You chose 21
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  Please enter an item to add to collection 1:
+  You chose 22
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  Please enter an item to add to collection 1:
+  You chose 23
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  Please enter an item to add to collection 1:
+  You chose 24
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  Please enter an item to add to collection 1:
+  You chose 25
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  Please enter an item to add to collection 1:
+  You chose 26
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  Please enter an item to add to collection 1:
+  You chose 27
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  Please enter an item to add to collection 1:
+  You chose 28
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  Please enter an item to add to collection 1:
+  You chose 29
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  Please enter an item to add to collection 1:
+  You chose 30
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  Please enter an item to add to collection 1:
+  You chose 31
+
+
+
+
+
+
+5
+6
+1
+32
+1
+33
+1
+34
+1
+35
+1
+36
+1
+37
+5
+1
+38
+1
+39
+1
+40
+1
+41
+2
+50
+2
+51
+2
+52
+2
+53
+2
+54
+2
+55
+2
+56
+6
+5
+2
+57
+2
+58
+2
+59
+2
+60
+2
+61
+6
+2
+62
+2
+63
+2
+64
+2
+65
+2
+66
+2
+67
+2
+68
+2
+69
+2
+70
+2
+71
+6
+7
+10
+11
+14
+7
+14
+20
+14
+40
+14
+39
+15
+50
+15
+1
+15
+70
+15
+71
+15
+66
+8
+10
+11
+12
+13
+2
+5
+2
+78
+2
+77
+9
+3
+4
+12
+13
+1
+1
+2
+3
+3
+3
+3
+3
+13
+2
+1
+2
+3
+4
+4
+4
+4
+10
+11
+16 

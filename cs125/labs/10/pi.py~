@@ -1,0 +1,43 @@
+#File:    pi.py
+#Author:  Carl Stevenson
+#Date:    11/8/12
+#Purpose: To calculate the value of pi through two methods.
+
+def intro():
+    print()
+    print("Program to calculate pi by 2 methods")
+    print("Written by Carl Stevenson")
+    print()
+
+def calc():
+    iteration = int(input("How many terms would you like? "))
+    print()#for turnin
+    print()
+    print("Pi by alternating sums    Pi by odd products")
+    print()
+    sumalt = 0
+    sumodd = 0
+    termalt = 0
+    termodd = 0
+    
+    for i in range iteration:
+        #alternating sum
+        if (i % 2) == 0:
+            sign = 1
+        else:
+            sign = -1
+        termalt = 4.0 * (sign * (1.0/((i * 2) + 1)))
+        sumalt = sumalt + term
+        #odd products
+        termodd = 8.0 * (1.0/(((i * 4) + 1) * ((i * 4) + 3)))
+        sumodd = sumodd + termodd
+        print(sumalt, "                 ", sumodd)
+
+def main():
+    #intro
+    intro()
+    #calculations
+    calc() #(i * 2) + 1
+           #(i * 4) + 1
+    #output
+    output()

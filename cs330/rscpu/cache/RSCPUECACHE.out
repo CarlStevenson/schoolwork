@@ -1,0 +1,2248 @@
+Username:  stevenc
+Date:      Mon Apr 20 23:36:17 EDT 2015
+ 
+*** compiling ***
+--- running ---
+ 
+
+Carl Stevenson
+RSCPU
+This program accepts the title of a file from the
+user, opens the file, then reads in lines of 
+hexadecimal bytes, and executes them in the 
+simulated CPU.
+
+Enter the name of the file containing the program: 
+You chose: /home/mathcs/turnin/bracken/cs330/test.0
+
+Initial register values: 
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 0, PC = 0, DR = 0
+	IR = 0, TR = 0
+
+Memory Access:
+AR = 0 block number = 0 cache line number = 0 cache line = 0 tag = 0
+Cache miss
+result: cache line = 0 tag = 0
+Memory Access:
+AR = 1 block number = 0 cache line number = 0 cache line = 1 tag = 0
+Cache hit
+result: cache line = 1 tag = 0
+Memory Access:
+AR = 2 block number = 0 cache line number = 0 cache line = 2 tag = 0
+Cache hit
+result: cache line = 2 tag = 0
+Memory Access:
+AR = 3 block number = 0 cache line number = 0 cache line = 3 tag = 0
+Cache hit
+result: cache line = 3 tag = 0
+Memory Access:
+AR = 4 block number = 1 cache line number = 1 cache line = 4 tag = 0
+Cache miss
+result: cache line = 4 tag = 0
+Memory Access:
+AR = 5 block number = 1 cache line number = 1 cache line = 5 tag = 0
+Cache hit
+result: cache line = 5 tag = 0
+Memory Access:
+AR = 6 block number = 1 cache line number = 1 cache line = 6 tag = 0
+Cache hit
+result: cache line = 6 tag = 0
+Memory Access:
+AR = 7 block number = 1 cache line number = 1 cache line = 7 tag = 0
+Cache hit
+result: cache line = 7 tag = 0
+fetch1: AR = 0 and PC = 0
+Memory Access:
+AR = 0 block number = 0 cache line number = 0 cache line = 0 tag = 0
+Cache hit
+result: cache line = 0 tag = 0
+fetch2: DR = 0 and PC = 1
+fetch3: IR = 0 and AR = 1
+no op instruction
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 1, PC = 1, DR = 0
+fetch1: AR = 1 and PC = 1
+Memory Access:
+AR = 1 block number = 0 cache line number = 0 cache line = 1 tag = 0
+Cache hit
+result: cache line = 1 tag = 0
+fetch2: DR = 11 and PC = 2
+fetch3: IR = 11 and AR = 2
+clac instruction
+clac1 AC = 0 ZCVN = 1000
+Current Data: AC = 0, R = 0, ZCVN = 1000, AR = 2, PC = 2, DR = 11
+fetch1: AR = 2 and PC = 2
+Memory Access:
+AR = 2 block number = 0 cache line number = 0 cache line = 2 tag = 0
+Cache hit
+result: cache line = 2 tag = 0
+fetch2: DR = 10 and PC = 3
+fetch3: IR = 10 and AR = 3
+inac instruction
+inac1 AC = 1 ZCVN = 0000
+Current Data: AC = 1, R = 0, ZCVN = 0000, AR = 3, PC = 3, DR = 10
+fetch1: AR = 3 and PC = 3
+Memory Access:
+AR = 3 block number = 0 cache line number = 0 cache line = 3 tag = 0
+Cache hit
+result: cache line = 3 tag = 0
+fetch2: DR = 2 and PC = 4
+fetch3: IR = 2 and AR = 4
+stac instruction
+Memory Access:
+AR = 4 block number = 1 cache line number = 1 cache line = 4 tag = 0
+Cache hit
+result: cache line = 4 tag = 0
+stac1 AR = 5 PC = 5 DR = 32
+Memory Access:
+AR = 5 block number = 1 cache line number = 1 cache line = 5 tag = 0
+Cache hit
+result: cache line = 5 tag = 0
+stac2 AR = 5 PC = 6 DR = 0 TR = 32
+stac3 AR = 8192
+stac4 DR = 1
+Memory Access:
+AR = 8192 block number = 2048 cache line number = 0 cache line = 0 tag = 2
+Cache miss
+result: cache line = 0 tag = 2
+Memory Access:
+AR = 8192 block number = 2048 cache line number = 0 cache line = 0 tag = 2
+Cache hit
+result: cache line = 0 tag = 2
+stac5 M[AR] = 1
+Current Data: AC = 1, R = 0, ZCVN = 0000, AR = 8192, PC = 6, DR = 1
+fetch1: AR = 6 and PC = 6
+Memory Access:
+AR = 6 block number = 1 cache line number = 1 cache line = 6 tag = 0
+Cache hit
+result: cache line = 6 tag = 0
+fetch2: DR = 0 and PC = 7
+fetch3: IR = 0 and AR = 7
+no op instruction
+Current Data: AC = 1, R = 0, ZCVN = 0000, AR = 7, PC = 7, DR = 0
+fetch1: AR = 7 and PC = 7
+Memory Access:
+AR = 7 block number = 1 cache line number = 1 cache line = 7 tag = 0
+Cache hit
+result: cache line = 7 tag = 0
+fetch2: DR = 255 and PC = 8
+fetch3: IR = 255 and AR = 8
+halt instruction
+Current Data: AC = 1, R = 0, ZCVN = 0000, AR = 8, PC = 8, DR = 255
+Cache hits = 15 Cache misses = 3
+--- Running again ---
+ 
+
+Carl Stevenson
+RSCPU
+This program accepts the title of a file from the
+user, opens the file, then reads in lines of 
+hexadecimal bytes, and executes them in the 
+simulated CPU.
+
+Enter the name of the file containing the program: 
+You chose: /home/mathcs/turnin/bracken/cs330/test.c1
+
+Initial register values: 
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 0, PC = 0, DR = 0
+	IR = 0, TR = 0
+
+Memory Access:
+AR = 0 block number = 0 cache line number = 0 cache line = 0 tag = 0
+Cache miss
+result: cache line = 0 tag = 0
+Memory Access:
+AR = 1 block number = 0 cache line number = 0 cache line = 1 tag = 0
+Cache hit
+result: cache line = 1 tag = 0
+Memory Access:
+AR = 2 block number = 0 cache line number = 0 cache line = 2 tag = 0
+Cache hit
+result: cache line = 2 tag = 0
+Memory Access:
+AR = 3 block number = 0 cache line number = 0 cache line = 3 tag = 0
+Cache hit
+result: cache line = 3 tag = 0
+Memory Access:
+AR = 4 block number = 1 cache line number = 1 cache line = 4 tag = 0
+Cache miss
+result: cache line = 4 tag = 0
+Memory Access:
+AR = 5 block number = 1 cache line number = 1 cache line = 5 tag = 0
+Cache hit
+result: cache line = 5 tag = 0
+Memory Access:
+AR = 6 block number = 1 cache line number = 1 cache line = 6 tag = 0
+Cache hit
+result: cache line = 6 tag = 0
+Memory Access:
+AR = 7 block number = 1 cache line number = 1 cache line = 7 tag = 0
+Cache hit
+result: cache line = 7 tag = 0
+Memory Access:
+AR = 8 block number = 2 cache line number = 2 cache line = 8 tag = 0
+Cache miss
+result: cache line = 8 tag = 0
+Memory Access:
+AR = 9 block number = 2 cache line number = 2 cache line = 9 tag = 0
+Cache hit
+result: cache line = 9 tag = 0
+Memory Access:
+AR = 10 block number = 2 cache line number = 2 cache line = 10 tag = 0
+Cache hit
+result: cache line = 10 tag = 0
+Memory Access:
+AR = 11 block number = 2 cache line number = 2 cache line = 11 tag = 0
+Cache hit
+result: cache line = 11 tag = 0
+fetch1: AR = 0 and PC = 0
+Memory Access:
+AR = 0 block number = 0 cache line number = 0 cache line = 0 tag = 0
+Cache hit
+result: cache line = 0 tag = 0
+fetch2: DR = 0 and PC = 1
+fetch3: IR = 0 and AR = 1
+no op instruction
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 1, PC = 1, DR = 0
+fetch1: AR = 1 and PC = 1
+Memory Access:
+AR = 1 block number = 0 cache line number = 0 cache line = 1 tag = 0
+Cache hit
+result: cache line = 1 tag = 0
+fetch2: DR = 139 and PC = 2
+fetch3: IR = 139 and AR = 2
+xclac instruction
+xclac1 AC = 0 ZCVN = 1000
+Current Data: AC = 0, R = 0, ZCVN = 1000, AR = 2, PC = 2, DR = 139
+fetch1: AR = 2 and PC = 2
+Memory Access:
+AR = 2 block number = 0 cache line number = 0 cache line = 2 tag = 0
+Cache hit
+result: cache line = 2 tag = 0
+fetch2: DR = 138 and PC = 3
+fetch3: IR = 138 and AR = 3
+xinac instruction
+xinac1 AC = 1 ZCVN = 0000
+Current Data: AC = 1, R = 0, ZCVN = 0000, AR = 3, PC = 3, DR = 138
+fetch1: AR = 3 and PC = 3
+Memory Access:
+AR = 3 block number = 0 cache line number = 0 cache line = 3 tag = 0
+Cache hit
+result: cache line = 3 tag = 0
+fetch2: DR = 130 and PC = 4
+fetch3: IR = 130 and AR = 4
+xstac instruction
+Memory Access:
+AR = 4 block number = 1 cache line number = 1 cache line = 4 tag = 0
+Cache hit
+result: cache line = 4 tag = 0
+xstac1 AR = 5 PC = 5 DR = 36
+Memory Access:
+AR = 5 block number = 1 cache line number = 1 cache line = 5 tag = 0
+Cache hit
+result: cache line = 5 tag = 0
+xstac2 AR = 5 PC = 6 DR = 64 TR = 36
+xstac3 AR = 9280
+xstac4 DR = 0
+Memory Access:
+AR = 9280 block number = 2320 cache line number = 272 cache line = 1088 tag = 2
+Cache miss
+result: cache line = 1088 tag = 2
+Memory Access:
+AR = 9280 block number = 2320 cache line number = 272 cache line = 1088 tag = 2
+Cache hit
+result: cache line = 1088 tag = 2
+xstac5 M[AR] = 0 DR = 1
+Memory Access:
+AR = 9280 block number = 2320 cache line number = 272 cache line = 1088 tag = 2
+Cache hit
+result: cache line = 1088 tag = 2
+Memory Access:
+AR = 9280 block number = 2320 cache line number = 272 cache line = 1088 tag = 2
+Cache hit
+result: cache line = 1088 tag = 2
+xstac6 M[AR] = 1
+Current Data: AC = 1, R = 0, ZCVN = 0000, AR = 9280, PC = 6, DR = 1
+fetch1: AR = 6 and PC = 6
+Memory Access:
+AR = 6 block number = 1 cache line number = 1 cache line = 6 tag = 0
+Cache hit
+result: cache line = 6 tag = 0
+fetch2: DR = 139 and PC = 7
+fetch3: IR = 139 and AR = 7
+xclac instruction
+xclac1 AC = 0 ZCVN = 1000
+Current Data: AC = 0, R = 0, ZCVN = 1000, AR = 7, PC = 7, DR = 139
+fetch1: AR = 7 and PC = 7
+Memory Access:
+AR = 7 block number = 1 cache line number = 1 cache line = 7 tag = 0
+Cache hit
+result: cache line = 7 tag = 0
+fetch2: DR = 129 and PC = 8
+fetch3: IR = 129 and AR = 8
+xldac instruction
+Memory Access:
+AR = 8 block number = 2 cache line number = 2 cache line = 8 tag = 0
+Cache hit
+result: cache line = 8 tag = 0
+xldac1 AR = 9 PC = 9 DR = 36
+Memory Access:
+AR = 9 block number = 2 cache line number = 2 cache line = 9 tag = 0
+Cache hit
+result: cache line = 9 tag = 0
+xldac2 AR = 9 PC = 10 DR = 64 TR = 36
+xldac3 AR = 9280
+Memory Access:
+AR = 9280 block number = 2320 cache line number = 272 cache line = 1088 tag = 2
+Cache hit
+result: cache line = 1088 tag = 2
+xldac4 DR = 1
+Memory Access:
+AR = 9281 block number = 2320 cache line number = 272 cache line = 1089 tag = 2
+Cache hit
+result: cache line = 1089 tag = 2
+xldac5 AC = 256 DR = 0
+xldac6 AC = 256
+Current Data: AC = 256, R = 0, ZCVN = 1000, AR = 9281, PC = 10, DR = 0
+fetch1: AR = 10 and PC = 10
+Memory Access:
+AR = 10 block number = 2 cache line number = 2 cache line = 10 tag = 0
+Cache hit
+result: cache line = 10 tag = 0
+fetch2: DR = 0 and PC = 11
+fetch3: IR = 0 and AR = 11
+no op instruction
+Current Data: AC = 0, R = 0, ZCVN = 1000, AR = 11, PC = 11, DR = 0
+fetch1: AR = 11 and PC = 11
+Memory Access:
+AR = 11 block number = 2 cache line number = 2 cache line = 11 tag = 0
+Cache hit
+result: cache line = 11 tag = 0
+fetch2: DR = 255 and PC = 12
+fetch3: IR = 255 and AR = 12
+halt instruction
+Current Data: AC = 256, R = 0, ZCVN = 1000, AR = 12, PC = 12, DR = 255
+Cache hits = 26 Cache misses = 4
+--- runnning again---
+ 
+
+Carl Stevenson
+RSCPU
+This program accepts the title of a file from the
+user, opens the file, then reads in lines of 
+hexadecimal bytes, and executes them in the 
+simulated CPU.
+
+Enter the name of the file containing the program: 
+You chose: /home/mathcs/turnin/bracken/cs330/test.c2
+
+Initial register values: 
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 0, PC = 0, DR = 0
+	IR = 0, TR = 0
+
+Memory Access:
+AR = 0 block number = 0 cache line number = 0 cache line = 0 tag = 0
+Cache miss
+result: cache line = 0 tag = 0
+Memory Access:
+AR = 1 block number = 0 cache line number = 0 cache line = 1 tag = 0
+Cache hit
+result: cache line = 1 tag = 0
+Memory Access:
+AR = 2 block number = 0 cache line number = 0 cache line = 2 tag = 0
+Cache hit
+result: cache line = 2 tag = 0
+Memory Access:
+AR = 3 block number = 0 cache line number = 0 cache line = 3 tag = 0
+Cache hit
+result: cache line = 3 tag = 0
+Memory Access:
+AR = 4 block number = 1 cache line number = 1 cache line = 4 tag = 0
+Cache miss
+result: cache line = 4 tag = 0
+Memory Access:
+AR = 5 block number = 1 cache line number = 1 cache line = 5 tag = 0
+Cache hit
+result: cache line = 5 tag = 0
+Memory Access:
+AR = 6 block number = 1 cache line number = 1 cache line = 6 tag = 0
+Cache hit
+result: cache line = 6 tag = 0
+Memory Access:
+AR = 7 block number = 1 cache line number = 1 cache line = 7 tag = 0
+Cache hit
+result: cache line = 7 tag = 0
+Memory Access:
+AR = 8 block number = 2 cache line number = 2 cache line = 8 tag = 0
+Cache miss
+result: cache line = 8 tag = 0
+Memory Access:
+AR = 9 block number = 2 cache line number = 2 cache line = 9 tag = 0
+Cache hit
+result: cache line = 9 tag = 0
+Memory Access:
+AR = 10 block number = 2 cache line number = 2 cache line = 10 tag = 0
+Cache hit
+result: cache line = 10 tag = 0
+Memory Access:
+AR = 11 block number = 2 cache line number = 2 cache line = 11 tag = 0
+Cache hit
+result: cache line = 11 tag = 0
+Memory Access:
+AR = 12 block number = 3 cache line number = 3 cache line = 12 tag = 0
+Cache miss
+result: cache line = 12 tag = 0
+fetch1: AR = 0 and PC = 0
+Memory Access:
+AR = 0 block number = 0 cache line number = 0 cache line = 0 tag = 0
+Cache hit
+result: cache line = 0 tag = 0
+fetch2: DR = 22 and PC = 1
+fetch3: IR = 22 and AR = 1
+mvi instruction
+Memory Access:
+AR = 1 block number = 0 cache line number = 0 cache line = 1 tag = 0
+Cache hit
+result: cache line = 1 tag = 0
+mvi1 DR = 1 PC = 2 AR = 1
+mvi2 AC = 1
+Current Data: AC = 1, R = 0, ZCVN = 0000, AR = 1, PC = 2, DR = 1
+fetch1: AR = 2 and PC = 2
+Memory Access:
+AR = 2 block number = 0 cache line number = 0 cache line = 2 tag = 0
+Cache hit
+result: cache line = 2 tag = 0
+fetch2: DR = 3 and PC = 3
+fetch3: IR = 3 and AR = 3
+mvac instruction
+mvac1 R = 1
+Current Data: AC = 1, R = 1, ZCVN = 0000, AR = 3, PC = 3, DR = 3
+fetch1: AR = 3 and PC = 3
+Memory Access:
+AR = 3 block number = 0 cache line number = 0 cache line = 3 tag = 0
+Cache hit
+result: cache line = 3 tag = 0
+fetch2: DR = 22 and PC = 4
+fetch3: IR = 22 and AR = 4
+mvi instruction
+Memory Access:
+AR = 4 block number = 1 cache line number = 1 cache line = 4 tag = 0
+Cache hit
+result: cache line = 4 tag = 0
+mvi1 DR = 5 PC = 5 AR = 4
+mvi2 AC = 5
+Current Data: AC = 5, R = 1, ZCVN = 0000, AR = 4, PC = 5, DR = 5
+fetch1: AR = 5 and PC = 5
+Memory Access:
+AR = 5 block number = 1 cache line number = 1 cache line = 5 tag = 0
+Cache hit
+result: cache line = 5 tag = 0
+fetch2: DR = 2 and PC = 6
+fetch3: IR = 2 and AR = 6
+stac instruction
+Memory Access:
+AR = 6 block number = 1 cache line number = 1 cache line = 6 tag = 0
+Cache hit
+result: cache line = 6 tag = 0
+stac1 AR = 7 PC = 7 DR = 32
+Memory Access:
+AR = 7 block number = 1 cache line number = 1 cache line = 7 tag = 0
+Cache hit
+result: cache line = 7 tag = 0
+stac2 AR = 7 PC = 8 DR = 64 TR = 32
+stac3 AR = 8256
+stac4 DR = 5
+Memory Access:
+AR = 8256 block number = 2064 cache line number = 16 cache line = 64 tag = 2
+Cache miss
+result: cache line = 64 tag = 2
+Memory Access:
+AR = 8256 block number = 2064 cache line number = 16 cache line = 64 tag = 2
+Cache hit
+result: cache line = 64 tag = 2
+stac5 M[AR] = 5
+Current Data: AC = 5, R = 1, ZCVN = 0000, AR = 8256, PC = 8, DR = 5
+fetch1: AR = 8 and PC = 8
+Memory Access:
+AR = 8 block number = 2 cache line number = 2 cache line = 8 tag = 0
+Cache hit
+result: cache line = 8 tag = 0
+fetch2: DR = 9 and PC = 9
+fetch3: IR = 9 and AR = 9
+sub instruction
+sub1 AC = 4 ZCVN = 0100
+Current Data: AC = 4, R = 1, ZCVN = 0100, AR = 9, PC = 9, DR = 9
+fetch1: AR = 9 and PC = 9
+Memory Access:
+AR = 9 block number = 2 cache line number = 2 cache line = 9 tag = 0
+Cache hit
+result: cache line = 9 tag = 0
+fetch2: DR = 7 and PC = 10
+fetch3: IR = 7 and AR = 10
+jpnz instruction
+Memory Access:
+AR = 10 block number = 2 cache line number = 2 cache line = 10 tag = 0
+Cache hit
+result: cache line = 10 tag = 0
+jpnz1 AR = 11 PC = 11 DR = 0
+Memory Access:
+AR = 11 block number = 2 cache line number = 2 cache line = 11 tag = 0
+Cache hit
+result: cache line = 11 tag = 0
+jpnz2 AR = 11 PC = 12 DR = 5 TR = 0
+jpnz3 PC = 11
+Current Data: AC = 4, R = 1, ZCVN = 0100, AR = 11, PC = 5, DR = 5
+fetch1: AR = 5 and PC = 5
+Memory Access:
+AR = 5 block number = 1 cache line number = 1 cache line = 5 tag = 0
+Cache hit
+result: cache line = 5 tag = 0
+fetch2: DR = 2 and PC = 6
+fetch3: IR = 2 and AR = 6
+stac instruction
+Memory Access:
+AR = 6 block number = 1 cache line number = 1 cache line = 6 tag = 0
+Cache hit
+result: cache line = 6 tag = 0
+stac1 AR = 7 PC = 7 DR = 32
+Memory Access:
+AR = 7 block number = 1 cache line number = 1 cache line = 7 tag = 0
+Cache hit
+result: cache line = 7 tag = 0
+stac2 AR = 7 PC = 8 DR = 64 TR = 32
+stac3 AR = 8256
+stac4 DR = 4
+Memory Access:
+AR = 8256 block number = 2064 cache line number = 16 cache line = 64 tag = 2
+Cache hit
+result: cache line = 64 tag = 2
+Memory Access:
+AR = 8256 block number = 2064 cache line number = 16 cache line = 64 tag = 2
+Cache hit
+result: cache line = 64 tag = 2
+stac5 M[AR] = 4
+Current Data: AC = 4, R = 1, ZCVN = 0100, AR = 8256, PC = 8, DR = 4
+fetch1: AR = 8 and PC = 8
+Memory Access:
+AR = 8 block number = 2 cache line number = 2 cache line = 8 tag = 0
+Cache hit
+result: cache line = 8 tag = 0
+fetch2: DR = 9 and PC = 9
+fetch3: IR = 9 and AR = 9
+sub instruction
+sub1 AC = 3 ZCVN = 0100
+Current Data: AC = 3, R = 1, ZCVN = 0100, AR = 9, PC = 9, DR = 9
+fetch1: AR = 9 and PC = 9
+Memory Access:
+AR = 9 block number = 2 cache line number = 2 cache line = 9 tag = 0
+Cache hit
+result: cache line = 9 tag = 0
+fetch2: DR = 7 and PC = 10
+fetch3: IR = 7 and AR = 10
+jpnz instruction
+Memory Access:
+AR = 10 block number = 2 cache line number = 2 cache line = 10 tag = 0
+Cache hit
+result: cache line = 10 tag = 0
+jpnz1 AR = 11 PC = 11 DR = 0
+Memory Access:
+AR = 11 block number = 2 cache line number = 2 cache line = 11 tag = 0
+Cache hit
+result: cache line = 11 tag = 0
+jpnz2 AR = 11 PC = 12 DR = 5 TR = 0
+jpnz3 PC = 11
+Current Data: AC = 3, R = 1, ZCVN = 0100, AR = 11, PC = 5, DR = 5
+fetch1: AR = 5 and PC = 5
+Memory Access:
+AR = 5 block number = 1 cache line number = 1 cache line = 5 tag = 0
+Cache hit
+result: cache line = 5 tag = 0
+fetch2: DR = 2 and PC = 6
+fetch3: IR = 2 and AR = 6
+stac instruction
+Memory Access:
+AR = 6 block number = 1 cache line number = 1 cache line = 6 tag = 0
+Cache hit
+result: cache line = 6 tag = 0
+stac1 AR = 7 PC = 7 DR = 32
+Memory Access:
+AR = 7 block number = 1 cache line number = 1 cache line = 7 tag = 0
+Cache hit
+result: cache line = 7 tag = 0
+stac2 AR = 7 PC = 8 DR = 64 TR = 32
+stac3 AR = 8256
+stac4 DR = 3
+Memory Access:
+AR = 8256 block number = 2064 cache line number = 16 cache line = 64 tag = 2
+Cache hit
+result: cache line = 64 tag = 2
+Memory Access:
+AR = 8256 block number = 2064 cache line number = 16 cache line = 64 tag = 2
+Cache hit
+result: cache line = 64 tag = 2
+stac5 M[AR] = 3
+Current Data: AC = 3, R = 1, ZCVN = 0100, AR = 8256, PC = 8, DR = 3
+fetch1: AR = 8 and PC = 8
+Memory Access:
+AR = 8 block number = 2 cache line number = 2 cache line = 8 tag = 0
+Cache hit
+result: cache line = 8 tag = 0
+fetch2: DR = 9 and PC = 9
+fetch3: IR = 9 and AR = 9
+sub instruction
+sub1 AC = 2 ZCVN = 0100
+Current Data: AC = 2, R = 1, ZCVN = 0100, AR = 9, PC = 9, DR = 9
+fetch1: AR = 9 and PC = 9
+Memory Access:
+AR = 9 block number = 2 cache line number = 2 cache line = 9 tag = 0
+Cache hit
+result: cache line = 9 tag = 0
+fetch2: DR = 7 and PC = 10
+fetch3: IR = 7 and AR = 10
+jpnz instruction
+Memory Access:
+AR = 10 block number = 2 cache line number = 2 cache line = 10 tag = 0
+Cache hit
+result: cache line = 10 tag = 0
+jpnz1 AR = 11 PC = 11 DR = 0
+Memory Access:
+AR = 11 block number = 2 cache line number = 2 cache line = 11 tag = 0
+Cache hit
+result: cache line = 11 tag = 0
+jpnz2 AR = 11 PC = 12 DR = 5 TR = 0
+jpnz3 PC = 11
+Current Data: AC = 2, R = 1, ZCVN = 0100, AR = 11, PC = 5, DR = 5
+fetch1: AR = 5 and PC = 5
+Memory Access:
+AR = 5 block number = 1 cache line number = 1 cache line = 5 tag = 0
+Cache hit
+result: cache line = 5 tag = 0
+fetch2: DR = 2 and PC = 6
+fetch3: IR = 2 and AR = 6
+stac instruction
+Memory Access:
+AR = 6 block number = 1 cache line number = 1 cache line = 6 tag = 0
+Cache hit
+result: cache line = 6 tag = 0
+stac1 AR = 7 PC = 7 DR = 32
+Memory Access:
+AR = 7 block number = 1 cache line number = 1 cache line = 7 tag = 0
+Cache hit
+result: cache line = 7 tag = 0
+stac2 AR = 7 PC = 8 DR = 64 TR = 32
+stac3 AR = 8256
+stac4 DR = 2
+Memory Access:
+AR = 8256 block number = 2064 cache line number = 16 cache line = 64 tag = 2
+Cache hit
+result: cache line = 64 tag = 2
+Memory Access:
+AR = 8256 block number = 2064 cache line number = 16 cache line = 64 tag = 2
+Cache hit
+result: cache line = 64 tag = 2
+stac5 M[AR] = 2
+Current Data: AC = 2, R = 1, ZCVN = 0100, AR = 8256, PC = 8, DR = 2
+fetch1: AR = 8 and PC = 8
+Memory Access:
+AR = 8 block number = 2 cache line number = 2 cache line = 8 tag = 0
+Cache hit
+result: cache line = 8 tag = 0
+fetch2: DR = 9 and PC = 9
+fetch3: IR = 9 and AR = 9
+sub instruction
+sub1 AC = 1 ZCVN = 0100
+Current Data: AC = 1, R = 1, ZCVN = 0100, AR = 9, PC = 9, DR = 9
+fetch1: AR = 9 and PC = 9
+Memory Access:
+AR = 9 block number = 2 cache line number = 2 cache line = 9 tag = 0
+Cache hit
+result: cache line = 9 tag = 0
+fetch2: DR = 7 and PC = 10
+fetch3: IR = 7 and AR = 10
+jpnz instruction
+Memory Access:
+AR = 10 block number = 2 cache line number = 2 cache line = 10 tag = 0
+Cache hit
+result: cache line = 10 tag = 0
+jpnz1 AR = 11 PC = 11 DR = 0
+Memory Access:
+AR = 11 block number = 2 cache line number = 2 cache line = 11 tag = 0
+Cache hit
+result: cache line = 11 tag = 0
+jpnz2 AR = 11 PC = 12 DR = 5 TR = 0
+jpnz3 PC = 11
+Current Data: AC = 1, R = 1, ZCVN = 0100, AR = 11, PC = 5, DR = 5
+fetch1: AR = 5 and PC = 5
+Memory Access:
+AR = 5 block number = 1 cache line number = 1 cache line = 5 tag = 0
+Cache hit
+result: cache line = 5 tag = 0
+fetch2: DR = 2 and PC = 6
+fetch3: IR = 2 and AR = 6
+stac instruction
+Memory Access:
+AR = 6 block number = 1 cache line number = 1 cache line = 6 tag = 0
+Cache hit
+result: cache line = 6 tag = 0
+stac1 AR = 7 PC = 7 DR = 32
+Memory Access:
+AR = 7 block number = 1 cache line number = 1 cache line = 7 tag = 0
+Cache hit
+result: cache line = 7 tag = 0
+stac2 AR = 7 PC = 8 DR = 64 TR = 32
+stac3 AR = 8256
+stac4 DR = 1
+Memory Access:
+AR = 8256 block number = 2064 cache line number = 16 cache line = 64 tag = 2
+Cache hit
+result: cache line = 64 tag = 2
+Memory Access:
+AR = 8256 block number = 2064 cache line number = 16 cache line = 64 tag = 2
+Cache hit
+result: cache line = 64 tag = 2
+stac5 M[AR] = 1
+Current Data: AC = 1, R = 1, ZCVN = 0100, AR = 8256, PC = 8, DR = 1
+fetch1: AR = 8 and PC = 8
+Memory Access:
+AR = 8 block number = 2 cache line number = 2 cache line = 8 tag = 0
+Cache hit
+result: cache line = 8 tag = 0
+fetch2: DR = 9 and PC = 9
+fetch3: IR = 9 and AR = 9
+sub instruction
+sub1 AC = 0 ZCVN = 1100
+Current Data: AC = 0, R = 1, ZCVN = 1100, AR = 9, PC = 9, DR = 9
+fetch1: AR = 9 and PC = 9
+Memory Access:
+AR = 9 block number = 2 cache line number = 2 cache line = 9 tag = 0
+Cache hit
+result: cache line = 9 tag = 0
+fetch2: DR = 7 and PC = 10
+fetch3: IR = 7 and AR = 10
+jpnz instruction
+jpnz1 PC = 12 ZCVN = 1100
+Current Data: AC = 0, R = 1, ZCVN = 1100, AR = 10, PC = 12, DR = 7
+fetch1: AR = 12 and PC = 12
+Memory Access:
+AR = 12 block number = 3 cache line number = 3 cache line = 12 tag = 0
+Cache hit
+result: cache line = 12 tag = 0
+fetch2: DR = 255 and PC = 13
+fetch3: IR = 255 and AR = 13
+halt instruction
+Current Data: AC = 0, R = 1, ZCVN = 1100, AR = 13, PC = 13, DR = 255
+Cache hits = 57 Cache misses = 5
+--- running again---
+ 
+
+Carl Stevenson
+RSCPU
+This program accepts the title of a file from the
+user, opens the file, then reads in lines of 
+hexadecimal bytes, and executes them in the 
+simulated CPU.
+
+Enter the name of the file containing the program: 
+You chose: /home/mathcs/turnin/bracken/cs330/test.c3
+
+Initial register values: 
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 0, PC = 0, DR = 0
+	IR = 0, TR = 0
+
+Memory Access:
+AR = 0 block number = 0 cache line number = 0 cache line = 0 tag = 0
+Cache miss
+result: cache line = 0 tag = 0
+Memory Access:
+AR = 1 block number = 0 cache line number = 0 cache line = 1 tag = 0
+Cache hit
+result: cache line = 1 tag = 0
+Memory Access:
+AR = 2 block number = 0 cache line number = 0 cache line = 2 tag = 0
+Cache hit
+result: cache line = 2 tag = 0
+Memory Access:
+AR = 3 block number = 0 cache line number = 0 cache line = 3 tag = 0
+Cache hit
+result: cache line = 3 tag = 0
+Memory Access:
+AR = 4 block number = 1 cache line number = 1 cache line = 4 tag = 0
+Cache miss
+result: cache line = 4 tag = 0
+Memory Access:
+AR = 5 block number = 1 cache line number = 1 cache line = 5 tag = 0
+Cache hit
+result: cache line = 5 tag = 0
+Memory Access:
+AR = 6 block number = 1 cache line number = 1 cache line = 6 tag = 0
+Cache hit
+result: cache line = 6 tag = 0
+Memory Access:
+AR = 7 block number = 1 cache line number = 1 cache line = 7 tag = 0
+Cache hit
+result: cache line = 7 tag = 0
+Memory Access:
+AR = 8 block number = 2 cache line number = 2 cache line = 8 tag = 0
+Cache miss
+result: cache line = 8 tag = 0
+Memory Access:
+AR = 9 block number = 2 cache line number = 2 cache line = 9 tag = 0
+Cache hit
+result: cache line = 9 tag = 0
+Memory Access:
+AR = 10 block number = 2 cache line number = 2 cache line = 10 tag = 0
+Cache hit
+result: cache line = 10 tag = 0
+Memory Access:
+AR = 11 block number = 2 cache line number = 2 cache line = 11 tag = 0
+Cache hit
+result: cache line = 11 tag = 0
+Memory Access:
+AR = 12 block number = 3 cache line number = 3 cache line = 12 tag = 0
+Cache miss
+result: cache line = 12 tag = 0
+Memory Access:
+AR = 13 block number = 3 cache line number = 3 cache line = 13 tag = 0
+Cache hit
+result: cache line = 13 tag = 0
+Memory Access:
+AR = 14 block number = 3 cache line number = 3 cache line = 14 tag = 0
+Cache hit
+result: cache line = 14 tag = 0
+Memory Access:
+AR = 15 block number = 3 cache line number = 3 cache line = 15 tag = 0
+Cache hit
+result: cache line = 15 tag = 0
+Memory Access:
+AR = 16 block number = 4 cache line number = 4 cache line = 16 tag = 0
+Cache miss
+result: cache line = 16 tag = 0
+Memory Access:
+AR = 17 block number = 4 cache line number = 4 cache line = 17 tag = 0
+Cache hit
+result: cache line = 17 tag = 0
+Memory Access:
+AR = 18 block number = 4 cache line number = 4 cache line = 18 tag = 0
+Cache hit
+result: cache line = 18 tag = 0
+Memory Access:
+AR = 19 block number = 4 cache line number = 4 cache line = 19 tag = 0
+Cache hit
+result: cache line = 19 tag = 0
+Memory Access:
+AR = 20 block number = 5 cache line number = 5 cache line = 20 tag = 0
+Cache miss
+result: cache line = 20 tag = 0
+Memory Access:
+AR = 21 block number = 5 cache line number = 5 cache line = 21 tag = 0
+Cache hit
+result: cache line = 21 tag = 0
+Memory Access:
+AR = 22 block number = 5 cache line number = 5 cache line = 22 tag = 0
+Cache hit
+result: cache line = 22 tag = 0
+Memory Access:
+AR = 23 block number = 5 cache line number = 5 cache line = 23 tag = 0
+Cache hit
+result: cache line = 23 tag = 0
+Memory Access:
+AR = 24 block number = 6 cache line number = 6 cache line = 24 tag = 0
+Cache miss
+result: cache line = 24 tag = 0
+fetch1: AR = 0 and PC = 0
+Memory Access:
+AR = 0 block number = 0 cache line number = 0 cache line = 0 tag = 0
+Cache hit
+result: cache line = 0 tag = 0
+fetch2: DR = 150 and PC = 1
+fetch3: IR = 150 and AR = 1
+xmvi instruction
+Memory Access:
+AR = 1 block number = 0 cache line number = 0 cache line = 1 tag = 0
+Cache hit
+result: cache line = 1 tag = 0
+xmvi1 DR = 0 PC = 2 AR = 1
+Memory Access:
+AR = 2 block number = 0 cache line number = 0 cache line = 2 tag = 0
+Cache hit
+result: cache line = 2 tag = 0
+xmvi2 AC = 0 DR = 1
+xmvi3 AC = 1
+Current Data: AC = 1, R = 0, ZCVN = 0000, AR = 2, PC = 3, DR = 1
+fetch1: AR = 3 and PC = 3
+Memory Access:
+AR = 3 block number = 0 cache line number = 0 cache line = 3 tag = 0
+Cache hit
+result: cache line = 3 tag = 0
+fetch2: DR = 130 and PC = 4
+fetch3: IR = 130 and AR = 4
+xstac instruction
+Memory Access:
+AR = 4 block number = 1 cache line number = 1 cache line = 4 tag = 0
+Cache hit
+result: cache line = 4 tag = 0
+xstac1 AR = 5 PC = 5 DR = 4
+Memory Access:
+AR = 5 block number = 1 cache line number = 1 cache line = 5 tag = 0
+Cache hit
+result: cache line = 5 tag = 0
+xstac2 AR = 5 PC = 6 DR = 0 TR = 4
+xstac3 AR = 1024
+xstac4 DR = 0
+Memory Access:
+AR = 1024 block number = 256 cache line number = 256 cache line = 1024 tag = 0
+Cache miss
+result: cache line = 1024 tag = 0
+Memory Access:
+AR = 1024 block number = 256 cache line number = 256 cache line = 1024 tag = 0
+Cache hit
+result: cache line = 1024 tag = 0
+xstac5 M[AR] = 0 DR = 1
+Memory Access:
+AR = 1024 block number = 256 cache line number = 256 cache line = 1024 tag = 0
+Cache hit
+result: cache line = 1024 tag = 0
+Memory Access:
+AR = 1024 block number = 256 cache line number = 256 cache line = 1024 tag = 0
+Cache hit
+result: cache line = 1024 tag = 0
+xstac6 M[AR] = 1
+Current Data: AC = 1, R = 0, ZCVN = 0000, AR = 1024, PC = 6, DR = 1
+fetch1: AR = 6 and PC = 6
+Memory Access:
+AR = 6 block number = 1 cache line number = 1 cache line = 6 tag = 0
+Cache hit
+result: cache line = 6 tag = 0
+fetch2: DR = 138 and PC = 7
+fetch3: IR = 138 and AR = 7
+xinac instruction
+xinac1 AC = 2 ZCVN = 0000
+Current Data: AC = 2, R = 0, ZCVN = 0000, AR = 7, PC = 7, DR = 138
+fetch1: AR = 7 and PC = 7
+Memory Access:
+AR = 7 block number = 1 cache line number = 1 cache line = 7 tag = 0
+Cache hit
+result: cache line = 7 tag = 0
+fetch2: DR = 130 and PC = 8
+fetch3: IR = 130 and AR = 8
+xstac instruction
+Memory Access:
+AR = 8 block number = 2 cache line number = 2 cache line = 8 tag = 0
+Cache hit
+result: cache line = 8 tag = 0
+xstac1 AR = 9 PC = 9 DR = 4
+Memory Access:
+AR = 9 block number = 2 cache line number = 2 cache line = 9 tag = 0
+Cache hit
+result: cache line = 9 tag = 0
+xstac2 AR = 9 PC = 10 DR = 4 TR = 4
+xstac3 AR = 1028
+xstac4 DR = 0
+Memory Access:
+AR = 1028 block number = 257 cache line number = 257 cache line = 1028 tag = 0
+Cache miss
+result: cache line = 1028 tag = 0
+Memory Access:
+AR = 1028 block number = 257 cache line number = 257 cache line = 1028 tag = 0
+Cache hit
+result: cache line = 1028 tag = 0
+xstac5 M[AR] = 0 DR = 2
+Memory Access:
+AR = 1028 block number = 257 cache line number = 257 cache line = 1028 tag = 0
+Cache hit
+result: cache line = 1028 tag = 0
+Memory Access:
+AR = 1028 block number = 257 cache line number = 257 cache line = 1028 tag = 0
+Cache hit
+result: cache line = 1028 tag = 0
+xstac6 M[AR] = 2
+Current Data: AC = 2, R = 0, ZCVN = 0000, AR = 1028, PC = 10, DR = 2
+fetch1: AR = 10 and PC = 10
+Memory Access:
+AR = 10 block number = 2 cache line number = 2 cache line = 10 tag = 0
+Cache hit
+result: cache line = 10 tag = 0
+fetch2: DR = 138 and PC = 11
+fetch3: IR = 138 and AR = 11
+xinac instruction
+xinac1 AC = 3 ZCVN = 0000
+Current Data: AC = 3, R = 0, ZCVN = 0000, AR = 11, PC = 11, DR = 138
+fetch1: AR = 11 and PC = 11
+Memory Access:
+AR = 11 block number = 2 cache line number = 2 cache line = 11 tag = 0
+Cache hit
+result: cache line = 11 tag = 0
+fetch2: DR = 130 and PC = 12
+fetch3: IR = 130 and AR = 12
+xstac instruction
+Memory Access:
+AR = 12 block number = 3 cache line number = 3 cache line = 12 tag = 0
+Cache hit
+result: cache line = 12 tag = 0
+xstac1 AR = 13 PC = 13 DR = 4
+Memory Access:
+AR = 13 block number = 3 cache line number = 3 cache line = 13 tag = 0
+Cache hit
+result: cache line = 13 tag = 0
+xstac2 AR = 13 PC = 14 DR = 8 TR = 4
+xstac3 AR = 1032
+xstac4 DR = 0
+Memory Access:
+AR = 1032 block number = 258 cache line number = 258 cache line = 1032 tag = 0
+Cache miss
+result: cache line = 1032 tag = 0
+Memory Access:
+AR = 1032 block number = 258 cache line number = 258 cache line = 1032 tag = 0
+Cache hit
+result: cache line = 1032 tag = 0
+xstac5 M[AR] = 0 DR = 3
+Memory Access:
+AR = 1032 block number = 258 cache line number = 258 cache line = 1032 tag = 0
+Cache hit
+result: cache line = 1032 tag = 0
+Memory Access:
+AR = 1032 block number = 258 cache line number = 258 cache line = 1032 tag = 0
+Cache hit
+result: cache line = 1032 tag = 0
+xstac6 M[AR] = 3
+Current Data: AC = 3, R = 0, ZCVN = 0000, AR = 1032, PC = 14, DR = 3
+fetch1: AR = 14 and PC = 14
+Memory Access:
+AR = 14 block number = 3 cache line number = 3 cache line = 14 tag = 0
+Cache hit
+result: cache line = 14 tag = 0
+fetch2: DR = 138 and PC = 15
+fetch3: IR = 138 and AR = 15
+xinac instruction
+xinac1 AC = 4 ZCVN = 0000
+Current Data: AC = 4, R = 0, ZCVN = 0000, AR = 15, PC = 15, DR = 138
+fetch1: AR = 15 and PC = 15
+Memory Access:
+AR = 15 block number = 3 cache line number = 3 cache line = 15 tag = 0
+Cache hit
+result: cache line = 15 tag = 0
+fetch2: DR = 130 and PC = 16
+fetch3: IR = 130 and AR = 16
+xstac instruction
+Memory Access:
+AR = 16 block number = 4 cache line number = 4 cache line = 16 tag = 0
+Cache hit
+result: cache line = 16 tag = 0
+xstac1 AR = 17 PC = 17 DR = 4
+Memory Access:
+AR = 17 block number = 4 cache line number = 4 cache line = 17 tag = 0
+Cache hit
+result: cache line = 17 tag = 0
+xstac2 AR = 17 PC = 18 DR = 8 TR = 4
+xstac3 AR = 1032
+xstac4 DR = 0
+Memory Access:
+AR = 1032 block number = 258 cache line number = 258 cache line = 1032 tag = 0
+Cache hit
+result: cache line = 1032 tag = 0
+Memory Access:
+AR = 1032 block number = 258 cache line number = 258 cache line = 1032 tag = 0
+Cache hit
+result: cache line = 1032 tag = 0
+xstac5 M[AR] = 0 DR = 4
+Memory Access:
+AR = 1032 block number = 258 cache line number = 258 cache line = 1032 tag = 0
+Cache hit
+result: cache line = 1032 tag = 0
+Memory Access:
+AR = 1032 block number = 258 cache line number = 258 cache line = 1032 tag = 0
+Cache hit
+result: cache line = 1032 tag = 0
+xstac6 M[AR] = 4
+Current Data: AC = 4, R = 0, ZCVN = 0000, AR = 1032, PC = 18, DR = 4
+fetch1: AR = 18 and PC = 18
+Memory Access:
+AR = 18 block number = 4 cache line number = 4 cache line = 18 tag = 0
+Cache hit
+result: cache line = 18 tag = 0
+fetch2: DR = 129 and PC = 19
+fetch3: IR = 129 and AR = 19
+xldac instruction
+Memory Access:
+AR = 19 block number = 4 cache line number = 4 cache line = 19 tag = 0
+Cache hit
+result: cache line = 19 tag = 0
+xldac1 AR = 20 PC = 20 DR = 4
+Memory Access:
+AR = 20 block number = 5 cache line number = 5 cache line = 20 tag = 0
+Cache hit
+result: cache line = 20 tag = 0
+xldac2 AR = 20 PC = 21 DR = 0 TR = 4
+xldac3 AR = 1024
+Memory Access:
+AR = 1024 block number = 256 cache line number = 256 cache line = 1024 tag = 0
+Cache hit
+result: cache line = 1024 tag = 0
+xldac4 DR = 1
+Memory Access:
+AR = 1025 block number = 256 cache line number = 256 cache line = 1025 tag = 0
+Cache hit
+result: cache line = 1025 tag = 0
+xldac5 AC = 256 DR = 0
+xldac6 AC = 256
+Current Data: AC = 256, R = 0, ZCVN = 0000, AR = 1025, PC = 21, DR = 0
+fetch1: AR = 21 and PC = 21
+Memory Access:
+AR = 21 block number = 5 cache line number = 5 cache line = 21 tag = 0
+Cache hit
+result: cache line = 21 tag = 0
+fetch2: DR = 129 and PC = 22
+fetch3: IR = 129 and AR = 22
+xldac instruction
+Memory Access:
+AR = 22 block number = 5 cache line number = 5 cache line = 22 tag = 0
+Cache hit
+result: cache line = 22 tag = 0
+xldac1 AR = 23 PC = 23 DR = 4
+Memory Access:
+AR = 23 block number = 5 cache line number = 5 cache line = 23 tag = 0
+Cache hit
+result: cache line = 23 tag = 0
+xldac2 AR = 23 PC = 24 DR = 4 TR = 4
+xldac3 AR = 1028
+Memory Access:
+AR = 1028 block number = 257 cache line number = 257 cache line = 1028 tag = 0
+Cache hit
+result: cache line = 1028 tag = 0
+xldac4 DR = 2
+Memory Access:
+AR = 1029 block number = 257 cache line number = 257 cache line = 1029 tag = 0
+Cache hit
+result: cache line = 1029 tag = 0
+xldac5 AC = 512 DR = 0
+xldac6 AC = 512
+Current Data: AC = 512, R = 0, ZCVN = 0000, AR = 1029, PC = 24, DR = 0
+fetch1: AR = 24 and PC = 24
+Memory Access:
+AR = 24 block number = 6 cache line number = 6 cache line = 24 tag = 0
+Cache hit
+result: cache line = 24 tag = 0
+fetch2: DR = 255 and PC = 25
+fetch3: IR = 255 and AR = 25
+halt instruction
+Current Data: AC = 512, R = 0, ZCVN = 0000, AR = 25, PC = 25, DR = 255
+Cache hits = 60 Cache misses = 10
+--- running again---
+ 
+
+Carl Stevenson
+RSCPU
+This program accepts the title of a file from the
+user, opens the file, then reads in lines of 
+hexadecimal bytes, and executes them in the 
+simulated CPU.
+
+Enter the name of the file containing the program: 
+You chose: /home/mathcs/turnin/bracken/cs330/test.6
+
+Initial register values: 
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 0, PC = 0, DR = 0
+	IR = 0, TR = 0
+
+Memory Access:
+AR = 0 block number = 0 cache line number = 0 cache line = 0 tag = 0
+Cache miss
+result: cache line = 0 tag = 0
+Memory Access:
+AR = 1 block number = 0 cache line number = 0 cache line = 1 tag = 0
+Cache hit
+result: cache line = 1 tag = 0
+Memory Access:
+AR = 2 block number = 0 cache line number = 0 cache line = 2 tag = 0
+Cache hit
+result: cache line = 2 tag = 0
+Memory Access:
+AR = 3 block number = 0 cache line number = 0 cache line = 3 tag = 0
+Cache hit
+result: cache line = 3 tag = 0
+Memory Access:
+AR = 4 block number = 1 cache line number = 1 cache line = 4 tag = 0
+Cache miss
+result: cache line = 4 tag = 0
+Memory Access:
+AR = 5 block number = 1 cache line number = 1 cache line = 5 tag = 0
+Cache hit
+result: cache line = 5 tag = 0
+Memory Access:
+AR = 6 block number = 1 cache line number = 1 cache line = 6 tag = 0
+Cache hit
+result: cache line = 6 tag = 0
+Memory Access:
+AR = 7 block number = 1 cache line number = 1 cache line = 7 tag = 0
+Cache hit
+result: cache line = 7 tag = 0
+Memory Access:
+AR = 8 block number = 2 cache line number = 2 cache line = 8 tag = 0
+Cache miss
+result: cache line = 8 tag = 0
+Memory Access:
+AR = 9 block number = 2 cache line number = 2 cache line = 9 tag = 0
+Cache hit
+result: cache line = 9 tag = 0
+Memory Access:
+AR = 10 block number = 2 cache line number = 2 cache line = 10 tag = 0
+Cache hit
+result: cache line = 10 tag = 0
+Memory Access:
+AR = 11 block number = 2 cache line number = 2 cache line = 11 tag = 0
+Cache hit
+result: cache line = 11 tag = 0
+Memory Access:
+AR = 12 block number = 3 cache line number = 3 cache line = 12 tag = 0
+Cache miss
+result: cache line = 12 tag = 0
+Memory Access:
+AR = 13 block number = 3 cache line number = 3 cache line = 13 tag = 0
+Cache hit
+result: cache line = 13 tag = 0
+Memory Access:
+AR = 14 block number = 3 cache line number = 3 cache line = 14 tag = 0
+Cache hit
+result: cache line = 14 tag = 0
+Memory Access:
+AR = 15 block number = 3 cache line number = 3 cache line = 15 tag = 0
+Cache hit
+result: cache line = 15 tag = 0
+Memory Access:
+AR = 16 block number = 4 cache line number = 4 cache line = 16 tag = 0
+Cache miss
+result: cache line = 16 tag = 0
+Memory Access:
+AR = 17 block number = 4 cache line number = 4 cache line = 17 tag = 0
+Cache hit
+result: cache line = 17 tag = 0
+Memory Access:
+AR = 18 block number = 4 cache line number = 4 cache line = 18 tag = 0
+Cache hit
+result: cache line = 18 tag = 0
+Memory Access:
+AR = 19 block number = 4 cache line number = 4 cache line = 19 tag = 0
+Cache hit
+result: cache line = 19 tag = 0
+Memory Access:
+AR = 20 block number = 5 cache line number = 5 cache line = 20 tag = 0
+Cache miss
+result: cache line = 20 tag = 0
+Memory Access:
+AR = 21 block number = 5 cache line number = 5 cache line = 21 tag = 0
+Cache hit
+result: cache line = 21 tag = 0
+Memory Access:
+AR = 22 block number = 5 cache line number = 5 cache line = 22 tag = 0
+Cache hit
+result: cache line = 22 tag = 0
+Memory Access:
+AR = 23 block number = 5 cache line number = 5 cache line = 23 tag = 0
+Cache hit
+result: cache line = 23 tag = 0
+Memory Access:
+AR = 24 block number = 6 cache line number = 6 cache line = 24 tag = 0
+Cache miss
+result: cache line = 24 tag = 0
+Memory Access:
+AR = 25 block number = 6 cache line number = 6 cache line = 25 tag = 0
+Cache hit
+result: cache line = 25 tag = 0
+Memory Access:
+AR = 26 block number = 6 cache line number = 6 cache line = 26 tag = 0
+Cache hit
+result: cache line = 26 tag = 0
+Memory Access:
+AR = 27 block number = 6 cache line number = 6 cache line = 27 tag = 0
+Cache hit
+result: cache line = 27 tag = 0
+fetch1: AR = 0 and PC = 0
+Memory Access:
+AR = 0 block number = 0 cache line number = 0 cache line = 0 tag = 0
+Cache hit
+result: cache line = 0 tag = 0
+fetch2: DR = 0 and PC = 1
+fetch3: IR = 0 and AR = 1
+no op instruction
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 1, PC = 1, DR = 0
+fetch1: AR = 1 and PC = 1
+Memory Access:
+AR = 1 block number = 0 cache line number = 0 cache line = 1 tag = 0
+Cache hit
+result: cache line = 1 tag = 0
+fetch2: DR = 22 and PC = 2
+fetch3: IR = 22 and AR = 2
+mvi instruction
+Memory Access:
+AR = 2 block number = 0 cache line number = 0 cache line = 2 tag = 0
+Cache hit
+result: cache line = 2 tag = 0
+mvi1 DR = 1 PC = 3 AR = 2
+mvi2 AC = 1
+Current Data: AC = 1, R = 0, ZCVN = 0000, AR = 2, PC = 3, DR = 1
+fetch1: AR = 3 and PC = 3
+Memory Access:
+AR = 3 block number = 0 cache line number = 0 cache line = 3 tag = 0
+Cache hit
+result: cache line = 3 tag = 0
+fetch2: DR = 10 and PC = 4
+fetch3: IR = 10 and AR = 4
+inac instruction
+inac1 AC = 2 ZCVN = 0000
+Current Data: AC = 2, R = 0, ZCVN = 0000, AR = 4, PC = 4, DR = 10
+fetch1: AR = 4 and PC = 4
+Memory Access:
+AR = 4 block number = 1 cache line number = 1 cache line = 4 tag = 0
+Cache hit
+result: cache line = 4 tag = 0
+fetch2: DR = 3 and PC = 5
+fetch3: IR = 3 and AR = 5
+mvac instruction
+mvac1 R = 2
+Current Data: AC = 2, R = 2, ZCVN = 0000, AR = 5, PC = 5, DR = 3
+fetch1: AR = 5 and PC = 5
+Memory Access:
+AR = 5 block number = 1 cache line number = 1 cache line = 5 tag = 0
+Cache hit
+result: cache line = 5 tag = 0
+fetch2: DR = 22 and PC = 6
+fetch3: IR = 22 and AR = 6
+mvi instruction
+Memory Access:
+AR = 6 block number = 1 cache line number = 1 cache line = 6 tag = 0
+Cache hit
+result: cache line = 6 tag = 0
+mvi1 DR = 10 PC = 7 AR = 6
+mvi2 AC = 10
+Current Data: AC = 10, R = 2, ZCVN = 0000, AR = 6, PC = 7, DR = 10
+fetch1: AR = 7 and PC = 7
+Memory Access:
+AR = 7 block number = 1 cache line number = 1 cache line = 7 tag = 0
+Cache hit
+result: cache line = 7 tag = 0
+fetch2: DR = 8 and PC = 8
+fetch3: IR = 8 and AR = 8
+add instruction
+add1 AC = 12 R = 2 ZCVN = 0000
+Current Data: AC = 12, R = 2, ZCVN = 0000, AR = 8, PC = 8, DR = 8
+fetch1: AR = 8 and PC = 8
+Memory Access:
+AR = 8 block number = 2 cache line number = 2 cache line = 8 tag = 0
+Cache hit
+result: cache line = 8 tag = 0
+fetch2: DR = 10 and PC = 9
+fetch3: IR = 10 and AR = 9
+inac instruction
+inac1 AC = 13 ZCVN = 0000
+Current Data: AC = 13, R = 2, ZCVN = 0000, AR = 9, PC = 9, DR = 10
+fetch1: AR = 9 and PC = 9
+Memory Access:
+AR = 9 block number = 2 cache line number = 2 cache line = 9 tag = 0
+Cache hit
+result: cache line = 9 tag = 0
+fetch2: DR = 9 and PC = 10
+fetch3: IR = 9 and AR = 10
+sub instruction
+sub1 AC = 11 ZCVN = 0100
+Current Data: AC = 11, R = 2, ZCVN = 0100, AR = 10, PC = 10, DR = 9
+fetch1: AR = 10 and PC = 10
+Memory Access:
+AR = 10 block number = 2 cache line number = 2 cache line = 10 tag = 0
+Cache hit
+result: cache line = 10 tag = 0
+fetch2: DR = 22 and PC = 11
+fetch3: IR = 22 and AR = 11
+mvi instruction
+Memory Access:
+AR = 11 block number = 2 cache line number = 2 cache line = 11 tag = 0
+Cache hit
+result: cache line = 11 tag = 0
+mvi1 DR = 1 PC = 12 AR = 11
+mvi2 AC = 1
+Current Data: AC = 1, R = 2, ZCVN = 0100, AR = 11, PC = 12, DR = 1
+fetch1: AR = 12 and PC = 12
+Memory Access:
+AR = 12 block number = 3 cache line number = 3 cache line = 12 tag = 0
+Cache hit
+result: cache line = 12 tag = 0
+fetch2: DR = 19 and PC = 13
+fetch3: IR = 19 and AR = 13
+rr instruction
+rr1 AC = -128 ZCVN = 0111
+Current Data: AC = -128, R = 2, ZCVN = 0111, AR = 13, PC = 13, DR = 19
+fetch1: AR = 13 and PC = 13
+Memory Access:
+AR = 13 block number = 3 cache line number = 3 cache line = 13 tag = 0
+Cache hit
+result: cache line = 13 tag = 0
+fetch2: DR = 18 and PC = 14
+fetch3: IR = 18 and AR = 14
+rl instruction
+rl1 AC = 1 ZCVN = 0100
+Current Data: AC = 1, R = 2, ZCVN = 0100, AR = 14, PC = 14, DR = 18
+fetch1: AR = 14 and PC = 14
+Memory Access:
+AR = 14 block number = 3 cache line number = 3 cache line = 14 tag = 0
+Cache hit
+result: cache line = 14 tag = 0
+fetch2: DR = 20 and PC = 15
+fetch3: IR = 20 and AR = 15
+lsl instruction
+lsl1 AC = 2 ZCVN = 0000
+Current Data: AC = 2, R = 2, ZCVN = 0000, AR = 15, PC = 15, DR = 20
+fetch1: AR = 15 and PC = 15
+Memory Access:
+AR = 15 block number = 3 cache line number = 3 cache line = 15 tag = 0
+Cache hit
+result: cache line = 15 tag = 0
+fetch2: DR = 21 and PC = 16
+fetch3: IR = 21 and AR = 16
+lsr instruction
+lsr1 AC = 1 ZCVN = 0000
+Current Data: AC = 1, R = 2, ZCVN = 0000, AR = 16, PC = 16, DR = 21
+fetch1: AR = 16 and PC = 16
+Memory Access:
+AR = 16 block number = 4 cache line number = 4 cache line = 16 tag = 0
+Cache hit
+result: cache line = 16 tag = 0
+fetch2: DR = 22 and PC = 17
+fetch3: IR = 22 and AR = 17
+mvi instruction
+Memory Access:
+AR = 17 block number = 4 cache line number = 4 cache line = 17 tag = 0
+Cache hit
+result: cache line = 17 tag = 0
+mvi1 DR = 15 PC = 18 AR = 17
+mvi2 AC = 15
+Current Data: AC = 15, R = 2, ZCVN = 0000, AR = 17, PC = 18, DR = 15
+fetch1: AR = 18 and PC = 18
+Memory Access:
+AR = 18 block number = 4 cache line number = 4 cache line = 18 tag = 0
+Cache hit
+result: cache line = 18 tag = 0
+fetch2: DR = 3 and PC = 19
+fetch3: IR = 3 and AR = 19
+mvac instruction
+mvac1 R = 15
+Current Data: AC = 15, R = 15, ZCVN = 0000, AR = 19, PC = 19, DR = 3
+fetch1: AR = 19 and PC = 19
+Memory Access:
+AR = 19 block number = 4 cache line number = 4 cache line = 19 tag = 0
+Cache hit
+result: cache line = 19 tag = 0
+fetch2: DR = 22 and PC = 20
+fetch3: IR = 22 and AR = 20
+mvi instruction
+Memory Access:
+AR = 20 block number = 5 cache line number = 5 cache line = 20 tag = 0
+Cache hit
+result: cache line = 20 tag = 0
+mvi1 DR = 240 PC = 21 AR = 20
+mvi2 AC = -16
+Current Data: AC = -16, R = 15, ZCVN = 0000, AR = 20, PC = 21, DR = 240
+fetch1: AR = 21 and PC = 21
+Memory Access:
+AR = 21 block number = 5 cache line number = 5 cache line = 21 tag = 0
+Cache hit
+result: cache line = 21 tag = 0
+fetch2: DR = 13 and PC = 22
+fetch3: IR = 13 and AR = 22
+or operation
+or1 AC = -1 ZCVN = 0001
+Current Data: AC = -1, R = 15, ZCVN = 0001, AR = 22, PC = 22, DR = 13
+fetch1: AR = 22 and PC = 22
+Memory Access:
+AR = 22 block number = 5 cache line number = 5 cache line = 22 tag = 0
+Cache hit
+result: cache line = 22 tag = 0
+fetch2: DR = 14 and PC = 23
+fetch3: IR = 14 and AR = 23
+xor operation
+xor1 AC = -16 ZCVN = 0001
+Current Data: AC = -16, R = 15, ZCVN = 0001, AR = 23, PC = 23, DR = 14
+fetch1: AR = 23 and PC = 23
+Memory Access:
+AR = 23 block number = 5 cache line number = 5 cache line = 23 tag = 0
+Cache hit
+result: cache line = 23 tag = 0
+fetch2: DR = 22 and PC = 24
+fetch3: IR = 22 and AR = 24
+mvi instruction
+Memory Access:
+AR = 24 block number = 6 cache line number = 6 cache line = 24 tag = 0
+Cache hit
+result: cache line = 24 tag = 0
+mvi1 DR = 15 PC = 25 AR = 24
+mvi2 AC = 15
+Current Data: AC = 15, R = 15, ZCVN = 0001, AR = 24, PC = 25, DR = 15
+fetch1: AR = 25 and PC = 25
+Memory Access:
+AR = 25 block number = 6 cache line number = 6 cache line = 25 tag = 0
+Cache hit
+result: cache line = 25 tag = 0
+fetch2: DR = 3 and PC = 26
+fetch3: IR = 3 and AR = 26
+mvac instruction
+mvac1 R = 15
+Current Data: AC = 15, R = 15, ZCVN = 0001, AR = 26, PC = 26, DR = 3
+fetch1: AR = 26 and PC = 26
+Memory Access:
+AR = 26 block number = 6 cache line number = 6 cache line = 26 tag = 0
+Cache hit
+result: cache line = 26 tag = 0
+fetch2: DR = 12 and PC = 27
+fetch3: IR = 12 and AR = 27
+and instruction
+and1 AC = 15 ZCVN = 0000
+Current Data: AC = 15, R = 15, ZCVN = 0000, AR = 27, PC = 27, DR = 12
+fetch1: AR = 27 and PC = 27
+Memory Access:
+AR = 27 block number = 6 cache line number = 6 cache line = 27 tag = 0
+Cache hit
+result: cache line = 27 tag = 0
+fetch2: DR = 255 and PC = 28
+fetch3: IR = 255 and AR = 28
+halt instruction
+Current Data: AC = 15, R = 15, ZCVN = 0000, AR = 28, PC = 28, DR = 255
+Cache hits = 49 Cache misses = 7
+--- running again---
+ 
+
+Carl Stevenson
+RSCPU
+This program accepts the title of a file from the
+user, opens the file, then reads in lines of 
+hexadecimal bytes, and executes them in the 
+simulated CPU.
+
+Enter the name of the file containing the program: 
+You chose: /home/mathcs/turnin/bracken/cs330/test.7
+
+Initial register values: 
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 0, PC = 0, DR = 0
+	IR = 0, TR = 0
+
+Memory Access:
+AR = 0 block number = 0 cache line number = 0 cache line = 0 tag = 0
+Cache miss
+result: cache line = 0 tag = 0
+Memory Access:
+AR = 1 block number = 0 cache line number = 0 cache line = 1 tag = 0
+Cache hit
+result: cache line = 1 tag = 0
+Memory Access:
+AR = 2 block number = 0 cache line number = 0 cache line = 2 tag = 0
+Cache hit
+result: cache line = 2 tag = 0
+Memory Access:
+AR = 3 block number = 0 cache line number = 0 cache line = 3 tag = 0
+Cache hit
+result: cache line = 3 tag = 0
+Memory Access:
+AR = 4 block number = 1 cache line number = 1 cache line = 4 tag = 0
+Cache miss
+result: cache line = 4 tag = 0
+Memory Access:
+AR = 5 block number = 1 cache line number = 1 cache line = 5 tag = 0
+Cache hit
+result: cache line = 5 tag = 0
+Memory Access:
+AR = 6 block number = 1 cache line number = 1 cache line = 6 tag = 0
+Cache hit
+result: cache line = 6 tag = 0
+Memory Access:
+AR = 7 block number = 1 cache line number = 1 cache line = 7 tag = 0
+Cache hit
+result: cache line = 7 tag = 0
+Memory Access:
+AR = 8 block number = 2 cache line number = 2 cache line = 8 tag = 0
+Cache miss
+result: cache line = 8 tag = 0
+Memory Access:
+AR = 9 block number = 2 cache line number = 2 cache line = 9 tag = 0
+Cache hit
+result: cache line = 9 tag = 0
+Memory Access:
+AR = 10 block number = 2 cache line number = 2 cache line = 10 tag = 0
+Cache hit
+result: cache line = 10 tag = 0
+Memory Access:
+AR = 11 block number = 2 cache line number = 2 cache line = 11 tag = 0
+Cache hit
+result: cache line = 11 tag = 0
+Memory Access:
+AR = 12 block number = 3 cache line number = 3 cache line = 12 tag = 0
+Cache miss
+result: cache line = 12 tag = 0
+Memory Access:
+AR = 13 block number = 3 cache line number = 3 cache line = 13 tag = 0
+Cache hit
+result: cache line = 13 tag = 0
+Memory Access:
+AR = 14 block number = 3 cache line number = 3 cache line = 14 tag = 0
+Cache hit
+result: cache line = 14 tag = 0
+Memory Access:
+AR = 15 block number = 3 cache line number = 3 cache line = 15 tag = 0
+Cache hit
+result: cache line = 15 tag = 0
+Memory Access:
+AR = 16 block number = 4 cache line number = 4 cache line = 16 tag = 0
+Cache miss
+result: cache line = 16 tag = 0
+Memory Access:
+AR = 17 block number = 4 cache line number = 4 cache line = 17 tag = 0
+Cache hit
+result: cache line = 17 tag = 0
+Memory Access:
+AR = 18 block number = 4 cache line number = 4 cache line = 18 tag = 0
+Cache hit
+result: cache line = 18 tag = 0
+Memory Access:
+AR = 19 block number = 4 cache line number = 4 cache line = 19 tag = 0
+Cache hit
+result: cache line = 19 tag = 0
+Memory Access:
+AR = 20 block number = 5 cache line number = 5 cache line = 20 tag = 0
+Cache miss
+result: cache line = 20 tag = 0
+Memory Access:
+AR = 21 block number = 5 cache line number = 5 cache line = 21 tag = 0
+Cache hit
+result: cache line = 21 tag = 0
+Memory Access:
+AR = 22 block number = 5 cache line number = 5 cache line = 22 tag = 0
+Cache hit
+result: cache line = 22 tag = 0
+Memory Access:
+AR = 23 block number = 5 cache line number = 5 cache line = 23 tag = 0
+Cache hit
+result: cache line = 23 tag = 0
+Memory Access:
+AR = 24 block number = 6 cache line number = 6 cache line = 24 tag = 0
+Cache miss
+result: cache line = 24 tag = 0
+Memory Access:
+AR = 25 block number = 6 cache line number = 6 cache line = 25 tag = 0
+Cache hit
+result: cache line = 25 tag = 0
+Memory Access:
+AR = 26 block number = 6 cache line number = 6 cache line = 26 tag = 0
+Cache hit
+result: cache line = 26 tag = 0
+Memory Access:
+AR = 27 block number = 6 cache line number = 6 cache line = 27 tag = 0
+Cache hit
+result: cache line = 27 tag = 0
+Memory Access:
+AR = 28 block number = 7 cache line number = 7 cache line = 28 tag = 0
+Cache miss
+result: cache line = 28 tag = 0
+Memory Access:
+AR = 29 block number = 7 cache line number = 7 cache line = 29 tag = 0
+Cache hit
+result: cache line = 29 tag = 0
+Memory Access:
+AR = 30 block number = 7 cache line number = 7 cache line = 30 tag = 0
+Cache hit
+result: cache line = 30 tag = 0
+Memory Access:
+AR = 31 block number = 7 cache line number = 7 cache line = 31 tag = 0
+Cache hit
+result: cache line = 31 tag = 0
+Memory Access:
+AR = 32 block number = 8 cache line number = 8 cache line = 32 tag = 0
+Cache miss
+result: cache line = 32 tag = 0
+Memory Access:
+AR = 33 block number = 8 cache line number = 8 cache line = 33 tag = 0
+Cache hit
+result: cache line = 33 tag = 0
+Memory Access:
+AR = 34 block number = 8 cache line number = 8 cache line = 34 tag = 0
+Cache hit
+result: cache line = 34 tag = 0
+Memory Access:
+AR = 35 block number = 8 cache line number = 8 cache line = 35 tag = 0
+Cache hit
+result: cache line = 35 tag = 0
+Memory Access:
+AR = 36 block number = 9 cache line number = 9 cache line = 36 tag = 0
+Cache miss
+result: cache line = 36 tag = 0
+Memory Access:
+AR = 37 block number = 9 cache line number = 9 cache line = 37 tag = 0
+Cache hit
+result: cache line = 37 tag = 0
+Memory Access:
+AR = 38 block number = 9 cache line number = 9 cache line = 38 tag = 0
+Cache hit
+result: cache line = 38 tag = 0
+Memory Access:
+AR = 39 block number = 9 cache line number = 9 cache line = 39 tag = 0
+Cache hit
+result: cache line = 39 tag = 0
+Memory Access:
+AR = 40 block number = 10 cache line number = 10 cache line = 40 tag = 0
+Cache miss
+result: cache line = 40 tag = 0
+Memory Access:
+AR = 41 block number = 10 cache line number = 10 cache line = 41 tag = 0
+Cache hit
+result: cache line = 41 tag = 0
+Memory Access:
+AR = 42 block number = 10 cache line number = 10 cache line = 42 tag = 0
+Cache hit
+result: cache line = 42 tag = 0
+Memory Access:
+AR = 43 block number = 10 cache line number = 10 cache line = 43 tag = 0
+Cache hit
+result: cache line = 43 tag = 0
+Memory Access:
+AR = 44 block number = 11 cache line number = 11 cache line = 44 tag = 0
+Cache miss
+result: cache line = 44 tag = 0
+Memory Access:
+AR = 45 block number = 11 cache line number = 11 cache line = 45 tag = 0
+Cache hit
+result: cache line = 45 tag = 0
+fetch1: AR = 0 and PC = 0
+Memory Access:
+AR = 0 block number = 0 cache line number = 0 cache line = 0 tag = 0
+Cache hit
+result: cache line = 0 tag = 0
+fetch2: DR = 0 and PC = 1
+fetch3: IR = 0 and AR = 1
+no op instruction
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 1, PC = 1, DR = 0
+fetch1: AR = 1 and PC = 1
+Memory Access:
+AR = 1 block number = 0 cache line number = 0 cache line = 1 tag = 0
+Cache hit
+result: cache line = 1 tag = 0
+fetch2: DR = 129 and PC = 2
+fetch3: IR = 129 and AR = 2
+xldac instruction
+Memory Access:
+AR = 2 block number = 0 cache line number = 0 cache line = 2 tag = 0
+Cache hit
+result: cache line = 2 tag = 0
+xldac1 AR = 3 PC = 3 DR = 0
+Memory Access:
+AR = 3 block number = 0 cache line number = 0 cache line = 3 tag = 0
+Cache hit
+result: cache line = 3 tag = 0
+xldac2 AR = 3 PC = 4 DR = 41 TR = 0
+xldac3 AR = 41
+Memory Access:
+AR = 41 block number = 10 cache line number = 10 cache line = 41 tag = 0
+Cache hit
+result: cache line = 41 tag = 0
+xldac4 DR = 0
+Memory Access:
+AR = 42 block number = 10 cache line number = 10 cache line = 42 tag = 0
+Cache hit
+result: cache line = 42 tag = 0
+xldac5 AC = 0 DR = 2
+xldac6 AC = 2
+Current Data: AC = 2, R = 0, ZCVN = 0000, AR = 42, PC = 4, DR = 2
+fetch1: AR = 4 and PC = 4
+Memory Access:
+AR = 4 block number = 1 cache line number = 1 cache line = 4 tag = 0
+Cache hit
+result: cache line = 4 tag = 0
+fetch2: DR = 131 and PC = 5
+fetch3: IR = 131 and AR = 5
+xmvac instruction
+xmvac1 R = 2
+Current Data: AC = 2, R = 2, ZCVN = 0000, AR = 5, PC = 5, DR = 131
+fetch1: AR = 5 and PC = 5
+Memory Access:
+AR = 5 block number = 1 cache line number = 1 cache line = 5 tag = 0
+Cache hit
+result: cache line = 5 tag = 0
+fetch2: DR = 136 and PC = 6
+fetch3: IR = 136 and AR = 6
+xadd instruction
+xadd1 AC = 4 R = 2 ZCVN = 0000
+Current Data: AC = 4, R = 2, ZCVN = 0000, AR = 6, PC = 6, DR = 136
+fetch1: AR = 6 and PC = 6
+Memory Access:
+AR = 6 block number = 1 cache line number = 1 cache line = 6 tag = 0
+Cache hit
+result: cache line = 6 tag = 0
+fetch2: DR = 137 and PC = 7
+fetch3: IR = 137 and AR = 7
+xsub instruction
+sub1 AC = 2 ZCVN = 0100
+Current Data: AC = 2, R = 2, ZCVN = 0100, AR = 7, PC = 7, DR = 137
+fetch1: AR = 7 and PC = 7
+Memory Access:
+AR = 7 block number = 1 cache line number = 1 cache line = 7 tag = 0
+Cache hit
+result: cache line = 7 tag = 0
+fetch2: DR = 138 and PC = 8
+fetch3: IR = 138 and AR = 8
+xinac instruction
+xinac1 AC = 3 ZCVN = 0000
+Current Data: AC = 3, R = 2, ZCVN = 0000, AR = 8, PC = 8, DR = 138
+fetch1: AR = 8 and PC = 8
+Memory Access:
+AR = 8 block number = 2 cache line number = 2 cache line = 8 tag = 0
+Cache hit
+result: cache line = 8 tag = 0
+fetch2: DR = 130 and PC = 9
+fetch3: IR = 130 and AR = 9
+xstac instruction
+Memory Access:
+AR = 9 block number = 2 cache line number = 2 cache line = 9 tag = 0
+Cache hit
+result: cache line = 9 tag = 0
+xstac1 AR = 10 PC = 10 DR = 0
+Memory Access:
+AR = 10 block number = 2 cache line number = 2 cache line = 10 tag = 0
+Cache hit
+result: cache line = 10 tag = 0
+xstac2 AR = 10 PC = 11 DR = 46 TR = 0
+xstac3 AR = 46
+xstac4 DR = 0
+Memory Access:
+AR = 46 block number = 11 cache line number = 11 cache line = 46 tag = 0
+Cache hit
+result: cache line = 46 tag = 0
+Memory Access:
+AR = 46 block number = 11 cache line number = 11 cache line = 46 tag = 0
+Cache hit
+result: cache line = 46 tag = 0
+xstac5 M[AR] = 0 DR = 3
+Memory Access:
+AR = 46 block number = 11 cache line number = 11 cache line = 46 tag = 0
+Cache hit
+result: cache line = 46 tag = 0
+Memory Access:
+AR = 46 block number = 11 cache line number = 11 cache line = 46 tag = 0
+Cache hit
+result: cache line = 46 tag = 0
+xstac6 M[AR] = 3
+Current Data: AC = 3, R = 2, ZCVN = 0000, AR = 46, PC = 11, DR = 3
+fetch1: AR = 11 and PC = 11
+Memory Access:
+AR = 11 block number = 2 cache line number = 2 cache line = 11 tag = 0
+Cache hit
+result: cache line = 11 tag = 0
+fetch2: DR = 139 and PC = 12
+fetch3: IR = 139 and AR = 12
+xclac instruction
+xclac1 AC = 0 ZCVN = 1000
+Current Data: AC = 0, R = 2, ZCVN = 1000, AR = 12, PC = 12, DR = 139
+fetch1: AR = 12 and PC = 12
+Memory Access:
+AR = 12 block number = 3 cache line number = 3 cache line = 12 tag = 0
+Cache hit
+result: cache line = 12 tag = 0
+fetch2: DR = 140 and PC = 13
+fetch3: IR = 140 and AR = 13
+xand instruction
+xand1 AC = 0 ZCVN = 1000
+Current Data: AC = 0, R = 2, ZCVN = 1000, AR = 13, PC = 13, DR = 140
+fetch1: AR = 13 and PC = 13
+Memory Access:
+AR = 13 block number = 3 cache line number = 3 cache line = 13 tag = 0
+Cache hit
+result: cache line = 13 tag = 0
+fetch2: DR = 141 and PC = 14
+fetch3: IR = 141 and AR = 14
+x_or instruction
+x_or1 AC = 2 ZCVN = 0000
+Current Data: AC = 2, R = 2, ZCVN = 0000, AR = 14, PC = 14, DR = 141
+fetch1: AR = 14 and PC = 14
+Memory Access:
+AR = 14 block number = 3 cache line number = 3 cache line = 14 tag = 0
+Cache hit
+result: cache line = 14 tag = 0
+fetch2: DR = 137 and PC = 15
+fetch3: IR = 137 and AR = 15
+xsub instruction
+sub1 AC = 0 ZCVN = 1100
+Current Data: AC = 0, R = 2, ZCVN = 1100, AR = 15, PC = 15, DR = 137
+fetch1: AR = 15 and PC = 15
+Memory Access:
+AR = 15 block number = 3 cache line number = 3 cache line = 15 tag = 0
+Cache hit
+result: cache line = 15 tag = 0
+fetch2: DR = 142 and PC = 16
+fetch3: IR = 142 and AR = 16
+xxor instruction
+xxor1 AC = 2 ZCVN = 0100
+Current Data: AC = 2, R = 2, ZCVN = 0100, AR = 16, PC = 16, DR = 142
+fetch1: AR = 16 and PC = 16
+Memory Access:
+AR = 16 block number = 4 cache line number = 4 cache line = 16 tag = 0
+Cache hit
+result: cache line = 16 tag = 0
+fetch2: DR = 138 and PC = 17
+fetch3: IR = 138 and AR = 17
+xinac instruction
+xinac1 AC = 3 ZCVN = 0000
+Current Data: AC = 3, R = 2, ZCVN = 0000, AR = 17, PC = 17, DR = 138
+fetch1: AR = 17 and PC = 17
+Memory Access:
+AR = 17 block number = 4 cache line number = 4 cache line = 17 tag = 0
+Cache hit
+result: cache line = 17 tag = 0
+fetch2: DR = 143 and PC = 18
+fetch3: IR = 143 and AR = 18
+xnot instruction
+xnot1 AC = -4 ZCVN = 0001
+Current Data: AC = -4, R = 2, ZCVN = 0001, AR = 18, PC = 18, DR = 143
+fetch1: AR = 18 and PC = 18
+Memory Access:
+AR = 18 block number = 4 cache line number = 4 cache line = 18 tag = 0
+Cache hit
+result: cache line = 18 tag = 0
+fetch2: DR = 139 and PC = 19
+fetch3: IR = 139 and AR = 19
+xclac instruction
+xclac1 AC = 0 ZCVN = 1000
+Current Data: AC = 0, R = 2, ZCVN = 1000, AR = 19, PC = 19, DR = 139
+fetch1: AR = 19 and PC = 19
+Memory Access:
+AR = 19 block number = 4 cache line number = 4 cache line = 19 tag = 0
+Cache hit
+result: cache line = 19 tag = 0
+fetch2: DR = 138 and PC = 20
+fetch3: IR = 138 and AR = 20
+xinac instruction
+xinac1 AC = 1 ZCVN = 0000
+Current Data: AC = 1, R = 2, ZCVN = 0000, AR = 20, PC = 20, DR = 138
+fetch1: AR = 20 and PC = 20
+Memory Access:
+AR = 20 block number = 5 cache line number = 5 cache line = 20 tag = 0
+Cache hit
+result: cache line = 20 tag = 0
+fetch2: DR = 148 and PC = 21
+fetch3: IR = 148 and AR = 21
+xlsl instruction
+2
+xlsl1 AC = 2 ZCVN = 0000
+Current Data: AC = 2, R = 2, ZCVN = 0000, AR = 21, PC = 21, DR = 148
+fetch1: AR = 21 and PC = 21
+Memory Access:
+AR = 21 block number = 5 cache line number = 5 cache line = 21 tag = 0
+Cache hit
+result: cache line = 21 tag = 0
+fetch2: DR = 149 and PC = 22
+fetch3: IR = 149 and AR = 22
+xlsr instruction
+xlsr1 AC = 1 ZCVN = 0000
+Current Data: AC = 1, R = 2, ZCVN = 0000, AR = 22, PC = 22, DR = 149
+fetch1: AR = 22 and PC = 22
+Memory Access:
+AR = 22 block number = 5 cache line number = 5 cache line = 22 tag = 0
+Cache hit
+result: cache line = 22 tag = 0
+fetch2: DR = 147 and PC = 23
+fetch3: IR = 147 and AR = 23
+xrr instruction
+xrr1 AC = -32768 ZCVN = 0111
+Current Data: AC = -32768, R = 2, ZCVN = 0111, AR = 23, PC = 23, DR = 147
+fetch1: AR = 23 and PC = 23
+Memory Access:
+AR = 23 block number = 5 cache line number = 5 cache line = 23 tag = 0
+Cache hit
+result: cache line = 23 tag = 0
+fetch2: DR = 146 and PC = 24
+fetch3: IR = 146 and AR = 24
+xrl instruction
+xrl1 AC = 1 ZCVN = 0100
+Current Data: AC = 1, R = 2, ZCVN = 0100, AR = 24, PC = 24, DR = 146
+fetch1: AR = 24 and PC = 24
+Memory Access:
+AR = 24 block number = 6 cache line number = 6 cache line = 24 tag = 0
+Cache hit
+result: cache line = 24 tag = 0
+fetch2: DR = 129 and PC = 25
+fetch3: IR = 129 and AR = 25
+xldac instruction
+Memory Access:
+AR = 25 block number = 6 cache line number = 6 cache line = 25 tag = 0
+Cache hit
+result: cache line = 25 tag = 0
+xldac1 AR = 26 PC = 26 DR = 0
+Memory Access:
+AR = 26 block number = 6 cache line number = 6 cache line = 26 tag = 0
+Cache hit
+result: cache line = 26 tag = 0
+xldac2 AR = 26 PC = 27 DR = 43 TR = 0
+xldac3 AR = 43
+Memory Access:
+AR = 43 block number = 10 cache line number = 10 cache line = 43 tag = 0
+Cache hit
+result: cache line = 43 tag = 0
+xldac4 DR = 127
+Memory Access:
+AR = 44 block number = 11 cache line number = 11 cache line = 44 tag = 0
+Cache hit
+result: cache line = 44 tag = 0
+xldac5 AC = 32512 DR = -1
+xldac6 AC = 32767
+Current Data: AC = 32767, R = 2, ZCVN = 0100, AR = 44, PC = 27, DR = 255
+fetch1: AR = 27 and PC = 27
+Memory Access:
+AR = 27 block number = 6 cache line number = 6 cache line = 27 tag = 0
+Cache hit
+result: cache line = 27 tag = 0
+fetch2: DR = 131 and PC = 28
+fetch3: IR = 131 and AR = 28
+xmvac instruction
+xmvac1 R = 32767
+Current Data: AC = 32767, R = 32767, ZCVN = 0100, AR = 28, PC = 28, DR = 131
+fetch1: AR = 28 and PC = 28
+Memory Access:
+AR = 28 block number = 7 cache line number = 7 cache line = 28 tag = 0
+Cache hit
+result: cache line = 28 tag = 0
+fetch2: DR = 139 and PC = 29
+fetch3: IR = 139 and AR = 29
+xclac instruction
+xclac1 AC = 0 ZCVN = 1000
+Current Data: AC = 0, R = 32767, ZCVN = 1000, AR = 29, PC = 29, DR = 139
+fetch1: AR = 29 and PC = 29
+Memory Access:
+AR = 29 block number = 7 cache line number = 7 cache line = 29 tag = 0
+Cache hit
+result: cache line = 29 tag = 0
+fetch2: DR = 138 and PC = 30
+fetch3: IR = 138 and AR = 30
+xinac instruction
+xinac1 AC = 1 ZCVN = 0000
+Current Data: AC = 1, R = 32767, ZCVN = 0000, AR = 30, PC = 30, DR = 138
+fetch1: AR = 30 and PC = 30
+Memory Access:
+AR = 30 block number = 7 cache line number = 7 cache line = 30 tag = 0
+Cache hit
+result: cache line = 30 tag = 0
+fetch2: DR = 136 and PC = 31
+fetch3: IR = 136 and AR = 31
+xadd instruction
+xadd1 AC = -32768 R = 32767 ZCVN = 0011
+Current Data: AC = -32768, R = 32767, ZCVN = 0011, AR = 31, PC = 31, DR = 136
+fetch1: AR = 31 and PC = 31
+Memory Access:
+AR = 31 block number = 7 cache line number = 7 cache line = 31 tag = 0
+Cache hit
+result: cache line = 31 tag = 0
+fetch2: DR = 137 and PC = 32
+fetch3: IR = 137 and AR = 32
+xsub instruction
+sub1 AC = 1 ZCVN = 0110
+Current Data: AC = 1, R = 32767, ZCVN = 0110, AR = 32, PC = 32, DR = 137
+fetch1: AR = 32 and PC = 32
+Memory Access:
+AR = 32 block number = 8 cache line number = 8 cache line = 32 tag = 0
+Cache hit
+result: cache line = 32 tag = 0
+fetch2: DR = 129 and PC = 33
+fetch3: IR = 129 and AR = 33
+xldac instruction
+Memory Access:
+AR = 33 block number = 8 cache line number = 8 cache line = 33 tag = 0
+Cache hit
+result: cache line = 33 tag = 0
+xldac1 AR = 34 PC = 34 DR = 0
+Memory Access:
+AR = 34 block number = 8 cache line number = 8 cache line = 34 tag = 0
+Cache hit
+result: cache line = 34 tag = 0
+xldac2 AR = 34 PC = 35 DR = 43 TR = 0
+xldac3 AR = 43
+Memory Access:
+AR = 43 block number = 10 cache line number = 10 cache line = 43 tag = 0
+Cache hit
+result: cache line = 43 tag = 0
+xldac4 DR = 127
+Memory Access:
+AR = 44 block number = 11 cache line number = 11 cache line = 44 tag = 0
+Cache hit
+result: cache line = 44 tag = 0
+xldac5 AC = 32512 DR = -1
+xldac6 AC = 32767
+Current Data: AC = 32767, R = 32767, ZCVN = 0110, AR = 44, PC = 35, DR = 255
+fetch1: AR = 35 and PC = 35
+Memory Access:
+AR = 35 block number = 8 cache line number = 8 cache line = 35 tag = 0
+Cache hit
+result: cache line = 35 tag = 0
+fetch2: DR = 1 and PC = 36
+fetch3: IR = 1 and AR = 36
+ldac instruction
+Memory Access:
+AR = 36 block number = 9 cache line number = 9 cache line = 36 tag = 0
+Cache hit
+result: cache line = 36 tag = 0
+ldac1 AR = 37 PC = 37 DR = 0
+Memory Access:
+AR = 37 block number = 9 cache line number = 9 cache line = 37 tag = 0
+Cache hit
+result: cache line = 37 tag = 0
+ldac2 AR = 37 PC = 38 DR = 45 TR = 0
+ldac3 AR = 45
+Memory Access:
+AR = 45 block number = 11 cache line number = 11 cache line = 45 tag = 0
+Cache hit
+result: cache line = 45 tag = 0
+ldac4 DR = 128
+ldac5 AC = -128
+Current Data: AC = -128, R = -1, ZCVN = 0110, AR = 45, PC = 38, DR = 128
+fetch1: AR = 38 and PC = 38
+Memory Access:
+AR = 38 block number = 9 cache line number = 9 cache line = 38 tag = 0
+Cache hit
+result: cache line = 38 tag = 0
+fetch2: DR = 8 and PC = 39
+fetch3: IR = 8 and AR = 39
+add instruction
+add1 AC = 127 R = -1 ZCVN = 0110
+Current Data: AC = 127, R = -1, ZCVN = 0110, AR = 39, PC = 39, DR = 8
+fetch1: AR = 39 and PC = 39
+Memory Access:
+AR = 39 block number = 9 cache line number = 9 cache line = 39 tag = 0
+Cache hit
+result: cache line = 39 tag = 0
+fetch2: DR = 11 and PC = 40
+fetch3: IR = 11 and AR = 40
+clac instruction
+clac1 AC = 0 ZCVN = 1000
+Current Data: AC = 0, R = -1, ZCVN = 1000, AR = 40, PC = 40, DR = 11
+fetch1: AR = 40 and PC = 40
+Memory Access:
+AR = 40 block number = 10 cache line number = 10 cache line = 40 tag = 0
+Cache hit
+result: cache line = 40 tag = 0
+fetch2: DR = 255 and PC = 41
+fetch3: IR = 255 and AR = 41
+halt instruction
+Current Data: AC = 32512, R = 32767, ZCVN = 1000, AR = 41, PC = 41, DR = 255
+Cache hits = 86 Cache misses = 12
+--- running again---
+ 
+
+Carl Stevenson
+RSCPU
+This program accepts the title of a file from the
+user, opens the file, then reads in lines of 
+hexadecimal bytes, and executes them in the 
+simulated CPU.
+
+Enter the name of the file containing the program: 
+You chose: /home/mathcs/turnin/bracken/cs330/dummy
+
+Initial register values: 
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 0, PC = 0, DR = 0
+	IR = 0, TR = 0
+
+Memory Access:
+AR = 0 block number = 0 cache line number = 0 cache line = 0 tag = 0
+Cache miss
+result: cache line = 0 tag = 0
+Memory Access:
+AR = 1 block number = 0 cache line number = 0 cache line = 1 tag = 0
+Cache hit
+result: cache line = 1 tag = 0
+Memory Access:
+AR = 2 block number = 0 cache line number = 0 cache line = 2 tag = 0
+Cache hit
+result: cache line = 2 tag = 0
+Memory Access:
+AR = 3 block number = 0 cache line number = 0 cache line = 3 tag = 0
+Cache hit
+result: cache line = 3 tag = 0
+Memory Access:
+AR = 4 block number = 1 cache line number = 1 cache line = 4 tag = 0
+Cache miss
+result: cache line = 4 tag = 0
+Memory Access:
+AR = 5 block number = 1 cache line number = 1 cache line = 5 tag = 0
+Cache hit
+result: cache line = 5 tag = 0
+Memory Access:
+AR = 6 block number = 1 cache line number = 1 cache line = 6 tag = 0
+Cache hit
+result: cache line = 6 tag = 0
+Memory Access:
+AR = 7 block number = 1 cache line number = 1 cache line = 7 tag = 0
+Cache hit
+result: cache line = 7 tag = 0
+Memory Access:
+AR = 8 block number = 2 cache line number = 2 cache line = 8 tag = 0
+Cache miss
+result: cache line = 8 tag = 0
+fetch1: AR = 0 and PC = 0
+Memory Access:
+AR = 0 block number = 0 cache line number = 0 cache line = 0 tag = 0
+Cache hit
+result: cache line = 0 tag = 0
+fetch2: DR = 150 and PC = 1
+fetch3: IR = 150 and AR = 1
+xmvi instruction
+Memory Access:
+AR = 1 block number = 0 cache line number = 0 cache line = 1 tag = 0
+Cache hit
+result: cache line = 1 tag = 0
+xmvi1 DR = 255 PC = 2 AR = 1
+Memory Access:
+AR = 2 block number = 0 cache line number = 0 cache line = 2 tag = 0
+Cache hit
+result: cache line = 2 tag = 0
+xmvi2 AC = -256 DR = -1
+xmvi3 AC = -1
+Current Data: AC = -1, R = 0, ZCVN = 0000, AR = 2, PC = 3, DR = 255
+fetch1: AR = 3 and PC = 3
+Memory Access:
+AR = 3 block number = 0 cache line number = 0 cache line = 3 tag = 0
+Cache hit
+result: cache line = 3 tag = 0
+fetch2: DR = 131 and PC = 4
+fetch3: IR = 131 and AR = 4
+xmvac instruction
+xmvac1 R = -1
+Current Data: AC = -1, R = -1, ZCVN = 0000, AR = 4, PC = 4, DR = 131
+fetch1: AR = 4 and PC = 4
+Memory Access:
+AR = 4 block number = 1 cache line number = 1 cache line = 4 tag = 0
+Cache hit
+result: cache line = 4 tag = 0
+fetch2: DR = 150 and PC = 5
+fetch3: IR = 150 and AR = 5
+xmvi instruction
+Memory Access:
+AR = 5 block number = 1 cache line number = 1 cache line = 5 tag = 0
+Cache hit
+result: cache line = 5 tag = 0
+xmvi1 DR = 128 PC = 6 AR = 5
+Memory Access:
+AR = 6 block number = 1 cache line number = 1 cache line = 6 tag = 0
+Cache hit
+result: cache line = 6 tag = 0
+xmvi2 AC = -32768 DR = 0
+xmvi3 AC = -32768
+Current Data: AC = -32768, R = -1, ZCVN = 0000, AR = 6, PC = 7, DR = 0
+fetch1: AR = 7 and PC = 7
+Memory Access:
+AR = 7 block number = 1 cache line number = 1 cache line = 7 tag = 0
+Cache hit
+result: cache line = 7 tag = 0
+fetch2: DR = 136 and PC = 8
+fetch3: IR = 136 and AR = 8
+xadd instruction
+xadd1 AC = 32767 R = -1 ZCVN = 0110
+Current Data: AC = 32767, R = -1, ZCVN = 0110, AR = 8, PC = 8, DR = 136
+fetch1: AR = 8 and PC = 8
+Memory Access:
+AR = 8 block number = 2 cache line number = 2 cache line = 8 tag = 0
+Cache hit
+result: cache line = 8 tag = 0
+fetch2: DR = 255 and PC = 9
+fetch3: IR = 255 and AR = 9
+halt instruction
+Current Data: AC = 32767, R = -1, ZCVN = 0110, AR = 9, PC = 9, DR = 255
+Cache hits = 15 Cache misses = 3

@@ -1,0 +1,45 @@
+Username:  stevenc
+Date:      Thu Apr 25 14:07:17 EDT 2013
+ 
+*** Compiling ***
+javac *.java
+--- Running Append1 ---
+ 
+
+Append Timing Test 1:
+ Enter the number of values you want to append: 
+Appending 10000 values to a LinkedList took : 0.003 seconds.
+
+Appending 10000 values to an ArrayList took : 0.002 seconds.
+--- Running Append2 ---
+ 
+
+Append Timing Test 2:
+ Enter the size of the list to append to: 
+Appending one value to a LinkedList took : 0.0 seconds.
+
+Size of ArrayList before append is : 10000.
+
+Size of ArrayList after append is : 10001.
+
+
+Appending one value to an ArrayList took : 0.0 seconds.
+--- Running Prepend1 ---
+ 
+
+Prepend Timing Test 1:
+ Enter the number of values you want to prepend: 
+Prepending 10000 values to a LinkedList took : 0.007 seconds.
+
+Prepending 10000 values to an ArrayList took : 0.02 seconds.
+--- Running Prepend2 ---
+ 
+
+Prepend Timing Test 2:
+ Enter the size of the list to prepend to: 
+Prepending one value to a LinkedList took : 0.0 seconds.
+
+Prepending one value to an ArrayList took : 0.0 seconds.
+ 
+rm -f *.class *~ *#
+ 

@@ -1,0 +1,1 @@
+// AccountBalanceException.java is an exception used to indicate//		an overdraft//// Written by: Charles Hoot, for Hands On Java.// Date: July 2000// **************************************************************package AccountKinds;public class AccountBalanceException extends AccountException {		public AccountBalanceException (String reason) {		super(reason);	}}	

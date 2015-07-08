@@ -1,0 +1,1505 @@
+software:
+
+    program
+    documentation
+        -end user
+        -program
+    configuration
+    
+software engineers:
+    concerned with developing software
+    all aspects of software production
+    engineering discipline
+    
+    
+    software is intangible
+    
+    
+software process:
+
+
+    procedures that produce software
+    
+    specification
+    development
+    validation
+    
+    acceptance testing
+        -testing software in the scope of the requirements
+        -requirements analysis
+        
+    system testing
+    integration testing
+        -integrating subsystems
+        
+    module testing
+    unit testing
+    
+    validation
+    	-testing against requirements
+   	Verification
+   		-does product function without errors
+   		-"did we build the product right?"
+   	
+   	
+   	
+   	testing
+   		- observe execution to evalute system
+   		-trying to demonstrate that it's not correct
+   		
+   	test case
+   		-input values
+   		-expected output
+   		-anything required as prefix and suffix conditions
+   		
+   		
+   		
+   	black box testing
+   		-specification driven
+   		
+   	white box testing
+   		-strucural testing
+   		
+   	faults:
+   		-data fault
+   			-array bounds
+   			-variables, globals, constants
+   		- control fault
+   			-program control errors
+   		- i/o fault
+   		- interface fault
+   			-shared memory
+   			-passing with other programs
+   		- storage fault
+   			-dynamic memory allocation
+   			- linked structures
+   			
+   		- exception fault
+   		
+   		
+   		
+   	partition testing
+   		-define partitions
+   		-programs should behave similarly for all values
+   		partition
+   		    - input and output data often fall into different classes
+   		    where members of a class are related
+   		equivalence partition
+   		    -programs behaves the same for each equivalence class memeber
+   		    -choose test cases from each partition
+   		
+   		
+   		white box testing
+            -structural testing
+                -path testing
+                    -develop path of testing where every path executes
+                    at least once   
+                    -doesn't guarantee correct code	
+                    -test every path builds confidence	
+   		
+   	binary search
+   	    -pre condition - sorted
+   	    - looking for an element
+   	    
+   	size of array
+   	even number
+   	
+   	
+// end software engineering, begin C++
+
+
+C++
+___
+
+C with objects
+
+Java and C++
+
+    -both have main
+    -C++ main not part of any class
+    -main is in global scope, cannot have any other main
+    
+    directives
+    
+        -analogous to java import
+        
+    
+    
+    #include <iostream>
+    using namespace std;
+    int main(){
+    
+        cout << "Hello, world!"<<endl;
+        return 0;
+    }
+    
+    
+    comments the same
+    
+Identifiers and Keywords
+
+    identifiers
+        -must begin with a letter or _
+        -combination of letters,_, numbers
+    
+    data types
+        - bool
+        - int
+        - char
+        - unsigned char
+        - signed char
+        Integers
+            Signed
+                - short
+                - int
+                - long
+            Unsigned
+                - unsigned short
+                - unsigned
+                - unsigned long
+        Floating Point #
+            - float
+            - double
+            - long double
+            
+        declaration assigns memory to a variable
+        
+        literal constants
+            ex: x = x * 3
+                    ^
+        octal and hex support
+        
+        use named constants
+        
+    Enumerations
+    
+        ex:
+        enum var{sun,mon,tue,wed,thu,fri,sat}            
+            
+    
+        
+compiling:
+
+    g++
+    
+typedef - give another name to an existing data type
+
+
+overloading the assignment operator
+x=y=7;
+
+
+< > <= >+ == !=
+
+&& ||
+
+implicit type conversions
+
+automatic type conversion during assignment and statement evaluation
+
+    -data type of RHS turned into data type of LHS
+    - lower types upgraded to higher type
+    - use the static cast to explicity change types
+    - static_cast<type>(val);        
+
+a += b
+++ and -- operators
+
+istream
+ostream
+
+#include<iostream>
+
+cin - input
+cout - output
+cerr - error stream
+
+>> input
+<< output
+
+istream which is input goes into the variable cin
+operator moves the data from cin to x
+
+>> skips whitespace
+
+get 
+cin.get(c1);
+cin.getline();
+
+cout output variable
+
+cout<<x
+
+cout goes to ostream
+
+put function for individual characters
+
+endl is a new line
+
+ex. cout<<"hello world"<<endl
+
+
+functions
+
+type name(formal arguments){
+
+    .
+    .
+    .
+}
+
+when you call the function, actual arguments on the function call,
+assigned to the formal arguments
+
+
+when passing parameters, default is pass by value
+
+    - function call makes a copy of the values of the arguments
+        and uses the copies
+    - function cannot alter the actual arguments
+    
+activation record
+    -going to have local variables
+    
+    
+to change variables you need to pass by reference
+
+a reference to the actual arguments is passed
+the function references the actual argument locations
+
+formal argument
+
+type * name (indicates pass by reference)
+
+&var means the address of the variable var
+
+
+
+constant reference arguments
+
+input object may be very large
+save time and space by passing large objects as constant reference arguments
+
+ex
+
+  void f(const *x, int y, int *z)
+  
+  x is a constant reference argument
+    -passed as const means it won't let f modify it
+  y is a value argument
+  z is a reference argument
+
+
+
+
+in order for a function to be called, the compiler must know about it
+two different things you can do
+
+you can define the function at the top of the file
+another convention is declaring the function initially, then defining it after main()
+
+wants us to always use brackets for conditionals
+
+context within a program where a variable or identifier is valid
+name is bound to a location
+
+global scope
+  - if you submit a program with a global variables, fail
+  
+arrays
+  - homogeneous collection of data
+  - static
+  - type var[]
+  
+passing an array to a function
+  always pass by reference
+
+
+multidimensional arrays
+
+  - first index rows, second index columns
+  - can make an array of arrays
+  
+  
+Strings
+
+  - Strings in C++ are different than those in C
+  - Can use C string if using the appropriate library
+  - #include<string>
+    usingnamespace std
+    string title;
+    title = "dat string";
+    title.length();
+         .size();
+    ordering is alphabetic
+    > and < and = are based on their spelling
+    can concatenate with the plus operator
+    
+array is homogenous
+structure is heterogenous
+
+  each item in a structure is called a member
+  
+  
+  struct Person{
+  
+    string name;
+    int age;
+    double gpa;
+  
+  }
+  
+  can then
+  
+  Person student;
+  
+  student.name = "Jane Doe";
+  student.age = 20;
+  student.gpa = 3.5;
+
+
+  can have structs within structs
+  can declare an array of structures
+
+
+file i/o
+
+two kinds of files
+  binary files
+  text files
+  
+  we will be working with text files
+  
+  
+  text files
+  appear to be divided into lines
+    due to the newline character
+  there is an EOF character
+
+  #include<fstream>
+  
+  
+  fstream infile("filename")
+  
+  filename can be a literal constant or a string variable
+  
+  ifstream infile
+  infile.open("filename");
+  
+  look at the C++ info on her website for opening files
+  
+  be careful when looking for the EOF character in loops
+  
+  
+  continue goes back to the top of the loop
+  break breaks out of it
+  assert checks for the conditon
+  
+  fin.close() closes file
+  
+  
+  
+  
+classes
+
+  when defining a C++ class, two files
+  interface to the class declared in .h file
+  implementation defined in .cpp file
+  
+  
+  in the .h file
+  class classname{
+    // constructor
+    public:
+    classname();
+    
+    //may need a destructor
+    ~classname(); //destructor
+    //member functions
+  
+    private:  
+  } // end classname
+  
+  in the .cpp file
+  
+  
+  
+  #include<classname.h>
+  classname::classname()
+  
+  when you call a memebr function to the class
+  'this' pointer is a pointer to this class
+    always points to the instance of the class making the function call
+    "essentially how objects are passed"
+  
+  
+  
+  c++ needs a makefile
+  
+quiz on wednesday(the earliest)
+
+  back to conditionals for a moment:
+  
+    if()
+    
+    assignment
+    
+    == test
+    = assignment
+  
+  
+  
+  
+Back to the 'this' pointer
+  passed as a hidden object
+  pointer to the instance of the class
+  
+  
+-> icon
+
+  ex
+    int x, *px;
+            ^ integer pointer
+    x=7;
+    px = &x;
+    
+    both px and x are 7
+    
+  when a pointer variable contains an address of an object or a structure,
+  use -> to access the data member of the object/structure
+  
+  can also use . notation
+  
+  
+overload of the assignment operator
+
+class template
+
+  template allows you to describe a class based on a data parameter
+  avoid multiple class definitions for different data types
+  
+  ex: list, stack
+  
+  if no template, would need separate class for each data type
+  
+    in this class, we do one template, then focus on data structure we're writing
+    
+    
+  for template, precede class definition with
+  
+    template<Class T>
+                // ^ any letter
+  and use T to represent the data type
+  
+  recommend start with what is given with the template
+  
+  with a template, compiler needs to see an example of the class being used in order to compile it
+  
+  
+  suppose we have a linked list
+  
+  
+  if you eclare a class called list
+  have something in private called 
+    node *head;
+    int numelements;
+    
+    
+  need to overload the assignment in order to build the class
+  
+  
+  
+  
+  function calls and recursion
+  
+  recursion
+    function that calls itself
+    
+    keep recursively calling until you have a solution
+    
+    how can the problem be defined as a smaller problem of the same type?
+    how does each recursive call diminish the size of the problem?
+    what instance serves as the base case?
+    as problem size diminished, will the base case be reached?
+    
+    
+  function call
+    stack frame/ activation record created
+    
+    -local variables
+    -actual parameters
+    -return value
+    -return address
+    
+    on a function call:
+      -stack frame created and pushed onto the stack
+      -control passed to function
+      
+    
+exam friday
+programming language paradigms
+SoftwareEngineering + Testing
+C++
+recursion
+8.5x11 sheet of paper
+  some define or explain
+  at least 1 question about testing
+  C++ code fragments (show what happens)
+
+
+
+
+
+  
+
+
+  
+  each recursive call should split the problem into smaller pieces.
+
+  in definins a recursive solution to a problem
+  - if an answer is no to any of the following, do not use recursion:
+
+    1. is the algorithm naturally suited to recursion?
+    2. is the recursive solution shorter and more understandable?
+    3. does the recursive solution run an acceptable space and time limits
+
+    when looking at recursion vis-a-vis efficiency
+      -overhead associated with function calls
+      -inherant inefficiency withhin the recursive solution
+      
+
+
+
+  fibonacci example of inefficient recursion
+
+    -example that is not more efficient, or efficient at all, for what it does
+
+  four rules for recursion
+    - at least 1 base case
+    - must make progress (towards the base case, diminishing the size of the problem)
+    - design rule-assume each recursive call returns
+    - compound interest rule-never duplicate any work by solving the same instance of the problem by recursive calls
+
+// end chapter 1 coverage (will be on the exam)
+
+// begin chapter 2 (not on first exam)
+
+  algorithm analysis
+    -define an algorithm's efficiency so that algorithms can be compared
+    -analysis is independant from implementation
+    - defined by number of instruction performed
+
+  algorithm
+    - step by step instructions on how to solve a problem
+    - have input and output
+    - definitiveness (where each instruction is unambiguous)
+    - finiteness(terminates after a given number of steps)
+    - describes how to solve a problem
+    - constrast program, implementation of an algorithm
+    - want to compare algorithms, not programs
+  pick a basic operation that represents the amount of work done by the algorithm as a function of input size
+
+
+  ex
+    while(cur!=null)
+    {
+      cout<<cur+data<<endl;
+      cur=cur*next;
+    }
+    assignments? n+1
+    comparisons? n+1
+    writes?      n
+    proportional to n
+
+
+Big O notation
+  - definition of an algorithm's growth rate
+
+developing a method to compare algorithms
+
+  function of problem size
+    algorithm growth rate
+
+Big O definition (order of magnitude)
+- can use either definition
+- have to use one of these
+  - Constant definition
+  Let g(n) be the number of operations wthat some algorithms A performs for input size n
+
+  g(n)is contained within O(f(n)) if constants k and n_0 exist
+  such that g(n) <= k+f(n) for all n>=n_0
+
+  suppose algorithm A performs g(n) = n^2-3n+10 operations
+
+  show g(n) is contained within O(n^2)
+  find k and n_0 such that g(n)=kn^2 for all n>=n_0
+
+  let k=1 and n_0 = 3
+  4-6 + 10 !<=4
+
+  let k=1 and n_0 = 4
+  16 - 12 + 10 
+
+
+
+  - limit definition
+
+  g(n) is contained in O(f(n)) if lim n-> inf. g(n)/f(n) = c >=0
+
+  let g(n) = 5n+2
+
+  lim n->inf. 5n+2/n = lim n->inf. 5n/n + lim n->inf. 2/n
+  = 5+0
+
+
+big O is an upper bound g(n) is contained within O(f(n))
+growth of g(n) bound by f(n) - g(n) will not grow faster than f(n)
+
+g(n) = n
+--------  contained within O(n^2)?
+O(n) 
+
+big O: upper bound
+
+theta : exact growth rate 
+  g(n) = n !contained theta(n^2)
+
+omega: lower bound
+
+common growth rate functions
+(lg n == log2 n)
+
+lg n 
+n
+n * lg n
+n^2
+n^3
+
+2^n     | bad bad bad
+n!      | generally not solveable
+
+
+sequential search analysis
+
+worst (every)case:
+average case:
+best case:
+
+
+using lists as an example:
+
+list implementation
+  array implementation vs linked implementation
+
+  accessing? array is best
+  insert and deleteing? linked is best
+
+
+
+searching:
+
+  two different ways of searching
+  - sequential
+  - binary
+    -pre condition: must be sorted
+
+  sequential search worst case: O(n)
+                    best case:  O(1)
+                    average:    O(n/2)
+  binary search:    worst case: O(log n)
+
+  how do we know it's O(log n) ?
+
+    assume n = 2^k
+    keep dividing until array of size 1
+    k divisions
+    n=2^k
+    k=log n
+
+
+    recurrance relation to demonstrate the function for complexity
+
+    W(n) = W(n/2) + 1     //worst case
+
+    want to show W(n) = W(n/2) + 1 = log n + 1
+    let n=2^k and W(1) = 1
+    W(n) = W(n/2) + 1
+         = W(n/4) + 1 + 1
+         = W(n/8) + 1 + 1 + 1
+         .
+         .
+         .
+         = W(1) |  + 1 + 1 + ... + 1  |
+                -----------------------
+                          k times
+         = 1 + log n is contained within O(log n)
+
+
+  when n gets big, O(log n) is much better
+
+  selection sort:
+    look it up
+
+
+fibonacci
+
+  n increase by 2
+  #computed terms more than doubles
+  n power of 2
+  T(n) > 2 x T(n-2)   recurrance relation
+       > 2 x 2 x T(n-4)
+       > 2 x 2 x 2 x T(n-6)
+
+
+
+       T(n) > 2^ n/2
+
+
+  we induce
+
+
+  base case
+  show two for base case
+  induction from hypothesis
+  assume two for all m<n
+  induction step
+
+  base case:
+    need 2 base cases because induction step assuming results for 2 cases
+    n=2, n=3
+
+    T(2)=3>2=2^2/2
+    T(3)= 5> 2^3/2
+
+  hypothesis:
+    assume true for all m such that 2<=m<n
+    T(n)>2^n/2
+
+  proof:
+    T(n) = T(n-1) + T(n-2) + 1
+    using hypothesis
+    > 2*((n-1)/2) + 2*((n-2)/2)
+    > 
+
+
+    recursive fib O(2^(n/2))
+
+
+
+
+Dynamic Programming
+  technique where you calculate terms once, then use them in future calculations 
+
+  iterative fib
+  linear O(n)
+
+
+
+we've gone over:
+
+  sequential seach O(n)
+  binary search O(logn)
+  selection sort O(n^2)
+
+
+
+maximum subsequence problem
+
+  unordered integers
+  A1>An
+
+  max of the sum of Ak k i->j
+
+
+
+
+
+Linked Lists
+
+  simplest? arrays
+   -contiguous storage of list elements
+   -fixed size
+  time estimates for an array
+    - print linear
+    - find linear
+    - find kth  constant
+    - insertion and deletion
+      - expensive
+
+
+
+
+int *P;
+P= &P
+*P = 6
+^ dereference of P
+go to the memory address stored in P and store 6 there
+
+new operator
+  dynamically stores memory at runtime
+delete
+  gives memory back
+
+
+
+
+
+int *P, *Q; <-- both pointers to int
+int x;   <- is an int
+
+P = &x
+*P = 6;
+^ go to &x and store 6
+P= new int;
+*P = 7;
+Q=P; alias
+Q gets 200, both point to the new int
+Q = new int;
+Q points to the new it, Q no longer alias of P
+*Q = 8;
+P = null;
+
+
+
+Linked list is noncontiguous storage of a list
+  - avoids long instertion and deletion times
+
+
+  contains
+    - data element
+    - link to next element in list
+
+  use a structure to define the link
+
+  struct node
+  {
+    datatype data;
+    node* node;
+  }
+
+  node* head = null; // points to first element in list
+
+  node is a list item
+  node will contain data, thena  pointer to the next item in the lists
+    null in last list element
+  header points to first node
+
+  things to consider while doing list manipulation
+  list manipulation cases:
+    -insert into empty list
+    - insert to the beginning of the list
+    - insert at the end of the list
+      - with and without tail pointer
+
+  struct node{
+
+    itemtype item;
+    node *next;
+  } 
+
+  head *node;
+
+
+  insertion into an empty list
+
+    head = new node;
+    head->item = data;
+    head->next= NULL;
+
+  insertion at the beginning of the list
+
+    node *temp;
+    temp = new node;
+    temp->item = data;
+    temp->next = head;
+    head = temp;
+
+  insertion in the middle of the list
+
+    node *temp;
+    //assume current is a node * pointing at the node to insert after
+    temp = new node;
+    temp->item = data;
+
+
+        temp->next = current->next;
+        current->next = temp;
+
+
+
+
+
+
+
+
+
+
+
+doubly linked lists
+
+  two pointers next & previous
+  
+circular lists
+  operations
+  - find element
+  - insert at beginning, middle, end
+  - similar delete
+
+
+shallow copy vs deep copy
+  shallow copy
+  - not overloaded assignment operator
+  - data members only
+
+  overload the assignmen operator to allow for a deep copy
+  
+
+
+
+
+
+
+
+
+
+exam 2
+  algorithm analysis
+  lists
+  class discussion
+  allowed a sheet
+
+
+
+
+stacks
+
+
+
+
+stack applications:
+  reverse data
+  parse data
+  postpone processing
+  backtrack
+    -algorithms
+    -traversing a graph
+
+
+postponement example
+  evaluation of infix expressions
+    convert infix to postfix
+    evaluate postfix
+
+
+graph traversal
+  -have nodes
+    -path nodes
+    - back track node
+
+
+
+stacks are used to implement function calls
+
+
+
+stack - LIFO
+  - in and out
+  - same end fo data structure
+
+linked list
+  - random sccess
+  - access any element
+  - insert/delete element
+
+
+
+QUEUES
+---------
+
+-FIFO
+- enqueue at the end of the list
+- dequeue from the front of the stack
+
+
+
+basic queue operations
+  - enqueue, dequeue
+  - isEmpty
+  - report front of queue
+
+
+queue implementations
+
+  array 
+  pointer based
+   - list implementaton
+   - front and back
+   - remove from front, insert at back
+   - alternatively, make it circular
+    - need only one pointer
+    - backpointer
+    - gives access to bother last and first element
+  array based
+    - fixed size
+    - 2 indices
+      - front index where elements are removed
+        - initially 0
+      - back index where elements are inserted
+        - initially -1
+    - back = maxqueue-1 indicates fail
+    - insert back ++
+      array[back] = data
+    - remove data = array[front]
+      front++
+    needs a circular array
+
+
+
+TREES
+------------
+
+
+  trees are a heirarchical data structure
+  elements can have multiple successors/predecessors
+
+  tree is a connected acyclic graph
+
+  parent/child relationship
+  sibling- children of the same parent
+  each node has at most one parent
+  root - exactly 1 per tree
+
+  leaf - node with no children
+  ancestor of a node n
+    - node on the path from root to n
+
+  descendant
+
+exactly one root
+
+path rom node i to node k
+
+sequence of nodes such that node i is the parent of node i+1 fro all i<=i<k
+length of the path is the number of edges
+
+for any node in the tree, n_i, depth of n_i is the length of the path from root to n_i
+
+two different meanigns for height
+
+  text: height of node n_i is the length of the longest path from n_i to a leaf
+        (number of edges)
+
+traversing a tree
+-------------------
+tree processing typically recursive
+each node be processed exactly once
+visit each node in the tree
+process it
+depth first, breadth first
+
+
+3 standard depth-first traversals
+  -pre order
+  - in order
+  - post order
+
+
+binary tree
+
+  max 2 children
+  set of t nodes such that either t is empty
+  t partitioned into disjoint subsets
+    - single root
+    - 2 possible empty 
+  
+  binary tree cannot be empty
+  
+  depth in worst case n-1
+    (all on one side)
+  depth in best case 
+
+
+binary tree each node has at most 2 children
+
+use recursion to do a traversal
+
+upcall
+----
+user function passed to the class
+class code calls user function
+
+
+full binary tree T
+  two possibilities
+    T is empty
+    T has a height > 0
+
+complete binary tree T of height H
+  all nodes at level h-2 and above have 2 children
+
+  when a node at level h-1 has children, all nodes to it's left at the same level have 2 children
+
+
+complete binary tree is height-balanced
+height balanced if the height of any right subtree differs from the left subtree by nmo more than one
+
+
+implementation
+  could use an array of structures
+
+
+complete binary tree - simple implementation
+
+binary tree fills from left to right
+
+given a node stored in tree[i], its left child is in tree[2i + 1] its right child is in tree[2i+2]
+
+look at book figure 4.16 .17 .18 for implementing a binary search tree
+
+
+binary search tree
+ordered tree
+
+  1. each node contains one key
+  2. keys in the left sub tree of a given node are less than the key in that node
+  3. in the right sub tree on a given node, each is greater
+
+
+insertion
+  find appropriate place
+    start at the root
+    if insertion node <current,
+    traverse left
+    if insertion node >current,
+    traverse right
+    when get to end, create a new one with null left and right
+
+removal
+  3 cases
+    n is a leaf
+      set appropriate lst and rst in parent to null
+    n has one child
+      n in parents lst, replace the parents lest pointer with n's child pointer
+    n has 2 children
+      if n is in its parents rst, replace n's parents rst pointer with the child pointer
+
+  easiest
+
+if n has two children, rather than deleting n, find a node that is easier to delete than n
+  1. locate node m that is easier to delete than n
+  2. copy the data item in m to n essentially deleting the data of n from the tree
+  3. remove m from the tree
+
+  all nodes left of n<m
+  all nodes right of n>m
+
+  immediate successor or immediate predecessor in immediate order
+  
+
+
+
+use temporary stack for the copy constructor
+
+
+
+removing an item from a tree redux
+
+
+binary search tree can become skewed
+
+
+avl tree
+
+identical to a binary search tree
+except the height of LST and RSTdiffer by no more than one
+also called height balanced trees
+
+all operations but insert are O(log n)
+
+4 cases of violation
+----------------------
+1. insertion into LST of left child of A
+2. insertion into RST of the left child of A
+3. insertion into LST of right child of A
+4. insertion into RST of the right child of A
+
+
+2-3 trees
+
+  each interanl node has either 2 or 3 children
+  all leaves are at the same level
+  node with 2 children
+    2 node
+  node with 3 children
+    3 node
+
+  2-3 search tree
+    use recursive definition
+    T is a 2-3 tree of height h
+    if
+    1. T is empty
+    2. or in the form   R
+                      Tl  Tr
+                  > nodes in Tl
+                  < nodes in Tr
+    or     R
+        Tl Tm Tr
+
+    keep in Tl < smaller of 2 data items
+    keep in Tm > smaller of 2 data items
+    keep in Tm < larger of 2 data items
+    keep in Tr > larger of 2 data items
+
+
+B trees
+  supposed to be an improvement over binary search trees
+  B trees of order m is an 
+    data items stored in leaves
+    non-leaf nodes store up to m-1 keep to guide the search key i represents the smallest key in subtree i + 1
+
+
+hashing
+  find data with one test
+  used in time critical operations
+  key -> algorithm -> location of data
+  key -> hash function -> address
+
+  take integer x map it to an integer that can be used as an index
+  use hashing for insert, delete in constant time
+
+  performs mapping
+  ideally simple
+  ideally any two keys will map to different locations
+  
+
+
+
+
+
+
+
+priority queues
+
+  has a weight associated with elements
+
+binary heap
+  way to implement a priority queue
+  complete binary tree
+    every non-leaf node has 2 children
+    full donwn to level h-1
+    filled from left to right
+    formally, all nodes at h-2 and above have 2 children
+    when a node at level h-1 has children, all nodes to its left at the same level have two children each and when a node a h-1 has one child, it is a left child
+
+  binary heap is a complete binary tree with properties:
+    empty
+    root contains a search key <= search key in each of its children
+    whose roots heads as sub trees
+
+
+
+exam:
+
+stacks queues trees binary search trees avl 2-3 trees hashing
+
+  when deletions happen
+
+
+
+heap
+  complete binary tree
+  can be empty
+  root - key smaller
+  if the root is at index 0
+  lc of i is at 2i+1
+  rc of i is at 2i+2
+  parent of i (if not the root) is at i-1/2
+
+  if root is at index 1
+  lc is at 2i
+  rc is at 2i+1
+  parent[1/2]
+
+  
+sorts
+
+insertion sort
+
+  execution time for n records is (n(n-1))/2, O(n^2)
+  average time O(n)
+
+  if the data is nearly sorted, insertion is very efficient
+
+shell sort
+
+  efficientcy of shell sort dependant on properties of increments
+
+  early increments should not be multiples of later increments as to avoid redundancy
+
+selection sort
+
+bubble sort
+  compare adjacent items
+  O(n^2)
+
+
+linear and quadratic probing
+
+
+
+
+heapsort
+can use a heap to accomplish sorting
+O(nlogn)
+maxheap- sort ascending order
+minheap- sort descending order
+
+transform array into a heap
+
+
+mergesort
+
+heapsort is an in-place sort, merge sort is not
+
+
+merge sort
+  divide and conquer algorithm
+  divide array in array in half
+  keep divind in half until you have n arrays of size 1
+  then repeatedly merge
+  end with a sorted array of size n
+  n-1 comparisons in merge
+  2n moves
+  O(n)
+  mergesort
+  W(n) = W(n/2) + W(n/2)
+
+
+
+
+
+
+quicksort
+
+  divide and conquer algorithm
+  divide array into 2 partitions
+  division based on pivot point
+  items > pivot moved to right of the pivot
+  items <= pivot moved to the left
+  pivot in correct sorted position
+  repeat sorting 2 subarrays until array of size one reached
+  items placed ina  gievn partition remains in that partition although the positions may change
+  pivot selection affects performance of the algorithm
+  worst case: O(n^2)
+    occurs when the array is already sorted
+  average case: O(nlogn)
+
+  advantage of quicksort is that it is an in-place sort
+
+
+
+
+summary
+                worst case
+insertion sort  O(n^2)
+shell sort      O(n^2)
+selection sort  O(n^2)
+bubble sort     O(n^2)
+heap sort       O(nlogn)
+merge sort      O(nlogn) - not in place
+quicksort       O(n^2) avg O(nlogn)
+
+
+
+
+
+talked about trees
+  trees are an ordered graph
+
+
+
+general graphs
+
+  arcs - adjacent vertices joined by an edge
+  
+
+
+
+  path between 2 vertices is a sequence of edges
+  cycle
+
+  dag - directed acyclic graph
+
+  connected graph - undirected graph
+  
+
+
+
+  sibling list of pointer
+
+
+
+
+
+
+
+  shortest path
+
+  dijkstra
+  --------
+   single source shortest path
+
+   greedy algorithm
+
+   local optimal choice
+   hope for optimal global outcome
+
+   making change example
+
+
+
+spanning trees
+
+
+
+
+Prim's algorithm
+
+
+every case time complexity
+O(N^2) - N number of vertices
+
+
+
+kruskal's mst algorithm
+
+  sort edges by weight, create disjoint subset of v one for each vertex
+  if edge connectes 2 vertices in disjoint subsets edge added subsets merge repeat until all subsets merged into one set
+
+  worst case: 
+  time to sort: mlogm
+  set manipulation: mlogm
+  fully connected graph:
+    m { N^2
+    O(n^2 logn)
+
+
+
+can bring 2 pieces of paper to the final
+there's 15 points extra credit
+
+stacks, queues
+how lists represeted in memory
+priority queues, !heaps!
+sorting - general idea behind algorithms(how they work) & execution time
+adjacency lists & matrices
+prim & kruskal
+dijkstra
+topological sort
+
+
+
+
+
+
+

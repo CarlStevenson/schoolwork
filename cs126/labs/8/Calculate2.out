@@ -1,0 +1,139 @@
+Username:  stevenc
+Date:      Thu Mar 14 14:55:23 EDT 2013
+ 
+*** compiling java Calculate2 ***
+javac *.java
+--- Running ---
+ 
+
+Welcome to the 5-function calculator!
+
+
+Please enter:
+	a, to perform addition;
+	b, to perform subtraction;
+	c, to perform multiplication;
+	d, to perform division;
+	e, to perform exponentiation;
+	f, to stop;
+--> 
+Now enter your operands: 
+The result is 11.0
+
+Please enter:
+	a, to perform addition;
+	b, to perform subtraction;
+	c, to perform multiplication;
+	d, to perform division;
+	e, to perform exponentiation;
+	f, to stop;
+--> --- Running add ---
+ 
+
+Welcome to the 5-function calculator!
+
+
+Please enter:
+	a, to perform addition;
+	b, to perform subtraction;
+	c, to perform multiplication;
+	d, to perform division;
+	e, to perform exponentiation;
+	f, to stop;
+--> 
+Now enter your operands: 
+The result is 1.1099999999999994
+
+Please enter:
+	a, to perform addition;
+	b, to perform subtraction;
+	c, to perform multiplication;
+	d, to perform division;
+	e, to perform exponentiation;
+	f, to stop;
+--> --- Running subtract ---
+ 
+
+Welcome to the 5-function calculator!
+
+
+Please enter:
+	a, to perform addition;
+	b, to perform subtraction;
+	c, to perform multiplication;
+	d, to perform division;
+	e, to perform exponentiation;
+	f, to stop;
+--> 
+Now enter your operands: 
+The result is 466.79999999999995
+
+Please enter:
+	a, to perform addition;
+	b, to perform subtraction;
+	c, to perform multiplication;
+	d, to perform division;
+	e, to perform exponentiation;
+	f, to stop;
+--> --- Running divide ---
+ 
+
+Welcome to the 5-function calculator!
+
+
+Please enter:
+	a, to perform addition;
+	b, to perform subtraction;
+	c, to perform multiplication;
+	d, to perform division;
+	e, to perform exponentiation;
+	f, to stop;
+--> ERROR, your choice must be between a and f, not q
+Try again
+
+Please enter:
+	a, to perform addition;
+	b, to perform subtraction;
+	c, to perform multiplication;
+	d, to perform division;
+	e, to perform exponentiation;
+	f, to stop;
+--> 
+Now enter your operands: ERROR: entered a non-number!
+Try again
+
+The result is 10.0
+
+Please enter:
+	a, to perform addition;
+	b, to perform subtraction;
+	c, to perform multiplication;
+	d, to perform division;
+	e, to perform exponentiation;
+	f, to stop;
+--> --- Running exponentiation ---
+ 
+
+Welcome to the 5-function calculator!
+
+
+Please enter:
+	a, to perform addition;
+	b, to perform subtraction;
+	c, to perform multiplication;
+	d, to perform division;
+	e, to perform exponentiation;
+	f, to stop;
+--> 
+Now enter your operands: 
+The result is 1.0E20
+
+Please enter:
+	a, to perform addition;
+	b, to perform subtraction;
+	c, to perform multiplication;
+	d, to perform division;
+	e, to perform exponentiation;
+	f, to stop;
+--> rm -f *.class *~ *#
+ 

@@ -1,0 +1,711 @@
+Username:  stevenc
+Date:      Thu May 1 17:59:19 EDT 2014
+ 
+*** compiling ***
+g++ -g assign10.cpp -o assign10
+--- Running ---
+ 
+Please enter the number of vertices in the graph:
+You chose 7 vertices.
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 0
+What is the second node in the edge?
+You chose 1
+
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 0
+What is the second node in the edge?
+You chose 3
+
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 1
+What is the second node in the edge?
+You chose 2
+
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 1
+What is the second node in the edge?
+You chose 4
+
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 3
+What is the second node in the edge?
+You chose 4
+
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 4
+What is the second node in the edge?
+You chose 5
+
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 4
+What is the second node in the edge?
+You chose 2
+
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 6
+What is the second node in the edge?
+You chose 3
+
+Do you have an edge to enter? n
+
+Carl Stevenson
+Graphs
+This program takes input from the user to interface with an
+instantiated graph.
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 1.
+Please enter the starting index:
+You chose 0
+Depth first search: 0 3 4 2 5 1 6 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 2.
+Depth first search: 0 3 4 2 5 1 6 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 1.
+Please enter the starting index:
+You chose 3
+Depth first search: 3 4 2 5 6 0 1 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 1.
+Please enter the starting index:
+You chose 4
+Depth first search: 4 2 5 6 3 0 1 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 1.
+Please enter the starting index:
+You chose 5
+Depth first search: 5 6 3 4 2 0 1 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 2.
+Depth first search: 0 3 4 2 5 1 6 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 3.
+Please enter the starting index:
+You chose 0
+Breadth first search: 0 3 1 4 2 5 6 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 3.
+Please enter the starting index:
+You chose 1
+Breadth first search: 1 4 2 5 3 6 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 3.
+Please enter the starting index:
+You chose 3
+Breadth first search: 3 4 2 5 6 1 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 3.
+Please enter the starting index:
+You chose 4
+Breadth first search: 4 2 5 6 3 1 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+Exiting now.
+--- Running again ---
+ 
+Please enter the number of vertices in the graph:
+You chose 5 vertices.
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 0
+What is the second node in the edge?
+You chose 1
+
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 0
+What is the second node in the edge?
+You chose 2
+
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 1
+What is the second node in the edge?
+You chose 4
+
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 2
+What is the second node in the edge?
+You chose 3
+
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 3
+What is the second node in the edge?
+You chose 0
+
+Do you have an edge to enter? n
+
+Carl Stevenson
+Graphs
+This program takes input from the user to interface with an
+instantiated graph.
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 1.
+Please enter the starting index:
+You chose 2
+Depth first search: 2 3 0 1 4 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 1.
+Please enter the starting index:
+You chose 0
+Depth first search: 0 2 3 1 4 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 2.
+Depth first search: 0 2 3 1 4 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 3.
+Please enter the starting index:
+You chose 0
+Breadth first search: 0 2 1 3 4 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 3.
+Please enter the starting index:
+You chose 1
+Breadth first search: 1 4 2 3 0 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 3.
+Please enter the starting index:
+You chose 2
+Breadth first search: 2 3 0 1 4 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+Exiting now.
+--- Running again ---
+ 
+Please enter the number of vertices in the graph:
+You chose 5 vertices.
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 0
+What is the second node in the edge?
+You chose 1
+
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 0
+What is the second node in the edge?
+You chose 2
+
+Do you have an edge to enter? n
+
+Carl Stevenson
+Graphs
+This program takes input from the user to interface with an
+instantiated graph.
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 1.
+Please enter the starting index:
+You chose 0
+Depth first search: 0 2 1 3 4 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 1.
+Please enter the starting index:
+You chose 1
+Depth first search: 1 2 3 4 0 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 1.
+Please enter the starting index:
+You chose 2
+Depth first search: 2 3 4 0 1 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 1.
+Please enter the starting index:
+You chose 3
+Depth first search: 3 4 0 2 1 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 1.
+Please enter the starting index:
+You chose 4
+Depth first search: 4 0 2 1 3 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 2.
+Depth first search: 0 2 1 3 4 
+Topological sort: [2,1,0,3,4]
+
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 3.
+Please enter the starting index:
+You chose 0
+Breadth first search: 0 2 1 3 4 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 3.
+Please enter the starting index:
+You chose 1
+Breadth first search: 1 2 3 4 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 3.
+Please enter the starting index:
+You chose 2
+Breadth first search: 2 3 4 1 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 3.
+Please enter the starting index:
+You chose 3
+Breadth first search: 3 4 1 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 3.
+Please enter the starting index:
+You chose 4
+Breadth first search: 4 1 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+Exiting now.
+--- Running again ---
+ 
+Please enter the number of vertices in the graph:
+You chose 5 vertices.
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 0
+What is the second node in the edge?
+You chose 1
+
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 0
+What is the second node in the edge?
+You chose 3
+
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 1
+What is the second node in the edge?
+You chose 2
+
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 3
+What is the second node in the edge?
+You chose 2
+
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 4
+What is the second node in the edge?
+You chose 3
+
+Do you have an edge to enter? n
+
+Carl Stevenson
+Graphs
+This program takes input from the user to interface with an
+instantiated graph.
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 1.
+Please enter the starting index:
+You chose 0
+Depth first search: 0 3 2 1 4 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 2.
+Depth first search: 0 3 2 1 4 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 3.
+Please enter the starting index:
+You chose 0
+Breadth first search: 0 3 1 2 4 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+Exiting now.
+---Running again 5---
+ 
+Please enter the number of vertices in the graph:
+You chose 3 vertices.
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 0
+What is the second node in the edge?
+You chose 1
+
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 1
+What is the second node in the edge?
+You chose 2
+
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 2
+What is the second node in the edge?
+You chose 0
+
+Do you have an edge to enter? n
+
+Carl Stevenson
+Graphs
+This program takes input from the user to interface with an
+instantiated graph.
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 1.
+Please enter the starting index:
+You chose 0
+Depth first search: 0 1 2 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 2.
+Depth first search: 0 1 2 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+Exiting now.
+---Running Again ---
+ 
+Please enter the number of vertices in the graph:
+You chose 5 vertices.
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 0
+What is the second node in the edge?
+You chose 1
+
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 0
+What is the second node in the edge?
+You chose 2
+
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 2
+What is the second node in the edge?
+You chose 3
+
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 3
+What is the second node in the edge?
+You chose 4
+
+Do you have an edge to enter? y
+What is the first node in the edge?
+You chose 4
+What is the second node in the edge?
+You chose 2
+
+Do you have an edge to enter? n
+
+Carl Stevenson
+Graphs
+This program takes input from the user to interface with an
+instantiated graph.
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+You chose menu item 2.
+Depth first search: 0 2 3 4 1 
+
+The menu items are as follows:
+
+	1. Do a depth-first search
+	2. Do a topological sort
+	3. Do a breadth-first search
+	4. Exit
+Please enter a menu item: 
+Please enter a menu item: 
+Exiting now.
+ 

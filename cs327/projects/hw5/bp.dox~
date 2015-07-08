@@ -1,0 +1,34 @@
+/** @mainpage Pascal Compiler 
+
+<p>
+  This program is a compiler for a subset of Pascal
+</p>
+
+<p>
+  The grammar for the language is:
+  <ul type="none">
+    <li>prog &rarr; PROGRAM IDENT SEMI decls cmpd_stmt PERIOD</li>
+    <li>decls &rarr; VAR decl_list;</li>
+    <li>decl &rarr; ident_list COLOR INTEGER SEMI | ident_list COLON BOOLEAN SEMI</li>
+    <li>ident_list &rarr; IDENT | IDENT COMMA ident_list </li>
+    <li>stmt_list &rarr; stmt ( SEMI stmt ) *</li>
+    <li>stmt &rarr; assign_stmt | write_stmt | writeln_stmt | if_stmt | if_else_stmt | while_stmt | cmpd_stmt | empty_stmt</li>
+    <li>assign_stmt &rarr; IDENT ASSIGN expr</li>
+    <li>if_stmt &rarr; IF expr THEN stmt</li>
+    <li>if_else_stmt &rarr; IF expr THEN stmt ELSE stmt</li>
+    <li>while_stmt &rarr; WHILE expr DO stmt</li>
+    <li>write_stmt &rarr; WRITE LPAREN expr RPAREN</li>
+    <li>empty_stmt &rarr;</li>
+    <li>writeln_stmt &rarr; WRITELN LPAREN RPAREN</li>
+    <li>expr &rarr; int_const_expr | variable_expr | bool_const_expr | unary_expr | binary_expr | rel_expr</li>
+    <li>int_const_expr &rarr; INT_CONST</li>
+    <li>bool_const_expr &rarr; TRUE | FALSE</li>
+    <li>variable_expr &rarr; IDENT</li>
+    <li>unary_expr &rarr; PLUS expr | MINUS expr | NOT expr</li>
+    <li>binary_expr &rarr; expr PLUS expr | expr MINUS expr | expr DIV expr | expr MOD expr | expr AND expr | expr OR expr</li>
+    <li>rel_expr &rarr; expr LT expr | expr LE expr | expr GT expr | expr GE expr | expr EQ expr | expr NE expr</li>
+  </ul>
+  The start symbol is prog. 
+</p>
+
+*/

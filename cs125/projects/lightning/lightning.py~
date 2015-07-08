@@ -1,0 +1,39 @@
+# File: lightning.py
+# Author: Carl Stevenson
+# Date: 9/20/2012
+# Purpose: To calculate the distance of a lightning strike, given the 
+#          seconds between the flash and the bang.
+
+#define main
+
+def main():
+
+#describe program
+
+    print("Program to calculate the distance")
+    print("to a lightning strike based upon the time elapsed")
+    print("between the flash and the sound of thunder.")
+    print("You will be asked to enter the time in seconds")
+    print("between flash and bang.")
+    print("Written by Carl Stevenson")
+    print()
+
+#ask for time in seconds
+
+    time = eval(input("Enter the time in seconds: "))
+    print("\n")
+
+#calculate distance
+
+    speed = 1100
+    mile = 5280
+    dist = ((speed * time) / mile)
+
+#output the time
+
+    print("Time between flash and bang :", time, "seconds")
+    
+#output distance
+
+    print("Distance to lightning strike:", dist, "miles")
+    print()

@@ -1,0 +1,64 @@
+/** @mainpage Pascal Compiler 
+
+<p>
+  This program is a compiler for a very simple language that produces 
+  3-address code.
+</p>
+
+<p>
+  The grammar for the language is:
+  <ul type="none">
+    <li>prog &rarr; stmt_list EOF</li>
+    <li>stmt_list &rarr; stmt ( SEMI stmt ) *</li>
+    <li>stmt &rarr; assign_stmt | write_stmt | writeln_stmt</li>
+    <li>factor &rarr; LPAREN expr RPAREN | IDENT | CONST</li>
+    <li>term &rarr; factor ( ( TIMES | DIV ) factor ) *</li>
+    <li>expr &rarr; term ( ( PLUS | MINUS ) term ) *</li>
+    <li>assign_stmt &rarr; IDENT ASSIGN expr</li>
+    <li>write_stmt &rarr; WRITE LPAREN expr RPAREN</li>
+    <li>writeln_stmt &rarr; WRITELN LPAREN RPAREN</li>
+  </ul>
+  The start symbol is prog. 
+</p>
+
+<p>
+  The lexical structure is:
+  <table>
+    <tr><td>EOF</td><td>End of file.</td></tr>
+    <tr><td>IDENT</td><td>A letter followed by letters and digits.</td></tr>
+    <tr><td>CONST</td><td>A string of digits.</td></tr>
+    <tr><td>SEMI</td><td><code>;</code></td></tr>
+    <tr><td>LPAREN</td><td><code>(</code></td></tr>
+    <tr><td>RPAREN</td><td><code>)</code></td></tr>
+    <tr><td>TIMES</td><td><code>*</code></td></tr>
+    <tr><td>DIV</td><td><code>/</code></td></tr>
+    <tr><td>PLUS</td><td><code>+</code></td></tr>
+    <tr><td>MINUS</td><td><code>-</code></td></tr>
+    <tr><td>ASSIGN</td><td><code>:=</code></td></tr>
+    <tr><td>WRITE</td><td><code>write</code></td></tr>
+    <tr><td>WRITELN</td><td><code>writeln</code></td></tr>
+  </table>
+</p>
+
+
+
+<p>
+  The instructions for the stack machine are:
+  <table>
+    <tr><td>add</td><td>Pops two operands and pushes the sum.</td>
+    <tr><td>sub</td><td>Pops two operands and pushes the difference.</td>
+    <tr><td>mul</td><td>Pops two operands and pushes the product.</td>
+    <tr><td>div</td><td>Pops two operands and pushes the quotient (integer division).</td>
+    <tr><td>push</td><td>Pushes a constant.</td>
+    <tr><td>pop</td><td>Pops the stack.</td>
+    <tr><td>copy</td><td>Pushes a copy of the top item on the stack.</td>
+    <tr><td>lvalue</td><td>Pushes the address of a variable.</td>
+    <tr><td>rvalue</td><td>Pushes the value of a variable.</td>
+    <tr><td>assign</td><td>Pops address of a variable and a value and assigns the value to the variable.</td>
+    <tr><td>write</td><td>Pops a value and prints it.</td>
+    <tr><td>writeln</td><td>Prints a newline.</td>
+  </table>
+  For binary operators the right operand is popped first. For assign the address of the variable is popped first.
+</p>
+
+*/

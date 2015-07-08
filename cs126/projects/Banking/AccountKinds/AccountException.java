@@ -1,0 +1,1 @@
+//AccountException.java is base class for all account exceptions//// Written by: Charles Hoot, for Hands On Java.// Date: July 2000// **************************************************************package AccountKinds;public class AccountException extends RuntimeException {		public AccountException (String reason) {		super(reason);	}}	

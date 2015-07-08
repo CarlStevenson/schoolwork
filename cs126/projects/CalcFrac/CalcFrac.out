@@ -1,0 +1,263 @@
+Username:  stevenc
+Date:      Mon Apr 8 20:16:48 EDT 2013
+ 
+*** Compiling ***
+javac *.java
+--- Running CalcFrac 1 ---
+ 
+Program to calculate operations on fractions.
+Written by Carl Stevenson
+
+Please enter an operation:
+        1, for add;
+        2, for subtract;
+        3, for multiply;
+        4, for divide;
+        5, for less than;
+        6, for less than or equal to;
+        7, for equal to;
+        8, for greater than;
+        9, for greater than or equal to;
+        0, to stop;
+-->
+
+Enter first fraction:  
+
+Enter second fraction: 
+
+1/2 + 1/4 is 3/4
+
+
+Please enter an operation:
+        1, for add;
+        2, for subtract;
+        3, for multiply;
+        4, for divide;
+        5, for less than;
+        6, for less than or equal to;
+        7, for equal to;
+        8, for greater than;
+        9, for greater than or equal to;
+        0, to stop;
+-->
+
+Enter first fraction:  
+
+Enter second fraction: 
+
+1/5 - 1/4 is -1/20
+
+
+Please enter an operation:
+        1, for add;
+        2, for subtract;
+        3, for multiply;
+        4, for divide;
+        5, for less than;
+        6, for less than or equal to;
+        7, for equal to;
+        8, for greater than;
+        9, for greater than or equal to;
+        0, to stop;
+-->
+
+Enter first fraction:  
+
+Enter second fraction: 
+
+3/5 * 7/4 is 21/20
+
+
+Please enter an operation:
+        1, for add;
+        2, for subtract;
+        3, for multiply;
+        4, for divide;
+        5, for less than;
+        6, for less than or equal to;
+        7, for equal to;
+        8, for greater than;
+        9, for greater than or equal to;
+        0, to stop;
+-->
+
+Enter first fraction:  
+
+Enter second fraction: 
+
+3/5 / 7/5 is 3/7
+
+
+Please enter an operation:
+        1, for add;
+        2, for subtract;
+        3, for multiply;
+        4, for divide;
+        5, for less than;
+        6, for less than or equal to;
+        7, for equal to;
+        8, for greater than;
+        9, for greater than or equal to;
+        0, to stop;
+-->
+
+Enter first fraction:  
+
+Enter second fraction: 
+
+3/5 is less than 7/5
+
+
+Please enter an operation:
+        1, for add;
+        2, for subtract;
+        3, for multiply;
+        4, for divide;
+        5, for less than;
+        6, for less than or equal to;
+        7, for equal to;
+        8, for greater than;
+        9, for greater than or equal to;
+        0, to stop;
+-->
+
+Enter first fraction:  
+
+Enter second fraction: 
+
+3/5 is less than or equal to 3/5
+
+
+Please enter an operation:
+        1, for add;
+        2, for subtract;
+        3, for multiply;
+        4, for divide;
+        5, for less than;
+        6, for less than or equal to;
+        7, for equal to;
+        8, for greater than;
+        9, for greater than or equal to;
+        0, to stop;
+-->
+
+Enter first fraction:  
+
+Enter second fraction: 
+
+-3/5 is not equal to 9/5
+
+
+Please enter an operation:
+        1, for add;
+        2, for subtract;
+        3, for multiply;
+        4, for divide;
+        5, for less than;
+        6, for less than or equal to;
+        7, for equal to;
+        8, for greater than;
+        9, for greater than or equal to;
+        0, to stop;
+-->
+
+Enter first fraction:  
+
+Enter second fraction: 
+
+-3/5 is not greater than -3/5
+
+
+Please enter an operation:
+        1, for add;
+        2, for subtract;
+        3, for multiply;
+        4, for divide;
+        5, for less than;
+        6, for less than or equal to;
+        7, for equal to;
+        8, for greater than;
+        9, for greater than or equal to;
+        0, to stop;
+-->
+
+Enter first fraction:  
+
+Enter second fraction: 
+
+-3/5 is not greater than -3/5
+
+
+Please enter an operation:
+        1, for add;
+        2, for subtract;
+        3, for multiply;
+        4, for divide;
+        5, for less than;
+        6, for less than or equal to;
+        7, for equal to;
+        8, for greater than;
+        9, for greater than or equal to;
+        0, to stop;
+-->
+
+Enter first fraction:  
+
+Enter second fraction: 
+
+-3/5 is greater than or equal to -3/5
+
+
+Please enter an operation:
+        1, for add;
+        2, for subtract;
+        3, for multiply;
+        4, for divide;
+        5, for less than;
+        6, for less than or equal to;
+        7, for equal to;
+        8, for greater than;
+        9, for greater than or equal to;
+        0, to stop;
+-->
+
+--- Running CalcFrac 2 ---
+ 
+Program to calculate operations on fractions.
+Written by Carl Stevenson
+
+Please enter an operation:
+        1, for add;
+        2, for subtract;
+        3, for multiply;
+        4, for divide;
+        5, for less than;
+        6, for less than or equal to;
+        7, for equal to;
+        8, for greater than;
+        9, for greater than or equal to;
+        0, to stop;
+-->
+
+Enter first fraction:  
+
+Enter second fraction: 
+
+8/-33 + 97/628 is 1823/-20724
+
+
+Please enter an operation:
+        1, for add;
+        2, for subtract;
+        3, for multiply;
+        4, for divide;
+        5, for less than;
+        6, for less than or equal to;
+        7, for equal to;
+        8, for greater than;
+        9, for greater than or equal to;
+        0, to stop;
+-->
+
+rm -f *.class *~ *#
+ 

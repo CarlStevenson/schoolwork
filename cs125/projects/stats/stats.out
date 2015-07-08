@@ -1,0 +1,46 @@
+Username:  stevenc
+Date:      Thu Sep 27 11:18:26 EDT 2012
+ 
+*** Running stats.py ***
+
+Program to calculate some statistics
+for a line entered by the user.
+Written by Carl Stevenson
+
+Enter the original line: 
+
+Original line: CS 125 is a wonderful course!
+Number of characters:        29
+Number of capital letters:   2
+Number of lowercase letters: 18
+Number of digits:            3
+number of other characters:  6
+
+
+Program to calculate some statistics
+for a line entered by the user.
+Written by Carl Stevenson
+
+Enter the original line: 
+
+Original line: Dr. Koch teaches Python Programming, Unix and Spreadsheets.
+Number of characters:        59
+Number of capital letters:   6
+Number of lowercase letters: 43
+Number of digits:            0
+number of other characters:  10
+
+
+Program to calculate some statistics
+for a line entered by the user.
+Written by Carl Stevenson
+
+Enter the original line: 
+
+Original line: Four score and seven years ago our fathers brought forth on this continent a new nation, conceived in liberty, and dedicated to the proposition that all men are created equal.
+Number of characters:        175
+Number of capital letters:   1
+Number of lowercase letters: 142
+Number of digits:            0
+number of other characters:  32
+

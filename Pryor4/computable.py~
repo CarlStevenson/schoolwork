@@ -1,0 +1,40 @@
+# File:    computable.py
+# Author:  Carl Stevenson
+# Date:    2/4/2013
+# Purpose: To calculate a chosen digit for a decimal expansion.
+
+def main():
+    top, bot, pres, text = intro()
+    dec = calc(top, bot, pres)
+    out(dec, pres, text)
+
+def intro():
+    text = input("Enter a rational number fraction in the interval (0,1): ")
+    top = int(text[0:text.find("/")])
+    bot = int(text[(text.find("/")+1):len(text)])
+    pres = int(input("Which digit do you want? "))
+    return top, bot, pres, text
+
+def calc(top, bot, pres):
+    holder = top * 10
+    dec = 0
+    l = []
+    for i in range(pres):
+        dec = holder//bot
+        holder = holder%bot
+        holder = holder * 10
+        if True == smart(dec):
+            break
+    return dec
+
+def smart(dec):
+    # insert algorithm here
+    return False
+
+
+
+def out(dec, pres, text):
+    print("The " + str(pres) + "th digit in the decimal expansion", end ="")
+    print(" of", text, "is", dec)
+
+main()

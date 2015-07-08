@@ -1,0 +1,221 @@
+Username:  stevenc
+Date:      Mon Apr 22 21:24:32 EDT 2013
+ 
+*** Running make ***
+javac *.java
+--- Running first file ---
+ 
+
+Program to keep track of library books.
+You will enter the name of a file.
+The program will read this file as the list
+of books already checked out. you will then enter
+a lender code followed by a book description to
+check out or return a book.
+When the program is done, it will write out the
+current list of checked out books to the original file
+and print a list of checked out books.
+Written by Carl Stevenson.
+
+Enter name of input file: 
+
+Please enter a number:
+        1, for checking a book out;
+        2, for returning a book;
+        0, to exit and print list;
+--> 
+
+
+Enter a 3 digit patron code: 
+Enter 10 letter book description: 
+
+
+
+
+
+Please enter a number:
+        1, for checking a book out;
+        2, for returning a book;
+        0, to exit and print list;
+--> 
+
+
+Enter a 3 digit patron code: 
+Enter 10 letter book description: 
+
+
+
+
+
+Please enter a number:
+        1, for checking a book out;
+        2, for returning a book;
+        0, to exit and print list;
+--> 
+
+
+Enter a 3 digit patron code: 
+Enter 10 letter book description: 
+
+
+
+
+
+You must enter a 10 character book description, not satanCode. Re-enter your choice and try again.
+
+
+
+
+
+Please enter a number:
+        1, for checking a book out;
+        2, for returning a book;
+        0, to exit and print list;
+--> 
+
+Here is the current list of checked out books:
+
+Lender  Book Desc.  Time
+======  ==========  ====
+ 123    HrryPottr1  1057599096745
+ 456    HrryPottr2  1057599096746
+ 123    HrryPottr3  1366680273297
+ 456    HrryPottr4  1366680273297
+--- output file 1 is ---
+ 
+123 HrryPottr1 1057599096745
+456 HrryPottr2 1057599096746
+123 HrryPottr3 1366680273297
+456 HrryPottr4 1366680273297
+--- Running Lending ---
+ 
+
+Program to keep track of library books.
+You will enter the name of a file.
+The program will read this file as the list
+of books already checked out. you will then enter
+a lender code followed by a book description to
+check out or return a book.
+When the program is done, it will write out the
+current list of checked out books to the original file
+and print a list of checked out books.
+Written by Carl Stevenson.
+
+Enter name of input file: 
+
+Please enter a number:
+        1, for checking a book out;
+        2, for returning a book;
+        0, to exit and print list;
+--> 
+
+
+Enter a 3 digit patron code: 
+Enter 10 letter book description: 
+
+
+
+
+
+Please enter a number:
+        1, for checking a book out;
+        2, for returning a book;
+        0, to exit and print list;
+--> 
+
+
+Enter a 3 digit patron code: 
+This patron cannot take out any more books!
+
+
+
+
+Please enter a number:
+        1, for checking a book out;
+        2, for returning a book;
+        0, to exit and print list;
+--> 
+You must pick one of the options <0-2>, not HrryPottr4
+
+
+
+
+Please enter a number:
+        1, for checking a book out;
+        2, for returning a book;
+        0, to exit and print list;
+--> 
+
+
+Enter a 3 digit patron code: 
+Enter 10 letter book description: 
+
+
+
+
+
+Please enter a number:
+        1, for checking a book out;
+        2, for returning a book;
+        0, to exit and print list;
+--> 
+
+
+Enter a 3 digit patron code: 
+Enter 10 letter book description: 
+
+
+
+
+
+There is no such book out currently!
+
+
+
+
+Please enter a number:
+        1, for checking a book out;
+        2, for returning a book;
+        0, to exit and print list;
+--> 
+
+
+Enter a 3 digit patron code: 
+Enter 10 letter book description: 
+
+
+
+
+
+There is no such book out currently!
+
+
+
+
+Please enter a number:
+        1, for checking a book out;
+        2, for returning a book;
+        0, to exit and print list;
+--> 
+
+Here is the current list of checked out books:
+
+Lender  Book Desc.  Time
+======  ==========  ====
+ 123    HrryPottr1  1057599096745
+ 456    HrryPottr2  1057599096746
+ 123    HrryPottr3  1366680273297
+ 456    HrryPottr4  1366680273297
+ 123    HrryPottr5  1366680273393
+ 666    satanCode2  1366680273394
+--- output file 2 is ---
+ 
+123 HrryPottr1 1057599096745
+456 HrryPottr2 1057599096746
+123 HrryPottr3 1366680273297
+456 HrryPottr4 1366680273297
+123 HrryPottr5 1366680273393
+666 satanCode2 1366680273394
+*** Running make clean ***
+rm -f *.class *~ *#
+ 

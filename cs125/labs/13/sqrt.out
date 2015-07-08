@@ -1,0 +1,35 @@
+Username:  stevenc
+Date:      Thu Dec 6 10:23:28 EST 2012
+ 
+*** Running sqrt.py with 10, .0001 ***
+This program will calculate the square root
+of a number using Newton's Method.
+You will enter the number and the size of the
+difference between Newton's Method square root
+and the real square root.
+Written by Carl Stevenson
+
+Enter the number to find its square root: 
+Enter the difference between the calculate and real square root: 
+For the square root of 10 after 4 tries
+The calculated square root is 3.16227766044
+The real square root is       3.16227766017
+The difference is             0.00000000028
+The delta was                 0.00010000000
+
+*** Running sqrt.py with 625, .000001 ***
+This program will calculate the square root
+of a number using Newton's Method.
+You will enter the number and the size of the
+difference between Newton's Method square root
+and the real square root.
+Written by Carl Stevenson
+
+Enter the number to find its square root: 
+Enter the difference between the calculate and real square root: 
+For the square root of 625 after 8 tries
+The calculated square root is 25.00000000000
+The real square root is       25.00000000000
+The difference is             0.00000000000
+The delta was                 0.00000100000
+

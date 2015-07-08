@@ -1,0 +1,700 @@
+1 0 2 8 9 0 10 0 1 1
+Helm's Deep
+As you enter the cave, the damp air makes you shiver.  Your eyes adjust to the
+light.  A deep pit fills most of this room, however there is a narrow ledge by 
+which north south east and west passages can be reached.  A rough-hewn rock
+staircase leads down into the pit, disappearing into a passageway.
+^
+2 0 3 28 1 0 0 2 0 1
+The Coral Throne
+A large ornate throne is against one wall, flanked by tapestries.
+Passages lead south, east and west.
+^
+3 12 4 11 2 0 0 0 0 1
+Undun's Flame
+This chamber is octagonal with roughly hewn walls.  Torches are mounted on 
+each wall, their flickering barely filling the room with light.
+Tunnels lead off from every other wall.
+^
+4 0 5 29 3 0 0 0 0 1
+The Heap
+A large pile of mostly small metal scraps litters this room.  Too bad you
+don't have a magnet...  Tunnels lead west and south, but you see something 
+glittering through the doorway to the east, much nearer.
+^
+5 13 6 14 4 0 0 1 0 1
+The Silver Mirror
+Shards of glass glimmer on the stone floor.  Against one wall is an ebony 
+frame carved with demonic faces and small imps.  Broken glass hangs
+from the frame.  A low whistling can be heard, echoing through the cavern.   
+^
+6 0 7 17 5 0 0 0 2 1
+Cravenhaw
+This cave is unremarkable.  Simple tunnels lead east/west, and south.
+^
+7 8 15 16 6 0 0 0 0 1
+Shelob's Lair
+The whole cavern is filled with webs.  Two small orbs glint from above in the 
+darkness.   Tunnels everywhere, but the northern one seems to bend westward. 
+^
+8 1 30 7 0 0 0 0 0 1
+Pile o' Bones
+Grey-white grit coats the floor of this cavern.  Larger chunks of bone are 
+pushed together against one wall.  
+^
+9 10 1 16 0 0 10 1 0 1
+Finnegans Wake
+In the center of this rough hewn chamber is a marble coffin.  Engraved in 
+block letters on its face is
+           	     J. Joyce  1882-1941
+      	   "A way a lone a last a loved a long the" 
+To the north is a downward sloping passage.  Others lie south and east.
+^
+10 9 0 11 1 1 0 0 0 1
+The Armory
+The walls of this room contain racks for equipment- swords, daggers, polearms-
+unfortunately, everything has already been pilfered.
+Passages lead up from the north, south and east walls.
+^
+11 3 0 12 10 0 10 0 0 1
+Doom's Retreat
+Barely a cave, this small widening of the tunnel is where three passages 
+(north, south, west/down) meet.  The southern passage looks narrow, and
+twists sharply out of sight.
+^
+12 11 13 3 0 0 0 3 1 1
+The Den of Iniquity
+Sorry, but youn'uns might be reading this.  Perhaps you better just imagine 
+what you see in this Den of Iniquity. 
+^
+13 0 14 5 12 0 0 0 0 1
+Coveshead
+A small underground pool fills the corner of this room.  The water is fresh 
+and clear.  Exits south, east and west.
+
+A low whistling can be heard.
+^
+14 5 13 15 0 0 0 0 0 1
+The Findledelve
+Shaped roughly like a cone, there is a strange acoustic quality to this cavern.
+A loud whistling can be heard emanating from the dark narrow heights of this
+room. 
+^
+15 14 0 16 7 0 0 1 0 1
+Vidar's Forge
+An anvil of immense proportion is the focal point of an otherwise dull 
+widening of the tunnel.  It looks way to heavy to carry.
+
+A low whistling can be heard.
+^
+16 7 15 0 9 0 0 2 0 1
+The Rumpus Room
+Being a large cavern, this room has enscribed on its floor a giant chess or 
+checker board.  A number of delapidated, sagging chairs line one wall.
+There are three passages in this room, but the western one hooks north
+after a few feet.
+^
+17 6 18 19 20 0 21 0 0 1
+The Fountainhead
+It is said Ayn Rand often visited this cave for inspiration.
+
+It is unremarkable, save for the numerous passages leading off in every 
+direction.
+^
+18 0 0 22 17 0 0 0 0 1
+The Gallimafry
+This small room is cluttered with benches with dusty glassware, bric-a-brac, 
+books, curios, and an amateurishly stuffed squirrel.  Somehow you know,
+however, this is merely an illusion and that none of these things are
+really here.  You see doorways on all four walls.
+^
+19 17 0 0 0 0 0 0 0 1
+Tombstone
+The soft mud in this cave is the final resting place of many brave wumpus 
+hunters.  Makeshift cairns and bits of cloth mark their graves.
+^
+20 0 17 0 24 0 0 0 1 1
+The Page of Deniers
+On the floor of this cave lies a single Tarot card, The Page of Deniers.
+This card reflects deep concentration and application.  Study, scholarship 
+and reflection.  Respect for knowledge and desire for learning.
+Passages run east/west.
+^
+21 21 0 0 24 21 0 0 0 1
+Bueford's Folly
+There are two hard stone spheres in this room, about the size of large marbles.
+They are incredibly heavy; you can barely roll them.  Tunnels lead up to
+the north and west.
+^
+22 18 0 25 19 0 0 0 0 1
+Lost Caverns of the Wyrm
+You are in the lost caverns.   Hope you brought some food along.
+^
+23 0 27 26 25 0 0 1 0 1
+Lost Caverns of the Wyrm
+You are in the lost caverns.   Hope you brought some food along.
+^
+24 26 20 21 0 0 21 0 0 1
+Lost Caverns of the Wyrm
+You are in the lost caverns.   Hope you brought some food along.
+^
+25 27 23 26 0 0 0 0 1 1
+Lost Caverns of the Wyrm
+You are in the lost caverns.   Hope you brought some food along.
+^
+26 23 27 0 25 0 0 3 0 1
+Lost Caverns of the Wyrm
+You are in the lost caverns.   Hope you brought some food along.
+^
+27 22 26 25 23 0 0 0 0 1
+Lost Caverns of the Wyrm
+You are in the lost caverns.   Hope you brought some food along.
+^
+28 2 0 0 0 0 0 0 0 1
+Hall of Kings
+Tapestries adorn the walls and an oaken table contains a small sign:
+
+      "Bring your gold, Bring your things
+         and leave it all in the Hall of Kings"
+^
+29 4 0 0 0 0 0 0 0 1
+Rawedge Rim
+The tunnel widens and ends abruptly in a sheer drop.  A cold wind blows, 
+making footing more precarious.
+^
+30 0 8 0 0 0 0 0 0 1
+The Final Tally
+The tunnel ends in a dead end.  Carved in the wall are numerous gouges, 
+barely discernable:
+
+       WuMpus: II IIII II II I
+       oTHers: 
+^
+31 0 0 32 0 23 0 0 0 1
+The Red Room
+Odd fungal growth of the walls of this cave catch torch light and reflect 
+a deep, ruddy red. 
+Blackened walls show attempts to burn off the fungus was only partially 
+successful.
+^
+32 31 0 33 0 0 0 1 0 1
+The White Dog's Tail
+Long and thin, this room is simple a widening of the passageway, shaped 
+like a white dog's tail.
+^
+33 32 34 35 36 0 0 0 1 1
+Nondescript
+The walls of this cave are rock, as is the floor.  Passages lead in
+all directions.
+^
+34 0 0 38 33 0 0 0 0 1
+Temple of the Eye
+This place is illuminated by a strange swirling light which seems to be part 
+of the very air of the place.  Eddies of luminosity drift and churn here and 
+there, causing the whole scene to be uncertain.
+^
+35 33 0 37 0 0 0 0 0 1
+The Rolling Rings
+A column of rings, rolling around and around on top of one another stands in 
+the center of this tall chamber.  Within them is a huge diamond, larger than 
+you have ever imagined.  The rings are razor sharp, and very fast.
+Tunnels run north/south.  
+^
+36 0 33 39 0 0 0 0 0 1
+Cave of the Lictor
+A small, cold, damp and nasty, but mostly empty room with a wooden block at 
+its center.  The block is covered with dried blood that has run down its sides 
+onto the floor.  A huge axe is firmly imbedded in the block, immovable.
+^
+37 35 40 0 41 0 0 1 1 1
+The Gold Weyr
+This is a vast cave, with a pile a rubble at the far end.  It may have opened 
+to the surface before that roof fall closed it, perhaps forever. 
+Multicolored scales littering the floor tell you that dragons once lived here.
+Passages lead north and east/west.  To the east and west, you think you
+see light.
+^
+38 34 42 0 0 0 0 0 0 1
+The Cave of the Rising Nails
+You find it very difficult to walk about because there are sharp stalagmites 
+on the floor.  Passages lead north and east.
+^
+39 36 0 0 43 0 0 0 0 1
+The Hungry Hollow Cave
+While in this cave you hear a grumbling sound much like a hungry stomach.  
+Be careful near here, you might meet some unfriendly creature!  Passages
+lead north and west.
+^
+40 0 44 0 37 0 0 0 0 1
+Haven
+An immense underground cavern echos your pounding heart.  Far above you,
+rays of light slice through the misty atmosphere splashing upon moss covered 
+rocks, and patches of grass coverered earth, giving way to the hiding places 
+of scurrying animals. 
+^
+41 84 37 0 45 0 0 0 0 1
+The Pueblo
+A grand site!  Above you rises a hundred foot high cliff, riddled 
+with what looks like dwellings.  I'm not sure that these folks are   
+friendly.   The fresh air is a welcome change to the rank caverns.
+^
+42 0 0 44 38 0 0 0 0 1
+A Crevice
+Sheilded on one side by a granite  barrier, and on another by warm clay, 
+this bend in the passage makes a good stronghold far from the howling wumpus.
+There is a glittering quality about the wall of earth in front of you.
+The passage continues west and south.
+^
+43 0 39 45 0 0 0 1 0 1
+The Stomach
+As you squeeze into this narrow crevice, you feel claustrophobic.  You can
+feel the walls vibrating, as if they where about to close in, constricting 
+you forever.
+^
+44 42 46 0 40 0 0 0 0 1
+Last Whisper
+A drafty cave with various swirling winds causing echoes and faint sounds much 
+like the whisperings of crowds at the sentencing of a condemmened man. 
+It is dimly lit from the western passageway.
+^
+45 43 41 0 0 0 0 0 1 1
+The Sacred Cave
+This is an ancient burial ground of an indian tribe.  Tables made of 
+logs and twigs hold the skeletons of indians.  Foot prints in the mud
+lead east, toward a dim glow.
+^
+46 0 47 0 44 0 0 0 0 1
+The Lost City of Teel
+The effervescence from the ruins of marble, gold,and jade lay proof to this 
+city's myth of a wonderous history. An impressive plaque peeks out from under 
+a crumbled statue: "He was ahead of his time."
+^ 
+47 0 48 0 46 0 0 1 1 1
+The Lost City of Teel
+Dark red, almost black patches, smatterings of ancient blood, decadently 
+decorate this holy ossuary.  Half buried in the soot filled floor
+beneath a marble and jade casket is a plaque:
+
+	"Teel F. Rats." What happened? The crypt is empty!
+^ 
+48 0 49 0 47 0 0 0 0 1
+The Rock Cut
+You have entered a long, rough hewed east/west corridor.  The pick marks and 
+a skeleton, still wearing chains, witness the labor involved in the making.
+This must be an important place to had demanded such an effort. 
+^
+49 0  50 83  48 0 0 0 0 1
+Hall of the Dead Kings
+This dark hall contains 20 huge sarcophagi standing against a wall and 4 even
+larger ones lying upon the floor.  Tunnels run east, west and south from here.
+^
+50 0 0 51 49 0 0 1 0 1
+Hall of Inquisition
+This is a high chamber, empty except for a raised dais at its center.  A 
+single brilliant shaft of light emerges from an opening in the ceiling 
+and impinges on the dais.  The echoes here never quite seem to die out.
+Tunnels run west and south.
+^
+51 50 0 53 52 0 0 0 0 1
+The Echoed Whisper
+You must be very, very quiet while you are in this cave.  This cave is so 
+sensitive to sound that if you even whisper it will be amplified to the sound 
+of an explosion.  Passages lead north/south and west.    
+^
+52 0 51 0 0 0 0 0 0 1
+The Well
+A small place, with steps leading to a ledge.  Watermarks on the pit walls 
+show that water was here. The pile of bones in the pit suggest that the
+water was not drinkable.  The only exit is the tunnel you came in.
+^ 
+53 51 54 55 0 0 0 2 1 1
+The Crypt
+A black-box coffin, its lid ajar, is barely visible in this mist-filled room.  
+It seems to be partially filled with moist earth.  Some bats roost upsidedown 
+overhead.  To the east seems to be a small room, and the passageway continues
+running north/south.
+^
+54 0 0 0 53 0 0 0 0 1
+Slavery Cell
+There are several barbaric torture devices here along with chains on the walls.
+Some chains have partial skeletons in them.  The only exit is to the west.
+^
+55 53 0 56 0 0 0 0 0 1
+Foggybottom
+An eerie, thick soupy fog encloses everything in the cave.  Every step of the 
+path is muddy and an incessant dripping resounds throughout the cave.
+^
+56 55 0 57 0 0 0 0 0 1
+Hibernia
+A carpet of kelly-green moss coats every surface of this cave.  What looks like
+pale green bunches of shamrocks surround piles of stones, on which heather 
+grows dispite the darkness.  Ach... was that a Leprechan that just disappeared 
+into that hole in the ground?
+^
+57 56 0 60 58 0 0 0 0 1
+The Third Kingdom
+Giant toadstools are arranged in glorious fairy rings.  In their glow, you can 
+see that the animal kingdom is represented here too.  These critters
+are aglow too and look rather wet.  An unpleasant smell wafts in from the
+west, and the passage also continues north/south.
+^
+58  0 57 0 59 0 0 0 0 1
+Moldy Chamber
+Mold covers the walls, ceiling and floor of this cave and seems to originate 
+from a single cup of week old coffee sitting in the center of the cave. 
+Tunnels run east/west.
+^
+59  0 58 0 0 0 0 0 0 1
+Empty Room
+There is nothing in this room.  Absolutely nothing so don't even try to find 
+anything under the loose stone over by the north wall.  Might as well go back
+east.  Nothing here.  Hey, where are you going?  There isn't anything in 
+this room!  Hey!
+^
+60 57 0 61 0 0 0 0 0 1
+Halls of Spendor
+The upper walls of this room glisten with intricate exposed gold veins and
+pocked with precious gems and lapis lazuli.  It seems that the lower gems
+have already been taken.  You begin to drool.
+^
+61 60 62 0 64 0 0 0 0 1
+Hoodoo T
+The north/south passageway ends at this dimly lit T.  The caves are becoming
+cold and damp.  The sound of faintly dripping water can be heard nearby.  
+^
+62 0 0 63 61 0 0 0 1 1
+The Furry Dark Cave
+This cave has scattered patches of bear fur lying on the floor.  What ever
+the bear was fighting with didn't loose.  A rank smell comes from the south.
+^
+63 62 0 0 0 0 0 0 0 1
+A Wumpus Lair
+There is a bed made from human hair, with human bones licked clean lying 
+around on the rock floor.  Fortunately, from the size of the cave, it must
+only be a small wumpus!  The only exit is back north.
+^
+64 0 61 65 0 0 0 0 0 1
+The Cave of the Dangling Knives
+The only remarkable feature here is above you: very long, very sharp 
+knife-like stalactites.  
+^
+65 64 0 0 66 0 0 1 0 1
+Bowels of the Earth
+The breeze from the heat of glowing, bubbling molten rock greets you like 
+an oven. Furiously side-stepping the churning puddles of earth is your only 
+way out - solid rock seems to extend north and west.
+^
+66 0 65  0 67 0 0 0 0 1
+Beelzebub's Cave
+This cave is named as such because of it's close resemblance
+to Hell.  To the sides of the pathways, molten lava bubbles.
+The temperature unbearably, hot.  Escape is east and west.
+^
+67 72 66 0 68 0 0 0 0 1
+Hall of Fire
+The very air here glows red with intense heat.  A cascade of molten lava flows 
+from an opening in the east wall and oozes across the room in a narrow channel.
+You are certain that you could jump it... if you had to.
+^
+68 69 67 0 70 0 0 0 0 1
+The Shrine of Evil Chaos
+This place is of red stone, the floor being a mosaic of black and red.  Four
+black pillars support the domed ceiling some 25' overhead.  Between the
+northing pillars, just in front of a darkened passageway, is a stone altar
+of red veined black rock.  A faint, foul draft issues from behind the altar.
+^
+69 0 0 68 0 0 0 1 0 1
+The Temple of Evil Chaos
+This huge area has a ceiling of 30' or more.  The floor is of polished black 
+stone which has swirling patterns of red veins through it.  The east, west,
+and southern walls are of dull rock, but the northern is seemingly one
+piece of red stone, polished to mirror-smoothness.  Against the northern wall
+is a dias and three altars. The only exit is back south.
+^
+70 71 68 0 0 0 0 0 0 1
+Adepts' Chamber
+In this room are four beds, four small stands, a table with four chairs, and 
+some clothing- nothing of value.  Passages lead north and east.
+^
+71 0 73 70 0 0 0 0 1 1
+Hall of Undead Warriors
+A rectangular, carefully constructed room, lined with black and red marble.
+Passages lead east and south.
+^
+72 0 0 67 73 0 0 0 0 1
+Hall of Undead Warriors
+A rectangular, carefully constructed room, lined with black and red marble.
+Passages lead south and west.
+^
+73 74 72 0 71 0 0 0 0 1
+Alcolytes' Chamber
+In this room are four hard pallets, a table with four stools, and 
+some clothing- nothing of value.  Passages lead north, east and west.
+^
+74 75 0 73 0 0 0 0 0 1
+The Public Shrine
+The walls of this chamber are lined with red and black marble forming a mosaic
+of unidentifiable but horrible black shapes in silhouette against a red
+plain.  To the west is a particularly demonic looking silhouette holding
+aloft a struggling humanoid.  In front of the western wall is a small altar.
+^
+75 78 0 74 76 0 0 0 0 1
+Louse Cave
+This cave seemingly appears empty, but you notice the ceiling moving!
+Your torch reveals thousands of lice.  Occassionally one drops to the floor
+near you.  Passages continue north/south, and there is a branch west.
+^
+76 0 75 0 77 0 0 0 0 1
+The Stinking Cavern
+Trolls were here, and they left droppings!  Tunnels run east/west.
+^
+77 0 76 0 0 0 0 2 1 1
+Tunnel of Love
+This room contains. . . well, (sigh) you know how when. . . Let's see.  
+Um, a guy and a girl, um, (cough, cough).  Well, there's these things.
+And, (sweat) they. . . well, you know, they, uh might be fun. . .
+This is a real dead-end.
+^
+78 79 0 75 0 0 0 1 0 1
+The Ice Palace
+Shimmering aqua-blue columns extend from the ceiling towards the floor-
+they look like icicles.   The passage runs north/south.
+^
+79 80 81 78 83 0 0 0 0 1
+ANN ARBOR
+This cave is inhabited by toothless wolverines.  The colors on the wall are 
+blue and maize. It is inhabited by a ghost named BO. The direction 
+into this cave is "north until you smell it, west until you step in it".
+Exit tunnels in all directions.
+^
+80 83 0 79 0 0 0 0 0 1
+BLOOMINGTON
+This cave is inhabited by hoosiers and a KNIGHT. No one knows what a hoosier 
+is, but there is a vague sense that with a better point guard they could
+be dangerous. While you are here you have to dodge chairs which fly randomly 
+across the room.  Exits north/south.
+^
+81  0 0 79 83 0 0 0 0 1
+EAST LANSING
+This cave is inhabited by SPARTANS. They have been known to be dangerous, 
+but seem to lose all power when near a ROSE BOWL.  Exits south/west.
+^
+82  83 79 0 0 0 0 0 0 1
+SOUTH BEND
+This cave is haunted by something called a GIPPER and inhabited by wild-eyed 
+micks all to anxious to "wump" anyone not willing to adore at the GOLDEN 
+DOME which dominates the landscape.  Exits east/south.
+^
+83 49 81 80 82 0 0 1 0 1
+COLUMBUS
+This cave is presided over by a god-ghost named WOODY. Any decision made in 
+this cave is evaluated in light of how WOODY would have wanted it done. 
+Persons entering this room with photographic equipment rarely escape unscathed.
+Exits in all directions.
+^
+84 0 41 0 0 0 85 1 0 1
+Downward Passage
+Ominous steps lead downward into deeper recesses of the earth.
+^
+85 0 0 87 0 84 123 0 0 1
+The Crypt
+   You are in a small room, standing before the entrance to a vast and ancient
+crypt.  Low moaning sounds echo from within the catacombs before you, sending
+chills up your spine.
+   An archway, its keystone carved in the shape of a human skull, leads south
+into darkness.
+^
+86 0 87 89 86 0 104 0 0 1
+The Catacombs
+   You are standing in a small, subterranean chamber.  Set into the walls at
+regular intervals are deep recesses, within which lie the stone tombs of a
+generation long since departed.  A gentle breeze blows in from the passage to
+the north, while dark hallways lead south, east, and west.
+   A spiral staircase fills one corner of the room.
+^
+87 85 88 90 86 0 105 2 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+88 94 91 91 87 0 106 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+89 86 90 92 92 0 107 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+90 87 91 93 89 0 106 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+91 88 88 93 90 0 106 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+92 89 93 93 89 0 110 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+93 90 91 92 92 0 111 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+94 91 88 93 93 0 102 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+95 95 96 101 95 89 104 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+96 100 97 102 95 100 100 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+97 97 97 100 96 90 106 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+98 95 99 101 107 90 107 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+99 96 100 102 98 90 108 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+100 97 96 103 102 96 96 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+101 95 102 101 101 89 103 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+102 98 103 113 101 94 102 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+103 100 103 103 102 101 112 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+104 104 105 107 104 86 0 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+105 107 106 109 104 87 0 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+106 106 106 109 105 88 0 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+107 104 105 110 105 107 0 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+108 105 109 111 107 99 0 0 0 1
+The Catacombs
+   You are lost in the catacombs.  However, you notice a faint light by the
+spiral stairs, apparently emanating from the room below.
+^
+109 106 111 112 111 91 0 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+110 107 111 110 110 92 0 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+111 107 112 109 110 93 0 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+112 109 112 116 111 103 0 0 0 1
+The Catacombs
+   You are lost in the catacombs.
+^
+113 102 0 0 0 0 0 3 1 1
+The Closet
+   You are in a small closet.  Discarded rags on the floor suggest that it may
+once have been used as a storage area for burial cloths.  The only exit is
+through the door to the north.
+^
+114 115 0 0 0 0 115 0 0 1
+The Stone-Carved Stairs
+   Here, the spiral staircase ends abruptly, unfinished.  
+  You must descend to the north, unless you care to spend hours chiseling.
+^
+115 116 0 114 0 114 0 1 0 1
+The Foot of the Stairs
+   You are standing in an underground cave at the foot of a set of stone
+stairs which ascend to the south.  The front of the first step is decorated
+with a carving of a human skull.
+   To the north, an archway has been carved out of the rock wall.
+^
+116 117 0 115 0 0 0 0 0 1
+Southern End of the Ledge
+   You find yourself at the southern end of a narrow ledge overlooking a deep,
+seemingly bottomless chasm.
+An archway has been carved into the stone here.
+^
+117 0 0 116 0 0 0 0 0 1
+Northern End of the Ledge
+   You find yourself at the northern end of a narrow ledge overlooking a deep,
+seemingly bottomless chasm.
+An archway has been carved into the stone here.
+^
+118 0 120 0 0 0 122 1 1 1
+Suspended Above The Chasm
+   You are borne up by a mysterious force. Below your feet, the chasm continues
+down into darkness.  Above you, the heights of the chasm also disappear into
+blackness.  To the east is solid ground: a narrow ledge.
+^
+119 0 121 0 0 0 122 0 1 1
+Suspended Above The Chasm
+   You are borne up by a mysterious force. Below your feet, the chasm continues
+down into darkness.  Above you, the heights of the chasm also disappear into
+blackness.  To the east is solid ground: a narrow ledge.
+^
+120 121 0 123 118 0 0 0 0 1
+Southern End of the Ledge
+   You find yourself at the southern end of a narrow north-south ledge
+overlooking a deep, seemingly bottomless chasm.
+The outline of an archway has been carved into the stone.
+^
+121 120 0 120 119 0 0 0 0 1
+Northern End of the Ledge
+   You find yourself at the northern end of a narrow north-south ledge
+overlooking a deep, seemingly bottomless chasm.
+The outline of an archway has been carved into the stone.
+^
+122 0 122 0 0 0 0 0 0 1
+The Cavern of the Faithless
+   You are standing at the bottom of a very deep chasm.  The rock walls which
+which surround you on all sides vanish up into the darkness overhead.  You feel
+quite daunted by the sheer weight of earth and stone which lies between you and
+the surface above.
+^
+123 120 0 0 0 0 0 1 0 1
+The Rough-Walled Chamber
+   You are in a small spherical chamber, which has somehow been carved out of
+the living stone.  Although you can see no exits, the room is lit and there is
+an updraft...
+^
+124 125 0 121 0 0 0 1 0 1
+The Hall of Challenging
+   You are in a large, oval-shaped chamber.  Tapestries, depicting scenes of
+single combat, hang from the roof of the chamber, which is high overhead.  A
+vast array of weapons and armor, from various ages, adorn the walls all about
+you.  The arena is ringed with torches, burning silently.
+^
+125 0 0 124 0 0 0 0 0 1
+The Final Resting Place
+   You are in a rectangular hall, with smooth stone walls, and a marble floor.
+An overwhelming sense of satisfaction fills the air in this room.  Twelve
+marble pillars line the eastern and western walls of the chamber.
+^
+

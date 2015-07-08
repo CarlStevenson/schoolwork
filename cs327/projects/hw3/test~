@@ -1,0 +1,10 @@
+abc := 34-4*5+6/2;
+d := abc - 10;
+write(abc);
+write(d);
+write(4-10*2);
+writeln();
+e := 10;
+if e then write(10+5);
+f := 10;
+if f then write(10+5)

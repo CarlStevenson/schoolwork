@@ -1,0 +1,172 @@
+Carl Stevenson
+Files to be submitted: assign8.cpp, bst.cpp, bst.h
+
+Program description:
+  This program provides menu based interaction with a binary search tree class with functionality to add find and remove items, print an in-order traversal of the tree, display the empty status, and find the minimum and maximum member of the tree.
+  
+Valid input:
+  menu: integer from 1 <= n <=8
+  insert: integer value
+  remove: integer value
+  findItem: integer value
+
+Input run 1:
+
+  The menu is as follows:
+    1. Insert an element
+    2. Remove an element
+    3. Find max value
+    4. Find min value
+    5. Find a value
+    6. Inorder traversal
+    7. Display empty status
+    8. Exit
+  
+  Please choose a menu item:  
+  You chose menu item 1
+  Please enter the item to insert:
+  Inserting 150
+  
+  Please choose a menu item:  
+  You chose menu item 1
+  Please enter the item to insert:
+  Inserting 50
+  
+  Please choose a menu item:  
+  You chose menu item 1
+  Please enter the item to insert:
+  Inserting 200
+  
+  Please choose a menu item:  
+  You chose menu item 1
+  Please enter the item to insert:
+  Inserting 40
+  
+  Please choose a menu item:  
+  You chose menu item 1
+  Please enter the item to insert:
+  Inserting 75
+  
+  Please choose a menu item:  
+  You chose menu item 1
+  Please enter the item to insert:
+  Inserting 175
+  
+  Please choose a menu item:  
+  You chose menu item 1
+  Please enter the item to insert:
+  Inserting 300
+  
+  Please choose a menu item:  
+  You chose menu item 3
+  Max value: 300
+  
+  Please choose a menu item:  
+  You chose menu item 4
+  Min value: 40
+  
+  Please choose a menu item:  
+  You chose menu item 6
+  In order traversal: 40 50 75 150 175 200 300
+  
+  Please choose a menu item:  
+  You chose menu item 8
+  Exiting now
+  
+ Input run 2:
+ 
+  The menu is as follows:
+    1. Insert an element
+    2. Remove an element
+    3. Find max value
+    4. Find min value
+    5. Find a value
+    6. Inorder traversal
+    7. Display empty status
+    8. Exit
+    
+  Please choose a menu item:  
+  You chose menu item 1
+  Please enter the item to insert:
+  Inserting 150
+  
+  Please choose a menu item:  
+  You chose menu item 1
+  Please enter the item to insert:
+  Inserting 50
+  
+  Please choose a menu item:  
+  You chose menu item 1
+  Please enter the item to insert:
+  Inserting 200
+  
+  Please choose a menu item:  
+  You chose menu item 1
+  Please enter the item to insert:
+  Inserting 40
+  
+  Please choose a menu item:  
+  You chose menu item 1
+  Please enter the item to insert:
+  Inserting 75
+  
+  Please choose a menu item:  
+  You chose menu item 1
+  Please enter the item to insert:
+  Inserting 175
+  
+  Please choose a menu item:  
+  You chose menu item 1
+  Please enter the item to insert:
+  Inserting 300
+  
+  Please choose a menu item:  
+  You chose menu item 3
+  Max value: 300
+  
+  Please choose a menu item:  
+  You chose menu item 4
+  Min value: 40
+  
+  Please choose a menu item:  
+  You chose menu item 6
+  In order traversal: 40 50 75 150 175 200 300
+  
+  Please choose a menu item:  
+  You chose menu item 5
+  Please enter the item you with to find:
+  150 found in the tree.
+  
+  Please choose a menu item:  
+  You chose menu item 5
+  Please enter the item you with to find:
+  50 found in the tree.
+  
+  Please choose a menu item:  
+  You chose menu item 5
+  Please enter the item you with to find:
+  200 found in the tree.
+  
+  Please choose a menu item:  
+  You chose menu item 5
+  Please enter the item you with to find:
+  40 found in the tree.
+  
+  Please choose a menu item:  
+  You chose menu item 5
+  Please enter the item you with to find:
+  75 found in the tree.
+  
+  Please choose a menu item:  
+  You chose menu item 5
+  Please enter the item you with to find:
+  175 found in the tree.
+  
+  Please choose a menu item:  
+  You chose menu item 5
+  Please enter the item you with to find:
+  300 found in the tree.
+  
+  Please choose a menu item:  
+  You chose menu item 8
+  Exiting now.

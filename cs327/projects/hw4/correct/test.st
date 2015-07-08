@@ -1,0 +1,6 @@
+abc := 34-4*5+6 div 2;
+d := abc - 10;
+write(abc);
+write(d);
+write(4-10*2);
+writeln()

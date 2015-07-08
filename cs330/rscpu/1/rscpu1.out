@@ -1,0 +1,74 @@
+Username:  stevenc
+Date:      Tue Feb 17 10:57:36 EST 2015
+ 
+*** compiling ***
+--- running ---
+ 
+
+Carl Stevenson
+RSCPU
+This program accepts the title of a file from the user,
+opens the file, then reads in lines of hexadecimal
+bytes, and executes them in the simulated CPU.
+
+Enter the name of the file containing the program: You chose: /home/mathcs/turnin/bracken/cs330/test1.1
+
+Initial register values: 
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 0, PC = 0, DR = 0
+	IR = 0, TR = 0
+
+fetch1: AR = 0 and PC = 0
+fetch2: DR = 0 and PC = 1
+fetch3: IR = 0 and AR = 1
+no op instruction
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 1, PC = 1, DR = 0
+fetch1: AR = 0 and PC = 1
+fetch2: DR = 255 and PC = 2
+fetch3: IR = 255 and AR = 2
+halt instruction
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 2, PC = 2, DR = 255
+--- Running again ---
+ 
+
+Carl Stevenson
+RSCPU
+This program accepts the title of a file from the user,
+opens the file, then reads in lines of hexadecimal
+bytes, and executes them in the simulated CPU.
+
+Enter the name of the file containing the program: You chose: /home/mathcs/turnin/bracken/cs330/test1.2
+
+Initial register values: 
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 0, PC = 0, DR = 0
+	IR = 0, TR = 0
+
+fetch1: AR = 0 and PC = 0
+fetch2: DR = 0 and PC = 1
+fetch3: IR = 0 and AR = 1
+no op instruction
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 1, PC = 1, DR = 0
+fetch1: AR = 0 and PC = 1
+fetch2: DR = 0 and PC = 2
+fetch3: IR = 0 and AR = 2
+no op instruction
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 2, PC = 2, DR = 0
+fetch1: AR = 0 and PC = 2
+fetch2: DR = 0 and PC = 3
+fetch3: IR = 0 and AR = 3
+no op instruction
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 3, PC = 3, DR = 0
+fetch1: AR = 0 and PC = 3
+fetch2: DR = 0 and PC = 4
+fetch3: IR = 0 and AR = 4
+no op instruction
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 4, PC = 4, DR = 0
+fetch1: AR = 0 and PC = 4
+fetch2: DR = 0 and PC = 5
+fetch3: IR = 0 and AR = 5
+no op instruction
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 5, PC = 5, DR = 0
+fetch1: AR = 0 and PC = 5
+fetch2: DR = 255 and PC = 6
+fetch3: IR = 255 and AR = 6
+halt instruction
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 6, PC = 6, DR = 255

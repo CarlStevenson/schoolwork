@@ -1,0 +1,33 @@
+#File   : encode.py
+#Author : Carl Stevenson
+#Date   : 9/27/2012
+#Purpose: To encode a message using a simple cipher.
+
+def main():
+    #tell user what the program does and who wrote it
+    print("This program will encode a message using")
+    print("a Caesar cipher.")
+    print("You will enter a key (number between 1 and 25).")
+    print("Written by Carl Stevenson")
+    print()
+    
+    #prompt and input the key
+
+    key = eval(input("Enter a key (number between 1 and 25): "))
+    print()
+    print()
+    msg = input("Enter a sentence: ")
+    print()
+    print()
+    print("With a key of", key)
+    print()
+    print("Original line:", msg)
+    
+    #prompt and input the plaintext line
+    #lowercase the line
+    #go through the text character by character
+    #convert each letter to the encoded version
+    #output the encoded version
+    print()
+    for ch in msg:
+        print(ch, end = "")

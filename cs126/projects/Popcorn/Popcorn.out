@@ -1,0 +1,46 @@
+Username:  stevenc
+Date:      Mon Apr 29 18:02:38 EDT 2013
+ 
+*** Running make ***
+javac *.java
+--- Running first data ---
+ 
+
+Program to produce a bar chart of popcorn production.
+Written by Carl Stevenson.
+
+                    Pop CoOp
+Farm name                    Production in
+                             Thousands of
+                             Pint Jars per Acre
+                                1   2   3   4   5   6
+                             ---|---|---|---|---|---|---
+Orville's Acres              ***************    |
+Koch's Korn                  ****************** |
+Jiffy Quick Farm             ***********        |
+Jolly Good Plantation        *******************#**
+Organically Grown Inc.       ************       |
+
+--- Running second data ---
+ 
+
+Program to produce a bar chart of popcorn production.
+Written by Carl Stevenson.
+
+
+ERROR: The name for Big Long Name Farm of Northeastern Pennsylvania is over 29 characters,which is incompatable with this program. Please fix this in your input file.
+Continuing with the rest of the input.
+
+                    Pop CoOp
+Farm name                    Production in
+                             Thousands of
+                             Pint Jars per Acre
+                                1   2   3   4   5   6
+                             ---|---|---|---|---|---|---
+Kinder Korn                  ***                |
+Juniper Farms                *******************#*
+Baker's Acres                *******************#***
+
+*** Running make clean ***
+rm -f *.class *~ *#
+ 

@@ -1,0 +1,40 @@
+Username:  stevenc
+Date:      Thu Sep 20 10:34:27 EDT 2012
+ 
+*** Running lightning.py ***
+Program to calculate the distance
+to a lightning strike based upon the time elapsed
+between the flash and the sound of thunder.
+You will be asked to enter the time in seconds
+between flash and bang.
+Written by Carl Stevenson
+
+Enter the time in seconds: 
+
+Time between flash and bang : 10 seconds
+Distance to lightning strike: 2.0833333333333335 miles
+
+Program to calculate the distance
+to a lightning strike based upon the time elapsed
+between the flash and the sound of thunder.
+You will be asked to enter the time in seconds
+between flash and bang.
+Written by Carl Stevenson
+
+Enter the time in seconds: 
+
+Time between flash and bang : 3 seconds
+Distance to lightning strike: 0.625 miles
+
+Program to calculate the distance
+to a lightning strike based upon the time elapsed
+between the flash and the sound of thunder.
+You will be asked to enter the time in seconds
+between flash and bang.
+Written by Carl Stevenson
+
+Enter the time in seconds: 
+
+Time between flash and bang : 1 seconds
+Distance to lightning strike: 0.20833333333333334 miles
+

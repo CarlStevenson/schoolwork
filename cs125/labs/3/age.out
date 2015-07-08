@@ -1,0 +1,27 @@
+Username:  stevenc
+Date:      Thu Sep 13 10:23:44 EDT 2012
+ 
+*** Running age.py ***
+
+This is a program to calculate your age.
+Written by Carl Stevenson.
+
+Enter the month of your birth (1-12): 
+Enter the day of the month of your birth (1-31): 
+Enter the year of your birth: 
+Today's date is 9 / 13 / 2012
+Your birthdate is on 10 / 31 / 1948
+Your age is 63 years old.
+
+*** Running age.py again ***
+
+This is a program to calculate your age.
+Written by Carl Stevenson.
+
+Enter the month of your birth (1-12): 
+Enter the day of the month of your birth (1-31): 
+Enter the year of your birth: 
+Today's date is 9 / 13 / 2012
+Your birthdate is on 7 / 17 / 1991
+Your age is 21 years old.
+

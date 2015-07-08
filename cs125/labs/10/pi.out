@@ -1,0 +1,57 @@
+Username:  stevenc
+Date:      Thu Nov 8 09:59:15 EST 2012
+ 
+*** Running pi.py ***
+
+Program to calculate pi by 2 methods
+Written by Carl Stevenson
+
+How many terms would you like? 
+
+Pi by alternating sums    Pi by odd products
+  4.000000                   2.666667
+  2.666667                   2.895238
+  3.466667                   2.976046
+  2.895238                   3.017072
+  3.339683                   3.041840
+  2.976046                   3.058403
+  3.283738                   3.070255
+  3.017072                   3.079153
+  3.252366                   3.086080
+  3.041840                   3.091624
+For 10 terms the difference is:
+ -0.099753                  -0.049969
+The actual value of pi is 3.14159265359
+
+*** Running 2 ***
+
+Program to calculate pi by 2 methods
+Written by Carl Stevenson
+
+How many terms would you like? 
+
+Pi by alternating sums    Pi by odd products
+  4.000000                   2.666667
+  2.666667                   2.895238
+  3.466667                   2.976046
+  2.895238                   3.017072
+  3.339683                   3.041840
+  2.976046                   3.058403
+  3.283738                   3.070255
+  3.017072                   3.079153
+  3.252366                   3.086080
+  3.041840                   3.091624
+  3.232316                   3.096162
+  3.058403                   3.099944
+  3.218403                   3.103145
+  3.070255                   3.105890
+  3.208186                   3.108269
+  3.079153                   3.110350
+  3.200366                   3.112187
+  3.086080                   3.113820
+  3.194188                   3.115281
+  3.091624                   3.116597
+For 20 terms the difference is:
+ -0.049969                  -0.024996
+The actual value of pi is 3.14159265359
+

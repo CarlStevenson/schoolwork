@@ -1,0 +1,78 @@
+Username:  stevenc
+Date:      Thu Oct 23 11:47:23 EDT 2014
+ 
+*** compiling ***
+g++ driver.cpp plane.cpp -o driver
+--- Running ---
+ 
+
+Carl Stevenson
+Closest Pair Problem
+This program finds the closest two points in a plane.
+
+Please enter the name of the file containing the plane: 
+You chose /home/mathcs/turnin/bracken/test1.text
+{ (28.79, 56.5) (7.4, 60.79) (30.33, 45.45) (10.8, 15.99) }
+Points sorted on x coordinate:
+{ (7.4, 60.79) (10.8, 15.99) (28.79, 56.5) (30.33, 45.45) }
+Points sorted on the y coordinate:
+{ (10.8, 15.99) (30.33, 45.45) (28.79, 56.5) (7.4, 60.79) }
+
+Closest points: (0, 0) (0, 0)
+Distance calculations performed: 0
+Exiting
+--- Running again ---
+ 
+
+Carl Stevenson
+Closest Pair Problem
+This program finds the closest two points in a plane.
+
+Please enter the name of the file containing the plane: 
+You chose /home/mathcs/turnin/bracken/test2.text
+{ (74, 60.8) (-33, -93.3) (-97.8, -99.2) (-28.8, -56.5) }
+Points sorted on x coordinate:
+{ (-97.8, -99.2) (-33, -93.3) (-28.8, -56.5) (74, 60.8) }
+Points sorted on the y coordinate:
+{ (-97.8, -99.2) (-33, -93.3) (-28.8, -56.5) (74, 60.8) }
+
+Closest points: (0, 0) (0, 0)
+Distance calculations performed: 0
+Exiting
+--- Running again ---
+ 
+
+Carl Stevenson
+Closest Pair Problem
+This program finds the closest two points in a plane.
+
+Please enter the name of the file containing the plane: 
+You chose /home/mathcs/turnin/bracken/test3.text
+{ (65.5, 91.9) (40, 89.9) (-78.2, 40) (37.1, 52.8) (-66.9, 63.1) (-56.1, -14.6) (-45, -11.1) (12.9, -91.7) }
+Points sorted on x coordinate:
+{ (-78.2, 40) (-66.9, 63.1) (-56.1, -14.6) (-45, -11.1) (12.9, -91.7) (37.1, 52.8) (40, 89.9) (65.5, 91.9) }
+Points sorted on the y coordinate:
+{ (12.9, -91.7) (-56.1, -14.6) (-45, -11.1) (-78.2, 40) (37.1, 52.8) (-66.9, 63.1) (40, 89.9) (65.5, 91.9) }
+
+Closest points: (0, 0) (0, 0)
+Distance calculations performed: 0
+Exiting
+--- Running again ---
+ 
+
+Carl Stevenson
+Closest Pair Problem
+This program finds the closest two points in a plane.
+
+Please enter the name of the file containing the plane: 
+You chose /home/mathcs/turnin/bracken/test4.text
+{ (-77.2, 18.8) (-75.7, 34.2) (-9.8, 20.9) (-64, -15.4) (-5, -1.8) (-7.8, -22.7) (7.7, 29.1) (9.8, 44) (12.8, -31.1) (24.7, -5) (-1.8, 7.7) (29.1, 9.8) (44, 12.8) (-31.1, 24.7) (-99.3, 32.3) (19.9, 38.9) (-67.2, 57.4) (-46.2, 73.7) (-47.1, 84.6) (32.3, 19.9) (38.9, -67.2) (57.4, -46.2) (84.6, 62.1) (73.7, -47.1) (90.5, 67.9) }
+Points sorted on x coordinate:
+{ (-99.3, 32.3) (-77.2, 18.8) (-75.7, 34.2) (-67.2, 57.4) (-64, -15.4) (-47.1, 84.6) (-46.2, 73.7) (-31.1, 24.7) (-9.8, 20.9) (-7.8, -22.7) (-5, -1.8) (-1.8, 7.7) (7.7, 29.1) (9.8, 44) (12.8, -31.1) (19.9, 38.9) (24.7, -5) (29.1, 9.8) (32.3, 19.9) (38.9, -67.2) (44, 12.8) (57.4, -46.2) (73.7, -47.1) (84.6, 62.1) (90.5, 67.9) }
+Points sorted on the y coordinate:
+{ (-99.3, 32.3) (-77.2, 18.8) (-75.7, 34.2) (-67.2, 57.4) (-64, -15.4) (-47.1, 84.6) (-46.2, 73.7) (-31.1, 24.7) (-9.8, 20.9) (-7.8, -22.7) (-5, -1.8) (-1.8, 7.7) (7.7, 29.1) (9.8, 44) (12.8, -31.1) (19.9, 38.9) (24.7, -5) (29.1, 9.8) (32.3, 19.9) (38.9, -67.2) (44, 12.8) (57.4, -46.2) (73.7, -47.1) (84.6, 62.1) (90.5, 67.9) }
+
+Closest points: (0, 0) (0, 0)
+Distance calculations performed: 0
+Exiting
+ 

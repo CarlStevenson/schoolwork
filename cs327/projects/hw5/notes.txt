@@ -1,0 +1,928 @@
+Compiler is a translator
+
+source language --> target language
+
+subset of Pascal --> x86 assembly
+
+
+compiler phases:
+    front end - lexical analysis(scanning)
+                syntax analysis(parsing)
+                semantic analysis(type checking, etc)
+                intermediate code generation
+                optimization (machine independent)
+                code generation
+                optimization (machine dependent)
+                
+                
+                
+                
+                
+lexical analysis:
+
+    split source program into a sequence of lexemes(small units of text that go together)
+    
+    	ex:  !=
+    		 for
+    		 ;
+    
+    lexemes are represented by data structures called tokens
+    
+    types of lexemes: punctuation
+    				  reserved word (for)
+    				  (^usually represented as an integer code)
+    				  identifier	need code + symbol table entry
+    				  constants		need code + value
+    				  
+    				  
+    ex token:
+    
+    	struct token{
+    		int type;
+    		union{
+    			char * lexeme;
+    			int int_value;
+    			double double_value;
+    		} value;
+    	}
+    	
+    	struct token t;
+    	t.type = T_IDENTIFIER
+    	t.value.lexeme = ...
+    	
+    	struct sotres values sequentially
+    	union stores values in the same place
+    	
+    	
+    scanner - (1) indentifies lexemes - returns tokens
+    		  (2) removes white space
+    		  (3) remove comments
+    
+    uses regular expressions
+    	integer constants - [0-9]+ 
+    	
+    	
+    scanner generator
+    	specification of lexemes (regular expressions) --> function that scans
+    	
+    	
+    Specifying lexemes with regular expressions
+    
+    once you identify lexemes, you have to put them together
+    
+    Falls under SYNTAX
+    
+    Specifying syntax:
+        
+        grammar
+        BNF
+        EBNF (extended BNF)
+        
+        ex simple grammar for expressions:
+            
+                Expr --> NUM			   | Both
+Nonterminals |  Expr --> Expr oper Expr    | Productions
+             |  op --> Plus          | terminals     
+             |  op --> Minus		 |
+             |  op --> Times		 |
+             |  op --> Div			 |
+            
+            ^Not very good but complete for simple arithmetic operations
+            
+            syntax confers no meaning to the symbols
+            
+            only gives relationships between the symbols in a syntactically
+            correct program
+            
+            Syntax - what is an allowable (syntactically correct) program?
+            Semantics - what is the meaning of a program(what happens when it runs?)
+            
+            syntax is pretty basic
+            
+            
+            You have a start symbol (we have 'E' for Expression)
+            
+            is 1 + 2 - 3 * 4 syntactically correct?
+            
+            Derivation:
+            
+            E --> E O E --> E O E O E --> E O E O E O E --> E P E O E O E
+            
+            	--> E P E M E O E --> E P E M E T E --> N P E M E T E
+            	--> N P N M E T E --> N P N M N T E --> N P N M N T N
+            
+            replace non terminal by right hand side production(?)
+            
+            build a parse tree(syntax tree)
+            where the items of the derivation matches the derivation
+            
+            			E
+            		 /  |  \
+            		E	O	E
+            	 /  | \   /	|  \
+            	E	O  E E	O	E
+            	|	   | |		|
+            	N	   N N		N
+            	
+            If there's more than one parse tree for some derivable tree, then
+            the language is ambiguous
+            
+            standard ways of defining grammars that avoid ambiguity
+            
+            Expr --> Term
+            Expr --> Expr + Term
+            Expr --> Expr - Term
+            Term --> Factor
+            Term --> Term * Factor
+            Term --> Term / Factor
+            Factor --> Num
+            Factor --> (Expr)
+            
+            Grammar built in levels where the precedence of the operators gets
+            higher as you go down
+            
+            
+            	
+            	E
+            	|
+            E   -   T
+          /  	     \
+         E + T        T * F
+    	 |   |		  |   |
+    	 T	 F		  F   4
+    	 |   |		  |
+    	 F   2		  3
+    	 |
+    	 1	  
+    	 
+    	 
+    	 Build parse trees so highest precedence is at the bottom,
+    	 lowest precedence at the top
+    	 
+    	 Ex: C is much more complex, but in this scope, this is what is used
+    	 
+    	 sequence of terms, seperated by plus' and minus'
+    	 parser based on recursion
+    	 parser:
+    	 	can produce the translation on the fly
+    	 	
+    	 	
+    	 -->
+    	 ::=
+    	 
+    	 E --> E + T | E - T
+    	 			 ^or 
+    	 E --> 
+    	 	  ^Empty string
+    	 	  
+    	 EBNF syntax adds *(0 or more)
+    	 				  ()
+    	 
+    	 can get
+    	 E --> T((+1-)Term)*
+    	 T --> F((*1/)F)*
+    	 parser based on
+    	 
+    Next time: going to write a parser by hand
+    	you write a function called parseexpression
+    		E looks to see if the next token is valid for any of the valid right sides
+    			if the next token is not valid, syntax error
+    			otherwise, recursively called functions for the right hand sides
+    		(problem with that
+    		in order to work write, expression can't call expression right away
+    		he'll show how to fix it)
+    		
+    		
+    E --> T | E + T | E - T
+    T -->F | T * F | T / F
+    F --> N | (E)
+    
+    parse expression
+    going to look at the non-terminals
+    going to try to match up against them
+    
+    predicting grammar: the alternative for a production have non-terminating sets of allowable terminals
+    can't predict which branch is needed
+    
+    need to re-write gramar so those sets are different
+    
+    Factor the grammar
+    
+    E --> T RT
+    RT --> '+' T RT | '-' T RT | e
+    
+    parse_expr(){
+    
+    	parse_term();
+    	parse_rest_of_term();
+    }
+    parse_rest_of_term(){
+    
+    	switch (lookatit){
+    	
+    		case '+': parse_term();
+    				  parse_rest_of_term();
+    				  break;
+    		case '-': parse_term();
+    				  parse_rest_of_term();
+    				  break;
+    		default:  return;
+    	}
+    }
+    
+    EBNF:
+    
+    E --> T('+' | '-' T)*
+    
+    parse_expr(){
+    
+    	parse_term();
+    	
+    	while(lookatit == '+' | lookatit == '-')
+    		parse_term();
+    }  	 
+    
+    syntax -directed translation
+    
+    annotate a grammer with instructions that show you have to do the translation
+    
+    E --> E + T
+    E --> E-T
+    E --> T
+    T --> 0
+    T --> 1
+       |
+       |
+    T --> 9
+    
+    double bars mean to concatenate
+    
+    E.t := E1.t || T.t|| '+'	|
+    E.t := E1.t || T.t|| '-'	| semantic rule
+    	 
+    				  
+    				  
+    				  
+    going to write the grammar
+    going to write the semantic rules as well
+    
+    read through example of a parser
+    end of chapter 2 'putting techniques together'
+    
+    
+    
+    a := 1 + 2 * 3
+    print a
+    print 3 + 4
+    b := a + 2
+    print b
+    
+    we're going to trnslate it into machine language for a (virtual)stat machine
+    
+    ADD --> pop 2 values off the stack and push the sum
+    SUB --> pop 2 values, 1st is left, 2nd is right
+    MUL --> similar to ADD
+    DIV --> similar to SUB
+    
+    push --> constant
+    print --> pops stack, prints value
+    
+    lvalue --> variable		(pushes lvalue onto the stack)
+    rvalue --> variable		(pushes rvalue onto the stack)
+    assign --> 		pops rvalue & lvalue and placed the lvalue in the variable who is the rvalue
+    
+    ex: go back to b := a + 2
+    
+    for 'a' we want the rvalue (value of the variable)
+    for 'b' we want the lvalue (location of the varibale for assignment)
+    
+    lvalue is the standard for the location of a variable
+    
+    
+    ex:
+    	push 1
+    	push 2
+    	push 3
+    	MUL
+    	ADD
+    	lvalue a
+    	assign
+    	rvalue a
+    	print
+    	push 3
+    	push 4
+    	ADD
+    	print
+    	rvalue a
+    	push 2
+    	ADD
+    	lvalue b
+    	assign
+    	rvalue b
+    	print
+    	
+    
+    
+.
+.
+.
+.
+.
+.
+.
+
+
+
+ex of hash function:
+add the ascii codes of the characters
+
+when 2 strings hash to the same value, it is a collision
+
+
+Hash table
+__________
+
+
+hash : strings --> integers
+    
+    
+Analysis of the stack compiler
+
+lex: lexical analyzer
+flex: newer better lexical analyzer
+yacc: distributed with early linux
+
+
+
+modify amd64 compiler with tools
+
+parser going to produce a parse tree
+
+
+
+
+
+
+
+
+
+HW3:
+
+for i:=1 to n do
+scanner parser intcode 
+    
+    
+    
+    
+    
+
+
+
+
+Boolean expressions
+  
+  not e
+  e and e
+  e or e
+  
+  
+using +, -
+
+  +3
+  -x
+  
+relational expressions
+
+  x<=y
+  x<y
+  x=y
+  x<>y
+  x>=y
+  x>y
+  
+if..then statements inherantly ambiguous
+
+in bison
+
+  T_IF expr T_THEN stmt
+    T_ELSE stmt
+  
+  
+  choose to shift or reduce
+  grammar doesn't tell it whether to shift or reduce
+    resolves it by reducing
+    
+  when it tells you there's a shift reduce conflict, it's fixed automatically
+    bison automatically makes the correct choice, to reduce
+    
+  can give bison an option
+    %expect 1
+    to ignore one shift reduce conflict report
+
+
+
+
+
+going to make it look like a pascal compiler
+
+we will distinguish between int and bool
+
+// program name
+program name;
+// variable declarations
+var
+  
+  i,j,k: integer;
+  a,b: boolean;
+
+begin
+  .
+  .
+  .
+  .
+  .
+  .
+end
+
+type checking
+
+
+
+compiler: generates code in a target language
+interpreter: executes code directly
+    
+  3+4*5
+  how to compute the values of expressions
+  
+  how to you evaluate that expression on the fly?
+  have a tree structure
+  write an eval function
+    takes expression e
+    
+    eval(e){
+      switch(e->op){
+      
+        case PLUS:
+          return eval(e->left) + eval(e->right);
+        case TIMES:
+          return eval(e->left * eval(e->right); 
+      }
+    }
+    
+    constant folding
+      compiler replaces a constant expression with it's value
+      
+    
+    
+    
+    
+    
+    
+    x+y*5
+    
+    how does an interpreter evaluate an expression like that?
+    needs the values of x and y
+    
+    compiler has address for the variable
+    interpreter needs to lookup value
+    
+    
+    environment
+      table that associates values with names
+    
+    
+    assume have an environment env
+      lookup(env, v)  returns value of v
+        pass expression to eval, have to also pass the environment
+        
+        eval(e, env){
+          switch(e->type){
+            case INT_CONST: return e->value;
+            case VARIABLE: return lookup(env, v);
+          }
+        }
+        
+        
+        
+        write eval type function that evaluates the type of the expression
+        
+        use it to determine the type of the result
+        allows it to throw type errors
+        
+        however, there are a lot of combinations
+        
+        writing a type checker is trivial and tedious
+        
+        optimization can be built in
+        
+        one the parser can do:
+        
+          expr -> T_PLUS expr
+        
+        
+        not is a prefix operator
+        has highest of all precedences usually
+        
+        x and y not is postfix and has lowest precedence
+        
+        the 'SNL' not
+        
+        
+        
+        
+        
+type checking
+
+  subrange
+    2...7
+  sets
+    sets of subranges    
+    
+  comparison of types
+    identity
+    compatability
+    assignment compatability
+    
+  type
+    foo = integer;   (like a typedef in C)
+    stuff = 1..12;
+  type identical if they have the same name
+  
+  
+  http://pascal-central.com/iso7185.html#6.4.5 Compatible types
+    
+    
+    
+
+
+pascal has funtions and procedures
+
+  function f(x,y : integer): integer;
+  begin
+  .
+  .
+  .
+  .
+  end
+  
+  procedures return nothing
+              passing address of x by putting var in the declaration
+  procedure p(var x :integer, y: real);
+  begin
+  .
+  end
+  
+  
+  in order to pass a value, it has to be assignment compatable with the declaration
+    
+    passing by reference, 
+    
+    
+    
+    
+    
+  in java
+  http://docstore.mik.ua/orelly/java/langref/ch04_13.htm
+  
+  in C++
+  
+    f(int &x, int y)
+              ^passed by value
+      ^ wut
+      
+    have variables int &x
+    
+    &var is an implicit pointer
+    
+    reference is like a pointer
+    don't have to use the address and pointer operator[needs citation]
+    
+    in c++, pass a reference by value
+    
+    tl;dr don't need pass by reference function
+    
+  in C:
+  
+    f(char *s)   <- pointer to array is passed by value
+    
+    
+    compatability rules
+    http://open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf
+    page 120
+    
+    
+      void *var compatability with any type
+    
+
+
+structural compatability
+  
+  
+  
+  
+what about functions
+
+  inf f(int a, int b);
+  
+    int x int ->int
+        ^cartesian product
+    
+    
+
+sml
+  x::y -> lists
+
+
+    
+adding 
+  and or not
+  booleans
+
+
+  enter type checking
+
+  assembly has an 'and' instruction, andq
+  or, orq
+  not, notq
+    can we implement 'and' using that?
+    -depends
+    if you say false is 0, true is 1, you can
+    only going to work if booleans are always 0 or 1
+
+  //oh god what is happening//
+
+
+
+  need to test to see whether or not binary value is 0 or not
+
+  ex
+    have r8 and r9
+    want to put value in r10
+
+
+
+
+
+short circuit
+
+  p and q
+
+  eval p
+  if p is false, don't evaluate q
+  
+  p or q
+  same for or
+  if p is true, don't evaluate q
+
+  our version is going to short circuit
+
+
+  need to treat ands and ors differently than basic arithmetic operators
+
+    
+    
+  void if_stmt_gen(if_stmt *s){
+    symbol *out = label_new();
+    symbol *true = label_new();
+    bool_expr_gen(s->test, true, out);
+    quads[next].opcode = O_NOOP;
+    quads[next++].left = true;
+    stmt_gen(s->body);
+    quads[next].opcode = O_NOOP;
+    quads[next++].left = out;
+
+  }
+
+
+
+
+
+Peephole optimization
+  look at a small window of code and see if it can be replaced by better code
+
+
+  ex.
+    jmp J
+
+    J:
+
+  would want to remove the jmp
+
+
+
+
+type checker
+- traverse the parse tree
+- needs to put an entry in the symbol table
+- might need to create a new enumerated type
+- whenever it sees a variable
+  - if in arithmetic context, look up, see if integer
+  - if in comparison context, look up, see if boolean
+- compare the operands for every binary, unary, relationary operator
+
+
+tempting to change grammar
+
+  - curr.
+    expr -> int_expr || bool_expr
+    int_expr-> int_expr + int_expr
+    ..
+    .
+    .
+    ..
+    + int_expr
+    - int_expr
+
+
+    bool_expr -> bool_expr AND bool_expr
+                 bool_expr OR bool_expr
+                 not bool_expr
+                 .
+                 .
+                 ..
+
+  we encounter a problem, variables in expressions
+  
+
+
+//*
+^ switch slash
+
+/*/
+
+//*/
+  
+
+
+
+storing variables in registers
+
+vairiable is alive if it gets used at some subsequent point
+
+partition up the code into basic blocks
+
+  sequence of statements where flow of control enters at the first statement and leaves at the end with no branches inbetween
+
+algorithm for partitioning into basic blocks
+  find leaders(first statement in basic blocks)
+    the first line in a program is a leader
+    any statement that is the target of a jump (whether
+      conditional or unconditional) is a leader
+    any statement immediately after a jump is a leader
+
+dead code elimination
+
+
+renaming temporary variables
+  if you have  temp variable, change its name to something not used anywhere else, haven't changed the program
+
+  a block is in 'normal form' if all assignments and temporaries are to new temporaries
+
+interchange of statements
+
+  can move around statements
+
+flow graph
+  nodes are basic blocks
+  edge from b1 to b2
+  if there is a jump from the last statement of b1 to b2
+  or b2 follows b1 immediately in the program and b1 does not end in an unconditional jump
+
+representation of basic blocks
+  array of structs with 2 fields
+  # of leader
+  size of block
+
+
+
+
+HW5
+
+unary operators are in the scanner and parser already
+  look at them and check anyways
+
+opcode for increment and decrement needs to be implemented
+  includes code generation
+  can only be applied to variables
+snlnot
+  postfix
+  lower precedence than the other logical operators
+  change only parser and scanner
+
+
+
+change binary in binary xxpr gen to unary, rmove operand because you only have one
+set left operand to the remaining operant,
+keep return statment
+
+code generation
+
+  unary minus:
+
+  take left, put into r8
+  negate r8
+  move r8 back into result
+
+$$= unary_expr_new(O_PP, expr_new(E_VARIABLE, variable_expr_new($2)))
+
+boolexprgen different
+
+pass them symbols that are labels that are going to be where to jump if it's true, or where to jump if it's false
+
+recursively evaluate left operand,
+
+
+
+
+look at the functions in place for binary generation and modify for unary
+
+
+
+add expr statement
+new kind of statement
+define new type
+
+one field for 
+stmt:.
+.
+.
+.
+.
+
+
+make one of them an expr statement
+
+when generating code for an expresion ststement, generate code for an expression
+
+
+
+in globals.h
+
+  add S_EXPR
+  add to the union stmt
+  typedef struct expr_stmt
+  add to YYSTYPE expr_stmt
+
+in parser
+  add in to the production for a statement, expr stmt
+  add as a %type expr_stmt
+
+
+
+
+gdb
+
+  break main  //sets up breakpoint at main
+  info registers //prints register properties
+
+  help info //prints commands
+
+
+best way to run gdb is in emacs
+
+escape-x gdb
+asks what executable
+
+
+
+
+
+
+more hw5 stuff
+
+  globals.h
+  intcode.c
+  typecheck.c
+
+
+
+variable is alive in a basic block if the value it holds is used in the block
+
+
+
+a:= 3;
+b:= a+1;
+a:=2;
+
+
+
+
+liveness at the end of a block
+  - be conservative
+    - assume that all non-temporary variables are alive at the end of a block
+  - use data-flow analysis to determine liveness at the end of the block
+
+
+  need to store values in the symbol table
+    - alive
+    - next use
+
+  start at the end
+  go through all the variables that occur in the basic block
+  scant hrought he block
+  for each non-tempory, mark as alive and no next use
+  for each temporary, mark as not alive and no next use
+  scan backwards through the basic block
+  
+
+

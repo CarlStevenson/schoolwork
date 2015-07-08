@@ -1,0 +1,2631 @@
+Username:  stevenc
+Date:      Fri Apr 25 13:56:49 EDT 2014
+ 
+*** making assign8 ***
+g++ -g assign8.cpp -o assign8
+--- Running 1 ---
+ 
+
+Carl Stevenson
+Binary Search Trees
+This program takes input from the user to interface with an
+instantiated integer binary search tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 150
+150 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 50
+50 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 200
+200 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 40
+40 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 75
+75 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 175
+175 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 300
+300 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 3.
+The minimum value is: 40
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 4.
+The maximum value is: 300
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 6.
+40 50 75 150 175 200 300 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+Exiting now.
+Abort (core dumped)
+--- Running 2 ---
+ 
+
+Carl Stevenson
+Binary Search Trees
+This program takes input from the user to interface with an
+instantiated integer binary search tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 150
+150 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 50
+50 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 200
+200 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 40
+40 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 75
+75 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 175
+175 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 300
+300 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 3.
+The minimum value is: 40
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 4.
+The maximum value is: 300
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 6.
+40 50 75 150 175 200 300 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 5.
+Please enter the item to find.
+You chose 150
+150 was found in the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 5.
+Please enter the item to find.
+You chose 50
+50 was found in the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 5.
+Please enter the item to find.
+You chose 200
+200 was found in the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 5.
+Please enter the item to find.
+You chose 40
+40 was found in the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 5.
+Please enter the item to find.
+You chose 75
+75 was found in the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 5.
+Please enter the item to find.
+You chose 175
+175 was found in the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 5.
+Please enter the item to find.
+You chose 300
+300 was found in the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+Exiting now.
+Abort (core dumped)
+--- Running again 3 ---
+ 
+
+Carl Stevenson
+Binary Search Trees
+This program takes input from the user to interface with an
+instantiated integer binary search tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 150
+150 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 50
+50 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 200
+200 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 40
+40 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 75
+75 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 175
+175 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 300
+300 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 3.
+The minimum value is: 40
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 4.
+The maximum value is: 300
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 6.
+40 50 75 150 175 200 300 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 5.
+Please enter the item to find.
+You chose 500
+500 was not found in the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 6.
+40 50 75 150 175 200 300 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+Exiting now.
+Abort (core dumped)
+--- Running again 4 ---
+ 
+
+Carl Stevenson
+Binary Search Trees
+This program takes input from the user to interface with an
+instantiated integer binary search tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 150
+150 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 50
+50 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 200
+200 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 40
+40 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 75
+75 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 175
+175 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 300
+300 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 3.
+The minimum value is: 40
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 4.
+The maximum value is: 300
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 6.
+40 50 75 150 175 200 300 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 2.
+Please enter the item to remove.
+You chose 300
+The tree is empty.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 2.
+Please enter the item to remove.
+You chose 40
+40 removed from the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 6.
+40 15716784 75 150 175 0 300 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+Exiting now.
+Abort (core dumped)
+--- Running again 5 ---
+ 
+
+Carl Stevenson
+Binary Search Trees
+This program takes input from the user to interface with an
+instantiated integer binary search tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 150
+150 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 50
+50 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 200
+200 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 40
+40 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 75
+75 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 175
+175 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 300
+300 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 3.
+The minimum value is: 40
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 4.
+The maximum value is: 300
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 6.
+40 50 75 150 175 200 300 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 2.
+Please enter the item to remove.
+You chose 75
+The tree is empty.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 2.
+Please enter the item to remove.
+You chose 175
+175 removed from the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 6.
+40 0 75 150 175 23511440 300 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 3.
+The minimum value is: 40
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 4.
+The maximum value is: 300
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+Exiting now.
+Segmentation fault (core dumped)
+--- Running again 6 ---
+ 
+
+Carl Stevenson
+Binary Search Trees
+This program takes input from the user to interface with an
+instantiated integer binary search tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 150
+150 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 50
+50 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 200
+200 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 40
+40 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 75
+75 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 175
+175 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 300
+300 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 3.
+The minimum value is: 40
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 4.
+The maximum value is: 300
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 6.
+40 50 75 150 175 200 300 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 2.
+Please enter the item to remove.
+You chose 200
+The tree is empty.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 3.
+The minimum value is: 40
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 4.
+The maximum value is: 300
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 6.
+40 300 75 150 175 200 300 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+Exiting now.
+Abort (core dumped)
+--- Running again 7 ---
+ 
+
+Carl Stevenson
+Binary Search Trees
+This program takes input from the user to interface with an
+instantiated integer binary search tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 150
+150 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 50
+50 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 200
+200 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 40
+40 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 75
+75 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 175
+175 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 300
+300 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 3.
+The minimum value is: 40
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 4.
+The maximum value is: 300
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 6.
+40 50 75 150 175 200 300 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 2.
+Please enter the item to remove.
+You chose 50
+The tree is empty.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 6.
+40 75 75 150 175 200 300 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 3.
+The minimum value is: 40
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 4.
+The maximum value is: 300
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+Exiting now.
+Abort (core dumped)
+--- Running again 8 ---
+ 
+
+Carl Stevenson
+Binary Search Trees
+This program takes input from the user to interface with an
+instantiated integer binary search tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 150
+150 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 50
+50 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 200
+200 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 40
+40 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 75
+75 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 175
+175 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 300
+300 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 3.
+The minimum value is: 40
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 4.
+The maximum value is: 300
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 6.
+40 50 75 150 175 200 300 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 2.
+Please enter the item to remove.
+You chose 150
+150 removed from the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 3.
+The minimum value is: 40
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 4.
+The maximum value is: 300
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 6.
+40 175 75 150 200 300 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+Exiting now.
+Abort (core dumped)
+--- Running again 9 ---
+ 
+
+Carl Stevenson
+Binary Search Trees
+This program takes input from the user to interface with an
+instantiated integer binary search tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 150
+150 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 50
+50 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 200
+200 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 40
+40 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 75
+75 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 175
+175 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 300
+300 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 3.
+The minimum value is: 40
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 4.
+The maximum value is: 300
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 6.
+40 50 75 150 175 200 300 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 2.
+Please enter the item to remove.
+You chose 175
+The tree is empty.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 2.
+Please enter the item to remove.
+You chose 300
+Abort (core dumped)
+--- Running again 10 ---
+ 
+
+Carl Stevenson
+Binary Search Trees
+This program takes input from the user to interface with an
+instantiated integer binary search tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 150
+150 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 50
+50 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 200
+200 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 40
+40 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 75
+75 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 175
+175 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 300
+300 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 3.
+The minimum value is: 40
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 4.
+The maximum value is: 300
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 6.
+40 50 75 150 175 200 300 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 280
+280 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 6.
+40 50 75 150 175 200 280 300 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 3.
+The minimum value is: 40
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 4.
+The maximum value is: 300
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 2.
+Please enter the item to remove.
+You chose 200
+200 removed from the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 3.
+The minimum value is: 40
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 4.
+The maximum value is: 300
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 6.
+40 50 75 150 175 280 300 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+Exiting now.
+Abort (core dumped)
+--- Running again 11 ---
+ 
+
+Carl Stevenson
+Binary Search Trees
+This program takes input from the user to interface with an
+instantiated integer binary search tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 150
+150 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 50
+50 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 200
+200 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 40
+40 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 75
+75 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 175
+175 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 300
+300 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 3.
+The minimum value is: 40
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 4.
+The maximum value is: 300
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 6.
+40 50 75 150 175 200 300 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 72
+72 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 3.
+The minimum value is: 40
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 4.
+The maximum value is: 300
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 6.
+40 50 72 75 150 175 200 300 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 2.
+Please enter the item to remove.
+You chose 50
+The tree is empty.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 3.
+The minimum value is: 40
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 4.
+The maximum value is: 300
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 6.
+40 72 75 150 175 200 300 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+Exiting now.
+Abort (core dumped)
+--- Running again 12 ---
+ 
+
+Carl Stevenson
+Binary Search Trees
+This program takes input from the user to interface with an
+instantiated integer binary search tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 150
+150 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 50
+50 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 200
+200 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 40
+40 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 75
+75 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 175
+175 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 300
+300 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 3.
+The minimum value is: 40
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 4.
+The maximum value is: 300
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 6.
+40 50 75 150 175 200 300 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 2.
+Please enter the item to remove.
+You chose 175
+The tree is empty.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Find the minimum value
+	4. Find the maximum value
+	5. Find a specific item
+	6. Print an inorder traversal of the tree
+	7. Print the empty status of the tree
+	8. Exit
+You chose menu item 2.
+Please enter the item to remove.
+You chose 300
+Abort (core dumped)
+ 

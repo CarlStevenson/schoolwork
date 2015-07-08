@@ -1,0 +1,83 @@
+Username:  stevenc
+Date:      Wed Apr 2 10:53:46 EDT 2014
+ 
+*** making assign53 ***
+g++ assign53.cpp -o assign53
+--- Running ---
+ 
+
+Carl Stevenson
+Stacks
+This program defines 2 stacks based on user input, then appends
+the second stack to the first stack.
+
+Please enter an item to put onto stack1.(Non-integer to stop):
+Please enter an item to put onto stack1.(Non-integer to stop):
+Please enter an item to put onto stack1.(Non-integer to stop):
+Please enter an item to put onto stack2.(Non-integer to stop):
+Please enter an item to put onto stack2.(Non-integer to stop):
+Please enter an item to put onto stack2.(Non-integer to stop):
+Please enter an item to put onto stack2.(Non-integer to stop):
+Please enter an item to put onto stack2.(Non-integer to stop):
+stack1(from top to bottom): [6, 5, 90, 999999, 9999, 99]
+
+stack2(from top to bottom): [90, 999999, 9999, 99]
+
+--- Running again ---
+ 
+
+Carl Stevenson
+Stacks
+This program defines 2 stacks based on user input, then appends
+the second stack to the first stack.
+
+Please enter an item to put onto stack1.(Non-integer to stop):
+Please enter an item to put onto stack1.(Non-integer to stop):
+Please enter an item to put onto stack2.(Non-integer to stop):
+Please enter an item to put onto stack2.(Non-integer to stop):
+stack1(from top to bottom): [1, 2]
+
+stack2(from top to bottom): [2]
+
+--- Running again ---
+ 
+
+Carl Stevenson
+Stacks
+This program defines 2 stacks based on user input, then appends
+the second stack to the first stack.
+
+Please enter an item to put onto stack1.(Non-integer to stop):
+Please enter an item to put onto stack1.(Non-integer to stop):
+Please enter an item to put onto stack1.(Non-integer to stop):
+Please enter an item to put onto stack1.(Non-integer to stop):
+Please enter an item to put onto stack1.(Non-integer to stop):
+Please enter an item to put onto stack1.(Non-integer to stop):
+Please enter an item to put onto stack1.(Non-integer to stop):
+Please enter an item to put onto stack1.(Non-integer to stop):
+Please enter an item to put onto stack2.(Non-integer to stop):
+Please enter an item to put onto stack2.(Non-integer to stop):
+stack1(from top to bottom): [99, 9999, 50000, 100, 99, 88, 77, 1]
+
+stack2(from top to bottom): [1]
+
+--- Running again ---
+ 
+
+Carl Stevenson
+Stacks
+This program defines 2 stacks based on user input, then appends
+the second stack to the first stack.
+
+Please enter an item to put onto stack1.(Non-integer to stop):
+Please enter an item to put onto stack1.(Non-integer to stop):
+Please enter an item to put onto stack1.(Non-integer to stop):
+Please enter an item to put onto stack1.(Non-integer to stop):
+Please enter an item to put onto stack2.(Non-integer to stop):
+Please enter an item to put onto stack2.(Non-integer to stop):
+Please enter an item to put onto stack2.(Non-integer to stop):
+stack1(from top to bottom): [10, 100, 1000, 2, 1]
+
+stack2(from top to bottom): [2, 1]
+
+ 

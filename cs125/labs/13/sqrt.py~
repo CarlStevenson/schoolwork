@@ -1,0 +1,29 @@
+# File:    sqrt.py
+# Date:    12/6/12
+# Author:  Carl Stevenson
+# Purpose: To calculate square roots using Newton's method
+
+
+def main():
+    intro()
+    number, diff = getInputs()
+    calc, actDiff, tries = calcSqrt(numbers, diff)
+    printResults(number, diff, calc, actDiff, tries)
+
+def intro():
+    print("This program will calculate the square root")
+    print("of a number using Newton's Method.")
+    print("You will enter the number and the size of the")
+    print("difference between Newton's Method square root")
+    print("and the real square root.")
+    print("Written by Carl Stevenson")
+    print()
+
+
+
+
+
+
+
+
+if(__name__=='__main__'): main()

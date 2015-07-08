@@ -1,0 +1,52 @@
+Username:  stevenc
+Date:      Thu Feb 14 14:41:07 EST 2013
+ 
+*** Running make ***
+javac *.java
+--- Running 3 items ---
+ 
+This program computes total costs interactively.
+
+To begin, enter the number of items: 
+
+Enter the name, cost and tax rate for item 1: 
+
+Kleenex cost with tax is $3.18
+
+Enter the name, cost and tax rate for item 2: 
+
+Paper cost with tax is $5.50
+
+Enter the name, cost and tax rate for item 3: 
+
+Chalk cost with tax is $21.70
+
+--- Running 5 items ---
+ 
+This program computes total costs interactively.
+
+To begin, enter the number of items: 
+
+Enter the name, cost and tax rate for item 1: 
+
+Car cost with tax is $46390.00
+
+Enter the name, cost and tax rate for item 2: 
+
+Boat cost with tax is $143990.00
+
+Enter the name, cost and tax rate for item 3: 
+
+House cost with tax is $230390.00
+
+Enter the name, cost and tax rate for item 4: 
+
+Computer cost with tax is $2890.00
+
+Enter the name, cost and tax rate for item 5: 
+
+Stereo cost with tax is $585.00
+
+*** Running make clean ***
+rm -f *.class *~ *#
+ 

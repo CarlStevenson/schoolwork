@@ -1,0 +1,1820 @@
+
+
+high level dependability requirements
+
+    - system shall be available to deliver insulin when required
+    - system shall prerform reliably to deliver correct amount of insulin
+    
+safety requirement
+
+    -excessive doses of insulin should never be delivered
+    
+    
+dimensions of dependability
+
+    -availability
+        -able to deliver when requested
+    -reliability
+        -able to deliver?
+    -safety
+        - ability to operate without catastrophic failure
+        - system must be safe whether or not it is operating correctly
+    -security
+        -ability for the system to protect itself
+        
+        
+    -other properties
+        -repairability
+            -maintain quality
+        -maintainability
+            -economically being able to make changes without introducing errors into the system
+        -survivability
+            -performance under stress
+        -error tolerance
+        
+increase dependability increase cost
+
+    -more expensive development techniques
+    
+    -increase cost of hardware to build in redundancy
+    
+dependability/performance
+
+    -redundancy
+    -error checking
+    -can't tune for dependability
+    - system fault -> human error -> system error -> system failure
+    
+    
+    perception  of reliability
+    
+    -consequences of failure affects the perceptions of reliability
+    
+    3 approaches to achieving reliability
+    
+        -fault avoidance
+            -development techniques used so faults are not introduced into 
+            the system
+        
+        -fault detection & removal
+        
+            -verification and validation techniques
+        -fault tolerance
+        
+            -run time techniques to ensure system faults do not result in
+             system errors
+             
+             
+reliability improvement
+
+    -remove x% of faults, linear improvement of reliability?
+    
+        -degree of faults, how many faults exist
+        -not a linear increase
+
+Safety
+
+    -reflects sytems ability to operate normally or abnormally w/o damage
+    
+two types of critical systems
+
+    -primary
+        -failure directly causes harm
+    -secondary
+        -failure results in faults in other systems which causes harm
+    
+Unsafe reliable systems
+    -reliable if it conforms to specifications
+    - unsafe if uncontrollable circumstances
+    
+    -accident
+    -hazard
+    -damage
+    -hazard severity
+    -hazard probability
+    
+    
+approaches to safety achievement
+
+    -hazard avoidance
+    - hazard detection and removal
+    -damage limitations
+    
+security
+    -systems ability to protect itself if system cannot ensure safety
+    
+    -exposure
+    -vulnerability
+    -attack
+    -thrates
+    -control
+    
+    damage
+        -DOS attacks
+        -corruption of programs or data
+        -disclosure of confidential information
+        -fabrication
+        
+        
+end safety critical systems
+        
+        
+Software processes
+    - way that software is produced
+    - incorporates methodology with the underlying software life cycle model
+
+
+until recently, most successful OO methodologies were
+    - Booch Jacobson Rumbaugh
+    
+    got together and created The Unified Process
+    
+The Unified Process
+    - not a series of steps
+    - adaptable methodology
+    
+    UML
+        -unified modeling language
+        -allows software engineers to communicate quickly and accurately
+        
+    OO is iterative and incremental
+    
+    aim of requirements workflow
+        - to determine the client's needs
+        - gain an understanding of the application domain
+            -specific business environment
+        -build a business model
+            - use UML to describe the business processes
+            - if the client does not feel that the cost is justified, 
+                terminate development
+    it is vital to determine the client's contraints
+        -deadline
+        -parallel running
+        -portability
+        -reliability
+        -rapid response time
+        -cost
+        
+        - concept exploration is to determine what the client needs
+        - not what the client wants
+    analysis workflow
+    -refine the requirements
+    -requirements articacts must be totally comprehensible by the client
+    -the artifacts of the requirements workflow musy therefore must be expressed in a natural language
+        -all natural languages are imprecise    
+        
+        -two separate workflows needed
+            -one for the client
+            -one for the developers
+            
+    the specification document
+        -constitutes a contract
+        -must not have imprecise phrases
+        - no:
+            -contradictions
+            -omissions
+            -incompleteness
+    having complete and correct specifications is essential for
+        -testing
+        -mainenance
+        
+                
+        
+    once specifications are in place, detailed planning and estimating begins
+    
+    draw up software project management plan, including
+        -cost estimate
+        -duration estimate
+        -deliverables
+        -milestones
+        -budget
+        
+    this is the earliest possible time for the SPMP
+        
+        
+    design workflow
+        -refine analysis workflow until the material is in a form that can be implemented by the programmers
+        -nonfunctional requirements need to be finalized at this time
+            - language
+            - reuse issues
+            - portability
+            - reliability
+            - performance
+            - secury
+            -safety
+            - procedural
+            - useability
+            
+    classical design has two sub phases
+    in OO, classes are extracted during the OO analysis workflow
+        -designed during the design worklow
+        
+    retain design decisions
+        -for when dead-end is reached
+        - to prevent the maintenance team reiventing the wheel
+        
+        
+    implementation workflow
+        -inplement target software in the selected implementation language
+        
+        
+    test workflow
+        - responsibility of every developer and maintainer
+        
+        - traceability of artifacts
+        
+    anaalysis atrifacts
+        -should be checked by means of a review
+        -SPMP must be similarly checked
+        
+    design reviews are essentials
+        -client representative is not usually present
+        - logical
+        - interface errors
+        - exception handling
+        - nonconformance to specification  
+        
+        
+    implementation artifcats
+        - componant tested as soon as inmplemented
+            -unit testing
+        - end of each iteration, components combined and testes
+            - integration testing
+        - product appears to be complete, tested as whole
+            -product testing
+        - up to client's expectations?
+            - acceptance testing
+    COTS software is released for testing by prospective clients
+        -alpha testing
+        - beta testing
+    there are advantages and disadvantages to being an alpha or beta release site
+    
+    
+    postdelivery maintenance
+        - more money on this than all other activities combines
+        
+        - problems can be caused by lack of documentation of all kinds
+        - twot pes of testing are needed
+        - testing changes made during postdelivery maintenance
+        -regression testing
+        
+        all previous test cases (and their expected outcomes need to be retained
+        
+    retirement
+        -software becomes unmainainable
+    
+    in theory, there could be any number of increments
+    every step performed in The Unified Process falls into
+        - one fo the five core workflows
+        - one of the four phases
+        
+    
+
+
+
+
+
+
+
+
+    aim of the inceptions phase
+        - determine whether the proposed software product in economically viable
+        -1. gain understanding of domain
+        -2. build the business model
+        -3. delimit the scope of the proposed product
+        
+        
+    risk
+        -technology risks
+        -people risks
+        -organixational risks
+        -requirements risks
+        -estimation risks
+        
+        
+    inception
+        - coding not generally preformed in this phase
+        - proof of concept prototype may be developed
+        -testing starts almost at the start of the inception phase
+        - only planning done is for the next phase
+        
+    initial business case
+        -includes
+            -scope
+            -financial details
+            -revenue projections
+            
+
+  elaboration
+    -refine initial requirements
+      -refine architecture
+      -montior the risks and refine their priorities
+      -refine the business case
+      -produce the PMP
+      
+    -deliverables
+      -completed domain model
+      -complete business model
+      -completed rquirements artifacts
+      -completed analusis artifacts
+      -updated version of the architecture
+      -updates risks
+      -PMP
+      -completed business case
+  construction phase
+    - aim of the construction phase is to produce the first operation-quality version of the software product
+      -sometimes called the beta release
+    - emphasis placed of implementation and testing
+    - deliverables
+      -user manuals and other manuals
+      -all the artifacts
+      -the completed architecture
+      -updated risk list
+      -PMP
+      -updated business case
+  transition phase
+    - ensure the client's requirements have been met
+      -faults correct, current manuals
+      -pressure testing
+    -driven by feedback from the sites that the beta has been isntalled into
+    deliverables
+      -all the artifacts
+      -completed manuals
+    
+    
+    
+improving the software process
+
+  -US DOD initiative
+  -software engineering institute
+    -capability maturity model
+  - fundamental problem with software
+    -software process is badly managed
+    
+  software process improvement initiative
+    -CMM
+    - ISO 9000-series
+    - ISO/IEC 15504
+  Capability maturity models(CMM)
+    - not life cycle model
+    -set of strategies for improving the software process
+      -SW-CMM for software
+      -P-CMM for HR
+      - SE-CMM system engineering
+      .
+      .
+      .
+      .
+      
+    SW-CMM
+      -strategy for improving the software process
+      -put forware in 1986 by the SEI
+      -fundamentla ideas
+        -improving the software process leads to
+          -improved software quality
+          -delivery on time, within budget
+      -five levels of maturity are defines
+        -maturity measure of the goodness of the process itslef
+      -an organization advances stepwise
+      -level 1. initial
+        -ad hoc approach
+          -entire process unpredictable
+          -management consists of responses to crises
+        -most organization worldwide are level 1
+      -level 2. Repeatable
+        -basic software management
+          -using the past experience to shape current tasks
+      -level 3. defined
+        -software process fully documented
+        -continually efforts to improve quality and productivity
+        -introduce CASE environments
+      -level 4. managed
+        -have statistical quality control is in place
+      -level 5. optimizing
+        -continual process improvement
+        -statistical quality and process controls
+        -feedback of knowledge from each project to the next
+        
+// end chapter 3
+
+chapter 5
+
+  stepwise refinement
+    - good by millers law
+    
+  cost-benefit analysis
+    -compare costs and futur benefits
+    - is the project worth it?
+    -tangible costs/benefits are easy to measure
+    - make assumptions to estimate intangible costs/benefits
+    
+  separation of concerns
+    -process of breaking a software product into components with minimal
+    overlap of functionality
+      -minimizes regression faults
+      -promotes reuse
+      
+    -separation of concerns underlies much of software engineering
+    
+      -modularization
+      -information hiding
+      -encapsulation
+      -three-tier architecture
+        -presentation layer
+        -business layer
+        -logic layer
+      -model view controller architecture pattern
+    
+    
+software metrics
+  -to detect problems early, it is essential to meaure
+  -ex:
+    -LOC per month
+      -productivity metric
+    - defects per 1000 lines of code
+    
+  -product metrics
+  -process metrics
+  -metrics specific to a given workflow
+  -fault detection
+    -faults in delivered product
+    
+  five basi metrics
+  -size
+  -cost
+  -duration
+  -effort
+  -quality
+  
+  
+  data dictionary
+    -computerized list of all data defined within the product
+    -ennumerates terms within a business
+    - precisely defines all fo your terms for communication with clients, and within the development
+
+
+    componants of a data dictionary
+    - element name and aliases
+    - textual description of the element
+    - list of related elements
+    - element type
+    - element format
+    - range of accepted values
+
+    
+  -consistency checker
+  -report generator, screen generator
+
+
+
+Software versions
+  during maintenance, at least 2 versions of the product
+  - old version, 
+  - new version
+
+  there are two types of versions
+  - revisions
+    - 3 types of maintenance
+      - perfective
+      - adaptive
+      - corrective
+  - modifications
+    - different platform
+
+  version control tool
+    essentials for programming-in-the-many
+      - first step toward configuration management
+    version control tool must handle 
+      -updates
+      -parallel versions
+
+      componants;
+        name of each source file - variation + version
+        versions of the compilers + linkers
+        person who wrote it
+        person who last modified
+        date and time of construction
+
+    problem of multiple variations
+      -delta
+    version control is not enough - maintenance issues
+
+    two programmers working on the same artifact mDual/16
+    changes of first programmer contained in mDual/17
+    changes of the second programmer are contained in mDual/18
+    changes of the first programmer is lost
+
+    maintenance manager must set up 
+      -baselines
+      -private workspaces
+
+    when an artifact is to be changed, the current version is frozen
+      -thereafter, it can never be changed
+
+    baseline
+      - set of versions of all artifacts of the product
+    new baseline once modifications are made
+
+    after changes are made, product is frozen.
+    any new changes that are made have to be made to the most recent frozen version
+
+
+  while an artifact is being coded
+    - the programmer performs informal testing
+
+  then the artifact is given to the SQA group for methodical testing
+    - changed from now on can impact the product
+  an artifact must be subject to configuration control from the time it is passed by SQA
+
+
+need to read through chapter 5
+
+chapter 6: Testing
+
+  two basic types of testing:
+    - execution based
+      - dynamic testing
+    - non-execution based
+      - static testing
+  v&v
+    -verification
+      - determine if the workflow was completed correctly
+    -validation
+      - determine if the product as a whole satiisfies its requirements
+
+  software quality
+
+    -not excellence
+    - the extent to which software satisfies itts specifications
+    - every software professional is responsible for ensuring that his or her work is correcet
+      - quality must be built in from the beginning
+
+    remember:
+      fault - incorrect code
+      failure - observed incorrect behavior of the product
+        - consequence of a fault
+      error - extent of incorrectness of the result
+      defect - generic term for fault
+    -the members of the SQA group must ensure that the developers are doing high-quality work
+
+    there must be mangerial independence between
+      -the development group
+      - the SQA group
+    neither group should have power over the other
+
+    more senior management must decide whether to
+      -deliver the product on time but with faults,
+      - or test further and deliever the product late
+
+    the decision must take into account the interests of the client and the development organization
+          
+
+
+    non execution based testing
+
+    inspections
+      roles
+      - author or owener
+      - inspector
+      - reader
+      - scribe
+      - chairman or moderator
+      - chief moderator
+      five formal steps
+      
+
+
+      design review purely educational
+        - general survey
+      inspection
+        - thorough comparison of objectives vs what's been done
+        - extreme scrutiny
+        - all instructions addressed at least one time
+
+    inspection process
+      - planning
+        - participants familiarize themselves
+      - overview
+      - preperation, aided by statistics of fault types
+      - inspection
+        - find errors
+        - record errors
+        - examine product against specifications
+      - rework
+        - fix it
+      - follow-up
+        - ensure rework was good
+
+    moderator:
+      senior member of the organization
+      -preserves objectivity
+      - must counteract
+        give take criticism poorly
+        lack enthusiasm
+        too muc at one meeting
+        arguments over style or technique
+        authors fear of management reprisal for errors
+
+    during inspection, every aspect of the code must be covered
+
+    during follow, depending on rate of occurance of errors, whether or not it madates another inspection
+
+    presenter of the code shoul dnot be the author
+      - objectivity
+      - programmer backup
+
+
+    fault classes
+      - data faults
+        -variables
+        -constants
+      - control faults
+        - conditionals
+        - 
+      - input/output faults
+        - all input bariables used?
+        - all output variables assigned a value?
+    metrics for inspections
+      - inspection rate
+      - fault density
+      - fault detection rate
+      - fault detection efficiency
+
+
+for the group projects:
+  deliverables are spelled out
+  look at the work
+  groups are independant
+
+
+inspections: static testing
+
+now for dynamic testing
+
+
+execution based testing
+  - successful test finds errors
+  - testing does not emonstrate the code is error-free
+  - inferring certain behavioral properties of the product based on certain inputs
+    - have to know what you're testing for
+    - never can truly know our environment
+    - sometimes cannot provide inputs we want
+      - simulation is needed
+
+  need to test for correctness
+    -utility
+      -validation
+      - does it meet users needs?
+    -reliability
+      - conformance to specification
+        - mean time between failures
+        - mean time to repair
+        - time and cost to repair the results of a failure
+      software reliability metrics
+        - probability of failure on demand
+          - when services are demands at unpredictable times
+          - serious consequences when services not delivered
+          - ex. emergency shutdowns
+        - rate of occurance of failure
+          - systems where there's regular demands
+          - ex. ATM
+        - mean time to failure
+          - long transactions
+          - ex. transaction processing system
+        - availability
+          - non-stop systems
+      classes of failures
+        - transient
+          - present only with certain inputs
+        - permanent
+          - all inputs
+        - recoverable
+          - recover without operator intervention
+        - unrecoverable
+          - recover only with operator intervention
+        - non-corrupting
+          - failure does not corrupt system or data
+        - corrupting
+          - failure destroys data 
+    -robustness
+      - ability of system to continue functioning in the case of failure
+      - time to restart
+      - % of events causing failure
+      - probability of data corruption
+    -performance
+      - the extent to which space and time constraints are met
+      - real time software is characterized by hard real-time constraints
+      - if data is lost because the system is too slow
+        - no way to recover that data
+    - correctness
+      - a product is correct if it satisfies its specifications
+
+
+
+
+
+testing vs correctness proofs
+
+  - a correctness proof is an alternative to execution based testing
+  code segment to be proven correct:
+
+
+  int k, s;
+  int y[n];
+  k = 0;
+  s = 0;
+
+  while(k<n)
+  {
+    s = s + y[k];
+    k = k + 1;
+  }
+
+  proof by induction
+    - prove initial case
+    - induction hypothesis- assume true for some arbitrary input k=k_0
+    - induction step - prove true for k=k_0 + 1
+
+  add
+    - input specification
+    - output specification
+    - loop invariant
+    - assertions
+      - claim has been made that a certain mathematical property holds
+
+      A: input spec
+      H: output spec
+      D: loop invariant
+        - true irrespective of how many times loop executes
+
+      show: if A holds then the output spec H holds
+
+      B: k=0
+      C: k=0 s=0
+      
+      prove loop invariant D
+      initial case
+        k=0 and s=0
+        assertion C by A+B
+
+        loop invariant D
+        k=0  C
+        A n>=1
+        k<=n true
+        k=0, k-1 = -1
+        sum s empty
+        loop invariant true initially
+
+      inductive hypothesis
+        assume D holds
+        k=k_0    0<=k_0<=n
+        k_0<=n
+        s= y[0] + y[1] +....+y[k_0-1]
+        if k>=n true k must == n  and s = y[0]+...+y[k_0 - 1]
+        proveds the output specification at H
+
+        if k_0>=n, fails
+        D->E
+        since k_0 !>= n, k_0<n and from hypothesis
+
+        E: k_0<n and s=y[0]+..+y[k_0 - 1]
+        E->F
+          at F k_0<n
+          s=y[0]+..+y[k_0 - 1] + y[k_0]
+
+        F->G
+          k= k_0 + 1
+          s unchanged
+          k=k_0 + 1
+          k_0 = k-1
+          k<=n
+          s=y[0] +..+y[k-1]
+
+        assertion G
+          identical to assertion D
+          if D holds for k=k_0, it holds for k=k_0 +1
+          proven loop invariant
+        
+
+
+
+correctness proods are a vital software engineering too, where appropriate:
+  safety critical systems
+  indicated by cost-benefit analysis
+  risk of not proving is too great
+
+informal proofs can improve software quality
+
+who should be testing?
+
+programming is constructive
+testing is destructive
+programmers shoul dnot test their own code artifacts
+
+black box-without knowledge of the program
+
+emergent properties
+  emerge as system is built
+  apply to the system as a whole
+  non-functional properties
+   performace
+   reliability
+   safety
+  functional properties
+    underlying functions that your system delivers
+  emergent properties can't be applied to any one part of the system
+  comes only after system has been integrated
+
+performance testing
+  steadily increase the load of the system until the performance becomes unacceptable
+
+interface testing
+  interface types
+    parameter interfaces
+    shared memory interfaces
+    procedural interfaces
+    message passing interfaces
+
+stress testing
+  tests beyond any inteded load level
+  see if it fails gracefully
+
+partition testing
+  input data and output results fall into equivelance classes
+  each of these classes in an equivalence partition or domain where the program behave in an equivalent way for each
+
+
+// end chapter 6
+
+chapter 7
+
+contains stuff about writing good code
+design based
+
+
+
+composite/structured design
+modules
+  operation
+    what it does
+  logic
+    how module performs the operation
+  context
+    specific use
+
+a method for breaking up a product into modules to achieve
+  maximal interaction within a module
+  minimal interaction between modules
+
+module cohesion
+  degree of interaction within a module
+  seven categories of cohesion
+    informational     (good)
+      - abstract data type (object)
+
+    functional
+      - performs exactly one action
+      - more reusable
+      - corrective maintenance easier
+        -fault isolation
+        - fewer regression faults
+      - easier to extend a product
+      - not as good as information because it isn't self-contained
+        - in order to re-use it, must reuse the data
+    communicational
+      - performs a series of actions related by the procedure to be followed by the product, but in addition all the actions operate on the same data
+      - still lack of reusability
+    procedural
+      - performs a series of actions related by the procedure to be followed by the product
+      - actions still weakly connected, so the module is not reusable
+    temporal
+      - performs a series of actions related in time
+      - actions weakly related to each other, but strongly related to actions in other modules
+      - not reusable
+
+    logical
+      - series of related actions, one of which is selected by the calling module
+      - interface difficult to understand
+      - code for more than one action may be intertwined
+
+    coincidental      (bad)
+      - performs multiple, completely unrelated actions
+      - arises from rules like
+        - every module will consist of between 35 and 50 statements
+      - degrades maintainability
+      - not reusable
+      - problem is easy to fix
+        - break it up
+
+flow chart cohesion
+  temporal
+  procedural
+  communicational
+
+
+module coupling
+  degree of interaction between modules
+
+data
+  - all parameters are homogeneous data items(simple parameters or data structures all of whose elements are used by called module)
+  - difficulties of content, common, control, and stamp coupling are not present
+  - maintenance is easier
+
+stamp
+  - some languages only allow simple variables as parameters
+  - many languages also support he passing of data structures
+  - data structure passed as a parameter, but the called module operates on some but not all of the individual componants of the data structure
+  - it is not clear without reasing the entire module, which fields of a record are access or changed
+  -difficult to understant
+  -unlikely to be reuseable
+  -more data than neccesary is passed
+  - c/c++ passing pointer to a struct
+    - gives access to entire structure
+
+control
+  - related to logical cohesion
+  - one passes an element of control to the other
+
+common
+  - write access to global data
+  - contradicts spirit of structured programming
+  - resulting code is virtually unreadable
+content
+  - one directly references contents of the other
+
+separation of concerns
+
+low coupling high cohesion
+
+
+
+
+
+
+ex
+
+3 queues for incoming jobs
+ functional cohesion
+
+
+abstraction
+  -conceptualize problem at a higher level
+
+  1. design the product in terms of higher level concepts
+    -irrelevant how job queues implemented
+  2. then design the lower level components
+    -ignore what use will be made of them
+
+  identify the aspects of the product that are likely to change
+  design to minimize the effects of change
+  data encapsulation provides a way to cope with change
+
+
+inheritance
+  define HumanBeingClass to be a class
+    - an instance of HumanBeingClass has attributes, such as
+      -age, height, gender
+    - assign values to the attributes when describing an object
+  define ParentClass to be a subclass of HumanBeingClass
+    -has all the attributes of an instance of HumanBeingClass, plus attributes of his/her own
+      -nameOfOldestChile, numberOfChildren
+    - an instance of ParentClass inherits all attributes of HumanBeingClass
+    UML notation 
+      - large triangle
+    aggregation
+      -composite class
+      UML notation for aggregation -- open diamond
+    association
+      -no apparent relation between them
+      UML notation --line
+        -optional navigation triangle
+
+equivalence of data and action
+
+  classical paradigm
+    -record_1.field_2
+
+  object-oriented paradigm
+    - thisObject.attributeB
+    - thisObject.method()
+
+
+polymorphism, dynamic binding
+
+  ex. function open_disk_file
+      function open_tape_file
+      function open_diskette_file
+
+    can use object oriented to define a file supertype
+    each file type has its own read function
+
+    method open can be applied to objects of different subclasses of file
+
+      if done at run time, binding is called dynamic
+
+      can have a negative impact on maintenance
+
+      code is hard to understand if there are multiple possibilites for a specific method
+
+      strength and weakness of the object oriented paradigm
+
+      inheritance in general makes maintenance harder
+
+  inheritance can cause problems
+    -fragile base case problem
+    -to reduce ripple effect, all classes need to be carefully designed up front
+
+  unless explicityly prevented, a subclass inherits all its parent's attributes
+  can write bad code in any language
+
+
+
+
+object oriented analysis
+  semiformal analysis technique for the object-oriented paradigm
+
+
+  analysis workflow has two aims
+    -obtain a deeper understanding of the requirements
+    -describe them in a way that will result in a maintainable design and implementation
+
+  three types of classes
+    -entity
+      -data
+      - models long-lived information
+    -boundary
+      - miodels the interaction between the product and the environment
+      - i/o
+    -control
+      -algorithms
+
+    stereotypes (extensions of UML)
+
+    use cases
+      functional modeling
+      class modeling
+      dynamic modeling
+
+
+
+    scenarios for each use case
+
+
+    noun extraction
+    two stage process
+
+    1. find the nouns
+    2. identify the nounds
+
+    use the nounds as candidate classes
+
+    first iteration of class diagram
+
+    problem
+      -buttons do not communicate directly with elevators
+      - we need an additional class: elevator controller class
+
+
+  CRC cards
+
+  class responsibility collarboration
+  for each class
+    name of class
+    functionality
+    list of classes it invokes
+
+  crc cards are an excellent testing technique
+
+    sorted by aggregation and association
+
+
+
+  can't give one class too much power
+
+
+  sequence diagrams equivalent to the collaboraation diagram(of the realization of the scenario of the use case)
+
+  
+    
+  MSG application class
+  - has attributes that do not appertain to the assets
+
+
+now we combine the realization class diagrams
+
+boundary classes - IO
+
+
+
+unified process is use-case driven
+  - scenarios(specific execution sequence)
+  - use cases and scenarios for the specification document
+
+actors
+  - roles played by users
+  - worker: role played by employee in the unified process
+  - in the book, 'role' used instead of 'worker'
+
+analysis
+  -not designing classes
+  - coming up with the data and operations
+    - what not how
+
+
+completes chapter 13
+
+
+chapter 11
+
+  aim of the requirements workflow
+
+    -what must the product be able to do?
+
+  we must determine what the client wants
+  ""what the client needs
+
+  viewpoints
+    - way of structuring the requirements to represent the perspectives of different stakeholders. stakeholders may be classified under different viewpoints
+    - multi-perspective analysis
+    - three types:
+      - interactor viewpoints
+        - people who interact with the system
+      - indirect viewpoints
+        - don't use the system, but have a stake in the requirements
+      - domain viewpoints
+        -
+    - to identify viewpoints using:
+      - providers and recievers of services
+      - systems that interact directly with it
+      - regulartions
+      - business requirements
+
+  obtaining the requirements is called requirements engineering
+  steps:
+    - gain understanding of the application domain
+    - builda  business model
+    -use the business model to determine the requirements
+    - iterate
+
+    - discovering the clients requirements
+      -requirements elicitation
+        - interviews and surveys
+    - refining
+      - requirements analysis
+    every member of the development team must become fully familiar with the application domain
+      - data dictionary very important
+    create a glossary
+
+  business model
+    - description of the business processes of an organization
+    - business model gives an understanding of the clients business as a whole
+      - essential knowledge for advising the client regarding computerization
+    - systems analyst needs to obtain a detailed understaning of the various business processes
+
+  use cases: interaction betweent he software product itself and the users of that product(actors)
+
+
+    user of the system can play more than one role
+
+    actor need not be a human being
+
+    ex ecommerce info system interact with credit card system
+
+    have overlapping actors
+
+
+  functional requirements
+    - given x, y happens
+    - functionality or system services
+  non functional
+    - time, development process, standards
+    - system properties and restraints
+  domain
+    - application domain
+      - regulatory agencies on business
+
+
+  non-functional requirements may be very difficult
+    -goal
+    - verifiable non-functional requirement
+
+  requirements measures
+    - speed
+    - size
+    - ease of use
+    - reliability
+    - robustness
+    - portability
+    
+
+
+
+
+boundary : interface
+entity : data
+control : algorithms
+
+
+in class group projects
+
+  classes involved
+    - sensor (boundary)
+      - boolean activated
+      - integer identification
+      - motion
+        - connection
+      - door
+        - open
+      - window
+        - open
+    - detector (boundary)
+      - heat
+        - temp
+      - smoke
+        - rads
+    - alarm (boundary)
+      -active
+    - phone (boundary)
+      - status
+    - controller (control)
+      - mode
+    - codes (entity)
+      - count
+      - master
+      - list
+    - timer (control)
+      - active
+      - timeout
+      - remaining
+    - monitor
+
+    - keypad
+
+    - screen
+
+    - Monitoring agency
+      - phone #
+    
+    
+    
+    
+use case models an interaction between the product itself and the users of the product
+
+
+rapid prototyping
+  - hastily built
+  - exhibits only key functionality
+  - emphasis on only what the client sees
+    - error checking, file updating can be ignored
+  - aim is to provide the client an understanding of the product
+
+human factors
+client and inteded users must interact with the uder interface
+
+human-computer-interface
+
+re-using rapid prototype is essentially code-and-fix
+
+
+metrics for the requirement workflow
+
+number of changes made during subsequent phases
+
+changes initiated by the developers
+  - too many changes can mean teh process is flawed
+
+changed initiated by the client
+  -moving target
+
+
+challenges of the requirements phase
+
+  employees of the client organization often feel thratened by computerization
+  requirements team members must be able to negotiate
+    - needs may have scaled down
+  key employees of the client organization may not have the time for essential in-depth discussions
+  flexibility and objectivity are essential
+
+
+
+risk driven specification
+
+critical systems should be risk-driven
+
+used widely by these systems
+
+aim of specification process should be to understand the risks faced by the system and to define requirements that reduce these risks
+
+
+risk identification
+
+in saftey-critical systems, risks are the hazards that can lead to accidents
+
+risks
+intolerable
+(alarp)
+acceptable
+
+risk reduction strtegies
+  - risk avoidance
+  - risk detection and removal
+  - damage limitation
+
+
+hardware reliability
+software reliability
+operator reliability
+(chance of failure, interacts with each other)
+
+
+
+
+IEEE 830 STANDARD
+
+1.1 purpose
+  should 
+    delineate purpose of the srs;
+    specify the intended audience for the SRS
+scope
+  identify the software product
+  what it will and will not do
+definition, acronyms, and abbreviations
+  data dictionary
+references
+  cite sources
+overview
+overall description
+product perspective
+system interfaces
+user interfaces
+hardware interfaces
+communications interfaces
+memory contraints
+operations
+product functions
+user characteristics
+constraints
+assumptions and dependencies
+apportioning of requirements
+specific requirements
+
+non functional requirements
+
+
+
+
+
+
+
+
+
+
+
+
+requirements specification review
+
+qustions to ask to ensure specification is complete, consistent and accurate
+  - are stated goals consistent with system goals and objectives?
+    have all interfaces been describes?
+    is information flaow and structure
+    are all teh functions within the scope of the project?>
+    adequately described?
+    software behavior consistent with functionality?
+
+
+
+
+
+
+
+CHAPTER 9 - PLANNING
+-------------------------------
+
+before starting to build software, it is essential to plan the entire development effort in detail
+
+plannign continues during development and then postdelivery maintenance
+  - initial planning is not enough
+  - planning must proceed throughout the project
+  - the earliest possible time that detailed planning can take place is after the specifications are complete
+
+estimating duration and cost
+  accurate duration estimation is critical
+  accurate cost estimation is critical
+    internal, external costs
+  there are too many variables for accurate estimate of cost or duration
+
+
+metrics for the size of a product
+  lines of code
+  FFP - files, flows, and processes
+  function points
+  COCOMO - 
+
+
+files, flows, processes
+size and cost
+
+S = Fi + Fl + pr
+C = d x S
+
+function points
+
+  inputs, outputs, inquiries, master files
+
+step 2 compute the technical complexity factor (tcf)
+
+(slides charpter 9)
+
+
+
+
+systems analysis bonus info:
+  project feasibility
+    economic
+      -process of identifying financial benefits and costs associated with a projecy
+      - cost benefit analysis
+      - tangible benefits
+    technical
+    scheduling
+    logical and contractual
+    political
+
+    
+    
+    
+IEEE use cases
+
+  homeowner:  add passcode                        : Monitoring agency
+           |  delete passcode
+           |  program monitoring agency           |
+           |  set alarm
+           |  disarm
+           |  bypass sensor
+
+  intruder: trigger                               : Monitoring agency, Police
+          | 
+
+  fire: trigger                                   : monitoring agency, response personelle
+
+
+    
+arm system
+  enter passcode
+  set mode
+    stay(go to bed)
+    away(exit)
+    timer starts(60 seconds to exit)
+      exit
+      don't exit
+        alarm triggered (30 seconds to disarm)
+          enter passcode
+            incorrect, alarm goes off
+            correct, timer disabled
+          call monitoring agency
+            monitoring agency calls homeowner
+              homeowner responds with a valid code(system reset)
+              homeowner does not respond with a valid code(police dispatched)
+
+
+
+one time costs
+recurring costs
+
+
+cost-benefit analysis
+
+
+net present value of money
+  - discount rate to determine the present value of future dollars
+
+going to use the net pv of money to calculate teh return on investment
+and do break even analysis
+
+use ROI and BEA to determine economic feasibility
+time value of money TVM
+
+concept money available
+today is worth more than the same amaount tomorrow
+present value is the current vlaue of a future cash flow
+
+PV_n = Y * 1/(1+i)^n
+
+
+
+buy car 3 annual payments
+
+  $1500/payment
+  instead, one lump sum
+  assume 10% discount rate i
+
+  calculate PV for each fo the payments, add them
+
+  could have payed 3730.02 NPV
+
+
+break even analysis
+  identifies at what point  benefits equal costs
+
+  break even ratio = (yearly NPV cash flow - overall NPV cash flow)
+                      ---------------------------------------------
+                      yearly nnpv cash flow
+
+  in the break even year
+
+
+technical feasibility
+  development team experience
+
+
+
+chapter 12
+
+classical analysis
+
+specification document
+  informal enough fot the client
+  formal enough for the developers
+
+becomes a contract between the client and the developers
+typical; constraints
+  deadline
+  parallel running
+  portability
+  reliability
+  rapid response time
+for real time software
+hard real-time constraints must be satisfied
+
+acceptance criteria
+if the product passes the tests, it is deemed have datisfied its specifications
+general approach to building the product
+find strategies without worrying about constraints
+keep a written record of all discarded strategies, and why they were discarded
+
+
+natural language is not a good way to specify a product
+
+
+calssical vs object oriented analysis
+
+
+
+alternatives to natural language
+
+
+
+structured systems analysis
+
+three popular graphical specification methods
+
+
+
+
+
+reason for doing it
+
+
+
+gane a sarson method
+
+9 step method
+structured systems analysis
+
+
+step one:
+first refinement
+  context diagram
+  system as a single process in its environment
+  shows all data entering an leaving the system
+  also called a level 0 diagram
+
+second refinement
+  break up into processes
+third refinement
+  break up into more processes
+
+the final DFD is largr but is easily understood by the client
+
+step 2:
+decide what to do based on cost/benefit analysis
+
+
+
+
+step 4: figure out the logic of the processes
+
+step 5:
+define the data stores
+step 6: define the physical resource
+step 7: i/o specifications
+step 8: determine the sizing
+
+
+
+
+entity-relationship modeling
+  semi-formal technique
+  widely used for specifying databases
+
+  many - to - many 
+
+
+  unary binary, ternary degree
+
+finite state machine
+
+
+
+petri nets
+
+zed
+
+end chapter 12
+
+
+
+
+data and actions
+two aspects of a product
+
+
+design and abstraction
+classical design activities
+  - architectural
+    description of what the product is supposed to to
+    show system in its environment
+  - detailed
+
+  - design
+
+
+
+
+data flow analysis
+
+point of highest abstraction
+  point where conversion from input to useable by the systen
+
+
+
+
+cyclomatic complexity
+  # of binary decisions + 1
+  # of branches in the code
+
+metrics of design quality
+  cohesion
+  coupling
+  fault statistics
+  
+
+
+
+
+
+
+
+
+FINAL EXAM
+
+FRI 5/2
+1-3 PM
+SLC 424
+
+
+
+
+
+
+
+
+4GL
+
+
+
+programming practices
+
+meaningful to future maintenance programmers
+consistent to aid future maintenance programmers
+
+
+self-documenting code is exceedingly rare
+key issue: can the code artifact be understood
+
+prologue comments
+
+
+comments are essential whenever the code is written in a non-obvious way, or makes use of aspect of the language
+try recoding in a different way
+
+
+error prone programming constructs
+  floating point numbers
+  
+
+
+
+
+(chapter15)
+error prone contructs ^
+
+integration
+
+
+figure 15.6
+product with 13 modules
+code and test each separately, then big bang it
+
+
+top-down integration
+
+  advantages: fault isolation
+              stubs not wasted
+              design flaws show up early
+
+  logic artifacts created before the operational artifacts
+
+  problems:
+
+    reusable artifacts not properly tested
+    lower level products not tested as extensively
+
+
+bottom upintegration
+
+  advantages
+    operational artifacts are thoroughly tested
+    tested with drivers
+
+  problems
+    major design faults are detected late
+
+sandwich integration
+  mix of the two
+  
+
+
+
+
+just finishing up chapter 15(implementation)
+
+error prone constructs(list)
+integration
+
+
+
+performance testing
+stress testing
+interface testing
+  parameters
+  shared memory procedure
+  message parsing
+
+black box testing: testing specifications
+define functions
+perfom tests based on functionality of the system
+
+form of functional testing is called statistical testing
+
+
+operational profile
+
+
+cyclomatic complexity M
+
+M>10 shown to have statistically more errors
+
+
+
+
+
+cleanroom software development
+ incremental process model
+ formal techniques
+ reviews
+
+
+when a code artifact has too many faults
+  it is cheaper to redesign than to recode
+
+develop a growth reliability model
+
+
+
+acceptance testing
+acceptance testing is performed on actual data
+product testing performed on test date, which cannever be real, by definition
+
+
+
+
+
+
+
+
+FINAL INFO
+
+not deliberately cumulative
+extra credit on exam
+
+9 12 14 15

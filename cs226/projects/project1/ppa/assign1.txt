@@ -1,0 +1,81 @@
+Carl Stevenson
+Assignment 1 Pre-Programming assignment
+Files to be delivered: assign1a.h assign1a.cpp assign1b.h assign1b.cpp
+
+Part 1a.
+
+  Description of assign1a:
+  
+  Part 1a takes input from the user in the form of the size of an array, the contents of the array in sequence, and then number of the first slots in the array to sum.
+  The array is created from the size indicated. It then prompts for each of the contents. It then prompts for the amount of slots to sum.
+  It uses a recursive function compute to sum together the values. It then outputs the sum of the slots that were indicated to be summed.
+  Throughout the program, inputs are asserted and then echoed.   
+  
+  Valid input for assign1a:
+  
+  Valid input for assign1a includes an array size of between 1 and 100. Valid for the contents of the a    pecified in the assignment, a detailed description of the output the program should produce.
+
+Testingrray are integers only. Valid input for the amount fo values to sum must be a number less than or equal to the array size.
+  Input Run 1:
+    
+    Please enter the size of the integer array, between 1 and 100: 
+    You chose the integer array to be of size 8
+    Please enter the value for slot 1: 1
+    Please enter the value for slot 2: 2
+    Please enter the value for slot 3: 3
+    Please enter the value for slot 4: 4
+    Please enter the value for slot 5: 5
+    Please enter the value for slot 6: 6
+    Please enter the value for slot 7: 7
+    Please enter the value for slot 8: 8
+    Please enter the first n elements in the array to be summed: 5
+    The array that you entered: [1,2,3,4,5,6,7,8]
+    The sum of the first 5 elements of the array: 15
+  
+  Input Run 2:
+  
+    Please enter the size of the integer array, between 1 and 100: 
+    You chose the integer array to be of size 5
+    Please enter the value for slot 1: 1
+    Please enter the value for slot 2: 2
+    Please enter the value for slot 3: 3
+    Please enter the value for slot 4: 4
+    Please enter the value for slot 5: 5
+    Please enter the first n elements in the array to be summed: 5
+    The array that you entered: [1,2,3,4,5]
+    The sum of the first 5 elements of the array: 15
+    
+
+Part 1b.
+
+  Description of assign1b:
+  
+  The only input for assign1b is the number to find the amount of ones in its binary representation.
+  The program prompts for the number. It is then asserted.
+  The recursive function one computes the amount of ones in the binary representation of the input.
+  The program then outputs the number of ones in the binary representation of the input.
+  
+  Valid input for assign1b:
+  
+  Valid input for assign1b is an integer that is greater than or equal to 0.
+  
+  Input Run 1:
+  
+    Please enter the number for calculation of ones: 0
+    The number of ones in the binary representation of 0: 0
+    
+  Input Run 2:
+  
+    Please enter the number for calculation of ones: 255
+    The number of ones in the binary representation of 255: 8
+ 
+  Input Run 3:
+  
+    Please enter the number for calculation of ones: 256
+    The number of ones in the binary representation of 256: 1
+    
+  Input Run 4:
+  
+    Please enter the number for calculation of ones: 8
+    The number of ones in the binary representation of 8: 1
+ 

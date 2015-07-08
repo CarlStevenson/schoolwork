@@ -1,0 +1,7 @@
+carl 70.0
+rebecca 80.0
+nick 90.0
+sarah 100.0
+arthur 80
+nick2 90
+done

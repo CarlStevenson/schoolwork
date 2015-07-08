@@ -1,0 +1,33 @@
+Username:  stevenc
+Date:      Thu Jan 24 14:32:16 EST 2013
+ 
+*** Running make ***
+--- Running 1.0 ---
+ 
+Program to calculate the surface area
+and volume of a sphere.
+Written by Carl Stevenson.
+You will be asked to enter the radius of the sphere.
+
+Enter Radius: 
+
+A sphere with radius 1.0 has:
+
+Surface Area : 12.566370614359172
+      Volume : 4.1887902047863905
+
+--- Running 200.5 ---
+ 
+Program to calculate the surface area
+and volume of a sphere.
+Written by Carl Stevenson.
+You will be asked to enter the radius of the sphere.
+
+Enter Radius: 
+
+A sphere with radius 200.5 has:
+
+Surface Area : 505171.2402898923
+      Volume : 3.37622778927078E7
+
+ 

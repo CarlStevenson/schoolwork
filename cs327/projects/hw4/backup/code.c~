@@ -1,0 +1,15 @@
+#include "globals.h"
+
+void gen(prog *p) {
+  gen_stmt_list(p->body);
+}
+
+void stmt_list_gen(stmt_list *l) {
+  if (l) {
+    stmt_gen(l->first);
+    stmt_list_gen(l->next);
+  }
+}
+
+
+  

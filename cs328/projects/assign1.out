@@ -1,0 +1,201 @@
+Username:  stevenc
+Date:      Tue Oct 7 11:40:55 EDT 2014
+ 
+*** Compiling lab1a.cpp ***
+--- Running ---
+ 
+
+Carl Stevenson
+Divide and Conquer
+This program accepts an array defined by the user, then
+partitions it into 2 sublists, where the difference
+between the two lists is maximized.
+
+Enter the size of the array you will be inputting (must be even): 
+You chose the array to be of size 8
+Please enter item 1 of the array: 
+You input the value 1
+Please enter item 2 of the array: 
+You input the value 2
+Please enter item 3 of the array: 
+You input the value 3
+Please enter item 4 of the array: 
+You input the value 4
+Please enter item 5 of the array: 
+You input the value 5
+Please enter item 6 of the array: 
+You input the value 6
+Please enter item 7 of the array: 
+You input the value 7
+Please enter item 8 of the array: 
+You input the value 8
+
+The input array: [1, 2, 3, 4, 5, 6, 7, 8]
+kpartition entered.
+kpartition entered.
+kpartition entered.
+kpartition entered.
+Sublist 1: [1, 2, 3, 4]
+Sublist 2: [5, 6, 7, 8]
+Difference of the sums: 16
+--- Running again ---
+ 
+
+Carl Stevenson
+Divide and Conquer
+This program accepts an array defined by the user, then
+partitions it into 2 sublists, where the difference
+between the two lists is maximized.
+
+Enter the size of the array you will be inputting (must be even): 
+You chose the array to be of size 8
+Please enter item 1 of the array: 
+You input the value 8
+Please enter item 2 of the array: 
+You input the value 7
+Please enter item 3 of the array: 
+You input the value 6
+Please enter item 4 of the array: 
+You input the value 5
+Please enter item 5 of the array: 
+You input the value 4
+Please enter item 6 of the array: 
+You input the value 3
+Please enter item 7 of the array: 
+You input the value 2
+Please enter item 8 of the array: 
+You input the value 1
+
+The input array: [8, 7, 6, 5, 4, 3, 2, 1]
+kpartition entered.
+kpartition entered.
+kpartition entered.
+kpartition entered.
+kpartition entered.
+kpartition entered.
+kpartition entered.
+Sublist 1: [1, 2, 3, 4]
+Sublist 2: [5, 6, 7, 8]
+Difference of the sums: 16
+--- Running again ---
+ 
+
+Carl Stevenson
+Divide and Conquer
+This program accepts an array defined by the user, then
+partitions it into 2 sublists, where the difference
+between the two lists is maximized.
+
+Enter the size of the array you will be inputting (must be even): 
+You chose the array to be of size 8
+Please enter item 1 of the array: 
+You input the value 3
+Please enter item 2 of the array: 
+You input the value 4
+Please enter item 3 of the array: 
+You input the value 5
+Please enter item 4 of the array: 
+You input the value 8
+Please enter item 5 of the array: 
+You input the value 9
+Please enter item 6 of the array: 
+You input the value 12
+Please enter item 7 of the array: 
+You input the value 20
+Please enter item 8 of the array: 
+You input the value 50
+
+The input array: [3, 4, 5, 8, 9, 12, 20, 50]
+kpartition entered.
+kpartition entered.
+kpartition entered.
+kpartition entered.
+Sublist 1: [3, 4, 5, 8]
+Sublist 2: [9, 12, 20, 50]
+Difference of the sums: 71
+--- Running again ---
+ 
+
+Carl Stevenson
+Divide and Conquer
+This program accepts an array defined by the user, then
+partitions it into 2 sublists, where the difference
+between the two lists is maximized.
+
+Enter the size of the array you will be inputting (must be even): 
+You chose the array to be of size 8
+Please enter item 1 of the array: 
+You input the value 8
+Please enter item 2 of the array: 
+You input the value 4
+Please enter item 3 of the array: 
+You input the value 5
+Please enter item 4 of the array: 
+You input the value 3
+Please enter item 5 of the array: 
+You input the value 9
+Please enter item 6 of the array: 
+You input the value 12
+Please enter item 7 of the array: 
+You input the value 20
+Please enter item 8 of the array: 
+You input the value 50
+
+The input array: [8, 4, 5, 3, 9, 12, 20, 50]
+kpartition entered.
+Sublist 1: [3, 4, 5, 8]
+Sublist 2: [9, 12, 20, 50]
+Difference of the sums: 71
+--- Running again ---
+ 
+
+Carl Stevenson
+Divide and Conquer
+This program accepts an array defined by the user, then
+partitions it into 2 sublists, where the difference
+between the two lists is maximized.
+
+Enter the size of the array you will be inputting (must be even): 
+You chose the array to be of size 16
+Please enter item 1 of the array: 
+You input the value 2
+Please enter item 2 of the array: 
+You input the value 1
+Please enter item 3 of the array: 
+You input the value 7
+Please enter item 4 of the array: 
+You input the value 20
+Please enter item 5 of the array: 
+You input the value 6
+Please enter item 6 of the array: 
+You input the value 11
+Please enter item 7 of the array: 
+You input the value 110
+Please enter item 8 of the array: 
+You input the value 9
+Please enter item 9 of the array: 
+You input the value 25
+Please enter item 10 of the array: 
+You input the value 30
+Please enter item 11 of the array: 
+You input the value 33
+Please enter item 12 of the array: 
+You input the value 77
+Please enter item 13 of the array: 
+You input the value 150
+Please enter item 14 of the array: 
+You input the value 66
+Please enter item 15 of the array: 
+You input the value 14
+Please enter item 16 of the array: 
+You input the value 18
+
+The input array: [2, 1, 7, 20, 6, 11, 110, 9, 25, 30, 33, 77, 150, 66, 14, 18]
+kpartition entered.
+kpartition entered.
+kpartition entered.
+kpartition entered.
+Sublist 1: [1, 2, 6, 7, 14, 11, 9, 18]
+Sublist 2: [20, 30, 33, 77, 150, 66, 110, 25]
+Difference of the sums: 443
+ 

@@ -1,0 +1,30 @@
+Username:  stevenc
+Date:      Thu Jan 17 14:16:53 EST 2013
+ 
+*** Compiling ***
+--- Running first number ---
+ 
+
+This program inputs a integer
+	and displays 2x, 4x, and 8x its value.
+
+Please enter an integer: 
+
+Twice 25 is 50,
+	and four times is 100,
+	and eight times is 200
+
+--- Running second number ---
+ 
+
+This program inputs a integer
+	and displays 2x, 4x, and 8x its value.
+
+Please enter an integer: 
+
+Twice 17 is 34,
+	and four times is 68,
+	and eight times is 136
+
+ 
+ 

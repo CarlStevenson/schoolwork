@@ -1,0 +1,20 @@
+Username:  stevenc
+Date:      Thu Feb 7 14:26:33 EST 2013
+ 
+*** Running make ***
+javac *.java
+--- Running 10 ---
+ 
+Enter a number: 
+
+
+10.0 feet = 3.048 meters
+--- Running 10000 ---
+ 
+Enter a number: 
+
+
+10000.0 feet = 3048.0 meters
+*** Running make clean ***
+rm -f *.class *~ *#
+ 

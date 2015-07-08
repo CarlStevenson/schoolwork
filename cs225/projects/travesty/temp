@@ -1,0 +1,35 @@
+public String genWord(int l, String word){
+
+        int holder = 30;
+        float checker = r.nextFloat();
+        float closeness = 0;
+        
+        for(int i=0; i<27; i++){
+            
+            closeness = checker-letterprobs[i];
+            if(closeness<=0){
+                
+                break;    
+            }else if(letterprobs[i]>0.0){
+                holder=i;
+            }
+        }
+        
+        if(holder >= 26){
+            return " ";
+        }
+
+        String letter = Character.toString(toCharacter(holder));
+        //word = word.concat(letter);
+        
+        if (l > 0){
+            try{
+            word = word.concat(next[holder].genWord(l-1, letter));
+            }
+            catch(NullPointerException e){
+                return word;
+            }
+        }
+        
+        return word;
+    }

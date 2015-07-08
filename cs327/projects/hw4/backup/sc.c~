@@ -1,0 +1,25 @@
+/** @file sc.c
+ * The stack compiler.
+ */
+#include "globals.h"
+
+/**
+ * The symbol table.
+ */
+symtab *idents;
+
+prog *parse_tree;
+
+/**
+ * The main program.
+ */
+int main() {
+  // Create the symbol table.
+  idents = symtab_new(311);
+
+  // Parse the source code.
+  emit_prologue();
+  yyparse();
+  prog_gen(parse_tree);
+  emit_epilogue();
+}

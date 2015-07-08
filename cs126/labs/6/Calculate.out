@@ -1,0 +1,115 @@
+Username:  stevenc
+Date:      Thu Feb 21 14:19:29 EST 2013
+ 
+*** compiling Calculate ***
+javac *.java
+--- Running add ---
+ 
+
+Welcome to the 4-function calculator!
+
+
+Please enter:
+	+, to perform addition;
+	-, to perform subtraction;
+	*, to perform multiplication;
+	/, to perform division;
+	<enter>, to exit;
+--> 
+
+Now enter your operands: 
+5.0+6.0 = 11.0
+
+Please enter:
+	+, to perform addition;
+	-, to perform subtraction;
+	*, to perform multiplication;
+	/, to perform division;
+	<enter>, to exit;
+--> 
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Scanner.java:1533)
+	at Calculate.main(Calculate.java:40)
+--- Running subtract ---
+ 
+
+Welcome to the 4-function calculator!
+
+
+Please enter:
+	+, to perform addition;
+	-, to perform subtraction;
+	*, to perform multiplication;
+	/, to perform division;
+	<enter>, to exit;
+--> 
+
+Now enter your operands: 
+7.77-6.66 = 1.1099999999999994
+
+Please enter:
+	+, to perform addition;
+	-, to perform subtraction;
+	*, to perform multiplication;
+	/, to perform division;
+	<enter>, to exit;
+--> 
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Scanner.java:1533)
+	at Calculate.main(Calculate.java:40)
+--- Running multiply ---
+ 
+
+Welcome to the 4-function calculator!
+
+
+Please enter:
+	+, to perform addition;
+	-, to perform subtraction;
+	*, to perform multiplication;
+	/, to perform division;
+	<enter>, to exit;
+--> 
+
+Now enter your operands: 
+77.8*6.0 = 466.79999999999995
+
+Please enter:
+	+, to perform addition;
+	-, to perform subtraction;
+	*, to perform multiplication;
+	/, to perform division;
+	<enter>, to exit;
+--> 
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Scanner.java:1533)
+	at Calculate.main(Calculate.java:40)
+--- Running divide ---
+ 
+
+Welcome to the 4-function calculator!
+
+
+Please enter:
+	+, to perform addition;
+	-, to perform subtraction;
+	*, to perform multiplication;
+	/, to perform division;
+	<enter>, to exit;
+--> 
+
+Now enter your operands: 
+100.0/10.0 = 10.0
+
+Please enter:
+	+, to perform addition;
+	-, to perform subtraction;
+	*, to perform multiplication;
+	/, to perform division;
+	<enter>, to exit;
+--> 
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Scanner.java:1533)
+	at Calculate.main(Calculate.java:40)
+rm -f *.class *~ *#
+ 

@@ -1,0 +1,39 @@
+Username:  stevenc
+Date:      Thu Apr 18 14:19:21 EDT 2013
+ 
+*** Compiling ***
+javac *.java
+--- Running encode ---
+ 
+
+This program uses the Caesar cipher to encode the contents of a
+file and writes the encoded characters to another file.
+
+Enter the name of the input file: 
+Enter the name of the output file: 
+Processing complete.
+Encoded message is in encoded.txt
+--- Running Decode ---
+ 
+
+This program uses the Caesar cipher to decode the contents of a
+file and writes the decoded characters to another file.
+
+Enter the name of the input file: 
+Enter the name of the output file: 
+Processing complete.
+Decoded message is in decoded.txt
+--- Listing files ---
+ 
+Irxu vfruh dqg vhyhq bhduv djr, rxu idwkhuv eurxjkw iruwk xsrq wklv frqwlqhqw, d qhz qdwlrq, frqfhlyhg lq olehuwb, dqg ghglfdwhg wr wkh sursrvlwlrq wkdw doo phq duh fuhdwhg htxdo.
+
+Qrz zh duh hqjdjhg lq d juhdw flylo zdu, whvwlqj zkhwkhu wkdw qdwlrq, ru dqb qdwlrq vr frqfhlyhg dqg vr ghglfdwhg, fdq orqj hqgxuh. Zh duh phw rq d juhdw edwwohilhog ri wkdw zdu. Zh kdyh frph wr ghglfdwh d sruwlrq ri wkdw ilhog, dv d ilqdo uhvwlqj sodfh iru wkrvh zkr khuh jdyh wkhlu olyhv wkdw wkdw qdwlrq pljkw olyh. Lw lv dowrjhwkhu ilwwlqj dqg surshu wkdw zh vkrxog gr wklv.
+
+Exw, lq d odujhu vhqvh, zh fdqqrw ghglfdwh -- zh fdqqrw frqvhfudwh -- zh fdqqrw kdoorz -- wklv jurxqg. Wkh eudyh phq, olylqj dqg ghdg, zkr vwuxjjohg khuh, kdyh frqvhfudwhg lw, idu deryh rxu srru srzhu wr dgg ru ghwudfw. Wkh zruog zloo olwwoh qrwh, qru orqj uhphpehu zkdw zh vdb khuh, exw lw fdq qhyhu irujhw zkdw wkhb glg khuh. Lw lv iru xv wkh olylqj, udwkhu, wr eh ghglfdwhg khuh wr wkh xqilqlvkhg zrun zklfk wkhb zkr irxjkw khuh kdyh wkxv idu vr qreob dgydqfhg. Lw lv udwkhu iru xv wr eh khuh ghglfdwhg wr wkh juhdw wdvn uhpdlqlqj ehiruh xv -- wkdw iurp wkhvh krqruhg ghdg zh wdnh lqfuhdvhg ghyrwlrq wr wkdw fdxvh iru zklfk wkhb jdyh wkh odvw ixoo phdvxuh ri ghyrwlrq -- wkdw zh khuh kljkob uhvroyh wkdw wkhvh ghdg vkdoo qrw kdyh glhg lq ydlq -- wkdw wklv qdwlrq, xqghu Jrg, vkdoo kdyh d qhz eluwk ri iuhhgrp -- dqg wkdw jryhuqphqw ri wkh shrsoh, eb wkh shrsoh, iru wkh shrsoh, vkdoo qrw shulvk iurp wkh hduwk. 
+Four score and seven years ago, our fathers brought forth upon this continent, a new nation, conceived in liberty, and dedicated to the proposition that all men are created equal.
+
+Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battlefield of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.
+
+But, in a larger sense, we cannot dedicate -- we cannot consecrate -- we cannot hallow -- this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us -- that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion -- that we here highly resolve that these dead shall not have died in vain -- that this nation, under God, shall have a new birth of freedom -- and that government of the people, by the people, for the people, shall not perish from the earth. 
+rm -f *.class *~ *#
+ 

@@ -1,0 +1,78 @@
+Carl Stevenson
+Files to be submitted: queuei.o, graph.cpp, graph.h, assign10.cpp
+
+Description:
+
+  assign10.cpp provides a menu interface for the user to interact with a graph that is defined at the start of the program. The menu allows for the user to do a depth and breadth first search on the graph, as well as a topological sort.
+  
+Valid input:
+
+  Number of vertices n: integer value 0 < n
+  Edge specification: integer corresponding to a valid vertex
+  Menu item: integer value 1<= n <= 4
+  
+Input run 1:
+
+  Carl Stevenson
+  Graphs
+  This program prompts the user to define a graph including vertices and edges,
+  and allows interaction with the graph through a menu.
+  
+  Please input the desired number of vertices: 
+  You entered 7
+  
+  Do you wish to declare an edge?
+  You chose yes.
+  Enter the first node:
+  You chose node 0
+  Enter the second node:
+  You chose node 1
+  
+  Do you wish to declare an edge?
+  You chose yes.
+  Enter the first node:
+  You chose node 0
+  Enter the second node:
+  You chose node 3
+  
+  Do you wish to declare an edge?
+  You chose yes.
+  Enter the first node:
+  You chose node 1
+  Enter the second node:
+  You chose node 2
+  
+  Do you wish to declare an edge?
+  You chose yes.
+  Enter the first node:
+  You chose node 1
+  Enter the second node:
+  You chose node 4
+  
+  Do you wish to declare an edge?
+  You chose yes.
+  Enter the first node:
+  You chose node 3
+  Enter the second node:
+  You chose node 4
+  
+  Do you wish to declare an edge?
+  You chose yes.
+  Enter the first node:
+  You chose node 4
+  Enter the second node:
+  You chose node 5
+  
+  Do you wish to declare an edge?
+  You chose yes.
+  Enter the first node:
+  You chose node 4
+  Enter the second node:
+  You chose node 2
+  
+  Do you wish to declare an edge?
+  You chose yes.
+  Enter the first node:
+  You chose node 6
+  Enter the second node:
+  You chose node 3

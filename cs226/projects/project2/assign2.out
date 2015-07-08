@@ -1,0 +1,3109 @@
+Username:  stevenc
+Date:      Fri Feb 28 10:01:04 EST 2014
+ 
+*** compiling lab2 ***
+--- Running ---
+ 
+
+Carl Stevenson
+Class Templates
+This program takes input from the user to interface with two
+instantiated integer collections.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1: 
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2: 
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 20
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 21
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 22
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 23
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 24
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 25
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 26
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 27
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 28
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 29
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 30
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 31
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1: 
+next = 20
+next = 21
+next = 22
+next = 23
+next = 24
+next = 25
+next = 26
+next = 27
+next = 28
+next = 29
+next = 30
+next = 31
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2: 
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 32
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 33
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 34
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 35
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 36
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 37
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1: 
+next = 20
+next = 21
+next = 22
+next = 23
+next = 24
+next = 25
+next = 26
+next = 27
+next = 28
+next = 29
+next = 30
+next = 31
+next = 32
+next = 33
+next = 34
+next = 35
+next = 36
+next = 37
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 38
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 39
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 40
+
+Collection 1 is full.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 41
+
+Collection 1 is full.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 50
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 51
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 52
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 53
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 54
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 55
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 56
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2: 
+next = 50
+next = 51
+next = 52
+next = 53
+next = 54
+next = 55
+next = 56
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1: 
+next = 20
+next = 21
+next = 22
+next = 23
+next = 24
+next = 25
+next = 26
+next = 27
+next = 28
+next = 29
+next = 30
+next = 31
+next = 32
+next = 33
+next = 34
+next = 35
+next = 36
+next = 37
+next = 38
+next = 39
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 57
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 58
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 59
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 60
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 61
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2: 
+next = 50
+next = 51
+next = 52
+next = 53
+next = 54
+next = 55
+next = 56
+next = 57
+next = 58
+next = 59
+next = 60
+next = 61
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 62
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 63
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 64
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 65
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 66
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 67
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 68
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 69
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 70
+
+Collection 2 is full.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 71
+
+Collection 2 is full.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2: 
+next = 50
+next = 51
+next = 52
+next = 53
+next = 54
+next = 55
+next = 56
+next = 57
+next = 58
+next = 59
+next = 60
+next = 61
+next = 62
+next = 63
+next = 64
+next = 65
+next = 66
+next = 67
+next = 68
+next = 69
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1 is not equal to Collection 2.
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1 is not empty.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2 is not empty.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to find in collection 1: 
+You chose 7
+
+Collection 1 does not contain 7
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to find in collection 1: 
+You chose 20
+
+Collection 1 contains 20
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to find in collection 1: 
+You chose 40
+
+Collection 1 does not contain 40
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to find in collection 1: 
+You chose 39
+
+Collection 1 contains 39
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to find in collection 2: 
+You chose 50
+
+Collection 2 contains 50
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to find in collection 2: 
+You chose 1
+
+Collection 2 does not contain 1
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to find in collection 2: 
+You chose 70
+
+Collection 2 does not contain 70
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to find in collection 2: 
+You chose 71
+
+Collection 2 does not contain 71
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to find in collection 2: 
+You chose 66
+
+Collection 2 contains 66
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1 assigned to Collection 2.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1 is not empty.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2 is not empty.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1 emptied.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2 emptied.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 5
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 78
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 77
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2 assigned to Collection 1.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+77 removed from collection 1.
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+78 removed from collection 2.
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1 emptied.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2 emptied.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 1
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 3
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+1 removed from collection 1.
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+There is nothing to remove from collection 1.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+There is nothing to remove from collection 1.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+There is nothing to remove from collection 1.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2 emptied.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 1
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 3
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+There is nothing to remove from collection 2.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+There is nothing to remove from collection 2.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+There is nothing to remove from collection 2.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+There is nothing to remove from collection 2.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1 is empty.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2 is not empty.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Exiting now.
+--- Running again ---
+ 
+
+Carl Stevenson
+Class Templates
+This program takes input from the user to interface with two
+instantiated integer collections.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1 emptied.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2 emptied.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1 is empty.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2 is empty.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Exiting now.
+--- Running again ---
+ 
+
+Carl Stevenson
+Class Templates
+This program takes input from the user to interface with two
+instantiated integer collections.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1: 
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2: 
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1 is empty.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2 is empty.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1 emptied.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2 emptied.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Exiting now.
+--- Running again ---
+ 
+
+Carl Stevenson
+Class Templates
+This program takes input from the user to interface with two
+instantiated integer collections.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 1
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 2
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 3
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 1
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 2
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 3
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1 is equal to Collection 2.
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 7
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 8
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 1: 
+You chose 9
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1: 
+next = 1
+next = 2
+next = 3
+next = 7
+next = 8
+next = 9
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2: 
+next = 1
+next = 2
+next = 3
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1 assigned to Collection 2.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1: 
+next = 1
+next = 2
+next = 3
+next = 7
+next = 8
+next = 9
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2: 
+next = 1
+next = 2
+next = 3
+next = 7
+next = 8
+next = 9
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2 emptied.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 20
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Please enter the item to add to collection 2: 
+You chose 30
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1: 
+next = 1
+next = 2
+next = 3
+next = 7
+next = 8
+next = 9
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2: 
+next = 20
+next = 30
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2 assigned to Collection 1.
+
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1: 
+next = 20
+next = 30
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 2: 
+next = 20
+next = 30
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Collection 1 is equal to Collection 2.
+The menu items are as follows:
+
+	1. Add an item to collection 1.
+	2. Add an item to collection 2.
+	3. Remove an item from collection 1.
+	4. Remove an item from collection 2.
+	5. Display collection 1.
+	6. Display collection 2.
+	7. Compare collection 1 and collection 2.
+	8. Assign collection 1 to collection 2.
+	9. Assign collection 2 to collection 1.
+	10. Display if collection 1 is empty.
+	11. Display if collection 2 is empty.
+	12. Make collection 1 empty.
+	13. Make collection 2 empty.
+	14. Find an item in collection 1.
+	15. Find an item in collection 2.
+	16. Exit
+
+Please enter the number of the action you wish to take: 
+Exiting now.
+ 

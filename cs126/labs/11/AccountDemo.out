@@ -1,0 +1,22 @@
+Username:  stevenc
+Date:      Thu Apr 11 14:58:37 EDT 2013
+ 
+*** Compiling ***
+javac *.java
+--- Running AccountDemo ---
+ 
+
+Welcome to the Account package demonstrator!
+
+
+Creating a Regular Account: 
+Account status is: The green hornet has balance 50.0
+Depositing 100.00 
+
+Account status is: The green hornet has balance 150.0
+Withdrawing 90.00 
+
+Account status is: The green hornet has balance 60.0
+ 
+rm -f *.class *~ *#
+ 

@@ -1,0 +1,65 @@
+Username:  stevenc
+Date:      Fri Feb 14 17:01:08 EST 2014
+ 
+*** Compiling lab1hw.cpp ***
+--- Running ---
+ 
+
+Carl Stevenson
+CPP and Recursion
+This program calculates the number of ones in the binary 
+Representation of a user defined integer.
+
+Please enter the number for the calculation of ones: 
+Calculating the number of ones in 23
+The number of ones in the binary representation of 23: 4
+
+--- Running again ---
+ 
+
+Carl Stevenson
+CPP and Recursion
+This program calculates the number of ones in the binary 
+Representation of a user defined integer.
+
+Please enter the number for the calculation of ones: 
+Calculating the number of ones in 8
+The number of ones in the binary representation of 8: 1
+
+--- Running again ---
+ 
+
+Carl Stevenson
+CPP and Recursion
+This program calculates the number of ones in the binary 
+Representation of a user defined integer.
+
+Please enter the number for the calculation of ones: 
+Calculating the number of ones in 256
+The number of ones in the binary representation of 256: 1
+
+--- Running again ---
+ 
+
+Carl Stevenson
+CPP and Recursion
+This program calculates the number of ones in the binary 
+Representation of a user defined integer.
+
+Please enter the number for the calculation of ones: 
+Calculating the number of ones in 16
+The number of ones in the binary representation of 16: 1
+
+--- Running again ---
+ 
+
+Carl Stevenson
+CPP and Recursion
+This program calculates the number of ones in the binary 
+Representation of a user defined integer.
+
+Please enter the number for the calculation of ones: 
+Calculating the number of ones in 1
+The number of ones in the binary representation of 1: 1
+
+ 

@@ -1,0 +1,6 @@
+findpath is implemented in wumpus.java
+    movetoplayer();
+    sleepy();
+    findpath();
+    
+       

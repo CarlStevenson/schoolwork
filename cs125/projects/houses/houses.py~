@@ -1,0 +1,34 @@
+#File:    houses.py
+#Author:  Carl Stevenson
+#Date:    11/29/2012
+#Purpose: To take input froma  file and output an organized chart of house sales
+
+def intro():
+    print()
+    print("Program to output a yearly report of house sales.")
+    print("Written by Carl Stevenson.")
+    print()
+
+def getFile():
+    filename = input("Enter the file name: ")
+    print() #for turnin
+    print()
+    infile = open(filename,r)
+    return infile
+
+def manData(infile):
+    l = []
+    for line in infile:
+         
+        x = [line]
+        l.append(x)
+    return l
+
+def main():
+    intro()
+    infile = getFile()
+    l = manData(infile)
+    #outputChart(l)
+    print(l)
+    
+main()

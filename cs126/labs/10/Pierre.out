@@ -1,0 +1,25 @@
+Username:  stevenc
+Date:      Thu Apr 4 14:35:04 EDT 2013
+ 
+*** Running make ***
+javac *.java
+--- Running first pierre ---
+ 
+
+To convert fractional measures,
+enter the fractional measure you want to convert: 
+Enter the fractional amount to reduce/increase it by: 
+The converted measurement is: 1/8
+
+
+--- Running second pierre ---
+ 
+
+To convert fractional measures,
+ enter the fractional measure you want to convert: 
+Enter the fractional amount to reduce/increase it by: 
+The converted measurement is: 2/5
+
+*** Running make clean ***
+rm -f *.class *~ *#
+ 

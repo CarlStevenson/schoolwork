@@ -1,0 +1,17 @@
+Carl Stevenson
+
+4     /home/mathcs/users/fall12/stevenc/cs125/labs/8
+
+6     users
+
+8     omicron
+
+10    146.94.10.215
+
+14    146.94.10.44
+
+15    koch patelm
+
+20    1073741824
+
+23    x86_64 GNU/Linux

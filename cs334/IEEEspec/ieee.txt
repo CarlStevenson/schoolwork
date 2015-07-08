@@ -1,0 +1,13 @@
+
+1.1 Purpose:
+
+  This document sets to describe the aspects of the home security system to be developed. This document is intended for the developers of this system.
+
+1.5 Overview:
+
+  This document contains the following elements:
+
+    Overall description of the home security system
+    How the security system 
+
+

@@ -1,0 +1,16 @@
+Script started on Thu Oct 25 10:08:42 2012
+[4mdilbert[24m:[1m~/cs125/labs/8[0m> bc
+bc 1.06.95
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'. 
+obase = 2
+2 ^ 30
+1000000000000000000000000000000
+obase = 16
+2 ^ 30
+40000000
+quit
+[4mdilbert[24m:[1m~/cs125/labs/8[0m> ^Dexit
+
+Script done on Thu Oct 25 10:09:54 2012

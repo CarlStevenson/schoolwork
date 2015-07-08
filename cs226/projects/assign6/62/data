@@ -1,0 +1,24 @@
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+1 8
+1 9
+1 10
+
+Carl Stevenson
+Queues
+This program takes input from the user to interface with a queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 

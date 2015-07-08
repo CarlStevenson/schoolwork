@@ -1,0 +1,35 @@
+/************************************************  file f1.c  ****/
+
+double eval(str, length, vect, genes)
+char str[];	/* string representation			*/
+int length;	/* length of bit string				*/
+double vect[];	/* floating point representation		*/
+int genes;	/* number of elements in vect			*/
+{
+	double sum;
+	
+	//   [worker][slot][preference]
+    int sched[4][8][5];
+    
+    sched[0][0] = {10,10,10,10,10};
+    sched[0][1] = {9,9,9,9,9};
+    sched[0][2] = {8,8,8,8,8};
+    for(int i=3; i<8; i++){
+      for(int j=0; j<5; j++){
+	sched[0][i][j]=1;
+      }
+    }
+    for(int i=0; i<3; i++){
+      
+      for(int j =10; j>5; j--){
+	sched[1][i][j]=j;
+	
+      }
+    }
+    
+    
+    
+    return (sum);
+}
+
+/************************************************ end of file ****/

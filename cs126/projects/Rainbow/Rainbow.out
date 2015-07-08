@@ -1,0 +1,34 @@
+Username:  stevenc
+Date:      Fri Feb 1 20:45:00 EST 2013
+ 
+*** Running make ***
+--- Running 1.0 ---
+ 
+
+Program to calculate the height of a rainbow.
+Program checks that the distance is greater
+than zero.
+Written by Carl Stevenson.
+You will be asked to enter the distance to the rainbow.
+
+Enter distance: 
+
+Given that the distance to the rainbow is 1.0:
+
+The height of the rainbow is:  0.9109940218479745
+
+--- Running -10 ---
+ 
+
+Program to calculate the height of a rainbow.
+Program checks that the distance is greater
+than zero.
+Written by Carl Stevenson.
+You will be asked to enter the distance to the rainbow.
+
+Enter distance: 
+
+Given that the distance to the rainbow is -10.0:
+
+You entered a number less than or equal to zero.
+ 

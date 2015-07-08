@@ -1,0 +1,44 @@
+Username:  stevenc
+Date:      Wed Apr 16 15:25:41 EDT 2014
+ 
+*** Compiling lab1a.cpp ***
+make: `maintest' is up to date.
+--- Running ---
+ 
+main
+Results of test: 1 .... testlist found the list to be invalid 
+Results of test: 2 .... testlist found the list to be invalid 
+Results of test: 3 .... testlist found the list to be invalid 
+
+print test group 1 is complete ....
+The list: [1]
+Results of test: 4 .... testlist found the list to be valid 
+Results of test: 5 .... testlist found the list to be invalid 
+Results of test: 6 .... testlist found the list to be invalid 
+Results of test: 7 .... testlist found the list to be invalid 
+Results of test: 8 .... testlist found the list to be invalid 
+
+main test group 2 complete . . . 
+Results of test: 9 .... testlist found the list to be invalid 
+Results of test: 10 .... testlist found the list to be invalid 
+Results of test: 11 .... testlist found the list to be invalid 
+Results of test: 12 .... testlist found the list to be invalid 
+Results of test: 13 .... testlist found the list to be invalid 
+Results of test: 14 .... testlist found the list to be invalid 
+Results of test: 15 .... testlist found the list to be invalid 
+
+main test group 3 complete ......
+Results of test: 16 .... testlist found the list to be invalid 
+Results of test: 17 .... testlist found the list to be invalid 
+Results of test: 18 .... testlist found the list to be invalid 
+Results of test: 19 .... testlist found the list to be invalid 
+Results of test: 20 .... testlist found the list to be invalid 
+
+main test group 4 complete ...
+Results of test: 21 .... testlist found the list to be invalid 
+Results of test: 22 .... testlist found the list to be invalid 
+Results of test: 23 .... testlist found the list to be invalid 
+Results of test: 24 .... testlist found the list to be invalid 
+main test group 5 complete
+main ending
+ 

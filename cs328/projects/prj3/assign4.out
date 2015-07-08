@@ -1,0 +1,15 @@
+Username:  stevenc
+Date:      Thu Nov 6 10:21:10 EST 2014
+ 
+*** compiling ***
+g++ assign2.cpp shortest.cpp -o assign2
+--- Running ---
+ 
+./assign4: Command not found.
+--- Running again ---
+ 
+./assign4: Command not found.
+--- Running again ---
+ 
+./assign4: Command not found.
+ 

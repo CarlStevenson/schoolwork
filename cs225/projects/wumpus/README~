@@ -1,0 +1,15 @@
+Carl Stevenson
+
+Changelog!
+
+    + Added the Wumpus being able to pathfind to the Player
+        + Added the class queuedcave.java to make this possible
+    + Added a function to make playerdeath easier
+    + Cleaned up the indentation on most of the files
+    + Bug where when throwing an item, it displays the object pointer        
+        SQUASHED
+    + Ensured that the Wumpus immediately kills the player at the instant they
+        are in the same cave.
+    + Made sure the Wumpus doesn't cheat and move more than once a turn
+    + Changed the cavedata so it doesn't have a faulty value
+

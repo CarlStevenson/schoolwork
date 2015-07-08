@@ -1,0 +1,20 @@
+-- 1.
+--select first_name, last_name from sakila_customer;
+-- 2.
+--select email from sakila_customer where active = 0;
+-- 3.
+--select * from sakila_film where title like 'W%'; 
+-- 4.
+--select * from sakila_film where title >= 'N%' and title <= 'V%';
+-- 5.
+--select first_name, last_name from sakila_customer where first_name like 'R%' and last_name like 'C%' order by last_name, first_name;
+-- 6.
+--select title, replacement_cost from sakila_film where replacement_cost =10.99 or replacement_cost = 16.99 or replacement_cost = 20.99 or replacement_cost = 24.99;
+-- 7.
+--select title, description, if(rental_duration >=5, 'extended','non-extended') from sakila_film;
+-- 8.
+--select description from sakila_film where rating >=4;
+-- 9.
+--select email from sakila_customer where last_name < first_name;
+-- 10.
+-- select * from sakila_actor where first_name = reverse(first_name);

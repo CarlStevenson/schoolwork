@@ -1,0 +1,138 @@
+Carl Stevenson
+Assignment 4a Pre-Programming assignment
+Files to be delivered: assign4a.cpp list.cpp list.h
+
+Description:
+
+  The main program drives the list class, which is an integer singly linked list. The list class has functions to display itself, find an element in itself, insert an item into itself, delete elements from itself, and return the number of elements in itself. The main program displays a menu and takes input in order to perform these functions in the class.
+
+Valid input:
+
+  For the main program, an integer x where 1<= x <=6.
+  For the findElement function, an integer x.
+  For the insertElement function, an integer x.
+  For the deleteElement function, an integer x.
+
+Introduction to Linked Lists test output (abbreviated to conserve space):
+
+  Carl Stevenson
+  Introduction to Linked Lists
+  This program takes input from the user to interface with a list object.
+
+
+  The menu items are as follows:
+
+    1. Display the list.
+    2. Find an item in the list.
+    3. Insert an element into the list.
+    4. Delete an element from the list.
+    5. Display the number of elements in the list.
+    6. Exit
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 3
+  Please enter the item:
+  You chose 8
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 3
+  Please enter the item:
+  You chose 1
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 3
+  Please enter the item:
+  You chose 9
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 3
+  Please enter the item:
+  You chose 30
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 3
+  Please enter the item:
+  You chose 33
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 3
+  Please enter the item:
+  You chose 23
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 3
+  Please enter the item:
+  You chose 3
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 3
+  Please enter the item:
+  You chose 20
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 3
+  Please enter the item:
+  You chose 500
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 3
+  Please enter the item:
+  You chose 77
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  List: [8,1,9,30,33,23,3,20,500,77]
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 2
+  Please enter the item to be found:
+  9 is in position 3
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 2
+  Please enter the item to be found:
+  550 not found.
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 3
+  Please enter the item:
+  You chose 20
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  List: [8,1,9,30,33,23,3,20,500,77,20]
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 3
+  Please enter the item:
+  You chose 75
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  List: [8,1,9,30,33,23,3,20,500,77,20,75]
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 4
+  Please enter the item:
+  You chose 75
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  List: [8,1,9,30,33,23,3,20,500,77,20]
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 4
+  Please enter the item:
+  You chose 9
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 1
+  List: [8,1,30,33,23,3,20,500,77,20]
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 5
+  There are 10 elements in the list.
+
+  Please enter the number of the action you wish to take:
+  You chose menu item 6
+  Exiting now.

@@ -1,0 +1,150 @@
+Username:  stevenc
+Date:      Tue Mar 11 19:32:34 EDT 2014
+ 
+*************
+* Compiling *
+*************
+cc -g -std=gnu99   -c -o scanner.o scanner.c
+cc -g -std=gnu99   -c -o error.o error.c
+cc -g -std=gnu99   -c -o symtab.o symtab.c
+cc -g -std=gnu99   -c -o parser.o parser.c
+cc -g -std=gnu99   -c -o tree.o tree.c
+tree.c: In function 'unary_expr_new':
+tree.c:53:3: warning: implicit declaration of function 'typecheck' [-Wimplicit-function-declaration]
+tree.c: In function 'write_stmt_new':
+tree.c:163:3: warning: implicit declaration of function 'isBoolean' [-Wimplicit-function-declaration]
+cc -g -std=gnu99   -c -o intcode.o intcode.c
+intcode.c: In function 'binary_expr_gen':
+intcode.c:74:3: warning: implicit declaration of function 'typecheck' [-Wimplicit-function-declaration]
+cc -g -std=gnu99   -c -o emitter.o emitter.c
+cc -g -std=gnu99   -c -o typecheck.o typecheck.c
+gcc -g -std=gnu99 -o pc pc.c scanner.o error.o symtab.o parser.o tree.o intcode.o emitter.o typecheck.o
+************************************************************
+  Compiling tc1.p
+************************************************************
+pc: Type mismatch error
+***********************
+  Compilation failed!  
+***********************
+************************************************************
+  Compiling tc2.p
+************************************************************
+pc: Type mismatch error
+***********************
+  Compilation failed!  
+***********************
+************************************************************
+  Compiling tc3.p
+************************************************************
+pc: Type mismatch error
+***********************
+  Compilation failed!  
+***********************
+************************************************************
+  Compiling tc4.p
+************************************************************
+pc: Type mismatch error
+***********************
+  Compilation failed!  
+***********************
+************************************************************
+  Compiling tc5.p
+************************************************************
+pc: Type mismatch error
+***********************
+  Compilation failed!  
+***********************
+************************************************************
+  Compiling tc6.p
+************************************************************
+pc: Type mismatch error
+***********************
+  Compilation failed!  
+***********************
+************************************************************
+  Compiling tc7.p
+************************************************************
+pc: Type mismatch error
+***********************
+  Compilation failed!  
+***********************
+************************************************************
+  Compiling tc8.p
+************************************************************
+pc: Type mismatch error
+***********************
+  Compilation failed!  
+***********************
+************************************************************
+  Compiling tc9.p
+************************************************************
+pc: Type mismatch error
+***********************
+  Compilation failed!  
+***********************
+************************************************************
+  Compiling tc10.p
+************************************************************
+pc: Type mismatch error
+***********************
+  Compilation failed!  
+***********************
+************************************************************
+  Compiling tc11.p
+************************************************************
+pc: Type mismatch error
+***********************
+  Compilation failed!  
+***********************
+************************************************************
+  Compiling tc12.p
+************************************************************
+pc: Type mismatch error
+***********************
+  Compilation failed!  
+***********************
+************************************************************
+  Compiling tc13.p
+************************************************************
+************
+  Running:  
+************
+       1
+************************************************************
+  Compiling tc14.p
+************************************************************
+pc: Type mismatch error
+***********************
+  Compilation failed!  
+***********************
+************************************************************
+  Compiling tc15.p
+************************************************************
+pc: Type mismatch error
+***********************
+  Compilation failed!  
+***********************
+************************************************************
+  Compiling tc16.p
+************************************************************
+pc: Type mismatch error
+***********************
+  Compilation failed!  
+***********************
+***************************
+* Collecting source files *
+***************************
+pc.c
+globals.h
+scanner.c
+error.c
+symtab.c
+parser.c
+emitter.c
+intcode.c
+typecheck.c
+parser.y
+scanner.lex
+************
+* All done *
+************

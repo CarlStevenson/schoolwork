@@ -1,0 +1,68 @@
+Username:  stevenc
+Date:      Thu Sep 27 10:23:52 EDT 2012
+ 
+*** Running encode.py ***
+
+This program will encode a message using
+a Caesar cipher.
+You will enter a key (number between 1 and 25).
+Written by Carl Stevenson
+
+Enter a key (number between 1 and 25): 
+
+Enter a sentence: 
+
+With a key of 2
+
+Original line: are you a sourpuss?
+
+Encoded line:  ctg aqw c uqwtrwuu?
+
+
+This program will encode a message using
+a Caesar cipher.
+You will enter a key (number between 1 and 25).
+Written by Carl Stevenson
+
+Enter a key (number between 1 and 25): 
+
+Enter a sentence: 
+
+With a key of -2
+
+Original line: xwyzabc
+
+Encoded line:  vuwxyza
+
+
+This program will encode a message using
+a Caesar cipher.
+You will enter a key (number between 1 and 25).
+Written by Carl Stevenson
+
+Enter a key (number between 1 and 25): 
+
+Enter a sentence: 
+
+With a key of 20
+
+Original line: how now brown cow
+
+Encoded line:  biq hiq vliqh wiq
+
+
+This program will encode a message using
+a Caesar cipher.
+You will enter a key (number between 1 and 25).
+Written by Carl Stevenson
+
+Enter a key (number between 1 and 25): 
+
+Enter a sentence: 
+
+With a key of -2
+
+Original line: ctg aqw c uqwtrwuu?
+
+Encoded line:  are you a sourpuss?
+

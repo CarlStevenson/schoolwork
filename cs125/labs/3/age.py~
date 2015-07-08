@@ -1,0 +1,20 @@
+# File: age.py
+# Author: Carl Stevenson
+# Date: 9/13/12
+# Purpose: To calculate a person's age.
+
+def main():
+    
+    #tell user what the program does and who wrote it
+    print("This is a program to calculate your age.")
+    print("Written by Carl Stevenson.")
+    #prompt and input the user's month, day and year of birth
+    #compute age
+    #output today's date in the specified format
+    #output the birthdate in the specified format
+    #output the age
+
+
+
+
+main()

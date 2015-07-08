@@ -1,0 +1,1177 @@
+Username:  stevenc
+Date:      Mon Apr 14 12:59:41 EDT 2014
+ 
+***making assign7 ***
+g++ assign7.cpp -o assign7
+--- Running ---
+ 
+
+Carl Stevenson
+Binary Trees
+This program takes input from the user to interface with an
+instantiated binary tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 1
+1 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 2
+2 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 3
+3 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 4
+4 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 5
+5 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 6
+6 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 7
+7 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 9.
+The tree is not full.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 7.
+The height of the tree is 4
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 8
+8 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 9.
+The tree is not full.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 8.
+The number of elements in the tree is 8
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 7.
+The height of the tree is 5
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 9
+9 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 10
+10 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 11
+11 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 12
+12 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 13
+13 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 14
+14 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 9.
+The tree is not full.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 8.
+The number of elements in the tree is 14
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 7.
+The height of the tree is 8
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 1.
+Please enter the item to add.
+You chose 15
+15 added to the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 9.
+The tree is not full.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 8.
+The number of elements in the tree is 15
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 7.
+The height of the tree is 8
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 3.
+Please enter the level to display.
+You chose 1
+Level 1: 1
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 3.
+Please enter the level to display.
+You chose 2
+Level 2: 2 3 4 5 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 3.
+Please enter the level to display.
+You chose 3
+Level 3: 4 5 6 7 8 9 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 3.
+Please enter the level to display.
+You chose 4
+Level 4: 6 7 8 9 10 11 12 13 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 3.
+Please enter the level to display.
+You chose 5
+Level 5: 8 9 10 11 12 13 14 15 - - 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 4.
+In order traversal of the tree: 8 4 9 2 10 5 11 1 12 6 13 3 14 7 15 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 5.
+Pre order traversal of the tree: 1 2 4 8 9 5 10 11 3 6 12 13 7 14 15 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 6.
+Post order traversal of the tree: 8 9 4 10 11 5 2 12 13 6 14 15 7 3 1 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 2.
+Deleting an element from the tree.
+15 removed from the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 4.
+In order traversal of the tree: 8 4 9 2 10 5 11 1 12 6 13 3 14 7 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 5.
+Pre order traversal of the tree: 1 2 4 8 9 5 10 11 3 6 12 13 7 14 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 6.
+Post order traversal of the tree: 8 9 4 10 11 5 2 12 13 6 14 7 3 1 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 9.
+The tree is not full.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 8.
+The number of elements in the tree is 14
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 7.
+The height of the tree is 8
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 2.
+Deleting an element from the tree.
+14 removed from the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 2.
+Deleting an element from the tree.
+13 removed from the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 2.
+Deleting an element from the tree.
+12 removed from the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 2.
+Deleting an element from the tree.
+11 removed from the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 2.
+Deleting an element from the tree.
+10 removed from the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 2.
+Deleting an element from the tree.
+9 removed from the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 2.
+Deleting an element from the tree.
+8 removed from the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 9.
+The tree is not full.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 8.
+The number of elements in the tree is 7
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 7.
+The height of the tree is 4
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 3.
+Please enter the level to display.
+You chose 1
+Level 1: 1
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 3.
+Please enter the level to display.
+You chose 2
+Level 2: 2 3 4 5 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 3.
+Please enter the level to display.
+You chose 3
+Level 3: 4 5 6 7 - - 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 4.
+In order traversal of the tree: 4 2 5 1 6 3 7 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 5.
+Pre order traversal of the tree: 1 2 4 5 3 6 7 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 6.
+Post order traversal of the tree: 4 5 2 6 7 3 1 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 2.
+Deleting an element from the tree.
+7 removed from the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 2.
+Deleting an element from the tree.
+6 removed from the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 2.
+Deleting an element from the tree.
+5 removed from the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 2.
+Deleting an element from the tree.
+4 removed from the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 2.
+Deleting an element from the tree.
+3 removed from the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 3.
+Please enter the level to display.
+You chose 1
+Level 1: 1
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 3.
+Please enter the level to display.
+You chose 2
+Level 2: 2 - - - 
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 2.
+Deleting an element from the tree.
+2 removed from the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 2.
+Deleting an element from the tree.
+1 removed from the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 2.
+Deleting an element from the tree.
+The tree is empty.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 4.
+In order traversal of the tree: No elements in the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 5.
+Pre order traversal of the tree: No elements in the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You chose menu item 6.
+Post order traversal of the tree: No elements in the tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+Exiting now.
+--- invalid inputRunning again ---
+ 
+
+Carl Stevenson
+Binary Trees
+This program takes input from the user to interface with an
+instantiated binary tree.
+
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+You provided a non-integer or an integer not corresponding to a menu item. Please try again.
+The menu items are as follows:
+
+	1. Add an element to the tree
+	2. Remove an element from the tree
+	3. Display a level of the tree
+	4. Display the in order traversal of the tree
+	5. Display the preorder traversal of the tree
+	6. Display the postorder traversal of the tree
+	7. Print the height of the tree
+	8. Print the number of elements in the tree
+	9. Display if the tree is full
+	10. Exit
+Exiting now.
+ 

@@ -1,0 +1,61 @@
+// File:    Rainbow.java
+// Author:  Carl Stevenson
+// Date:    1/31/13
+// Purpose: To calculate the height of a rainbow, given the distance to it.
+
+public class Rainbow
+{
+    public static final Scanner sc = new Scanner;  // global scanner for ease
+
+    public static void main(String[] args)
+    {
+	// seperate methods for practice
+	double distance = intro();
+	calc(distance);
+    }
+    
+    public static double intro()
+    {
+	System.out.println("\nProgram to calculate the height of a rainbow.");
+	System.out.println("Program checks that the distance is greater");
+	System.out.println("than zero.");
+	System.out.println("Written by Carl Stevenson.");
+	System.out.println("You will be asked to enter the distance"
+			   + " to the rainbow.");
+	boolean check = false;
+	double distance;
+	// As long as bad values are inputted, will keep asking for
+	// a positive value.
+	while check == false;
+	{
+	    System.out.println("\nEnter distance: ");
+	    distance = sc.nextDouble();
+	    System.out.println("\n");
+	    System.out.println("Given that the distance to the rainbow is "
+			       + distance + ":");
+	    if distance > 0;
+	    {
+		check = true;
+	    }
+	    else;
+	    {
+		System.out.println("\nYou entered a number less than"
+				   + " or equal to zero.\nTry again.");
+	    }
+	
+	}
+	System.out.println();
+	return distance;
+    }
+
+    public static void calc(double distance)
+    {
+	// Doing the conversion and trig is unneccesary work, 
+	// included it to be safe.
+	double angle = 42.3333333 * (Math.PI / 180.);
+	double tangent = Math.tan(angle);
+	double height = distance * tangent;
+	System.out.println("The height of the rainbow is:  " + height);
+	System.out.println();
+    }
+}  // End of class.

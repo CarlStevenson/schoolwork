@@ -1,0 +1,709 @@
+Username:  stevenc
+Date:      Wed Apr 9 13:55:04 EDT 2014
+ 
+*** making assign62 ***
+g++ -c -Wall -g assign62.cpp
+g++ assign62.o queuea.o -g -o assign62
+--- Running ---
+ 
+
+Carl Stevenson
+Queues
+This program takes input from the user to interface with a queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 5.
+The queue is empty.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 2.
+No items to remove.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 1.
+Please enter an item to enqueue: 
+You chose 1
+1 added to the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 6.
+Exiting now.
+--- Running again ---
+ 
+
+Carl Stevenson
+Queues
+This program takes input from the user to interface with a queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 5.
+The queue is empty.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 1.
+Please enter an item to enqueue: 
+You chose 1
+1 added to the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 4.
+The queue: [1]
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 3.
+The front of the queue is: 1
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 5.
+The queue is not empty.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 1.
+Please enter an item to enqueue: 
+You chose 2
+2 added to the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 1.
+Please enter an item to enqueue: 
+You chose 3
+3 added to the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 1.
+Please enter an item to enqueue: 
+You chose 4
+4 added to the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 1.
+Please enter an item to enqueue: 
+You chose 5
+5 added to the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 1.
+Please enter an item to enqueue: 
+You chose 6
+6 added to the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 1.
+Please enter an item to enqueue: 
+You chose 7
+7 added to the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 1.
+Please enter an item to enqueue: 
+You chose 8
+8 added to the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 1.
+Please enter an item to enqueue: 
+You chose 9
+9 added to the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 1.
+Please enter an item to enqueue: 
+You chose 10
+10 added to the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 1.
+Please enter an item to enqueue: 
+You chose 11
+11 added to the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 1.
+Please enter an item to enqueue: 
+You chose 12
+12 added to the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 4.
+The queue: [11,0,0,0,6304224,0,-268803994,32689,1804590856,32767,11,12]
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 2.
+11 removed from the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 4.
+The queue: [0,0,0,6304224,0,-268803994,32689,1804590856,32767,11,12]
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 1.
+Please enter an item to enqueue: 
+You chose 13
+13 added to the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 1.
+Please enter an item to enqueue: 
+You chose 14
+14 added to the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 1.
+Please enter an item to enqueue: 
+You chose 15
+15 added to the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 1.
+Please enter an item to enqueue: 
+You chose 16
+16 added to the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 1.
+Please enter an item to enqueue: 
+You chose 17
+17 added to the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 1.
+Please enter an item to enqueue: 
+You chose 18
+18 added to the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 1.
+Please enter an item to enqueue: 
+You chose 19
+19 added to the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 4.
+The queue: [6304232,0,-266300128,32689,17,0,0,0,6304224,0,-268803994,32689,1804590856,32767,-274986877,17,18,19]
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 2.
+6304232 removed from the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 2.
+0 removed from the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 2.
+-266300128 removed from the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 2.
+32689 removed from the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 2.
+17 removed from the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 2.
+0 removed from the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 2.
+0 removed from the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 2.
+0 removed from the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 2.
+6304224 removed from the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 2.
+0 removed from the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 2.
+-268803994 removed from the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 2.
+32689 removed from the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 2.
+1804590856 removed from the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 2.
+32767 removed from the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 2.
+-274986877 removed from the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 2.
+17 removed from the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 2.
+18 removed from the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 4.
+The queue: [19]
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 2.
+19 removed from the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 5.
+The queue is empty.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 1.
+Please enter an item to enqueue: 
+You chose 1
+1 added to the queue.
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 4.
+The queue: [1]
+
+Your menu items are as follows:
+	1. Enqueue an item
+	2. Dequeue and print an item
+	3. Print the front of the queue
+	4. Print the contents of the queue
+	5. Print empty status
+	6. Exit
+
+Please enter the number of the action you wish to take: 
+You chose menu item 6.
+Exiting now.
+ 

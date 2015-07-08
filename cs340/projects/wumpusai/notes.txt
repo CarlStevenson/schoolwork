@@ -1,0 +1,23 @@
+// using arrows to kill the Wumpus
+
+need to change act function
+    - decision making
+    - explore
+    - react to the presence of the wumpus
+    
+    
+    
+    
+    
+    
+    
+    
+Implemented changes:
+
+    - measure of the previous cave the aiplayer was in
+    - Decision making sequence
+        - shouldShootArrow 
+            - shootArrow
+        - areTherePits 
+        - explore
+        - runAway

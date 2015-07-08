@@ -1,0 +1,17 @@
+# File: feet.py
+# Author: Carl Stevenson
+# Date: 9/13/2012
+# Purpose: To make conversion tables of feet to meters and meters to feet.
+
+def main():
+    #introduce program
+    print("Table of Feet and Meter Equivalents")
+    print("Written by Carl Stevenson\n")
+    #set up chart
+    print("Feet        Meters")
+    print("====        ======")
+    #do calculations
+    for i in range(11):
+        print ((i * 10))
+    
+

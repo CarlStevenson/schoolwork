@@ -1,0 +1,38 @@
+/**
+ * @file error.c
+ * Defines an error handling function.
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
+
+/**
+ * The error reporting function.
+ * @param format A printf style format.
+ * @param ... Any additional arguments that are needed.
+ */
+void error(char *format, ... )
+{
+  va_list args;
+  // Print the name of the program.
+  fprintf(stderr, "pc: ");
+
+  // Call vprintf to print everything else.
+  va_start(args, format);
+  vfprintf(stderr, format, args);
+  va_end(args);
+
+  // Print a newline.
+  fprintf(stderr, "\n");
+
+  // Exit indicating failure.
+  exit(1);
+}
+
+/**
+ * Used by the bison parser to report syntax errors.
+ */
+void yyerror(char *s) {
+  error("%s", s);
+}

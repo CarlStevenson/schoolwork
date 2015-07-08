@@ -1,0 +1,101 @@
+Username:  stevenc
+Date:      Wed Mar 26 10:55:37 EDT 2014
+ 
+*** making assign43***
+g++ assign43.cpp -o assign43
+--- Running ---
+ 
+Carl Stevenson
+Linear and Circular Linked Lists
+This program takes N and M from a user and displays the resultof the Josephus game with N players and M passes.
+
+Please enter the amount of people in the game:
+You chose 10 people.
+Please enter the number of passes required for elimination:
+You chose 1 passes per elimination.
+Player 2 lost!
+Player 4 lost!
+Player 6 lost!
+Player 8 lost!
+Player 10 lost!
+Player 3 lost!
+Player 7 lost!
+Player 1 lost!
+Player 9 lost!
+
+Player 5 wins!
+--- Running again ---
+ 
+Carl Stevenson
+Linear and Circular Linked Lists
+This program takes N and M from a user and displays the resultof the Josephus game with N players and M passes.
+
+Please enter the amount of people in the game:
+You chose 10 people.
+Please enter the number of passes required for elimination:
+You chose 3 passes per elimination.
+Player 4 lost!
+Player 8 lost!
+Player 2 lost!
+Player 7 lost!
+Player 3 lost!
+Player 10 lost!
+Player 9 lost!
+Player 1 lost!
+Player 6 lost!
+
+Player 5 wins!
+--- Running again ---
+ 
+Carl Stevenson
+Linear and Circular Linked Lists
+This program takes N and M from a user and displays the resultof the Josephus game with N players and M passes.
+
+Please enter the amount of people in the game:
+You chose 5 people.
+Please enter the number of passes required for elimination:
+You chose 0 passes per elimination.
+Player 1 lost!
+Player 2 lost!
+Player 3 lost!
+Player 4 lost!
+
+Player 5 wins!
+--- Running again ---
+ 
+Carl Stevenson
+Linear and Circular Linked Lists
+This program takes N and M from a user and displays the resultof the Josephus game with N players and M passes.
+
+Please enter the amount of people in the game:
+You chose 5 people.
+Please enter the number of passes required for elimination:
+You chose 1 passes per elimination.
+Player 2 lost!
+Player 4 lost!
+Player 1 lost!
+Player 5 lost!
+
+Player 3 wins!
+--- Running again ---
+ 
+Carl Stevenson
+Linear and Circular Linked Lists
+This program takes N and M from a user and displays the resultof the Josephus game with N players and M passes.
+
+Please enter the amount of people in the game:
+You chose 10 people.
+Please enter the number of passes required for elimination:
+You chose 10 passes per elimination.
+Player 1 lost!
+Player 3 lost!
+Player 6 lost!
+Player 10 lost!
+Player 8 lost!
+Player 9 lost!
+Player 5 lost!
+Player 2 lost!
+Player 4 lost!
+
+Player 7 wins!
+ 

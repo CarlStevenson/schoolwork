@@ -1,0 +1,99 @@
+Username:  stevenc
+Date:      Fri Feb 14 15:36:03 EST 2014
+ 
+*** Compiling lab1a.cpp ***
+--- Running ---
+ 
+
+Carl Stevenson
+CPP and Recursion
+This program sums the first n elements of a user created array
+
+Please enter the size of the integer array, between 1 and 100:
+You chose the integer array to be of size 8
+Please enter the value for slot 1:
+1 is the value in slot 1
+Please enter the value for slot 2:
+2 is the value in slot 2
+Please enter the value for slot 3:
+3 is the value in slot 3
+Please enter the value for slot 4:
+4 is the value in slot 4
+Please enter the value for slot 5:
+5 is the value in slot 5
+Please enter the value for slot 6:
+6 is the value in slot 6
+Please enter the value for slot 7:
+7 is the value in slot 7
+Please enter the value for slot 8:
+8 is the value in slot 8
+Please enter the first n elements in the array to be summed:
+Summing the first 5 elements of the array.
+The array that you entered: [1,2,3,4,5,6,7,8]
+The sum of the first 5 elements of the array: 15
+
+--- Running again ---
+ 
+
+Carl Stevenson
+CPP and Recursion
+This program sums the first n elements of a user created array
+
+Please enter the size of the integer array, between 1 and 100:
+You chose the integer array to be of size 5
+Please enter the value for slot 1:
+3 is the value in slot 1
+Please enter the value for slot 2:
+4 is the value in slot 2
+Please enter the value for slot 3:
+5 is the value in slot 3
+Please enter the value for slot 4:
+6 is the value in slot 4
+Please enter the value for slot 5:
+7 is the value in slot 5
+Please enter the first n elements in the array to be summed:
+Summing the first 2 elements of the array.
+The array that you entered: [3,4,5,6,7]
+The sum of the first 2 elements of the array: 7
+
+--- Running again ---
+ 
+
+Carl Stevenson
+CPP and Recursion
+This program sums the first n elements of a user created array
+
+Please enter the size of the integer array, between 1 and 100:
+You chose the integer array to be of size 5
+Please enter the value for slot 1:
+1 is the value in slot 1
+Please enter the value for slot 2:
+2 is the value in slot 2
+Please enter the value for slot 3:
+3 is the value in slot 3
+Please enter the value for slot 4:
+4 is the value in slot 4
+Please enter the value for slot 5:
+5 is the value in slot 5
+Please enter the first n elements in the array to be summed:
+Summing the first 5 elements of the array.
+The array that you entered: [1,2,3,4,5]
+The sum of the first 5 elements of the array: 15
+
+--- Running again ---
+ 
+
+Carl Stevenson
+CPP and Recursion
+This program sums the first n elements of a user created array
+
+Please enter the size of the integer array, between 1 and 100:
+You chose the integer array to be of size 1
+Please enter the value for slot 1:
+2 is the value in slot 1
+Please enter the first n elements in the array to be summed:
+Summing the first 1 elements of the array.
+The array that you entered: [2]
+The sum of the first 1 elements of the array: 2
+
+ 

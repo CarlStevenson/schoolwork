@@ -1,0 +1,60 @@
+Username:  stevenc
+Date:      Mon Apr 15 22:12:36 EDT 2013
+ 
+*** Compiling ***
+javac *.java
+--- Running Banking ---
+ 
+
+Welcome to The Bank!
+This automated transaction is written by Carl Stevenson.
+
+Status after month 1: The Incredible Hulk has balance 45.291666666666664
+                      Nemo has balance 9990.0
+
+Status after month 2: The Incredible Hulk has balance 41.02670138888889
+                      Nemo has balance 9980.0
+
+Status after month 3: The Incredible Hulk has balance 37.163353674768516
+                      Nemo has balance 9970.0
+
+
+Depositing into The Hulk's account.
+
+Withdrawing from Nemo's CD.
+
+Status after month 4: The Incredible Hulk has balance 2039.0468065712048
+                      Nemo has balance 5566.0
+
+Status after month 5: The Incredible Hulk has balance 2040.9412462762034
+                      Nemo has balance 5556.0
+
+Status after month 6: The Incredible Hulk has balance 2042.8467368794813
+                      Nemo has balance 5546.0
+
+Status after month 7: The Incredible Hulk has balance 2044.7633428446115
+                      Nemo has balance 5536.0
+
+Status after month 8: The Incredible Hulk has balance 2046.691129011205
+                      Nemo has balance 5526.0
+
+Status after month 9: The Incredible Hulk has balance 2048.630160597104
+                      Nemo has balance 5516.0
+
+Status after month 10: The Incredible Hulk has balance 2050.580503200587
+                      Nemo has balance 5506.0
+
+Status after month 11: The Incredible Hulk has balance 2052.5422228025905
+                      Nemo has balance 5496.0
+
+Status after month 12: The Incredible Hulk has balance 2054.515385768939
+                      Nemo has balance 6310.4
+
+Status after month 13: The Incredible Hulk has balance 2056.500058852591
+                      Nemo has balance 6300.4
+
+Status after month 14: The Incredible Hulk has balance 2058.4963091958975
+                      Nemo has balance 6290.4
+
+rm -f *.class *~ *#
+ 

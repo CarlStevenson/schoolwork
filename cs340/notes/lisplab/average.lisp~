@@ -1,0 +1,6 @@
+; average.lisp
+; compute the average of a list of numbers
+; no input error checks
+
+(defun average (numList)
+  (/ (apply ’+ numList) (length numList)))

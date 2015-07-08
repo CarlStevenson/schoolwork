@@ -1,0 +1,184 @@
+Username:  stevenc
+Date:      Wed Jan 29 16:18:03 EST 2014
+ 
+*************
+* Compiling *
+*************
+cc    -c -o scanner.o scanner.c
+cc    -c -o error.o error.c
+cc    -c -o symtab.o symtab.c
+cc    -c -o parser.o parser.c
+cc    -c -o emitter.o emitter.c
+gcc  -o sc sc.c scanner.o error.o symtab.o parser.o emitter.o
+************************************************************
+* Running: input = /home/mathcs/courses/cs327/hw3/test1.st *
+************************************************************
+push 0
+gofalse if0
+push 1
+write
+label if0
+push 1
+gofalse if1
+push 2
+write
+label if1
+writeln
+lvalue a
+push 0
+assign
+lvalue b
+push 1
+assign
+rvalue a
+gofalse if2
+push 1
+write
+label if2
+rvalue b
+gofalse if3
+push 2
+write
+label if3
+writeln
+push 2
+push 6
+div
+gofalse if4
+push 1
+write
+label if4
+push 6
+push 2
+div
+gofalse if5
+push 2
+write
+label if5
+writeln
+push 4
+push 8
+push 2
+div
+sub
+gofalse if6
+push 1
+write
+label if6
+push 4
+push 8
+push 2
+div
+sub
+push 1
+add
+push 5
+mul
+gofalse if7
+push 2
+write
+label if7
+writeln
+       2
+       2
+       2
+       2
+************************************************************
+* Running: input = /home/mathcs/courses/cs327/hw3/test2.st *
+************************************************************
+lvalue a
+push 10
+assign
+label wh0
+rvalue a
+push 2
+sub
+gofalse wh1
+lvalue a
+rvalue a
+push 1
+sub
+assign
+goto wh0
+label wh1
+rvalue a
+write
+writeln
+lvalue b
+push 10
+assign
+lvalue a
+push 10
+assign
+lvalue c
+push 20
+assign
+label wh2
+rvalue b
+gofalse wh3
+label wh4
+rvalue b
+rvalue a
+rvalue c
+div
+add
+gofalse wh5
+lvalue b
+rvalue b
+push 1
+sub
+assign
+goto wh4
+label wh5
+goto wh2
+label wh3
+rvalue b
+write
+writeln
+label wh6
+rvalue a
+gofalse wh7
+rvalue a
+gofalse if0
+lvalue a
+rvalue a
+push 1
+sub
+assign
+label if0
+goto wh6
+label wh7
+rvalue a
+write
+writeln
+       2
+       0
+       0
+************************************************************
+* Running: input = /home/mathcs/courses/cs327/hw3/test3.st *
+************************************************************
+lvalue a
+push 1
+assign
+label wh0
+rvalue a
+gofalse wh1
+rvalue a
+write
+goto wh0
+label wh1
+writeln
+       1       1       1       1       1       1
+***************************
+* Collecting source files *
+***************************
+sc.c
+globals.h
+scanner.c
+error.c
+symtab.c
+parser.c
+emitter.c
+************
+* All done *
+************

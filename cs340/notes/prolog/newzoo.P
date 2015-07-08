@@ -1,0 +1,89 @@
+% example from online
+
+rule(1, animal, mammal, [c1]).
+rule(2, animal, mammal, [c2]).
+rule(3, animal, bird, [c3]).
+rule(4, animal, bird, [c4, c5]).
+rule(5, mammal, carnivore, [c6]).
+rule(6, mammal, carnivore, [c7, c8, c9]).
+rule(7, mammal, ungulate, [c10]).
+rule(8, mammal, ungulate_toed, [c11]).
+rule(9, carnivore, cheetah,[c12,c13]).
+rule(10, carnivore, tiger, [c12,c14]).
+rule(11, ungulate, giraffe, [c15, c16, c12,c13]).
+rule(12, ungulate, zebra, [c17, c14]).
+rule(13, bird, ostrich, [c18, c15, c16, c19]).
+rule(14, bird, penguin,[c18, c20, c19]).
+rule(15, bird, albatross, [c21]).
+
+/* Recognition process : discover animal's name */
+
+recognition(X):- rule(N, X, Y, Z),
+discover(Z),
+found(rule),
+conclusion(X,Y,N),
+recognition(Y),
+retractall(fact(_,_)).
+
+recognition(_):- retract(rule), write('Done.'),nl.
+
+recognition(_):- write('Don"t know this animal.'),nl.
+
+found(X):- X,!.
+found(X):- assert(X).
+/* Discovering process */
+discover([]).
+discover([X|Y]):- ask(X), discover(Y).
+
+ask(X):- fact(X,yes),!.
+ask(X) :- fact(X, no),!, fail.
+ask(c1):- write('has it hair?'), nl,!, complete(c1).
+ask(c2):- write('does it give milk?'), nl,!, complete(c2).
+ask(c3):- write('has it featherS?'), nl,!,complete(c3).
+ask(c4):- write('does it fly?'), nl, !,complete(c4).
+ask(c5):- write('does it lay eggs?'), nl, !, complete(c5).
+ask(c6):- write('does it eat meat?'), nl, !, complete(c6).
+ask(c7):- write('has it pointed teeth?'), nl, !, complete(c7).
+ask(c8):- write('has it claws?'), nl, !, complete(c8).
+ask(c9):- write('has it eyes pointing forward?'), nl,!, complete(c9).
+ask(c10):- write('has it hoofs?'),nl, !, complete(c10).
+ask(c11):- write('does it chew cud?'),nl,!, complete(c11).
+ask(c12):- write('has it a tawny color?'),nl,!, complete(c12).
+ask(c13):- write('has it dark spots?'),nl, !, complete(c13).
+ask(c14):- write('has it black stripes?'), nl, !, complete(c14).
+ask(c15):- write('has it long legs?'),nl,!, complete(c15).
+ask(c16):- write('has it a long neck?'), nl, !, complete(c16).
+ask(c17):- write('has it a white color?'), nl,!, complete(c17).
+ask(c18):- write('does it not fly?'), nl, !, complete(c18).
+ask(c19):- write('is it black and white?'),nl,!, complete(c19).
+ask(c20):- write('does it swim?'),nl, !, complete(c20).
+ask(c21):- write('is it a good flyer?'),nl,!, complete(c21).
+
+:- dynamic fact/2.
+:- dynamic rule/0.
+
+complete(X):- read(Y), assert(fact(X,Y)), Y=yes.
+
+/* Conclusion of the recognition process */
+conclusion(X, Y, N):- nl, tab(4), write('--- the '), write(X),
+write(' is a '), write(Y), write(' by rule '),
+write(N), nl, nl.
+
+/* Description process: discover animal's properties */
+description(X):- rule(N, Y, X, Z), description1(Y,L,[]),
+conclusion1(X, L, Y, Z, N).
+
+description(_):- nl,write('Don''t know this animal.'),nl.
+description1(Y, L, Ls):-rule(_, X, Y,_), description1(X, L, [X|Ls]) .
+description1(_,L,L).
+
+/* Conclusions of the description process */
+conclusion1(X, L, Y, Z, N):- nl, write('a '),write(X),
+write(' is an '),
+output(L), write(Y),
+write('satisfying conditions: '),nl,
+output(Z), nl,write('by rule '),
+write(N), write(' .') .
+
+output([]).
+output( [A|B] ) :- write(A), tab(1), output(B).

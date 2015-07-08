@@ -1,0 +1,36 @@
+Username:  stevenc
+Date:      Thu Sep 13 11:47:40 EDT 2012
+ 
+*** Running feet.py ***
+
+Table of Feet and Meter Equivalents
+Written by Carl Stevenson
+
+Feet        Meters
+====        ======
+  0 feet    0.0 meters
+  10 feet    3.048 meters
+  20 feet    6.096 meters
+  30 feet    9.144 meters
+  40 feet    12.192 meters
+  50 feet    15.24 meters
+  60 feet    18.288 meters
+  70 feet    21.336000000000002 meters
+  80 feet    24.384 meters
+  90 feet    27.432000000000002 meters
+  100 feet    30.48 meters
+
+Meters             Feet
+======             ====
+  0 meters         0.0 feet
+  10 meters         32.808399 feet
+  20 meters         65.616798 feet
+  30 meters         98.425197 feet
+  40 meters         131.233596 feet
+  50 meters         164.04199500000001 feet
+  60 meters         196.850394 feet
+  70 meters         229.658793 feet
+  80 meters         262.467192 feet
+  90 meters         295.275591 feet
+  100 meters         328.08399000000003 feet
+

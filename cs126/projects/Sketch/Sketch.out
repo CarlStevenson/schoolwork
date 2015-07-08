@@ -1,0 +1,259 @@
+Username:  stevenc
+Date:      Mon Feb 25 20:32:23 EST 2013
+ 
+*** Compiling ***
+javac *.java
+--- Running ---
+ 
+
+Program to sketch a suspect.
+You will be asked to choose a hairstyle, nose type,
+eye type and mouth type. Then your sketch will be made.
+Written by Carl Stevenson.
+
+Please enter a hairstyle:
+        1, for bald;
+        2, for crew-cut;
+        3, for unkempt;
+        4, for beanie;
+-->
+
+Please enter an eye type:
+        1, for small;
+        2, for large;
+        3, for cross-eyed;
+        4, for sunglasses;
+-->
+
+Please enter a nose shape:
+        1, for piggie;
+        2, for small;
+        3, for large;
+        4, for wart;
+-->
+
+Please enter a mouth/facial hair descriptor:
+        1, for good teeth;
+        2, for crooked teeth;
+        3, for stubble;
+        4, for facial hair;
+-->
+   ________
+  |	   |
+ d|  .  .  |b
+  |   00   |
+  | /WWWW\ |
+  | \MMMM/ |
+   ________
+--- Running again ---
+ 
+
+Program to sketch a suspect.
+You will be asked to choose a hairstyle, nose type,
+eye type and mouth type. Then your sketch will be made.
+Written by Carl Stevenson.
+
+Please enter a hairstyle:
+        1, for bald;
+        2, for crew-cut;
+        3, for unkempt;
+        4, for beanie;
+-->
+
+Please enter an eye type:
+        1, for small;
+        2, for large;
+        3, for cross-eyed;
+        4, for sunglasses;
+-->
+
+Please enter a nose shape:
+        1, for piggie;
+        2, for small;
+        3, for large;
+        4, for wart;
+-->
+
+Please enter a mouth/facial hair descriptor:
+        1, for good teeth;
+        2, for crooked teeth;
+        3, for stubble;
+        4, for facial hair;
+-->
+     mmm
+   //   \\
+  8888888888
+ d| (>)(<) |b
+  |   |>   |
+  |????????|
+  |???--???|
+   ????????
+--- Running again ---
+ 
+
+Program to sketch a suspect.
+You will be asked to choose a hairstyle, nose type,
+eye type and mouth type. Then your sketch will be made.
+Written by Carl Stevenson.
+
+Please enter a hairstyle:
+        1, for bald;
+        2, for crew-cut;
+        3, for unkempt;
+        4, for beanie;
+-->
+You must enter a menu item <1-4>, not 5. Try again.
+
+Please enter a hairstyle:
+        1, for bald;
+        2, for crew-cut;
+        3, for unkempt;
+        4, for beanie;
+-->
+
+Please enter an eye type:
+        1, for small;
+        2, for large;
+        3, for cross-eyed;
+        4, for sunglasses;
+-->
+
+Please enter a nose shape:
+        1, for piggie;
+        2, for small;
+        3, for large;
+        4, for wart;
+-->
+
+Please enter a mouth/facial hair descriptor:
+        1, for good teeth;
+        2, for crooked teeth;
+        3, for stubble;
+        4, for facial hair;
+-->
+   MMMMMMMM
+  E        F
+ d| (.)(.) |b
+  |   00   |
+  | /Uuwu\ |
+  | \nNMm/ |
+   ________
+--- Running again ---
+ 
+
+Program to sketch a suspect.
+You will be asked to choose a hairstyle, nose type,
+eye type and mouth type. Then your sketch will be made.
+Written by Carl Stevenson.
+
+Please enter a hairstyle:
+        1, for bald;
+        2, for crew-cut;
+        3, for unkempt;
+        4, for beanie;
+-->
+
+Please enter an eye type:
+        1, for small;
+        2, for large;
+        3, for cross-eyed;
+        4, for sunglasses;
+-->
+You must enter a menu item <1-4>, not 6. Try again.
+
+Please enter an eye type:
+        1, for small;
+        2, for large;
+        3, for cross-eyed;
+        4, for sunglasses;
+-->
+
+Please enter a nose shape:
+        1, for piggie;
+        2, for small;
+        3, for large;
+        4, for wart;
+-->
+You must enter a menu item <1-4>, not 6. Try again.
+
+Please enter a nose shape:
+        1, for piggie;
+        2, for small;
+        3, for large;
+        4, for wart;
+-->
+
+Please enter a mouth/facial hair descriptor:
+        1, for good teeth;
+        2, for crooked teeth;
+        3, for stubble;
+        4, for facial hair;
+-->
+You must enter a menu item <1-4>, not 6. Try again.
+
+Please enter a mouth/facial hair descriptor:
+        1, for good teeth;
+        2, for crooked teeth;
+        3, for stubble;
+        4, for facial hair;
+-->
+You must enter a menu item <1-4>, not 5. Try again.
+
+Please enter a mouth/facial hair descriptor:
+        1, for good teeth;
+        2, for crooked teeth;
+        3, for stubble;
+        4, for facial hair;
+-->
+   ********
+  *        *
+ d| (>)(<) |b
+  |   |\   |
+  |   c/   |
+  |........|
+  |...--...|
+   ::::::::
+--- Running again ---
+ 
+
+Program to sketch a suspect.
+You will be asked to choose a hairstyle, nose type,
+eye type and mouth type. Then your sketch will be made.
+Written by Carl Stevenson.
+
+Please enter a hairstyle:
+        1, for bald;
+        2, for crew-cut;
+        3, for unkempt;
+        4, for beanie;
+-->
+
+Please enter an eye type:
+        1, for small;
+        2, for large;
+        3, for cross-eyed;
+        4, for sunglasses;
+-->
+
+Please enter a nose shape:
+        1, for piggie;
+        2, for small;
+        3, for large;
+        4, for wart;
+-->
+
+Please enter a mouth/facial hair descriptor:
+        1, for good teeth;
+        2, for crooked teeth;
+        3, for stubble;
+        4, for facial hair;
+-->
+   ********
+  *        *
+ d| (.)(.) |b
+  |   |>   |
+  | /Uuwu\ |
+  | \nNMm/ |
+   ________
+rm -f *.class *~ *#
+ 

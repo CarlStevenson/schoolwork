@@ -1,0 +1,21 @@
+Username:  stevenc
+Date:      Mon Jan 20 10:26:35 EST 2014
+ 
+**********************************************
+Assembling
+****************************************
+Running
+Input= 5 1 2 3 4 5
+****************************************
+How many numbers (must be at most 100)? Enter the numbers: The sum is 15.000000
+****************************************
+Running
+Input= 1 -17
+****************************************
+How many numbers (must be at most 100)? Enter the numbers: The sum is -17.000000
+****************************************
+Running
+Input= 3 1.1 -17.9 3.1415927
+****************************************
+How many numbers (must be at most 100)? Enter the numbers: The sum is -13.658407
+****************************************

@@ -1,0 +1,7 @@
+Username:  stevenc
+Date:      Thu Nov 6 10:21:02 EST 2014
+ 
+*** compiling ***
+g++: error: assign3.cpp: No such file or directory
+g++: fatal error: no input files
+compilation terminated.

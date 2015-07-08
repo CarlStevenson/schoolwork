@@ -1,0 +1,157 @@
+Username:  stevenc
+Date:      Mon May 5 16:51:38 EDT 2014
+ 
+*************f
+* Compiling *
+*************
+flex -o scanner.c scanner.lex
+bison -d -o parser.c parser.y
+parser.y: conflicts: 1 shift/reduce
+cc -g -std=gnu99   -c -o scanner.o scanner.c
+cc -g -std=gnu99   -c -o error.o error.c
+cc -g -std=gnu99   -c -o symtab.o symtab.c
+cc -g -std=gnu99   -c -o parser.o parser.c
+cc -g -std=gnu99   -c -o tree.o tree.c
+tree.c: In function 'unary_expr_new':
+tree.c:54:3: warning: implicit declaration of function 'typecheck' [-Wimplicit-function-declaration]
+tree.c: In function 'read_list_new':
+tree.c:204:11: warning: assignment from incompatible pointer type [enabled by default]
+cc -g -std=gnu99   -c -o intcode.o intcode.c
+intcode.c: In function 'binary_expr_gen':
+intcode.c:75:3: warning: implicit declaration of function 'typecheck' [-Wimplicit-function-declaration]
+intcode.c: In function 'write_list_gen':
+intcode.c:388:9: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+intcode.c:388:24: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+intcode.c: In function 'read_list_gen':
+intcode.c:417:5: warning: passing argument 1 of 'read_list_gen' from incompatible pointer type [enabled by default]
+intcode.c:412:6: note: expected 'struct read_list *' but argument is of type 'struct read_list *'
+cc -g -std=gnu99   -c -o emitter.o emitter.c
+cc -g -std=gnu99   -c -o typecheck.o typecheck.c
+gcc -g -std=gnu99 -o pc pc.c scanner.o error.o symtab.o parser.o tree.o intcode.o emitter.o typecheck.o
+************************************************************
+  Compiling test-write-1.p
+************************************************************
+************
+  Running:  
+************
+       1       2
+************************************************************
+  Compiling test-write-2.p
+************************************************************
+************
+  Running:  
+************
+       1       2
+************************************************************
+  Compiling test-write-3.p
+************************************************************
+************
+  Running:  
+************
+   1    2     3
+************************************************************
+  Compiling test-write-4.p
+************************************************************
+************
+  Running:  
+************
+       1    2     3       1           0       7
+************************************************************
+  Compiling test-write-5.p
+************************************************************
+************
+  Running:  
+************
+       12 3       10    7
+************************************************************
+  Compiling test-write-6.p
+************************************************************
+************
+  Running:  
+************
+   4      7        9
+   1      0
+************************************************************
+  Compiling test-write-7.p
+************************************************************
+cp: cannot stat `/home/mathcs/courses/cs327/hw7/test-write-7.p': No such file or directory
+pc: test-write-7.p: No such file or directory
+***********************
+  Compilation failed!  
+***********************
+************************************************************
+  Compiling test-read-1.p
+************************************************************
+************
+  Running:  
+************
+       5
+************************************************************
+  Compiling test-read-2.p
+************************************************************
+************
+  Running:  
+************
+4294966729
+      90
+************************************************************
+  Compiling test-read-3.p
+************************************************************
+************
+  Running:  
+************
+      17
+      42
+       1
+       1
+      45
+************************************************************
+  Compiling test-array-1.p
+************************************************************
+pc: syntax error
+***********************
+  Compilation failed!  
+***********************
+************************************************************
+  Compiling test-array-2.p
+************************************************************
+pc: syntax error
+***********************
+  Compilation failed!  
+***********************
+************************************************************
+  Compiling test-array-3.p
+************************************************************
+pc: syntax error
+***********************
+  Compilation failed!  
+***********************
+************************************************************
+  Compiling test-array-4.p
+************************************************************
+pc: syntax error
+***********************
+  Compilation failed!  
+***********************
+************************************************************
+  Compiling test-array-5.p
+************************************************************
+pc: syntax error
+***********************
+  Compilation failed!  
+***********************
+***************************
+* Collecting source files *
+***************************
+pc.c
+globals.h
+scanner.lex
+error.c
+symtab.c
+parser.y
+emitter.c
+intcode.c
+typecheck.c
+************
+* All done *
+************

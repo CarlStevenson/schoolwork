@@ -1,0 +1,77 @@
+Username:  stevenc
+Date:      Thu Feb 28 14:51:22 EST 2013
+ 
+*** Compiling ***
+javac *.java
+--- Running first scores ---
+ 
+
+Welcome to the grade calculator.
+Written by Carl Stevenson.
+
+Enter the name of the data file: 
+Mean score: 94.875
+Std. Dev: 0.9270248108869579
+Name     Score   Grade
+joan     94.00     D
+joe      95.00     C
+jane     96.00     B
+jim      94.00     D
+janet    95.00     C
+john     96.00     B
+johanna  94.00     D
+jack     95.00     C
+joeline  96.00     B
+jacques  94.00     D
+josh     95.00     C
+janna    96.00     B
+jason    94.00     D
+jadzia   95.00     C
+jon      96.00     B
+jackie   93.00     F
+--- Running second scores ---
+ 
+
+Welcome to the grade calculator.
+Written by Carl Stevenson.
+
+Enter the name of the data file: 
+Mean score: 80.21212121212122
+Std. Dev: 11.676855055420857
+Name     Score   Grade
+Selena   82.00     C
+Kaashif  94.00     B
+Mike     73.00     D
+Asif     93.00     B
+Katie    82.00     C
+Terry    74.00     D
+Dongkai  80.00     C
+Steve    89.00     B
+Mark     60.00     F
+Joe      69.00     D
+AnnMarie 91.00     B
+Tara     98.00     A
+Kim      97.00     B
+Brian    96.00     B
+Justin   97.00     B
+Rich     79.00     C
+Kelly    80.00     C
+Vincy    71.00     D
+Adam     61.00     F
+Lorrie   72.00     D
+Jeremy   80.00     C
+Stephanie67.00     D
+Joshua   62.00     F
+Ryan     95.00     B
+Lee      94.00     B
+Scott    77.00     C
+James    94.00     B
+Andrew   78.00     C
+Julia    76.00     C
+Matthew  68.00     D
+Christy  64.00     D
+David    70.00     D
+John     84.00     C
+ 
+rm -f *.class *~ *#
+ 

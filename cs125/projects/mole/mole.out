@@ -1,0 +1,68 @@
+Username:  stevenc
+Date:      Thu Oct 25 10:54:42 EDT 2012
+ 
+*** Running mole.py ***
+
+Program to calculate the molecular
+weight of a hydrocarbon based upon
+the number of hydrogen, carbon and
+oxygen atoms.
+Written by Carl Stevenson.
+
+Enter the hydrocarbon name: 
+Enter the number of Hydrogen atoms: 
+Enter the number of Carbon atoms:   
+Enter the number of Oxygen atoms:   
+
+For Ethanol which has 6 Hydrogen,
+2 Carbon and 1 Oxygen atoms, its weight
+is 46.063 grams/mole.
+
+
+Program to calculate the molecular
+weight of a hydrocarbon based upon
+the number of hydrogen, carbon and
+oxygen atoms.
+Written by Carl Stevenson.
+
+Enter the hydrocarbon name: 
+Enter the number of Hydrogen atoms: 
+Enter the number of Carbon atoms:   
+Enter the number of Oxygen atoms:   
+
+For Glucose which has 12 Hydrogen,
+6 Carbon and 6 Oxygen atoms, its weight
+is 180.125 grams/mole.
+
+
+Program to calculate the molecular
+weight of a hydrocarbon based upon
+the number of hydrogen, carbon and
+oxygen atoms.
+Written by Carl Stevenson.
+
+Enter the hydrocarbon name: 
+Enter the number of Hydrogen atoms: 
+Enter the number of Carbon atoms:   
+Enter the number of Oxygen atoms:   
+
+For Methane which has 4 Hydrogen,
+1 Carbon and 0 Oxygen atoms, its weight
+is 16.043 grams/mole.
+
+
+Program to calculate the molecular
+weight of a hydrocarbon based upon
+the number of hydrogen, carbon and
+oxygen atoms.
+Written by Carl Stevenson.
+
+Enter the hydrocarbon name: 
+Enter the number of Hydrogen atoms: 
+Enter the number of Carbon atoms:   
+Enter the number of Oxygen atoms:   
+
+For Sucrose which has 22 Hydrogen,
+12 Carbon and 11 Oxygen atoms, its weight
+is 342.240 grams/mole.
+

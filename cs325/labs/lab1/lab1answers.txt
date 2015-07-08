@@ -1,0 +1,28 @@
+
+Accessible databases:
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| cs325fa14          |
+| stevenson          |
++--------------------+
+
+Four tables in the cs325fa14 database:
+
+| sakila_actor                      |
+| sakila_actor_info                 |
+| sakila_address                    |
+| sakila_category                   |
+
+Department name of 'd005':
+
+Development
+
+Type of field email address in sakila_customer:
+
+varchar(50)
+
+

@@ -1,0 +1,280 @@
+Username:  stevenc
+Date:      Mon Dec 1 22:26:54 EST 2014
+ 
+*** compiling ***
+g++ -g assign4.cpp -o assign4
+--- Running ---
+ 
+
+Carl Stevenson
+Graphs
+This program takes input from the user to create a directed 
+graph, and then detects and prints all cycles in that graph.
+Please enter the number of vertices in the graph:
+You chose 6 vertices.
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 0
+What is the second node in the edge?
+You chose 1
+
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 0
+What is the second node in the edge?
+You chose 3
+
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 2
+What is the second node in the edge?
+You chose 3
+
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 3
+What is the second node in the edge?
+You chose 4
+
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 3
+What is the second node in the edge?
+You chose 5
+
+Do you have an edge to enter? (y/n) n
+Depth first search: 
+Visiting: 0
+Visiting: 3
+Visiting: 5
+Visiting: 4
+Visiting: 1
+Visiting: 2
+
+Calling copy constructor and printing cycles: 
+Depth first search: 
+Visiting: 0
+Visiting: 3
+Visiting: 5
+Visiting: 4
+Visiting: 1
+Visiting: 2
+
+Exiting now.
+--- Running again ---
+ 
+
+Carl Stevenson
+Graphs
+This program takes input from the user to create a directed 
+graph, and then detects and prints all cycles in that graph.
+Please enter the number of vertices in the graph:
+You chose 7 vertices.
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 0
+What is the second node in the edge?
+You chose 1
+
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 0
+What is the second node in the edge?
+You chose 2
+
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 1
+What is the second node in the edge?
+You chose 0
+
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 2
+What is the second node in the edge?
+You chose 1
+
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 1
+What is the second node in the edge?
+You chose 3
+
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 3
+What is the second node in the edge?
+You chose 4
+
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 3
+What is the second node in the edge?
+You chose 5
+
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 6
+What is the second node in the edge?
+You chose 3
+
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 6
+What is the second node in the edge?
+You chose 5
+
+Do you have an edge to enter? (y/n) n
+Depth first search: 
+Visiting: 0
+Visiting: 2
+Visiting: 1
+Visiting: 3
+Visiting: 5
+Visiting: 4
+Cycle detected: 
+0 2 1 0
+Visiting: 1
+Visiting: 3
+Visiting: 5
+Visiting: 4
+Cycle detected: 
+0 1 0
+Visiting: 6
+
+Calling copy constructor and printing cycles: 
+Depth first search: 
+Visiting: 0
+Visiting: 2
+Visiting: 1
+Visiting: 3
+Visiting: 5
+Visiting: 4
+Cycle detected: 
+0 2 1 0
+Visiting: 1
+Visiting: 3
+Visiting: 5
+Visiting: 4
+Cycle detected: 
+0 1 0
+Visiting: 6
+
+Exiting now.
+--- Running again ---
+ 
+
+Carl Stevenson
+Graphs
+This program takes input from the user to create a directed 
+graph, and then detects and prints all cycles in that graph.
+Please enter the number of vertices in the graph:
+You chose 7 vertices.
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 0
+What is the second node in the edge?
+You chose 1
+
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 0
+What is the second node in the edge?
+You chose 2
+
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 1
+What is the second node in the edge?
+You chose 0
+
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 2
+What is the second node in the edge?
+You chose 1
+
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 2
+What is the second node in the edge?
+You chose 3
+
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 3
+What is the second node in the edge?
+You chose 4
+
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 3
+What is the second node in the edge?
+You chose 5
+
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 6
+What is the second node in the edge?
+You chose 3
+
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 4
+What is the second node in the edge?
+You chose 2
+
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 5
+What is the second node in the edge?
+You chose 4
+
+Do you have an edge to enter? (y/n) y
+What is the first node in the edge?
+You chose 6
+What is the second node in the edge?
+You chose 5
+
+Do you have an edge to enter? (y/n) n
+Depth first search: 
+Visiting: 0
+Visiting: 2
+Visiting: 3
+Visiting: 5
+Visiting: 4
+Cycle detected: 
+2 3 5 4 2
+Visiting: 4
+Cycle detected: 
+2 3 4 2
+Visiting: 1
+Cycle detected: 
+0 2 1 0
+Visiting: 1
+Cycle detected: 
+0 1 0
+Visiting: 6
+
+Calling copy constructor and printing cycles: 
+Depth first search: 
+Visiting: 0
+Visiting: 2
+Visiting: 3
+Visiting: 5
+Visiting: 4
+Cycle detected: 
+2 3 5 4 2
+Visiting: 4
+Cycle detected: 
+2 3 4 2
+Visiting: 1
+Cycle detected: 
+0 2 1 0
+Visiting: 1
+Cycle detected: 
+0 1 0
+Visiting: 6
+
+Exiting now.
+ 

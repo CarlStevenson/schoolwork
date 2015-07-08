@@ -1,0 +1,191 @@
+Username:  stevenc
+Date:      Tue Mar 19 09:02:12 EDT 2013
+ 
+*** Compiling ***
+javac *.java
+--- Running first Histo ---
+ 
+
+Program to print a histogram of a list of scores.
+It also produces high, low, and average score
+along with the standard deviation.
+Written by Carl Stevenson.
+
+Enter the name of the scores file: 
+
+Worst score:        60.00
+Best score:         98.00
+Average score:      80.21
+Standard deviation: 11.68
+
+Name              Score
+====              =====
+
+Selena            82.00
+Kaashif           94.00
+Mike              73.00
+Asif              93.00
+Katie             82.00
+Terry             74.00
+Dongkai           80.00
+Steve             89.00
+Mark              60.00
+Joe               69.00
+AnnMarie          91.00
+Tara              98.00
+Kim               97.00
+Brian             96.00
+Justin            97.00
+Rich              79.00
+Kelly             80.00
+Vincy             71.00
+Adam              61.00
+Lorrie            72.00
+Jeremy            80.00
+Stephanie         67.00
+Joshua            62.00
+Ryan              95.00
+Lee               94.00
+Scott             77.00
+James             94.00
+Andrew            78.00
+Julia             76.00
+Matthew           68.00
+Christy           64.00
+David             70.00
+John              84.00
+
+60: *
+61: *
+62: *
+63: 
+64: *
+65: 
+66: 
+67: *
+68: *
+69: *
+70: *
+71: *
+72: *
+73: *
+74: *
+75: 
+76: *
+77: *
+78: *
+79: *
+80: ***
+81: 
+82: **
+83: 
+84: *
+85: 
+86: 
+87: 
+88: 
+89: *
+90: 
+91: *
+92: 
+93: *
+94: ***
+95: *
+96: *
+97: **
+98: *
+
+--- Running second Histo ---
+ 
+
+Program to print a histogram of a list of scores.
+It also produces high, low, and average score
+along with the standard deviation.
+Written by Carl Stevenson.
+
+Enter the name of the scores file: 
+
+Worst score:        60.00
+Best score:         97.00
+Average score:      79.24
+Standard deviation: 12.27
+
+Name              Score
+====              =====
+
+Adam              61.00
+Andrew            78.00
+AnnMarie          89.00
+Asif              89.00
+Brian             96.00
+Christy           62.00
+David             70.00
+Dongkai           80.00
+James             94.00
+Jeremy            80.00
+Joe               62.00
+John              84.00
+Joshua            62.00
+Julia             74.00
+Justin            97.00
+Kaashif           94.00
+Katie             82.00
+Kelly             80.00
+Kim               97.00
+Lee               94.00
+Lorrie            72.00
+Mark              60.00
+Matthew           62.00
+Mike              73.00
+Rich              79.00
+Ryan              95.00
+Scott             74.00
+Selena            82.00
+Stephanie         62.00
+Steve             89.00
+Tara              97.00
+Terry             74.00
+Vincy             71.00
+
+60: *
+61: *
+62: *****
+63: 
+64: 
+65: 
+66: 
+67: 
+68: 
+69: 
+70: *
+71: *
+72: *
+73: *
+74: ***
+75: 
+76: 
+77: 
+78: *
+79: *
+80: ***
+81: 
+82: **
+83: 
+84: *
+85: 
+86: 
+87: 
+88: 
+89: ***
+90: 
+91: 
+92: 
+93: 
+94: ***
+95: *
+96: *
+97: ***
+
+ 
+rm -f *.class *~ *#
+ 

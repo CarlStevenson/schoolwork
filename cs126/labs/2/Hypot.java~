@@ -1,0 +1,25 @@
+// Hypot.java computes the hypotenuse length of a right triangle,
+// given the lengths of its two legs
+//
+// Author:  Carl Stevenson
+// Date:    1/24/13
+// Purpose: To explore Object-Centered Design by designing a hypotenuse
+//          calculator.
+// Specification:
+//   input (keyboard):
+//   output (screen):
+// *****************************************************************************
+
+public class Hypot
+{
+    public static void main(String[] args)
+    {
+	// intro
+	System.out.println("Program to calculate the hypotenuse");
+	System.out.println("of a right triangle given the");
+	System.out.println("Lengths of the two sides.");
+	System.out.println("Written by Carl Stevenson\n");
+
+	
+    }  //end of main
+}  // end of class

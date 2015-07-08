@@ -1,0 +1,1126 @@
+Username:  stevenc
+Date:      Mon Apr 28 12:44:28 EDT 2014
+ 
+***making assign9 ***
+g++ assign9.cpp -o assign9
+--- Running ---
+ 
+Initial tree creation: 
+Enter the root of the tree: 
+You chose: 1
+Would you like to add another node? y
+Please enter the parent of the node to add: 
+You chose 1
+Please enter the value of the child: 
+You chose: 2
+
+Would you like to add another node? y
+Please enter the parent of the node to add: 
+You chose 1
+Please enter the value of the child: 
+You chose: 3
+
+Would you like to add another node? y
+Please enter the parent of the node to add: 
+You chose 1
+Please enter the value of the child: 
+You chose: 4
+
+Would you like to add another node? y
+Please enter the parent of the node to add: 
+You chose 2
+Please enter the value of the child: 
+You chose: 5
+
+Would you like to add another node? y
+Please enter the parent of the node to add: 
+You chose 2
+Please enter the value of the child: 
+You chose: 6
+
+Would you like to add another node? y
+Please enter the parent of the node to add: 
+You chose 2
+Please enter the value of the child: 
+You chose: 7
+
+Would you like to add another node? y
+Please enter the parent of the node to add: 
+You chose 4
+Please enter the value of the child: 
+You chose: 8
+
+Would you like to add another node? y
+Please enter the parent of the node to add: 
+You chose 4
+Please enter the value of the child: 
+You chose: 9
+
+Would you like to add another node? n
+
+Carl Stevenson
+General Trees
+This program takes input from the user to interface with an
+instantiated general tree.
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 1.
+Please enter the desired item to search for:
+You chose 1
+The item was found.
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 1.
+Please enter the desired item to search for:
+You chose 2
+The item was found.
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 1.
+Please enter the desired item to search for:
+You chose 3
+The item was found.
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 1.
+Please enter the desired item to search for:
+You chose 4
+The item was found.
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 1.
+Please enter the desired item to search for:
+You chose 5
+The item was found.
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 1.
+Please enter the desired item to search for:
+You chose 6
+The item was found.
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 1.
+Please enter the desired item to search for:
+You chose 7
+The item was found.
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 1.
+Please enter the desired item to search for:
+You chose 8
+The item was found.
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 1.
+Please enter the desired item to search for:
+You chose 9
+The item was found.
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 1.
+Please enter the desired item to search for:
+You chose 10
+The item was not found.
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 1.
+Please enter the desired item to search for:
+You chose 11
+The item was not found.
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 2.
+Please enter the desired node:
+You chose 1
+The children of 1 are: 2 3 4 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 2.
+Please enter the desired node:
+You chose 2
+The children of 2 are: 5 6 7 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 2.
+Please enter the desired node:
+You chose 3
+The children of 3 are: none
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 2.
+Please enter the desired node:
+You chose 4
+The children of 4 are: 8 9 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 2.
+Please enter the desired node:
+You chose 5
+The children of 5 are: none
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 2.
+Please enter the desired node:
+You chose 6
+The children of 6 are: none
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 2.
+Please enter the desired node:
+You chose 7
+The children of 7 are: none
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 2.
+Please enter the desired node:
+You chose 8
+The children of 8 are: none
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 2.
+Please enter the desired node:
+You chose 9
+The children of 9 are: none
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 3.
+Please enter the desired node:
+You chose 1
+The node is the root and has no siblings.
+
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 3.
+Please enter the desired node:
+You chose 2
+The siblings of 2 are: 3 4 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 3.
+Please enter the desired node:
+You chose 3
+The siblings of 3 are: 2 4 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 3.
+Please enter the desired node:
+You chose 4
+The siblings of 4 are: 2 3 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 3.
+Please enter the desired node:
+You chose 5
+The siblings of 5 are: 6 7 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 3.
+Please enter the desired node:
+You chose 6
+The siblings of 6 are: 5 7 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 3.
+Please enter the desired node:
+You chose 7
+The siblings of 7 are: 5 6 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 3.
+Please enter the desired node:
+You chose 8
+The siblings of 8 are: 9 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 3.
+Please enter the desired node:
+You chose 9
+The siblings of 9 are: 8 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 3.
+Please enter the desired node:
+You chose 10
+Node not found.
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 4.
+Please enter the desired node:
+You chose 1
+The left siblings of 1 are: no left siblings
+
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 4.
+Please enter the desired node:
+You chose 2
+The left siblings of 2 are: no left siblings
+
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 4.
+Please enter the desired node:
+You chose 3
+The left siblings of 3 are: 2 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 4.
+Please enter the desired node:
+You chose 4
+The left siblings of 4 are: 3 2 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 4.
+Please enter the desired node:
+You chose 5
+The left siblings of 5 are: no left siblings
+
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 4.
+Please enter the desired node:
+You chose 6
+The left siblings of 6 are: 5 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 4.
+Please enter the desired node:
+You chose 7
+The left siblings of 7 are: 6 5 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 4.
+Please enter the desired node:
+You chose 8
+The left siblings of 8 are: no left siblings
+
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 4.
+Please enter the desired node:
+You chose 9
+The left siblings of 9 are: 8 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 5.
+Please enter the desired node:
+You chose 1
+The right siblings of 1 are: no right siblings
+
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 5.
+Please enter the desired node:
+You chose 2
+The right siblings of 2 are: 3 4 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 5.
+Please enter the desired node:
+You chose 3
+The right siblings of 3 are: 4 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 5.
+Please enter the desired node:
+You chose 4
+The right siblings of 4 are: no right siblings
+
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 5.
+Please enter the desired node:
+You chose 5
+The right siblings of 5 are: 6 7 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 5.
+Please enter the desired node:
+You chose 6
+The right siblings of 6 are: 7 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 5.
+Please enter the desired node:
+You chose 7
+The right siblings of 7 are: no right siblings
+
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 5.
+Please enter the desired node:
+You chose 8
+The right siblings of 8 are: 9 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 5.
+Please enter the desired node:
+You chose 9
+The right siblings of 9 are: no right siblings
+
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 6.
+Please enter the desired node:
+You chose 1
+This node has no parent.
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 6.
+Please enter the desired node:
+You chose 2
+The parent of 2 is 1
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 6.
+Please enter the desired node:
+You chose 3
+The parent of 3 is 1
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 6.
+Please enter the desired node:
+You chose 4
+The parent of 4 is 1
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 6.
+Please enter the desired node:
+You chose 5
+The parent of 5 is 2
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 6.
+Please enter the desired node:
+You chose 6
+The parent of 6 is 2
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 6.
+Please enter the desired node:
+You chose 7
+The parent of 7 is 2
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 6.
+Please enter the desired node:
+You chose 8
+The parent of 8 is 4
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 6.
+Please enter the desired node:
+You chose 9
+The parent of 9 is 4
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 7.
+Please enter the parent of the node to add: 
+You chose 3
+Please enter the value of the child: 
+You chose: 15
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 7.
+Please enter the parent of the node to add: 
+You chose 4
+Please enter the value of the child: 
+You chose: 16
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 7.
+Please enter the parent of the node to add: 
+You chose 2
+Please enter the value of the child: 
+You chose: 18
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 7.
+Please enter the parent of the node to add: 
+You chose 1
+Please enter the value of the child: 
+You chose: 19
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 7.
+Please enter the parent of the node to add: 
+You chose 6
+Please enter the value of the child: 
+You chose: 20
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 6.
+Please enter the desired node:
+You chose 20
+The parent of 20 is 6
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 6.
+Please enter the desired node:
+You chose 19
+The parent of 19 is 1
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 6.
+Please enter the desired node:
+You chose 18
+The parent of 18 is 2
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 6.
+Please enter the desired node:
+You chose 16
+The parent of 16 is 4
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 6.
+Please enter the desired node:
+You chose 15
+The parent of 15 is 3
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 2.
+Please enter the desired node:
+You chose 1
+The children of 1 are: 2 3 4 19 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+You chose menu item 3.
+Please enter the desired node:
+You chose 2
+The siblings of 2 are: 3 4 19 
+
+The menu items are as follows:
+
+	1. Search for an item in the tree
+	2. Display all children of a node
+	3. Display all siblings of a node
+	4. Display all left siblings of a node
+	5. Display all right siblings of a node
+	6. Display the parent of a node
+	7. Add a node to the tree
+	8. Exit
+Exiting now.
+ 

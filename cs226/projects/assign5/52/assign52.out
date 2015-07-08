@@ -1,0 +1,73 @@
+Username:  stevenc
+Date:      Wed Apr 2 10:53:28 EDT 2014
+ 
+*** making lab52 ***
+g++ assign52.cpp -o assign52
+--- Running ---
+ 
+
+Carl Stevenson
+Stacks
+This program defines a stack based on user input, then makes 
+a copy of it.
+
+Please enter an item to put onto the stack.(Non-integer to stop):
+Please enter an item to put onto the stack.(Non-integer to stop):
+Please enter an item to put onto the stack.(Non-integer to stop):
+Please enter an item to put onto the stack.(Non-integer to stop):
+Please enter an item to put onto the stack.(Non-integer to stop):
+Please enter an item to put onto the stack.(Non-integer to stop):
+Please enter an item to put onto the stack.(Non-integer to stop):
+The original stack(from top to bottom): [8, 0, 77, 88, 6, 5]
+
+The copy stack(from top to bottom): [8, 0, 77, 88, 6, 5]
+
+--- Running again ---
+ 
+
+Carl Stevenson
+Stacks
+This program defines a stack based on user input, then makes 
+a copy of it.
+
+Please enter an item to put onto the stack.(Non-integer to stop):
+Please enter an item to put onto the stack.(Non-integer to stop):
+The original stack(from top to bottom): [1]
+
+The copy stack(from top to bottom): [1]
+
+--- Running again ---
+ 
+
+Carl Stevenson
+Stacks
+This program defines a stack based on user input, then makes 
+a copy of it.
+
+Please enter an item to put onto the stack.(Non-integer to stop):
+Please enter an item to put onto the stack.(Non-integer to stop):
+Please enter an item to put onto the stack.(Non-integer to stop):
+Please enter an item to put onto the stack.(Non-integer to stop):
+Please enter an item to put onto the stack.(Non-integer to stop):
+Please enter an item to put onto the stack.(Non-integer to stop):
+Please enter an item to put onto the stack.(Non-integer to stop):
+The original stack(from top to bottom): [88888888, 8888888, 88888, 8888, 88, 8]
+
+The copy stack(from top to bottom): [88888888, 8888888, 88888, 8888, 88, 8]
+
+--- Running again ---
+ 
+
+Carl Stevenson
+Stacks
+This program defines a stack based on user input, then makes 
+a copy of it.
+
+Please enter an item to put onto the stack.(Non-integer to stop):
+Please enter an item to put onto the stack.(Non-integer to stop):
+Please enter an item to put onto the stack.(Non-integer to stop):
+The original stack(from top to bottom): [10, 100]
+
+The copy stack(from top to bottom): [10, 100]
+
+ 

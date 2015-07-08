@@ -1,0 +1,52 @@
+Username:  stevenc
+Date:      Mon Feb 18 19:33:46 EST 2013
+ 
+*** Running make ***
+javac *.java
+--- Running sample ---
+ 
+
+Program to calculate the condition of a group of wind chills.
+Written by Carl Stevenson.
+You will be asked to enter the number of wind chills,
+followed by the value of each wind chill.
+
+Enter the number of wind chills: 
+
+Enter the value of wind chill 1: 
+A wind chill of -80 means
+exposed flesh will usually freeze within half a minute
+
+Enter the value of wind chill 2: 
+A wind chill of -70 means
+frostbite is likely and outdoor activity becomes dangerous
+
+Enter the value of wind chill 3: 
+A wind chill of -30 means frostbite is possible
+
+Enter the value of wind chill 4: 
+A wind chill of -10 is considered unpleasant
+
+Enter the value of wind chill 5: 
+A wind chill of 15 is not considered dangerous or unpleasant
+
+Enter the value of wind chill 6: 
+A wind chill of -27 means frostbite is possible
+
+The average of the 6 wind chills is -33.667
+
+--- Running -1 ---
+ 
+
+Program to calculate the condition of a group of wind chills.
+Written by Carl Stevenson.
+You will be asked to enter the number of wind chills,
+followed by the value of each wind chill.
+
+Enter the number of wind chills: 
+
+The average of the -1 wind chills is -0.000
+
+*** Running make clean ***
+rm -f *.class *~ *#
+ 

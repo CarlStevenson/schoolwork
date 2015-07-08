@@ -1,0 +1,40 @@
+Username:  stevenc
+Date:      Wed Apr 9 12:20:20 EDT 2014
+ 
+*** making assign61 ***
+make: `assign61' is up to date.
+--- Running ---
+ 
+Please enter the name of the file containing your data
+The file name entered is /home/mathcs/turnin/bracken/input611.text
+About to insert 10   into the queue 
+About to insert 22   into the queue 
+About to insert 33   into the queue 
+About to insert 44   into the queue 
+About to insert 55   into the queue 
+About to insert 66   into the queue 
+About to insert 77   into the queue 
+About to insert 88   into the queue 
+About to insert 99   into the queue 
+The queue: [10,22,33,44,55,66,77,88,99]
+Sum of the queue: 494
+Queue average: 54.8889
+The queue: [10,22,33,44,55,66,77,88,99]
+--- Running again ---
+ 
+Please enter the name of the file containing your data
+The file name entered is /home/mathcs/turnin/bracken/input612.text
+About to insert 555   into the queue 
+The queue: [555]
+Sum of the queue: 555
+Queue average: 555
+The queue: [555]
+--- Running again ---
+ 
+Please enter the name of the file containing your data
+The file name entered is /home/mathcs/turnin/bracken/input613.text
+The queue: []
+Sum of the queue: 0
+Queue average: none
+The queue: []
+ 

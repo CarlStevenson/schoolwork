@@ -1,0 +1,585 @@
+Username:  stevenc
+Date:      Tue Apr 14 08:56:28 EDT 2015
+ 
+*** compiling ***
+--- running ---
+ 
+
+Carl Stevenson
+RSCPU
+This program accepts the title of a file from the
+user, opens the file, then reads in lines of 
+hexadecimal bytes, and executes them in the 
+simulated CPU.
+
+Enter the name of the file containing the program: 
+You chose: /home/mathcs/turnin/bracken/cs330/test.6
+
+Initial register values: 
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 0, PC = 0, DR = 0
+	IR = 0, TR = 0
+
+fetch1: AR = 0 and PC = 0
+fetch2: DR = 0 and PC = 1
+fetch3: IR = 0 and AR = 1
+no op instruction
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 1, PC = 1, DR = 0
+fetch1: AR = 1 and PC = 1
+fetch2: DR = 22 and PC = 2
+fetch3: IR = 22 and AR = 2
+mvi instruction
+mvi1 DR = 1 PC = 3 AR = 2
+mvi2 AC = 1
+Current Data: AC = 1, R = 0, ZCVN = 0000, AR = 2, PC = 3, DR = 1
+fetch1: AR = 3 and PC = 3
+fetch2: DR = 10 and PC = 4
+fetch3: IR = 10 and AR = 4
+inac instruction
+inac1 AC = 2 ZCVN = 0000
+Current Data: AC = 2, R = 0, ZCVN = 0000, AR = 4, PC = 4, DR = 10
+fetch1: AR = 4 and PC = 4
+fetch2: DR = 3 and PC = 5
+fetch3: IR = 3 and AR = 5
+mvac instruction
+mvac1 R = 2
+Current Data: AC = 2, R = 2, ZCVN = 0000, AR = 5, PC = 5, DR = 3
+fetch1: AR = 5 and PC = 5
+fetch2: DR = 22 and PC = 6
+fetch3: IR = 22 and AR = 6
+mvi instruction
+mvi1 DR = 10 PC = 7 AR = 6
+mvi2 AC = 10
+Current Data: AC = 10, R = 2, ZCVN = 0000, AR = 6, PC = 7, DR = 10
+fetch1: AR = 7 and PC = 7
+fetch2: DR = 8 and PC = 8
+fetch3: IR = 8 and AR = 8
+add instruction
+add1 AC = 12 R = 2 ZCVN = 0000
+Current Data: AC = 12, R = 2, ZCVN = 0000, AR = 8, PC = 8, DR = 8
+fetch1: AR = 8 and PC = 8
+fetch2: DR = 10 and PC = 9
+fetch3: IR = 10 and AR = 9
+inac instruction
+inac1 AC = 13 ZCVN = 0000
+Current Data: AC = 13, R = 2, ZCVN = 0000, AR = 9, PC = 9, DR = 10
+fetch1: AR = 9 and PC = 9
+fetch2: DR = 9 and PC = 10
+fetch3: IR = 9 and AR = 10
+sub instruction
+sub1 AC = 11 ZCVN = 0100
+Current Data: AC = 11, R = 2, ZCVN = 0100, AR = 10, PC = 10, DR = 9
+fetch1: AR = 10 and PC = 10
+fetch2: DR = 22 and PC = 11
+fetch3: IR = 22 and AR = 11
+mvi instruction
+mvi1 DR = 1 PC = 12 AR = 11
+mvi2 AC = 1
+Current Data: AC = 1, R = 2, ZCVN = 0100, AR = 11, PC = 12, DR = 1
+fetch1: AR = 12 and PC = 12
+fetch2: DR = 19 and PC = 13
+fetch3: IR = 19 and AR = 13
+rr instruction
+rr1 AC = 128 ZCVN = 0101
+Current Data: AC = 128, R = 2, ZCVN = 0101, AR = 13, PC = 13, DR = 19
+fetch1: AR = 13 and PC = 13
+fetch2: DR = 18 and PC = 14
+fetch3: IR = 18 and AR = 14
+rl instruction
+rl1 AC = 1 ZCVN = 0100
+Current Data: AC = 1, R = 2, ZCVN = 0100, AR = 14, PC = 14, DR = 18
+fetch1: AR = 14 and PC = 14
+fetch2: DR = 20 and PC = 15
+fetch3: IR = 20 and AR = 15
+lsl instruction
+lsl1 AC = 2 ZCVN = 0000
+Current Data: AC = 2, R = 2, ZCVN = 0000, AR = 15, PC = 15, DR = 20
+fetch1: AR = 15 and PC = 15
+fetch2: DR = 21 and PC = 16
+fetch3: IR = 21 and AR = 16
+lsr instruction
+lsr1 AC = 1 ZCVN = 0000
+Current Data: AC = 1, R = 2, ZCVN = 0000, AR = 16, PC = 16, DR = 21
+fetch1: AR = 16 and PC = 16
+fetch2: DR = 22 and PC = 17
+fetch3: IR = 22 and AR = 17
+mvi instruction
+mvi1 DR = 15 PC = 18 AR = 17
+mvi2 AC = 15
+Current Data: AC = 15, R = 2, ZCVN = 0000, AR = 17, PC = 18, DR = 15
+fetch1: AR = 18 and PC = 18
+fetch2: DR = 3 and PC = 19
+fetch3: IR = 3 and AR = 19
+mvac instruction
+mvac1 R = 15
+Current Data: AC = 15, R = 15, ZCVN = 0000, AR = 19, PC = 19, DR = 3
+fetch1: AR = 19 and PC = 19
+fetch2: DR = 22 and PC = 20
+fetch3: IR = 22 and AR = 20
+mvi instruction
+mvi1 DR = 240 PC = 21 AR = 20
+mvi2 AC = 240
+Current Data: AC = 240, R = 15, ZCVN = 0000, AR = 20, PC = 21, DR = 240
+fetch1: AR = 21 and PC = 21
+fetch2: DR = 13 and PC = 22
+fetch3: IR = 13 and AR = 22
+or operation
+or1 AC = 255 ZCVN = 0001
+Current Data: AC = 255, R = 15, ZCVN = 0001, AR = 22, PC = 22, DR = 13
+fetch1: AR = 22 and PC = 22
+fetch2: DR = 14 and PC = 23
+fetch3: IR = 14 and AR = 23
+xor operation
+xor1 AC = 240 ZCVN = 0001
+Current Data: AC = 240, R = 15, ZCVN = 0001, AR = 23, PC = 23, DR = 14
+fetch1: AR = 23 and PC = 23
+fetch2: DR = 22 and PC = 24
+fetch3: IR = 22 and AR = 24
+mvi instruction
+mvi1 DR = 15 PC = 25 AR = 24
+mvi2 AC = 15
+Current Data: AC = 15, R = 15, ZCVN = 0001, AR = 24, PC = 25, DR = 15
+fetch1: AR = 25 and PC = 25
+fetch2: DR = 3 and PC = 26
+fetch3: IR = 3 and AR = 26
+mvac instruction
+mvac1 R = 15
+Current Data: AC = 15, R = 15, ZCVN = 0001, AR = 26, PC = 26, DR = 3
+fetch1: AR = 26 and PC = 26
+fetch2: DR = 12 and PC = 27
+fetch3: IR = 12 and AR = 27
+and instruction
+and1 AC = 15 ZCVN = 0000
+Current Data: AC = 15, R = 15, ZCVN = 0000, AR = 27, PC = 27, DR = 12
+fetch1: AR = 27 and PC = 27
+fetch2: DR = 255 and PC = 28
+fetch3: IR = 255 and AR = 28
+halt instruction
+Current Data: AC = 15, R = 15, ZCVN = 0000, AR = 28, PC = 28, DR = 255
+--- Running again ---
+ 
+
+Carl Stevenson
+RSCPU
+This program accepts the title of a file from the
+user, opens the file, then reads in lines of 
+hexadecimal bytes, and executes them in the 
+simulated CPU.
+
+Enter the name of the file containing the program: 
+You chose: /home/mathcs/turnin/bracken/cs330/test.7
+
+Initial register values: 
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 0, PC = 0, DR = 0
+	IR = 0, TR = 0
+
+fetch1: AR = 0 and PC = 0
+fetch2: DR = 0 and PC = 1
+fetch3: IR = 0 and AR = 1
+no op instruction
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 1, PC = 1, DR = 0
+fetch1: AR = 1 and PC = 1
+fetch2: DR = 129 and PC = 2
+fetch3: IR = 129 and AR = 2
+xldac instruction
+xldac1 AR = 3 PC = 3 DR = 0
+xldac2 AR = 3 PC = 4 DR = 41 TR = 0
+xldac3 AR = 41
+xldac4 DR = 0
+xldac5 AC = 0 DR = 2
+xldac6 AC = 2
+Current Data: AC = 2, R = 0, ZCVN = 0000, AR = 42, PC = 4, DR = 2
+fetch1: AR = 4 and PC = 4
+fetch2: DR = 131 and PC = 5
+fetch3: IR = 131 and AR = 5
+xmvac instruction
+xmvac1 R = 2
+Current Data: AC = 2, R = 2, ZCVN = 0000, AR = 5, PC = 5, DR = 131
+fetch1: AR = 5 and PC = 5
+fetch2: DR = 136 and PC = 6
+fetch3: IR = 136 and AR = 6
+xadd instruction
+xadd1 AC = 4 R = 2 ZCVN = 0000
+Current Data: AC = 4, R = 2, ZCVN = 0000, AR = 6, PC = 6, DR = 136
+fetch1: AR = 6 and PC = 6
+fetch2: DR = 137 and PC = 7
+fetch3: IR = 137 and AR = 7
+xsub instruction
+sub1 AC = 2 ZCVN = 0100
+Current Data: AC = 2, R = 2, ZCVN = 0100, AR = 7, PC = 7, DR = 137
+fetch1: AR = 7 and PC = 7
+fetch2: DR = 138 and PC = 8
+fetch3: IR = 138 and AR = 8
+xinac instruction
+xinac1 AC = 3 ZCVN = 0000
+Current Data: AC = 3, R = 2, ZCVN = 0000, AR = 8, PC = 8, DR = 138
+fetch1: AR = 8 and PC = 8
+fetch2: DR = 130 and PC = 9
+fetch3: IR = 130 and AR = 9
+xstac instruction
+xstac1 AR = 10 PC = 10 DR = 0
+xstac2 AR = 10 PC = 11 DR = 46 TR = 0
+xstac3 AR = 46
+xstac4 DR = 0
+xstac5 M[AR] = 0 DR = 3
+xstac6 M[AR] = 3
+Current Data: AC = 3, R = 2, ZCVN = 0000, AR = 47, PC = 11, DR = 3
+fetch1: AR = 11 and PC = 11
+fetch2: DR = 139 and PC = 12
+fetch3: IR = 139 and AR = 12
+xclac instruction
+xclac1 AC = 0 ZCVN = 1000
+Current Data: AC = 0, R = 2, ZCVN = 1000, AR = 12, PC = 12, DR = 139
+fetch1: AR = 12 and PC = 12
+fetch2: DR = 140 and PC = 13
+fetch3: IR = 140 and AR = 13
+xand instruction
+xand1 AC = 0 ZCVN = 1000
+Current Data: AC = 0, R = 2, ZCVN = 1000, AR = 13, PC = 13, DR = 140
+fetch1: AR = 13 and PC = 13
+fetch2: DR = 141 and PC = 14
+fetch3: IR = 141 and AR = 14
+x_or instruction
+x_or1 AC = 2 ZCVN = 0000
+Current Data: AC = 2, R = 2, ZCVN = 0000, AR = 14, PC = 14, DR = 141
+fetch1: AR = 14 and PC = 14
+fetch2: DR = 137 and PC = 15
+fetch3: IR = 137 and AR = 15
+xsub instruction
+sub1 AC = 0 ZCVN = 1100
+Current Data: AC = 0, R = 2, ZCVN = 1100, AR = 15, PC = 15, DR = 137
+fetch1: AR = 15 and PC = 15
+fetch2: DR = 142 and PC = 16
+fetch3: IR = 142 and AR = 16
+xxor instruction
+xxor1 AC = 2 ZCVN = 0100
+Current Data: AC = 2, R = 2, ZCVN = 0100, AR = 16, PC = 16, DR = 142
+fetch1: AR = 16 and PC = 16
+fetch2: DR = 138 and PC = 17
+fetch3: IR = 138 and AR = 17
+xinac instruction
+xinac1 AC = 3 ZCVN = 0000
+Current Data: AC = 3, R = 2, ZCVN = 0000, AR = 17, PC = 17, DR = 138
+fetch1: AR = 17 and PC = 17
+fetch2: DR = 143 and PC = 18
+fetch3: IR = 143 and AR = 18
+xnot instruction
+xnot1 AC = 252 ZCVN = 0000
+Current Data: AC = 252, R = 2, ZCVN = 0000, AR = 18, PC = 18, DR = 143
+fetch1: AR = 18 and PC = 18
+fetch2: DR = 139 and PC = 19
+fetch3: IR = 139 and AR = 19
+xclac instruction
+xclac1 AC = 0 ZCVN = 1000
+Current Data: AC = 0, R = 2, ZCVN = 1000, AR = 19, PC = 19, DR = 139
+fetch1: AR = 19 and PC = 19
+fetch2: DR = 138 and PC = 20
+fetch3: IR = 138 and AR = 20
+xinac instruction
+xinac1 AC = 1 ZCVN = 0000
+Current Data: AC = 1, R = 2, ZCVN = 0000, AR = 20, PC = 20, DR = 138
+fetch1: AR = 20 and PC = 20
+fetch2: DR = 148 and PC = 21
+fetch3: IR = 148 and AR = 21
+xlsl instruction
+2
+xlsl1 AC = 2 ZCVN = 0000
+Current Data: AC = 2, R = 2, ZCVN = 0000, AR = 21, PC = 21, DR = 148
+fetch1: AR = 21 and PC = 21
+fetch2: DR = 149 and PC = 22
+fetch3: IR = 149 and AR = 22
+xlsr instruction
+xlsr1 AC = 1 ZCVN = 0000
+Current Data: AC = 1, R = 2, ZCVN = 0000, AR = 22, PC = 22, DR = 149
+fetch1: AR = 22 and PC = 22
+fetch2: DR = 147 and PC = 23
+fetch3: IR = 147 and AR = 23
+xrr instruction
+xrr1 AC = -32768 ZCVN = 0101
+Current Data: AC = -32768, R = 2, ZCVN = 0101, AR = 23, PC = 23, DR = 147
+fetch1: AR = 23 and PC = 23
+fetch2: DR = 146 and PC = 24
+fetch3: IR = 146 and AR = 24
+xrl instruction
+xrl1 AC = 1 ZCVN = 0100
+Current Data: AC = 1, R = 2, ZCVN = 0100, AR = 24, PC = 24, DR = 146
+fetch1: AR = 24 and PC = 24
+fetch2: DR = 129 and PC = 25
+fetch3: IR = 129 and AR = 25
+xldac instruction
+xldac1 AR = 26 PC = 26 DR = 0
+xldac2 AR = 26 PC = 27 DR = 43 TR = 0
+xldac3 AR = 43
+xldac4 DR = 127
+xldac5 AC = 32512 DR = -1
+xldac6 AC = 32767
+Current Data: AC = 32767, R = 2, ZCVN = 0100, AR = 44, PC = 27, DR = 255
+fetch1: AR = 27 and PC = 27
+fetch2: DR = 131 and PC = 28
+fetch3: IR = 131 and AR = 28
+xmvac instruction
+xmvac1 R = 32767
+Current Data: AC = 32767, R = 32767, ZCVN = 0100, AR = 28, PC = 28, DR = 131
+fetch1: AR = 28 and PC = 28
+fetch2: DR = 139 and PC = 29
+fetch3: IR = 139 and AR = 29
+xclac instruction
+xclac1 AC = 0 ZCVN = 1000
+Current Data: AC = 0, R = 32767, ZCVN = 1000, AR = 29, PC = 29, DR = 139
+fetch1: AR = 29 and PC = 29
+fetch2: DR = 138 and PC = 30
+fetch3: IR = 138 and AR = 30
+xinac instruction
+xinac1 AC = 1 ZCVN = 0000
+Current Data: AC = 1, R = 32767, ZCVN = 0000, AR = 30, PC = 30, DR = 138
+fetch1: AR = 30 and PC = 30
+fetch2: DR = 136 and PC = 31
+fetch3: IR = 136 and AR = 31
+xadd instruction
+xadd1 AC = -32768 R = 32767 ZCVN = 0011
+Current Data: AC = -32768, R = 32767, ZCVN = 0011, AR = 31, PC = 31, DR = 136
+fetch1: AR = 31 and PC = 31
+fetch2: DR = 137 and PC = 32
+fetch3: IR = 137 and AR = 32
+xsub instruction
+sub1 AC = 1 ZCVN = 0110
+Current Data: AC = 1, R = 32767, ZCVN = 0110, AR = 32, PC = 32, DR = 137
+fetch1: AR = 32 and PC = 32
+fetch2: DR = 129 and PC = 33
+fetch3: IR = 129 and AR = 33
+xldac instruction
+xldac1 AR = 34 PC = 34 DR = 0
+xldac2 AR = 34 PC = 35 DR = 43 TR = 0
+xldac3 AR = 43
+xldac4 DR = 127
+xldac5 AC = 32512 DR = -1
+xldac6 AC = 32767
+Current Data: AC = 32767, R = 32767, ZCVN = 0110, AR = 44, PC = 35, DR = 255
+fetch1: AR = 35 and PC = 35
+fetch2: DR = 1 and PC = 36
+fetch3: IR = 1 and AR = 36
+ldac instruction
+ldac1 AR = 37 PC = 37 DR = 0
+ldac2 AR = 37 PC = 38 DR = 45 TR = 0
+ldac3 AR = 45
+ldac4 DR = 128
+ldac5 AC = 32640
+Current Data: AC = 32640, R = 32767, ZCVN = 0110, AR = 45, PC = 38, DR = 128
+fetch1: AR = 38 and PC = 38
+fetch2: DR = 8 and PC = 39
+fetch3: IR = 8 and AR = 39
+add instruction
+add1 AC = 32639 R = 32767 ZCVN = 0110
+Current Data: AC = 32639, R = 32767, ZCVN = 0110, AR = 39, PC = 39, DR = 8
+fetch1: AR = 39 and PC = 39
+fetch2: DR = 11 and PC = 40
+fetch3: IR = 11 and AR = 40
+clac instruction
+clac1 AC = 32512 ZCVN = 1000
+Current Data: AC = 32512, R = 32767, ZCVN = 1000, AR = 40, PC = 40, DR = 11
+fetch1: AR = 40 and PC = 40
+fetch2: DR = 255 and PC = 41
+fetch3: IR = 255 and AR = 41
+halt instruction
+Current Data: AC = 32512, R = 32767, ZCVN = 1000, AR = 41, PC = 41, DR = 255
+--- runnning again---
+ 
+
+Carl Stevenson
+RSCPU
+This program accepts the title of a file from the
+user, opens the file, then reads in lines of 
+hexadecimal bytes, and executes them in the 
+simulated CPU.
+
+Enter the name of the file containing the program: 
+You chose: /home/mathcs/turnin/bracken/cs330/test.8
+
+Initial register values: 
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 0, PC = 0, DR = 0
+	IR = 0, TR = 0
+
+fetch1: AR = 0 and PC = 0
+fetch2: DR = 0 and PC = 1
+fetch3: IR = 0 and AR = 1
+no op instruction
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 1, PC = 1, DR = 0
+fetch1: AR = 1 and PC = 1
+fetch2: DR = 11 and PC = 2
+fetch3: IR = 11 and AR = 2
+clac instruction
+clac1 AC = 0 ZCVN = 1000
+Current Data: AC = 0, R = 0, ZCVN = 1000, AR = 2, PC = 2, DR = 11
+fetch1: AR = 2 and PC = 2
+fetch2: DR = 10 and PC = 3
+fetch3: IR = 10 and AR = 3
+inac instruction
+inac1 AC = 1 ZCVN = 0000
+Current Data: AC = 1, R = 0, ZCVN = 0000, AR = 3, PC = 3, DR = 10
+fetch1: AR = 3 and PC = 3
+fetch2: DR = 3 and PC = 4
+fetch3: IR = 3 and AR = 4
+mvac instruction
+mvac1 R = 1
+Current Data: AC = 1, R = 1, ZCVN = 0000, AR = 4, PC = 4, DR = 3
+fetch1: AR = 4 and PC = 4
+fetch2: DR = 150 and PC = 5
+fetch3: IR = 150 and AR = 5
+xmvi instruction
+xmvi1 DR = 127 PC = 6 AR = 5
+xmvi2 AC = 32512 DR = -1
+xmvi3 AC = 32767
+Current Data: AC = 32767, R = 1, ZCVN = 0000, AR = 6, PC = 7, DR = 255
+fetch1: AR = 7 and PC = 7
+fetch2: DR = 8 and PC = 8
+fetch3: IR = 8 and AR = 8
+add instruction
+add1 AC = -32768 R = 1 ZCVN = 1100
+Current Data: AC = -32768, R = 1, ZCVN = 1100, AR = 8, PC = 8, DR = 8
+fetch1: AR = 8 and PC = 8
+fetch2: DR = 9 and PC = 9
+fetch3: IR = 9 and AR = 9
+sub instruction
+sub1 AC = -1 ZCVN = 0001
+Current Data: AC = 32767, R = 1, ZCVN = 0001, AR = 9, PC = 9, DR = 9
+fetch1: AR = 9 and PC = 9
+fetch2: DR = 12 and PC = 10
+fetch3: IR = 12 and AR = 10
+and instruction
+and1 AC = 32513 ZCVN = 0000
+Current Data: AC = 32513, R = 1, ZCVN = 0000, AR = 10, PC = 10, DR = 12
+fetch1: AR = 10 and PC = 10
+fetch2: DR = 22 and PC = 11
+fetch3: IR = 22 and AR = 11
+mvi instruction
+mvi1 DR = 128 PC = 12 AR = 11
+mvi2 AC = 32640
+Current Data: AC = 32640, R = 1, ZCVN = 0000, AR = 11, PC = 12, DR = 128
+fetch1: AR = 12 and PC = 12
+fetch2: DR = 132 and PC = 13
+fetch3: IR = 132 and AR = 13
+xmovr instruction
+xmovr1 AC = 1
+Current Data: AC = 1, R = 1, ZCVN = 0000, AR = 13, PC = 13, DR = 132
+fetch1: AR = 13 and PC = 13
+fetch2: DR = 255 and PC = 14
+fetch3: IR = 255 and AR = 14
+halt instruction
+Current Data: AC = 1, R = 1, ZCVN = 0000, AR = 14, PC = 14, DR = 255
+--- runnning again---
+ 
+
+Carl Stevenson
+RSCPU
+This program accepts the title of a file from the
+user, opens the file, then reads in lines of 
+hexadecimal bytes, and executes them in the 
+simulated CPU.
+
+Enter the name of the file containing the program: 
+You chose: /home/mathcs/turnin/bracken/cs330/test.3
+
+Initial register values: 
+Current Data: AC = 0, R = 0, ZCVN = 0000, AR = 0, PC = 0, DR = 0
+	IR = 0, TR = 0
+
+fetch1: AR = 0 and PC = 0
+fetch2: DR = 11 and PC = 1
+fetch3: IR = 11 and AR = 1
+clac instruction
+clac1 AC = 0 ZCVN = 1000
+Current Data: AC = 0, R = 0, ZCVN = 1000, AR = 1, PC = 1, DR = 11
+fetch1: AR = 1 and PC = 1
+fetch2: DR = 10 and PC = 2
+fetch3: IR = 10 and AR = 2
+inac instruction
+inac1 AC = 1 ZCVN = 0000
+Current Data: AC = 1, R = 0, ZCVN = 0000, AR = 2, PC = 2, DR = 10
+fetch1: AR = 2 and PC = 2
+fetch2: DR = 19 and PC = 3
+fetch3: IR = 19 and AR = 3
+rr instruction
+rr1 AC = 128 ZCVN = 0101
+Current Data: AC = 128, R = 0, ZCVN = 0101, AR = 3, PC = 3, DR = 19
+fetch1: AR = 3 and PC = 3
+fetch2: DR = 18 and PC = 4
+fetch3: IR = 18 and AR = 4
+rl instruction
+rl1 AC = 1 ZCVN = 0100
+Current Data: AC = 1, R = 0, ZCVN = 0100, AR = 4, PC = 4, DR = 18
+fetch1: AR = 4 and PC = 4
+fetch2: DR = 21 and PC = 5
+fetch3: IR = 21 and AR = 5
+lsr instruction
+lsr1 AC = 0 ZCVN = 1100
+Current Data: AC = 0, R = 0, ZCVN = 1100, AR = 5, PC = 5, DR = 21
+fetch1: AR = 5 and PC = 5
+fetch2: DR = 22 and PC = 6
+fetch3: IR = 22 and AR = 6
+mvi instruction
+mvi1 DR = 128 PC = 7 AR = 6
+mvi2 AC = 128
+Current Data: AC = 128, R = 0, ZCVN = 1100, AR = 6, PC = 7, DR = 128
+fetch1: AR = 7 and PC = 7
+fetch2: DR = 20 and PC = 8
+fetch3: IR = 20 and AR = 8
+lsl instruction
+lsl1 AC = 0 ZCVN = 1100
+Current Data: AC = 0, R = 0, ZCVN = 1100, AR = 8, PC = 8, DR = 20
+fetch1: AR = 8 and PC = 8
+fetch2: DR = 22 and PC = 9
+fetch3: IR = 22 and AR = 9
+mvi instruction
+mvi1 DR = 1 PC = 10 AR = 9
+mvi2 AC = 1
+Current Data: AC = 1, R = 0, ZCVN = 1100, AR = 9, PC = 10, DR = 1
+fetch1: AR = 10 and PC = 10
+fetch2: DR = 20 and PC = 11
+fetch3: IR = 20 and AR = 11
+lsl instruction
+lsl1 AC = 2 ZCVN = 0000
+Current Data: AC = 2, R = 0, ZCVN = 0000, AR = 11, PC = 11, DR = 20
+fetch1: AR = 11 and PC = 11
+fetch2: DR = 22 and PC = 12
+fetch3: IR = 22 and AR = 12
+mvi instruction
+mvi1 DR = 2 PC = 13 AR = 12
+mvi2 AC = 2
+Current Data: AC = 2, R = 0, ZCVN = 0000, AR = 12, PC = 13, DR = 2
+fetch1: AR = 13 and PC = 13
+fetch2: DR = 21 and PC = 14
+fetch3: IR = 21 and AR = 14
+lsr instruction
+lsr1 AC = 1 ZCVN = 0000
+Current Data: AC = 1, R = 0, ZCVN = 0000, AR = 14, PC = 14, DR = 21
+fetch1: AR = 14 and PC = 14
+fetch2: DR = 22 and PC = 15
+fetch3: IR = 22 and AR = 15
+mvi instruction
+mvi1 DR = 64 PC = 16 AR = 15
+mvi2 AC = 64
+Current Data: AC = 64, R = 0, ZCVN = 0000, AR = 15, PC = 16, DR = 64
+fetch1: AR = 16 and PC = 16
+fetch2: DR = 20 and PC = 17
+fetch3: IR = 20 and AR = 17
+lsl instruction
+lsl1 AC = 128 ZCVN = 0001
+Current Data: AC = 128, R = 0, ZCVN = 0001, AR = 17, PC = 17, DR = 20
+fetch1: AR = 17 and PC = 17
+fetch2: DR = 5 and PC = 18
+fetch3: IR = 5 and AR = 18
+jump instruction
+jump1 AR = 19 PC = 19 DR = 0
+jump2 AR = 19 PC = 20 DR = 21 TR = 0
+jump3 PC = 19
+Current Data: AC = 128, R = 0, ZCVN = 0001, AR = 19, PC = 21, DR = 21
+fetch1: AR = 21 and PC = 21
+fetch2: DR = 20 and PC = 22
+fetch3: IR = 20 and AR = 22
+lsl instruction
+lsl1 AC = 0 ZCVN = 1100
+Current Data: AC = 0, R = 0, ZCVN = 1100, AR = 22, PC = 22, DR = 20
+fetch1: AR = 22 and PC = 22
+fetch2: DR = 255 and PC = 23
+fetch3: IR = 255 and AR = 23
+halt instruction
+Current Data: AC = 0, R = 0, ZCVN = 1100, AR = 23, PC = 23, DR = 255

@@ -1,0 +1,45 @@
+#File:    mole.py
+#Author:  Carl Stevenson
+#Date:    10/25/12
+#Purpose: To write a program to calculate the weight of a hydrocarbon
+
+#split into 4 functions
+def printResults(weight, name, numH, numC, numO):
+    print("For", name, "which has", numH, "Hydrogen,", numC, end = "")
+    print("Carbon and", numO, "Oxygen atoms, its weight is", end = "")
+    print(weight, "grams/mole.")
+
+def calcWeight(numH, numC, numO):
+    wH = numH * 1.0079
+    wC = numC * 12.011
+    wO = numO * 15.994
+    weight = wH + wC + wO
+    return weight
+
+def intro():
+    print("Program to calculate the molecular")
+    print("weight of a hydrocarbon based upon")
+    print("the number of hydrogen, carbon and")
+    print("oxygen atoms.")
+    print("Written by Carl Stevenson.")
+
+def getInputs():
+    name = input("Enter the hydrocarbon name: ")
+    print()
+    numH = input("Enter the number of Hydrogen atoms: ")
+    print()
+    numC = input("Enter the number of Carbon atoms:   ")
+    print()
+    numO = input("Enter the number of Oxygen atoms:   ")
+    print()
+    print()
+    return name, numH, numC, numO
+
+def main():
+    intro()
+    getInputs()
+    calcWeight(numH, numC, numO)
+    printResults(weight, name, numH, numC, numO)
+
+
+main()

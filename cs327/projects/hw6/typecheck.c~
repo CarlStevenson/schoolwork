@@ -1,0 +1,13 @@
+#include "globals.h"
+
+void declare_variables(prog *p) {
+  decl_list *dl = p->decls;
+  while (dl) {
+    symbol_list *il = dl->first->variables;
+    while (il) {
+      il->first->type = dl->first->type;
+      il = il->next;
+    }
+    dl = dl->next;
+  }
+}
