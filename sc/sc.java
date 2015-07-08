@@ -1,6 +1,7 @@
 // sc.java
 // sc.java is a spell checker
 // Written by: Carl Stevenson
+// Based off code by Dr. Anthony Kalpoka
 // ****************************************************************************
 
 import java.util.*;
